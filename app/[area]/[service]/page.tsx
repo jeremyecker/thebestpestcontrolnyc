@@ -23,6 +23,10 @@ import {
   type ComboContent,
 } from "@/lib/content";
 
+
+const PHONE = process.env.NEXT_PUBLIC_PHONE_NUMBER || "8559305016";
+const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(855) 930-5016";
+
 // ─────────────────────────────────────────
 // STATIC PARAMS — tells Next.js which pages to build
 // ─────────────────────────────────────────
@@ -103,7 +107,7 @@ export default function ComboPage({
         provider: {
           "@type": "LocalBusiness",
           name: "The Best Pest Control NYC",
-          telephone: "YOUR-PHONE-NUMBER",
+          telephone: PHONE,
           url: "https://www.thebestpestcontrolnyc.com",
           address: {
             "@type": "PostalAddress",
@@ -187,19 +191,19 @@ export default function ComboPage({
           {/* CTA Buttons */}
           <div className="flex flex-wrap gap-4">
             <a
-              href="tel:YOUR-PHONE-NUMBER"
+              href={`tel:${PHONE}`}
               className="bg-white text-green-800 font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-50 transition"
             >
-              📞 Call Now
+              📞 Call {PHONE_DISPLAY}
             </a>
             <a
-              href="sms:YOUR-PHONE-NUMBER"
+              href={`sms:${PHONE}`}
               className="bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-500 transition border border-green-400"
             >
               💬 Text Us
             </a>
             <a
-              href="/book"
+              href="/contact"
               className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-300 transition"
             >
               📅 Book Online
@@ -251,10 +255,10 @@ export default function ComboPage({
             Licensed exterminators. Free inspection. No money upfront. Same-day available.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="tel:YOUR-PHONE-NUMBER" className="bg-white text-green-800 font-bold px-6 py-3 rounded-lg hover:bg-green-50">
-              📞 Call Now
+            <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-6 py-3 rounded-lg hover:bg-green-50">
+              📞 Call {PHONE_DISPLAY}
             </a>
-            <a href="sms:YOUR-PHONE-NUMBER" className="bg-green-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-green-500 border border-green-400">
+            <a href={`sms:${PHONE}`} className="bg-green-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-green-500 border border-green-400">
               💬 Text Us
             </a>
           </div>
@@ -352,13 +356,13 @@ export default function ComboPage({
             {service.guaranteeDays}-day guarantee. Same-day available.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="tel:YOUR-PHONE-NUMBER" className="bg-white text-green-800 font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-50 transition">
-              📞 Call Now
+            <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-50 transition">
+              📞 Call {PHONE_DISPLAY}
             </a>
-            <a href="sms:YOUR-PHONE-NUMBER" className="bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-500 transition border border-green-400">
+            <a href={`sms:${PHONE}`} className="bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-500 transition border border-green-400">
               💬 Text Us
             </a>
-            <a href="/book" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-300 transition">
+            <a href="/contact" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-300 transition">
               📅 Book Online
             </a>
           </div>
