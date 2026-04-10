@@ -1,11 +1,46 @@
 {
-  "metaTitle": "Silverfish Control NYC | Silverfish Extermination | The Best Pest Control NYC",
-  "metaDescription": "Professional silverfish elimination in NYC. Moisture control and targeted treatment. Free inspection. 30-day guarantee. Licensed exterminators. Call now.",
-  "h1": "Silverfish Control in NYC — Eliminated and Kept Out",
-  "heroParagraph": "Silverfish are a moisture indicator — find them and you've found a humidity or plumbing problem. They feed on paper, book bindings, wallpaper paste, and starches in clothing, and can live for years in the wall voids and crawl spaces of NYC's older buildings. Treatment addresses both the silverfish themselves and the moisture conditions that support them.",
-  "bodyParagraphs": [],
-  "signs": [],
-  "treatmentApproach": "",
-  "faqs": [],
+  "metaTitle": "Silverfish Control NYC | Licensed Exterminators | The Best Pest Control NYC",
+  "metaDescription": "Silverfish extermination in NYC. Eliminate silverfish from books, walls, and storage areas. Licensed. Free inspection. Call or text now.",
+  "h1": "Silverfish Control in NYC — Eliminate Silverfish and the Conditions That Attract Them",
+  "heroParagraph": "Silverfish are among the oldest insect species on earth — they've been living alongside humans for thousands of years and have developed a specific appetite for the materials we store: paper, cardboard, book bindings, starchy wallpaper adhesive, linen, and cotton. They're not dangerous to humans (no venom, no disease transmission), but they can cause significant damage to books, documents, photo collections, wallpaper, and fabric over time. In NYC, they thrive in older building construction with high humidity, abundant paper storage, and the kind of undisturbed storage areas that accumulate over decades in rent-stabilized apartments and older brownstones.",
+  "bodyParagraphs": [
+    "Silverfish are nocturnal and fast-moving, which is why most people only discover an infestation when they find the distinctive irregular holes and yellow staining on paper or fabric, or spot a silverfish scurrying away when a storage box is moved. They require high humidity (75–95% relative humidity) to thrive — reducing humidity in problem areas through better ventilation or dehumidification is the most impactful long-term prevention measure. Basement, bathroom, and kitchen areas with consistent moisture are the primary harborage zones.",
+    "A silverfish infestation in NYC typically indicates either a chronic moisture issue in the structure (leaky pipes, condensation-prone walls, poor HVAC drainage) or the presence of a large food source — a room full of cardboard boxes with paper, an old library, or substantial wallpaper. Treating the pest alone without addressing the moisture and food source conditions results in recurrence."
+  ],
+  "signs": [
+    "Irregular holes with yellow staining on book pages, wallpaper, cardboard, or fabric",
+    "Silverfish sightings — 1/2 to 1 inch, metallic silver, carrot-shaped, very fast-moving — in bathroom, basement, or storage areas",
+    "Small black pepper-like feces near food sources (books, paper, wallpaper)",
+    "Shed skins — silverfish molt throughout their adult lives and leave translucent cast skins",
+    "Yellow staining on paper or fabric surfaces where silverfish have fed",
+    "Activity concentrated in areas with consistently high humidity: under bathroom vanities, near HVAC units, in basement storage"
+  ],
+  "treatmentApproach": "Silverfish treatment uses residual insecticide applied in crack-and-crevice locations throughout the affected areas — behind baseboards, inside closet and cabinet interiors, under bathroom fixtures, and in basement perimeter. Diatomaceous earth or residual dust is applied in wall voids and attic spaces where silverfish move. Bait stations specifically formulated for silverfish can supplement spray treatments. We identify moisture sources and provide specific recommendations for humidity reduction. Follow-up at 30 days confirms elimination and allows us to check whether new activity has emerged from previously untreated harborage areas.",
+  "faqs": [
+    {
+      "q": "Are silverfish dangerous?",
+      "a": "No. They don't bite, don't carry diseases, and don't cause structural damage to buildings. The damage they cause is to stored materials — books, documents, wallpaper, and fabric. If you have irreplaceable documents or rare books, protect them first (airtight containers) while treatment is underway."
+    },
+    {
+      "q": "Why do I keep getting silverfish no matter what I spray?",
+      "a": "Two common reasons: untreated moisture (silverfish need high humidity to survive — eliminating the moisture source reduces the population as effectively as pesticides) and incomplete crack-and-crevice treatment. Silverfish live inside walls and voids, not on open surfaces. Spraying visible silverfish on the floor is ineffective; treating the void spaces where they live and breed is what works."
+    },
+    {
+      "q": "Do silverfish come from outside?",
+      "a": "Silverfish can enter structures from outside, particularly through foundation gaps, but more typically, a residential infestation has been established in the building for years before it becomes noticeable enough to call about."
+    },
+    {
+      "q": "How much does silverfish control cost in NYC?",
+      "a": "Silverfish treatment starts at $350–$550 for a standard apartment. Written estimate provided after inspection."
+    },
+    {
+      "q": "Can silverfish damage clothing or furniture?",
+      "a": "Yes. Silverfish feed on natural fibers — cotton, linen, silk, and wool are all at risk. They're also attracted to wallpaper glue, book bindings, and the starch in cardboard boxes. In storage areas (closets, attics, basements), they can cause significant damage to clothing, linens, and personal documents over time. If you've noticed small irregular holes in fabric or yellowed paper edges, silverfish may be the culprit."
+    },
+    {
+      "q": "Are silverfish harder to eliminate in older NYC buildings?",
+      "a": "Significantly harder. Older buildings have more wall voids, plumbing gaps, and moisture infiltration points — all of which silverfish exploit. Pre-war buildings and older brownstones often have decades of accumulated debris in wall voids that serve as both harborage and food sources. Treatment in these buildings typically requires more access points and follow-up visits compared to newer construction."
+    }
+  ],
   "generatedAt": "2026-04-10T00:00:00Z"
 }

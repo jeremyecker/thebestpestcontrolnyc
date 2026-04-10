@@ -1,19 +1,49 @@
 {
-  "metaTitle": "Rodent Proofing NYC | Rat & Mouse Exclusion | The Best Pest Control NYC",
-  "metaDescription": "Comprehensive rodent proofing and exclusion services in NYC. Seal every entry point permanently. Licensed exterminators. One-year structural guarantee. Call now.",
-  "h1": "Rodent Proofing in NYC — Sealed Out Permanently",
-  "heroParagraph": "Killing the rodents you have is temporary. Sealing every way they get in is permanent. Our rodent proofing service is a comprehensive structural exclusion program that identifies and seals every gap, crack, hole, and opening that rats or mice use to enter your property — using steel mesh, copper wool, concrete patching, door sweep replacement, and expanding foam reinforced with hardware cloth. We back every rodent-proofing job with a one-year structural guarantee.",
-  "bodyParagraphs": [],
-  "signs": [],
-  "treatmentApproach": "",
+  "metaTitle": "Rodent Proofing NYC | Exclusion Services | The Best Pest Control NYC",
+  "metaDescription": "Expert rodent proofing and exclusion services in NYC. Seal entry points, prevent re-infestation. Licensed exterminators. Free inspection. Call now.",
+  "h1": "Rodent Proofing in NYC — Keep Them Out for Good",
+  "heroParagraph": "Rodent proofing — also called exclusion — is the permanent fix for homes and buildings with recurring mouse or rat problems. Extermination kills the current population. Exclusion seals every entry point so the next population can't get in. In New York City, where rats and mice are endemic to the urban environment, a building without exclusion work done will see rodents return within weeks of extermination. If you've had a pest company out more than once for the same rodent problem, exclusion is what's missing.",
+  "bodyParagraphs": [
+    "Mice can enter through a gap the diameter of a pencil. Rats need a space the size of a quarter. NYC buildings — particularly older brownstones, prewar construction, and attached rowhouses — have dozens of these gaps: where pipes enter walls, where the foundation meets the sill plate, around utility penetrations, gaps in brick mortar, and at every floor transition in multi-unit buildings. Our technicians perform a systematic inspection of the entire structure, document every entry point, and seal them using materials rodents can't chew through — galvanized steel mesh, concrete, steel wool embedded in sealant, and sheet metal flashing.",
+    "The price range for exclusion work is wide because every building is different. A first-floor apartment with two pipe penetrations to seal is a half-day job. A three-story commercial building with a compromised foundation, active loading dock, and utility chase access throughout requires several days of work and several hundred linear feet of material. We provide a full written scope of work and itemized estimate before starting. No surprises."
+  ],
+  "signs": [
+    "Recurring rodent activity despite repeated extermination treatments",
+    "Visible gaps around pipes, conduits, or HVAC penetrations larger than 1/4 inch",
+    "Gnaw marks on wood, plastic piping, or wall material near utility entry points",
+    "Rodent droppings concentrated near walls — indicates established travel routes",
+    "Sounds of movement inside walls or above drop ceilings, particularly at night",
+    "Damaged door sweeps, torn weatherstripping, or gaps under exterior doors"
+  ],
+  "treatmentApproach": "Exclusion begins with a comprehensive inspection — we photograph every identified entry point, measure gaps, and assess material conditions to determine the right sealing method for each location. Common repairs include copper mesh and caulk for small pipe gaps, galvanized hardware cloth for larger openings, sheet metal kick plates for door gaps, mortar patching for foundation cracks, and foam backer rod with sealant for expansion joints. All materials used are rated to resist gnawing. We provide before-and-after documentation and a 90-day guarantee on all exclusion work — if rodents re-enter through a sealed point, we come back and fix it at no charge.",
   "faqs": [
     {
-      "q": "What's the difference between rodent proofing and regular pest control?",
-      "a": "Standard rodent control eliminates the current infestation through trapping and baiting. Rodent proofing focuses on exclusion — physically preventing any rodents from entering. The most effective programs combine both: eliminate the current population, then seal every entry point so no new population can establish."
+      "q": "Does exclusion work if I'm in a multi-unit building?",
+      "a": "Exclusion is most effective when done building-wide, not unit by unit. Sealing your apartment's entry points helps, but rodents in the building can still access shared wall voids and eventually find unsealed points in neighboring units. For multi-unit buildings, we recommend coordinating with property management for building-wide exclusion. We handle building-wide programs regularly and can scope the project for your property manager directly."
     },
     {
-      "q": "What does rodent proofing cost?",
-      "a": "Rodent proofing ranges from $500–$3,000 depending on property size and the number of entry points requiring sealing. A full-inspection quote is provided before any work begins."
+      "q": "How is rodent proofing different from a standard extermination?",
+      "a": "Extermination kills the current population using traps, bait stations, and chemical treatments. It's effective but temporary in urban environments — new rodents from the surrounding area will find their way in. Exclusion seals the structure so new rodents can't enter. Most effective rodent programs combine both: extermination to eliminate the current population plus exclusion to prevent reentry."
+    },
+    {
+      "q": "How long does exclusion work take?",
+      "a": "A single-family home or apartment typically takes one full day. Larger buildings or properties with extensive entry points can take 2–3 days. We give you a specific timeline after the inspection."
+    },
+    {
+      "q": "What materials do you use to seal entry points?",
+      "a": "We use galvanized steel hardware cloth, sheet metal flashing, copper mesh, steel wool embedded in waterproof sealant, mortar, and expanding foam for interior gaps. We don't use plastic or standard foam alone in rodent-accessible locations — they can chew through both."
+    },
+    {
+      "q": "How much does rodent proofing cost in NYC?",
+      "a": "Exclusion starts at $500 for simple single-entry-point jobs. Whole-structure exclusion for larger buildings ranges up to $3,000 depending on the number of entry points, materials required, and building size. We provide an itemized written estimate after inspection. No deposit required before work begins."
+    },
+    {
+      "q": "Will exclusion work prevent rats from getting in too?",
+      "a": "Yes, but rat exclusion often requires more extensive work than mouse exclusion because rats enter through larger gaps and are more likely to enter from foundation level, loading areas, and sewer connections. Roof rat entry points in upper floors also need to be addressed. We identify and seal rat-accessible entry points separately from mouse-accessible ones."
+    },
+    {
+      "q": "Do I need extermination first, or exclusion first?",
+      "a": "We typically do extermination first to reduce the active population, then exclusion to seal the structure. This prevents trapping a large population of rodents inside the building during sealing. In some cases, exclusion and extermination run simultaneously. We'll recommend the right sequence after the inspection."
     }
   ],
   "generatedAt": "2026-04-10T00:00:00Z"

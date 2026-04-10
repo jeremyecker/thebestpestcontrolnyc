@@ -27,8 +27,11 @@ export default function AreasPage() {
       </section>
 
       <div className="max-w-5xl mx-auto px-4 py-12 space-y-12">
-        {Object.entries(BOROUGH_GROUPS).map(([borough, slugs]) => {
-          const boroughAreas = slugs.map((slug) => AREAS.find((a) => a.slug === slug)).filter(Boolean) as typeof AREAS;
+        {Object.entries(BOROUGH_GROUPS).map(([borough]) => {
+          const boroughAreas = AREAS.filter((a) => {
+            const key = a.borough === "Bronx" ? "The Bronx" : a.borough;
+            return key === borough;
+          });
           return (
             <section key={borough}>
               <div className="flex items-center gap-3 mb-6">
@@ -49,7 +52,7 @@ export default function AreasPage() {
       </div>
 
       <section className="bg-green-800 text-white py-16 px-4 text-center">
-        <h2 className="text-3xl font-bold mb-3" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Don't See Your Neighborhood?</h2>
+        <h2 className="text-3xl font-bold mb-3" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Don&apos;t See Your Neighborhood?</h2>
         <p className="text-green-100 mb-8 max-w-xl mx-auto">We likely cover it. Call or text us with your location — we service all of the NYC metro area.</p>
         <div className="flex flex-wrap justify-center gap-4">
           <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-50 transition">📞 Call {PHONE_DISPLAY}</a>

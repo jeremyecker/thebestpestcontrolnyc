@@ -1,11 +1,46 @@
 {
-  "metaTitle": "Tick Control NYC | Tick Treatment for Yards | The Best Pest Control NYC",
-  "metaDescription": "Professional tick control for NYC and suburban properties. Yard treatment, prevention programs. Protects against Lyme disease. Licensed exterminators. Call now.",
-  "h1": "Tick Control in NYC — Protect Your Family and Pets",
-  "heroParagraph": "Tick populations have expanded significantly across the NYC metro area in recent years, with blacklegged ticks (the species that transmits Lyme disease) now established throughout Long Island, Westchester, Staten Island, and the outer boroughs. Properties with wooded edges, leaf litter, or wildlife corridors are at highest risk. Our tick control programs treat the full property perimeter and tick habitat areas, with seasonal maintenance plans for continuous protection.",
-  "bodyParagraphs": [],
-  "signs": [],
-  "treatmentApproach": "",
-  "faqs": [],
+  "metaTitle": "Tick Control NYC | Seasonal Tick Treatments | The Best Pest Control NYC",
+  "metaDescription": "Seasonal tick control treatments in NYC. Protect your family and pets from tick-borne disease. Licensed exterminators. Call for a free assessment.",
+  "h1": "Tick Control in NYC — Protect Your Family and Pets This Season",
+  "heroParagraph": "Tick control in the New York City metro area has become a genuine public health concern, not a suburban problem. Blacklegged ticks (deer ticks) carrying Lyme disease, anaplasmosis, and babesiosis are now well-established in all five boroughs, Westchester, and northern New Jersey. The NYC Department of Health has confirmed Lyme disease transmission in all five boroughs. Parks with deer populations — Staten Island, the Bronx's Pelham Bay Park, and Alley Pond in Queens — have significant tick pressure, and suburban-style yards and properties adjacent to wooded areas face the highest risk.",
+  "bodyParagraphs": [
+    "Tick populations are driven by two things: wildlife hosts and habitat. White-tailed deer are the primary reproductive host for blacklegged tick adults. Mice and other small mammals host the juvenile stages (larvae and nymphs) where Lyme bacteria is most commonly acquired. Dense ground cover, leaf litter, tall grass, and brush along property edges are prime tick habitat — the transition zone between lawn and wooded or bushy areas is where 90% of human tick encounters happen. Ticks don't jump or fly; they quest — climbing to the tip of vegetation and waiting for a host to brush past.",
+    "Tick control is a seasonal service that reduces tick populations in your outdoor space through targeted treatment of habitat areas. Like mosquito control, it's a population reduction service — ticks can and will continue entering your property from adjacent areas, particularly if deer are present. The goal is to make your yard substantially safer for family and pets during the April–October active season, especially during peak nymph season in May–July when the smallest and hardest-to-detect tick stage is most active."
+  ],
+  "signs": [
+    "Finding attached ticks on yourself, children, or pets after time in your yard or outdoor spaces",
+    "Pets scratching at ears or head — ticks prefer warm, hidden areas on animals",
+    "Deer activity or deer trails visible near the property — deer are the primary adult tick host",
+    "Dense leaf litter, tall grass, or overgrown brush along property edges",
+    "Proximity to wooded areas, parks, or wildlife corridors in Staten Island, the Bronx, Queens, or suburban NJ",
+    "Previous Lyme disease diagnoses in household members or neighbors"
+  ],
+  "treatmentApproach": "Tick service focuses on the \"tick management zone\" — the 9-foot buffer between lawn and wooded or brushy areas where the vast majority of human tick exposure occurs. We treat low-growing vegetation, ground cover, leaf litter, stone walls, and fence lines with residual acaricide (bifenthrin or permethrin) using backpack application. Treatments also cover shaded lawn areas, wood piles, and under decks. We recommend timing: first treatment in early April to target emerging overwintered nymphs, follow-up in June, and again in September for adult activity. Note: tick control reduces tick populations significantly but does not provide a guarantee against all tick encounters — ticks enter from adjacent properties and wildlife continuously.",
+  "faqs": [
+    {
+      "q": "Does tick spray eliminate all ticks on my property?",
+      "a": "No. Tick control reduces tick populations in your treated outdoor space by 80–90% for 4–6 weeks per treatment, but ticks enter continuously from adjacent wooded areas and on wildlife. No treatment can provide a 100% guarantee against tick exposure in an open property. We recommend tick checks after every outdoor activity as a complement to professional treatment."
+    },
+    {
+      "q": "Is tick spray safe for my pets and children?",
+      "a": "Treatments are applied to vegetation and ground cover, not on lawn surfaces. Once dry (30–60 minutes), treated areas are safe for pets and children. We avoid applying near beehives or water features. Permethrin treatments are toxic to cats until dry — we advise keeping cats indoors during application and for 2 hours after."
+    },
+    {
+      "q": "When is the highest-risk tick season?",
+      "a": "May through July is peak nymph season — nymphs are the size of a poppy seed, nearly impossible to see, and responsible for the majority of Lyme disease transmission. Adult ticks are active in early spring and fall (October–November) and are more visible but still dangerous. Year-round vigilance is recommended in high-risk areas."
+    },
+    {
+      "q": "Can ticks live in my apartment?",
+      "a": "Ticks can be brought inside on clothing, pets, or gear but do not establish indoor infestations — they need humidity levels higher than most indoor environments to survive and reproduce. An indoor tick is a tick that came in on you or your pet; an outdoor infestation is a separate concern."
+    },
+    {
+      "q": "What can I do to reduce tick habitat?",
+      "a": "Mow your lawn regularly and keep it below 3 inches. Remove leaf litter from the yard in spring and fall. Create a 3-foot wood chip or gravel barrier between your lawn and wooded areas. Move wood piles and bird feeders away from the house. Keep deer-attracting plantings (arborvitae, hostas, day lilies) away from the property edge."
+    },
+    {
+      "q": "How much does tick control cost in NYC?",
+      "a": "Tick treatment starts at $125–$325 per visit depending on property size. Seasonal packages covering 3 visits (April, June, September) are available at a reduced rate. We provide a written quote after the property walkthrough."
+    }
+  ],
   "generatedAt": "2026-04-10T00:00:00Z"
 }

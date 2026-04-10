@@ -1,11 +1,50 @@
 {
-  "metaTitle": "Mosquito Control NYC | Yard & Property Treatment | The Best Pest Control NYC",
-  "metaDescription": "Professional mosquito control for NYC homes and outdoor spaces. Yard treatment, breeding site elimination. Starting at $75. Licensed exterminators. Call now.",
-  "h1": "Mosquito Control in NYC — Reclaim Your Outdoor Space",
-  "heroParagraph": "Mosquito season in NYC runs from May through October, and in a city with rooftop terraces, backyard gardens, and outdoor dining, an untreated mosquito problem makes outdoor spaces unusable. Our mosquito control programs target adult mosquitoes with barrier spray treatments and eliminate breeding sites — standing water, organic debris, and drainage issues — to reduce populations long-term.",
-  "bodyParagraphs": [],
-  "signs": [],
-  "treatmentApproach": "",
-  "faqs": [],
+  "metaTitle": "Mosquito Control NYC | Seasonal Treatments | The Best Pest Control NYC",
+  "metaDescription": "Seasonal mosquito control treatments in NYC. Reduce mosquito populations in your yard. Licensed exterminators. Call for a free assessment.",
+  "h1": "Mosquito Control in NYC — Reduce Bites All Season Long",
+  "heroParagraph": "Mosquito control in New York City is a reduction service, not an elimination service — and any company that tells you otherwise isn't being straight with you. NYC is an urban environment with millions of standing water sources, constant movement of people and birds, and mosquito populations that replenish continuously from surrounding areas. What professional mosquito treatment does is dramatically reduce mosquito populations in your specific outdoor space for 3–4 weeks per application, making yards, patios, and outdoor event spaces genuinely usable during the season.",
+  "bodyParagraphs": [
+    "Treatment targets two things: resting sites and breeding sites. Adult mosquitoes spend most of their time resting in dense vegetation, under decks, in tall grass, and in shaded areas. Perimeter treatments using low-toxicity adulticides applied to these resting sites knock down the adult population immediately. Larvicide treatments — granules or BTi (Bacillus thuringiensis israelensis) dunks — address standing water where mosquitoes breed: gutters, planters, bird baths, low spots in landscaping, and anywhere else water pools for 4+ days. Eliminating breeding sites is the most important long-term step.",
+    "NYC mosquito season runs May through October, peaking in July and August. The most significant disease-carrying species in the region — Culex mosquitoes, which carry West Nile virus — breed primarily in storm drains, catch basins, and stagnant water. Aedes mosquitoes, which can carry dengue and chikungunya in warmer regions, are active during the day and breed in very small water sources including bottle caps and clogged gutters. Both species are common in NYC's five boroughs."
+  ],
+  "signs": [
+    "Bites during daytime hours — Aedes mosquitoes are active during the day, unlike night-biting Culex",
+    "High mosquito activity near dense landscaping, under decks, or near water features",
+    "Standing water present in gutters, planters, tarps, or low-lying areas of yard",
+    "Mosquito larvae (small, comma-shaped, wriggling) in standing water sources",
+    "Activity concentrated near tree holes, blocked drains, or ornamental ponds",
+    "Increased biting after heavy rain when new breeding sites have formed"
+  ],
+  "treatmentApproach": "Mosquito service begins with a property walkthrough to identify all standing water sources and primary resting habitats. We treat vegetation, shrubbery, deck undersides, and fence lines with adulticide using backpack or ULV equipment. All standing water sources are treated with larvicide or BTi dunks — a biological treatment that kills mosquito larvae without harming fish, birds, or other wildlife. We provide a written list of breeding site recommendations you can address between visits. Monthly service visits maintain population reduction throughout the season. Note: mosquito control reduces mosquito populations significantly but does not provide a guarantee against all mosquito activity — no outdoor treatment can eliminate every mosquito in an open urban environment.",
+  "faqs": [
+    {
+      "q": "Will the treatment eliminate all mosquitoes in my yard?",
+      "a": "No — and we won't promise that. Mosquito control in an open urban environment reduces populations significantly (typically 80–90% reduction for 3–4 weeks per treatment) but does not provide complete elimination. Mosquitoes will continue arriving from surrounding areas, which is why monthly service visits are recommended throughout the season."
+    },
+    {
+      "q": "Is mosquito treatment safe for my pets and garden?",
+      "a": "Our treatments are pet-safe once dry, which takes 30–60 minutes. We use pyrethrins and permethrin for adulticide application — low-toxicity products derived from chrysanthemum flowers. BTi larvicide is a naturally occurring soil bacterium that kills mosquito larvae selectively without harming fish, birds, pets, or beneficial insects. We avoid applying near beehives and pollinator plants."
+    },
+    {
+      "q": "When should I start mosquito treatments?",
+      "a": "We recommend starting in May before peak mosquito season. Starting early disrupts the first generation of the season before populations establish. Monthly service through October provides season-long population reduction."
+    },
+    {
+      "q": "Can you treat for mosquitoes ahead of an outdoor event?",
+      "a": "Yes. We offer single-event treatments — apply 24–48 hours before the event for maximum effectiveness. Contact us at least 72 hours before the event to schedule."
+    },
+    {
+      "q": "What can I do between treatments to reduce mosquitoes?",
+      "a": "Eliminate standing water — this is the single most impactful thing you can do. Clean gutters, empty saucers under planters, flip over buckets, keep bird baths fresh, and fix any areas where water pools in your yard. Even a tablespoon of standing water can produce hundreds of mosquitoes."
+    },
+    {
+      "q": "Do you treat for mosquitoes indoors?",
+      "a": "Mosquitoes inside a home or apartment typically have a specific entry point — a broken window screen, a gap around a vent, or an open door. We inspect and identify the entry point. Interior mosquito treatment is rarely needed when exterior entry points are sealed."
+    },
+    {
+      "q": "How much does mosquito control cost in NYC?",
+      "a": "Mosquito treatment starts at $125–$325 per visit depending on property size. Monthly service packages are available at a reduced per-visit rate. We provide a written quote after the property walkthrough."
+    }
+  ],
   "generatedAt": "2026-04-10T00:00:00Z"
 }

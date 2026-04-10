@@ -1,11 +1,46 @@
 {
-  "metaTitle": "Flea Treatment NYC | Flea Extermination | The Best Pest Control NYC",
-  "metaDescription": "Professional flea elimination for NYC homes with pets. Treats all life stages including eggs and larvae. Free inspection. 30-day guarantee. Call now.",
-  "h1": "Flea Treatment in NYC — Eliminated at Every Life Stage",
-  "heroParagraph": "Fleas are harder to eliminate than most pet owners expect because the adult fleas you see are only about 5% of the total infestation. The other 95% are eggs, larvae, and pupae living in carpet fibers, bedding, and furniture upholstery. Effective flea treatment must address all four life stages simultaneously — which requires professional-grade IGR treatments combined with targeted adulticide applications.",
-  "bodyParagraphs": [],
-  "signs": [],
-  "treatmentApproach": "",
-  "faqs": [],
+  "metaTitle": "Flea Treatment NYC | Licensed Exterminators | The Best Pest Control NYC",
+  "metaDescription": "Professional flea extermination in NYC. Home and pet-area treatments. Licensed exterminators. Free inspection. Same-day available. Call now.",
+  "h1": "Flea Treatment in NYC — Break the Cycle, Eliminate the Infestation",
+  "heroParagraph": "Fleas are not just a pet problem — they're a household infestation that requires treating the entire environment, not just the animal. A single female flea can lay 40–50 eggs per day. Those eggs fall off the pet and into carpeting, furniture, bedding, and floor cracks where they develop through larvae and pupae stages entirely out of reach of flea shampoos and pet treatments. The pupal stage is encased in a nearly indestructible cocoon that can remain dormant for up to a year, hatching when it detects carbon dioxide, heat, and vibration from a passing host. This is why people return from vacation to a flea explosion in an apparently treated home — the dormant pupae hatch all at once.",
+  "bodyParagraphs": [
+    "NYC apartments present a specific flea challenge. In multi-unit buildings, fleas can travel between units through shared flooring and wall voids. Wildlife — rats, squirrels, and feral cats — can introduce fleas into buildings through utility chases, and those fleas transfer to domestic pets and people even without any direct animal contact. We see flea infestations in apartments with no pets at all — brought in by a previous tenant's pet or by wildlife in the building structure.",
+    "Effective flea treatment requires treating the home environment at the same time your vet treats the pet. If only one side is treated, the untreated source reinfests the treated side immediately. We coordinate the timing of our service with your veterinary appointment and provide a preparation checklist — vacuuming, laundering pet bedding, and clearing floors — that significantly improves treatment effectiveness."
+  ],
+  "signs": [
+    "Pets scratching, biting at skin, or losing patches of fur — particularly around the neck, tail base, and belly",
+    "Small red bites on human ankles and lower legs — fleas jump from carpet level",
+    "Flea dirt (flea feces) — tiny black specks on pet bedding, carpeting, or base of pet's fur; turns red on a damp paper towel (it's digested blood)",
+    "Seeing small, fast-moving brown insects jumping on carpeting or furniture",
+    "Pet rubbing against furniture or carpeting in an attempt to relieve itching",
+    "Returning from vacation or move-in to immediate biting — dormant pupae hatching from the previous occupant's infestation"
+  ],
+  "treatmentApproach": "Flea treatment uses an integrated approach: adulticide application (pyrethrin or permethrin spray) to kill adult fleas throughout the structure combined with IGR (insect growth regulator) — specifically S-methoprene — which prevents larvae from reaching adulthood and prevents eggs from hatching. The IGR is critical because it addresses the 95% of the flea population in pre-adult stages that adulticides can't reach. We treat all carpeted areas, upholstered furniture, pet sleeping areas, and baseboards. Pets must be out of the home during treatment and for 2–4 hours after. We schedule a follow-up 2 weeks later to treat any pupae that hatched after the initial application.",
+  "faqs": [
+    {
+      "q": "Do I need to treat my pet at the same time?",
+      "a": "Yes — this is critical. If the pet isn't treated by a vet or with vet-approved topical treatment on the same day as the home treatment, fleas on the animal will reinfest the treated environment immediately. We provide a coordination checklist so both treatments happen simultaneously."
+    },
+    {
+      "q": "Why are there still fleas two weeks after treatment?",
+      "a": "Flea pupae are protected inside a cocoon that is virtually impervious to insecticides. They hatch on their own schedule — sometimes weeks after the initial treatment — when they detect a host. This is normal. Our service includes a follow-up visit at 2 weeks specifically to treat newly hatched adults before they can lay more eggs."
+    },
+    {
+      "q": "Do I need to leave my home during treatment?",
+      "a": "Yes — we ask residents and pets to vacate for 2–4 hours while products are applied and dry. We'll give you a specific timeline before the appointment."
+    },
+    {
+      "q": "I don't have a pet. Where did the fleas come from?",
+      "a": "In NYC, two common sources: a previous tenant's pet (flea eggs and dormant pupae in carpeting can survive months between occupants) or wildlife. Rats, squirrels, and feral cats in building structure can introduce fleas that transfer to humans. We investigate the source and advise on prevention."
+    },
+    {
+      "q": "How long does flea treatment last?",
+      "a": "The IGR component provides residual prevention for 3–4 months. The adulticide kills all adult fleas present at the time of treatment. Combined with pet treatment, most infestations are resolved within 4–6 weeks including the follow-up visit."
+    },
+    {
+      "q": "How much does flea treatment cost in NYC?",
+      "a": "Flea treatment starts at $350–$650 for a standard apartment or home. Severe infestations or larger properties are quoted after inspection. Price includes both the initial treatment and the follow-up visit."
+    }
+  ],
   "generatedAt": "2026-04-10T00:00:00Z"
 }

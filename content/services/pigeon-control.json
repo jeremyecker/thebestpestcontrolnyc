@@ -1,11 +1,42 @@
 {
-  "metaTitle": "Pigeon Control NYC | Bird Deterrent Installation | The Best Pest Control NYC",
-  "metaDescription": "Professional pigeon control and deterrent installation in NYC. Spikes, netting, exclusion systems. Commercial and residential. Licensed specialists. Call now.",
-  "h1": "Pigeon Control in NYC — Long-Term Deterrence, Not Just Cleanup",
-  "heroParagraph": "Pigeon droppings are acidic enough to damage concrete, corrode metal, and clog HVAC systems. A roosting pigeon population deposits thousands of pounds of waste annually on NYC buildings, creating slip hazards, structural damage, and public health risks. Our pigeon control programs use physical deterrents — stainless steel spikes, anti-perch systems, and exclusion netting — to eliminate roosting sites permanently, without harm to the birds.",
-  "bodyParagraphs": [],
-  "signs": [],
-  "treatmentApproach": "",
-  "faqs": [],
+  "metaTitle": "Pigeon Control NYC | Bird Deterrent Services | The Best Pest Control NYC",
+  "metaDescription": "Professional pigeon control in NYC. Netting, spikes, exclusion, and cleanup. Licensed. Free inspection. Call or text now.",
+  "h1": "Pigeon Control in NYC — Deter, Exclude, and Clean Up",
+  "heroParagraph": "Pigeons are New York City's most persistent wildlife pest — and the most damaging to building structures. Pigeon droppings are highly acidic, with a pH similar to vinegar, and cause accelerated deterioration of stone, brick, concrete, metal, and roofing material. A concentrated roost on a NYC building can deposit hundreds of pounds of droppings per year, block gutters and drainage systems, and create surfaces that are genuinely hazardous — dried pigeon droppings contain Cryptococcus (a fungal pathogen) and Histoplasma, both of which become airborne when droppings are disturbed. HVAC systems that draw air near pigeon roosts present a specific indoor air quality risk.",
+  "bodyParagraphs": [
+    "Pigeon control is exclusion-based, not chemical-based. Pigeons cannot be poisoned legally in New York State — Avitrol, the only registered avicide, requires a special permit and is rarely appropriate for urban settings. Effective control means making your building surfaces physically inaccessible to roosting pigeons using stainless steel spikes, tensioned wire systems, slope barriers, netting, and optical gel deterrents. The right deterrent depends on the surface: ledges get spikes or wire, recessed areas get netting, flat HVAC surfaces get gel or slope barriers.",
+    "The price range for pigeon control is wide because building situations vary enormously. A single ledge on a residential building treated with stainless spikes is a half-day job. A full commercial building with multiple rooflines, mechanical equipment areas, and active breeding sites may require several days of installation and ongoing maintenance. Pigeon nesting sites also require complete droppings removal and disinfection before deterrents are installed — deterrents installed over active droppings are less effective and don't eliminate the pathogen hazard."
+  ],
+  "signs": [
+    "Visible roosting on ledges, AC units, rooftop equipment, or fire escapes",
+    "Large accumulations of droppings on building surfaces, window sills, or sidewalks below ledge areas",
+    "Nesting material (twigs, debris, feathers) in recessed areas, behind HVAC equipment, or in gutters",
+    "Pigeon eggs or young birds in nesting areas — active breeding site",
+    "Blocked gutters causing water overflow — droppings and nesting debris accumulation",
+    "Respiratory symptoms in building occupants — possible exposure to airborne fungal pathogens from droppings"
+  ],
+  "treatmentApproach": "Pigeon control begins with a full building assessment: mapping all roosting and nesting sites, documenting droppings accumulation, and identifying entry points into any building cavities. Active nesting areas are cleared of eggs, young, and nesting material before deterrents are installed (during the non-breeding season when regulations permit). Installation uses stainless steel spikes, tensioned stainless wire systems, polypropylene netting, and optical gel depending on surface type. All droppings are removed and surfaces disinfected with hospital-grade disinfectant before installation. We provide before-and-after documentation and a 1-year maintenance guarantee.",
+  "faqs": [
+    {
+      "q": "Can you just use poison to get rid of pigeons?",
+      "a": "No — Avitrol is the only registered avicide and requires a DEC special permit in New York State. It also creates secondary poisoning risks for raptors and other wildlife and is rarely approved for urban settings. Exclusion is the legal, permanent, and more effective approach."
+    },
+    {
+      "q": "Do pigeon spikes hurt the birds?",
+      "a": "No. Stainless steel spikes don't harm pigeons — they simply prevent landing. Pigeons learn quickly that a surface is inaccessible and move on. Spikes are considered a humane deterrent by animal welfare organizations."
+    },
+    {
+      "q": "Are pigeon droppings dangerous to health?",
+      "a": "Yes, particularly when disturbed. Dried pigeon droppings contain Cryptococcus neoformans (a fungal pathogen causing cryptococcal meningitis in immunocompromised individuals) and Histoplasma capsulatum. Both become airborne dust when droppings are disturbed without proper respiratory protection. Never dry-sweep pigeon droppings — wet them first or use HEPA-equipped vacuuming."
+    },
+    {
+      "q": "How long does pigeon deterrent installation take?",
+      "a": "Residential ledge treatments take 2–4 hours. Full commercial building installations range from 1 to several days depending on scope. We provide a detailed timeline with the written estimate."
+    },
+    {
+      "q": "How much does pigeon control cost in NYC?",
+      "a": "Pigeon control starts at $550 for simple residential ledge treatments and ranges to $5,000+ for large commercial buildings with multiple roosting and nesting areas. Written estimate provided after site assessment."
+    }
+  ],
   "generatedAt": "2026-04-10T00:00:00Z"
 }

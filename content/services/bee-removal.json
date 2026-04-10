@@ -1,15 +1,49 @@
 {
-  "metaTitle": "Bee Removal NYC | Humane Bee Relocation | The Best Pest Control NYC",
-  "metaDescription": "Humane bee removal and relocation in NYC. Safe removal of bee colonies from walls, attics, and structures. Licensed exterminators. Call now.",
-  "h1": "Bee Removal in NYC — Humane, Safe, and Complete",
-  "heroParagraph": "Honeybees are essential pollinators and not naturally aggressive — but a colony inside a wall void, attic, or chimney is still a problem that needs professional attention. A mature honeybee colony can contain 50,000 bees and produce enough honeycomb to cause structural damage and attract other pests. We specialize in live bee removal and relocation when possible, and provide complete colony extraction with structural repair guidance when needed.",
-  "bodyParagraphs": [],
-  "signs": [],
-  "treatmentApproach": "",
+  "metaTitle": "Bee Removal NYC | Licensed Exterminators | The Best Pest Control NYC",
+  "metaDescription": "Professional bee removal and relocation in NYC. Honey bees, carpenter bees, and bumblebees. Licensed exterminators. Free inspection. Call or text now.",
+  "h1": "Bee Removal in NYC — Safe, Humane, and Complete",
+  "heroParagraph": "Bees in New York City are more than a nuisance — an active hive inside a wall void, soffit, or chimney is a structural problem that won't go away on its own. Honey bee colonies can grow to 60,000 bees and produce up to 100 pounds of honeycomb inside a wall cavity. If the colony is killed without removing the comb, that honeycomb ferments, attracts other insects, and eventually soaks through drywall. The only way to handle a structural bee infestation properly is to open the wall, remove the hive and comb entirely, treat the void, and seal the entry points.",
+  "bodyParagraphs": [
+    "Not all bees are the same problem. Honey bees are protected pollinators and, when possible, we work with local beekeepers for live colony removal before considering extermination. Carpenter bees drill perfectly round holes in wood eaves, decks, and fences to lay eggs — they don't sting aggressively but cause cumulative wood damage year after year. Bumblebees nest underground near landscaping and become defensive when their nest is disturbed. Each situation calls for a different approach, which is why we inspect before we quote.",
+    "Acting quickly matters. Bees are seasonal — colonies are most aggressive in late summer when populations peak and foragers are protecting winter food stores. A small colony in April becomes a serious structural problem by August. If you've seen consistent bee activity around a specific entry point for more than a few days, the hive is already established."
+  ],
+  "signs": [
+    "Consistent bee traffic entering and exiting a single point on your structure — wall, soffit, chimney, or fascia board",
+    "Buzzing sound inside walls or ceilings, particularly in the morning and evening",
+    "Honey or beeswax staining on drywall or ceiling — indicates comb buildup inside a wall void",
+    "Round, perfectly drilled holes (about 3/8 inch diameter) in wood surfaces — carpenter bees",
+    "Increased bee activity after rain, which drives foragers back toward the hive",
+    "Dead bees accumulating near a wall or window — sign of a colony that's been trapped inside"
+  ],
+  "treatmentApproach": "Every bee job starts with identifying the species and locating the hive entrance. For honey bees in wall voids, we open the wall, remove all comb and brood, treat the cavity, and seal every entry point — incomplete removal causes fermentation, odor, and secondary pest infestations. Carpenter bee treatments use residual dust applied directly into the nesting galleries, followed by wood sealant. Bumblebee ground nests are treated at night when the colony is inactive. All treatments include a 30-day guarantee and entry point sealing to prevent recolonization.",
   "faqs": [
     {
-      "q": "Do you kill bees or relocate them?",
-      "a": "When the situation allows, we prefer live removal and relocation to local beekeepers. However, when bees are established inside a wall or structure, full extraction is required — relocation alone leaves comb and honey that attracts new swarms and other pests. We assess each situation and recommend the most humane effective approach."
+      "q": "Can I leave the bees alone if they're not bothering me?",
+      "a": "Not if they're inside your structure. A colony inside a wall void will grow throughout the season, produce honeycomb, and eventually cause structural damage and odor problems even after the colony dies off in winter. Outdoor ground-nesting bumblebees that aren't near foot traffic can sometimes be left alone until the colony dies naturally in fall — we'll tell you honestly if that's an option for your situation."
+    },
+    {
+      "q": "Why can't I just spray the bees myself?",
+      "a": "Retail sprays don't penetrate wall voids where the hive is located, and spraying the entrance just agitates the colony without eliminating it. More importantly: if you kill a honey bee colony without removing the comb, you're left with pounds of fermenting honey and wax inside your wall — which attracts ants, carpet beetles, and other pests and soaks through drywall over time."
+    },
+    {
+      "q": "Will you try to relocate the bees instead of killing them?",
+      "a": "For accessible honey bee colonies, yes — we work with local NYC beekeepers for live removal when the colony location allows it. For colonies deep inside wall voids, structural bees in multi-unit buildings, or aggressive species, relocation isn't always practical. We'll tell you upfront which approach applies to your situation."
+    },
+    {
+      "q": "How long does bee removal take?",
+      "a": "A straightforward exterior hive removal takes 1–2 hours. Wall void removal that requires opening drywall or siding is a half-day job. We give you a time estimate after the inspection so you can plan accordingly."
+    },
+    {
+      "q": "Do bees come back after removal?",
+      "a": "They can, if entry points aren't properly sealed. Bees are attracted to the scent of old wax and honey, and scout bees from neighboring colonies can find and recolonize an unsealed void within the same season. Our service includes sealing all identified entry points. If you see activity return within 30 days, contact us for a free follow-up."
+    },
+    {
+      "q": "How much does bee removal cost in NYC?",
+      "a": "Bee removal starts at $350–$550 for accessible exterior hives. Wall void removal requiring structural access is quoted after inspection. We provide a written estimate before any work begins."
+    },
+    {
+      "q": "What about carpenter bees — do they sting?",
+      "a": "Female carpenter bees can sting but rarely do unless directly handled. Males, which are the ones hovering aggressively near your face, cannot sting at all. The real issue with carpenter bees is wood damage — they drill new galleries each year and the damage compounds over time. Woodpeckers also excavate carpenter bee galleries, causing additional damage."
     }
   ],
   "generatedAt": "2026-04-10T00:00:00Z"

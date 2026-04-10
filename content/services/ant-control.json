@@ -1,11 +1,50 @@
 {
   "metaTitle": "Ant Control NYC | Ant Extermination | The Best Pest Control NYC",
-  "metaDescription": "Professional ant control and extermination in NYC. All ant species. Free inspection. 30-day guarantee. Licensed exterminators starting at $150. Call now.",
-  "h1": "Ant Control in NYC — Colony Elimination, Not Just Surface Treatment",
-  "heroParagraph": "Ant problems in NYC are colony problems. Spraying the ants you see does nothing to the tens of thousands living in the nest. Professional ant control uses non-repellent bait that worker ants carry back to the colony — eliminating the queen, the brood, and the entire population, not just the foragers on your countertop.",
-  "bodyParagraphs": [],
-  "signs": [],
-  "treatmentApproach": "",
-  "faqs": [],
+  "metaDescription": "Professional ant control and extermination in NYC. Carpenter ants, odorous house ants, pavement ants. Licensed. Free inspection. Call or text now.",
+  "h1": "Ant Control in NYC — Eliminate the Colony, Not Just the Ants You See",
+  "heroParagraph": "Ants are the most underestimated pest in New York City. A single pavement ant or odorous house ant sighting in your kitchen seems trivial — until you understand that worker ants are scouts, and every one you see has communicated its route back to a colony of thousands. Store-bought ant sprays kill the workers you can see but don't reach the queen, who continues producing 800–1,000 eggs per day. You'll see a brief reduction in activity followed by a full resurgence, often worse than before, because repellent sprays scatter the colony into new areas of your home.",
+  "bodyParagraphs": [
+    "NYC has several ant species worth knowing. Pavement ants (the small black ones under every sidewalk slab) are primarily a nuisance but can colonize under flooring and inside walls. Odorous house ants produce a rotten-coconut smell when crushed and are aggressive foragers in kitchens. Carpenter ants are structural pests that excavate wood to build galleries — see the Carpenter Ant page for that specific treatment. Pharaoh ants are the smallest and most problematic in hospitals and large buildings — they respond to conventional repellent products by \"budding,\" splitting into multiple new colonies, making the infestation worse. Each species requires a different treatment protocol.",
+    "The key to ant control is locating and treating the colony, not just killing foragers. Professional gel bait and non-repellent treatments work the same way they do for cockroaches: workers pick up the active ingredient, carry it back to the colony, and the effect spreads to the queen and brood. A single treatment that reaches the colony is more effective than repeated spray treatments that only kill workers."
+  ],
+  "signs": [
+    "Scout ants in kitchen, bathroom, or near entry points — single foragers mapping food and water sources",
+    "Ant trails along baseboards, under appliances, or in bathroom grout lines",
+    "Small soil or debris piles near foundation, under flooring, or around door thresholds — pavement ant colonies",
+    "Sweet or rotten-coconut smell near ant activity — odorous house ants",
+    "Winged ants (swarmers) emerging from walls or floors — indicates a mature colony establishing new ones",
+    "Sawdust-like frass near wood structures — carpenter ant excavation (see Carpenter Ant Control page)"
+  ],
+  "treatmentApproach": "Ant treatment begins with species identification — the product selection and application method depend entirely on which species you're dealing with. For most common ant species, treatment includes non-repellent gel bait placed along confirmed trails and near nest entrances, exterior perimeter treatment to prevent reentry, and crack-and-crevice applications at known entry points. Pharaoh ant infestations require bait-only protocols — no sprays — to prevent colony budding. Outdoor colony treatments target nest sites directly. We advise you on sanitation conditions that are feeding the infestation and recommend structural corrections for recurring problems.",
+  "faqs": [
+    {
+      "q": "Why do ants keep coming back after I spray?",
+      "a": "Retail ant sprays are repellents. They kill the workers you spray directly but signal to the rest of the colony that the area is dangerous — the colony relocates or splits, and new workers are dispatched to find a new route. Professional non-repellent treatments are carried back to the colony by workers who don't know they've been exposed, eliminating the source."
+    },
+    {
+      "q": "How long does ant treatment take to work?",
+      "a": "Non-repellent gel bait typically shows results within 3–7 days as workers carry the active ingredient back to the colony. Full colony elimination takes 2–4 weeks. You may see increased ant activity near bait stations in the first few days — this is normal and means the bait is working."
+    },
+    {
+      "q": "Do I need to clean everything out of my cabinets before treatment?",
+      "a": "No. We apply gel bait in precise locations inside cabinet hinges, under appliances, and along baseboards — not on food contact surfaces. We'll give you specific preparation instructions before the appointment."
+    },
+    {
+      "q": "Can ants cause structural damage?",
+      "a": "Common species like pavement ants and odorous house ants do not cause structural damage — they're a sanitation and nuisance issue. Carpenter ants do excavate wood and can cause significant damage in structural timbers if left untreated for years. If you're seeing large black ants, especially with winged swarmers, request a carpenter ant inspection."
+    },
+    {
+      "q": "I live in a first-floor apartment. Are my upstairs neighbors causing my ant problem?",
+      "a": "Possibly, but ant colonies typically originate outdoors — under sidewalks, in landscaping, or along the building foundation — and enter through gaps in the structure. Treating the colony entry points and perimeter is more effective than coordinating with neighbors, though building-wide treatment is ideal for serious infestations."
+    },
+    {
+      "q": "How much does ant control cost in NYC?",
+      "a": "Ant control starts at $350–$550 for a standard apartment or single-family home. Severe infestations or larger properties are quoted after inspection. We provide a written estimate before starting."
+    },
+    {
+      "q": "Is ant bait safe around pets and children?",
+      "a": "Yes. Gel bait is applied in precise locations inside voids and crevices, not on open surfaces. Active ingredient concentrations in professional bait are very low. We'll walk you through specific precautions for your household before starting."
+    }
+  ],
   "generatedAt": "2026-04-10T00:00:00Z"
 }

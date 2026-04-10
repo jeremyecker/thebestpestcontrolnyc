@@ -1,11 +1,42 @@
 {
   "metaTitle": "Bat Removal NYC | Humane Bat Exclusion | The Best Pest Control NYC",
-  "metaDescription": "Licensed bat exclusion and removal in NYC. Humane, legal, permanent. NYS DEC certified wildlife specialists. No bats harmed. Call now.",
-  "h1": "Bat Removal in NYC — Legal, Humane, and Complete",
-  "heroParagraph": "Bats are a protected species in New York — killing them is illegal, and exclusion must be done during specific seasons to avoid trapping maternity colonies. Our NYS DEC-licensed wildlife specialists use one-way exclusion devices and full structural sealing to remove bat colonies humanely and legally, then seal the property to prevent any return. If you've had a bat encounter indoors, contact us immediately — bat exposure requires medical evaluation.",
-  "bodyParagraphs": [],
-  "signs": [],
-  "treatmentApproach": "",
-  "faqs": [],
+  "metaDescription": "Humane bat exclusion and removal in NYC. One-way devices, entry sealing, guano cleanup. Licensed. Free inspection. Call now.",
+  "h1": "Bat Removal in NYC — Humane Exclusion, No Harm to the Bats",
+  "heroParagraph": "Bats in a New York City building require immediate professional attention for two reasons: first, bat removal is strictly regulated and has specific seasonal windows when exclusion is legal; second, bats are the primary rabies vector in New York State. Any direct human contact with a bat — including waking up with a bat in the room, which constitutes potential exposure even if no bite wound is visible — is treated as a possible rabies exposure by the NYC Department of Health and requires immediate medical evaluation.",
+  "bodyParagraphs": [
+    "Little brown bats and big brown bats are the two species most commonly found roosting in NYC buildings. Both are protected under state wildlife regulations. Between June 1 and August 15 — the maternity season when bats are nursing flightless young — exclusion cannot be legally performed. Excluding a colony during this period seals flightless young inside the structure, causing them to die and creating severe odor problems. Outside of this window, exclusion is the correct and legal removal method: one-way bat valves are installed at all entry points, bats exit normally at dusk and cannot re-enter. After 3–5 nights of confirmed exit activity, the valves are removed and all entry points are permanently sealed.",
+    "Entry points for bats are different from entry points for rodents. Bats can enter through a gap as small as 3/8 inch — they seek gaps in soffit material, under ridge caps, around chimney flashing, at gable end vents, and along loose or lifted roofing material. A single colony may use multiple entry points. Our inspection locates all active entry points before any exclusion work begins."
+  ],
+  "signs": [
+    "Bats observed exiting the structure at dusk from a consistent location",
+    "Scratching or shuffling sounds in attic or wall voids, particularly at dusk",
+    "Bat guano (droppings) accumulation below exit points, in attic, or in wall voids — similar in appearance to mouse droppings but crumble easily and contain insect remains",
+    "Staining or grease marks around small gaps in soffit, roofline, or chimney area — oils from bat fur mark frequently used entry points",
+    "Strong ammonia odor from attic — large guano accumulations",
+    "A single bat inside living space — indicates a bat has lost its way from the colony or entered through an interior gap"
+  ],
+  "treatmentApproach": "Bat exclusion begins with a full exterior inspection at dusk to observe exit points and document all active entry locations. Entry point mapping is critical — all active points must be addressed simultaneously or bats will redirect to unsealed gaps. During legal exclusion windows (September–May), one-way exclusion valves are installed at all active points. We confirm complete colony departure over 3–5 nights before sealing. All openings are permanently sealed with galvanized mesh, caulk, and flashing. Guano accumulation in attics is removed with proper respiratory protection (N95 minimum) and surfaces are treated with enzyme-based disinfectant. We provide documentation of the exclusion completion for insurance or real estate purposes.",
+  "faqs": [
+    {
+      "q": "I woke up with a bat in my room. What do I do?",
+      "a": "Do not release the bat. Capture it carefully using a container and cardboard (wear gloves) and call 311 or the NYC DOHMH to report potential rabies exposure. You should also seek medical evaluation — a bat in a room with a sleeping person is considered potential rabies exposure even without a visible bite wound. Once the immediate situation is handled, call us to inspect for a colony and seal entry points."
+    },
+    {
+      "q": "When is bat exclusion legal in NYC?",
+      "a": "Bat exclusion is legal September 1 through May 31 in New York State. Exclusion is prohibited June 1–August 15 during the maternity season when flightless young are present. August 16–August 31 is a gray period — we inspect and assess based on the specific colony status. Never attempt exclusion during the prohibited window."
+    },
+    {
+      "q": "How do bats get inside?",
+      "a": "Bats can enter through gaps as small as 3/8 inch. Common entry points include gaps under ridge caps, at chimney flashing, in open soffit joints, and at gable end vents. Our inspection identifies all active entry points — sealing just the most visible one is never sufficient."
+    },
+    {
+      "q": "Is bat guano dangerous?",
+      "a": "Yes — accumulated bat guano can harbor Histoplasma capsulatum, a fungal pathogen that causes histoplasmosis when airborne spores are inhaled. Disturbing guano accumulations without proper respiratory protection (N100 respirator) is a genuine health risk. Attic guano removal requires full protective equipment and enzyme-based disinfection."
+    },
+    {
+      "q": "How much does bat removal cost in NYC?",
+      "a": "Bat removal and exclusion starts at $900 and ranges to $2,500 depending on colony size, number of entry points, and whether guano removal is included. Written estimate provided after inspection."
+    }
+  ],
   "generatedAt": "2026-04-10T00:00:00Z"
 }

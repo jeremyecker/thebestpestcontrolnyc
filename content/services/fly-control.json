@@ -1,11 +1,42 @@
 {
-  "metaTitle": "Fly Control NYC | Commercial & Residential Fly Extermination | The Best Pest Control NYC",
-  "metaDescription": "Professional fly control for NYC homes, restaurants, and commercial properties. All fly species. Free inspection. Licensed exterminators. Call now.",
-  "h1": "Fly Control in NYC — Source Elimination and Prevention",
-  "heroParagraph": "Fly problems in NYC are almost always breeding site problems. Eliminating adult flies with traps or sprays is temporary relief — flies breed and mature in days. Our fly control programs identify and eliminate breeding sources: organic buildup in floor drains, decaying organic matter, inadequate waste management, and structural gaps that allow outdoor fly populations to enter commercial and residential spaces.",
-  "bodyParagraphs": [],
-  "signs": [],
-  "treatmentApproach": "",
-  "faqs": [],
+  "metaTitle": "Fly Control NYC | Licensed Exterminators | The Best Pest Control NYC",
+  "metaDescription": "Professional fly control in NYC. House flies, fruit flies, drain flies, and more. Licensed exterminators. Free inspection. Call or text now.",
+  "h1": "Fly Control in NYC — Identify the Source, Eliminate the Problem",
+  "heroParagraph": "Flies in a New York City building are almost always a symptom of a specific source problem — they don't simply wander in from outside and set up residence. House flies breed in decaying organic matter: garbage, compost, animal waste, and food residue in drains or behind equipment. Fruit flies (the small, red-eyed ones hovering near your produce bowl) breed in fermenting liquids and overripe fruit — a single piece of forgotten fruit or a drain biofilm can produce hundreds of adults per day. Drain flies (moth flies) live and breed in the organic slime layer inside slow or infrequently used drains. Phorid flies (humpbacked flies) are the most concerning — they breed in decaying organic matter, sewage, and even in corpses hidden inside walls. Identifying which fly species is present determines everything about the treatment approach.",
+  "bodyParagraphs": [
+    "Fly infestations in commercial settings — restaurants, delis, bodegas, food processing facilities — are a serious regulatory concern. A single house fly can carry 65 known diseases. The NYC Department of Health cites fly presence as a critical violation during restaurant inspections. Commercial fly control requires an integrated approach: source elimination, sanitation protocol review, exclusion, and ongoing monitoring with fly lights or pheromone traps.",
+    "The most common mistake in DIY fly control is focusing on the adults (sticky traps, zappers) without finding and eliminating the breeding source. Adults are the visible symptom; the breeding site is the problem. We identify the source, treat or eliminate it, and then address the adult population. Without source elimination, any adult treatment provides only temporary relief."
+  ],
+  "signs": [
+    "Consistent fly presence in kitchen or food prep areas, particularly near drains, garbage, or produce",
+    "Small, dark-winged flies resting on drain covers, sink edges, or bathroom tile — drain flies",
+    "Tiny red-eyed flies hovering near fruit bowls, recycling bins, or bar equipment — fruit flies",
+    "Humpbacked, slow-moving flies near plumbing fixtures or walls — phorid flies (investigate for hidden organic source)",
+    "Fly specks (dark spots) on windows, walls, or light fixtures — house fly activity",
+    "Maggots visible in garbage areas, under appliances, or in floor drains"
+  ],
+  "treatmentApproach": "Fly control begins with source identification — we inspect drains, garbage areas, floor drains, grease traps, and structural voids to locate active breeding sites. Treatment depends on the species: drain fly and fruit fly treatments use enzyme-based drain cleaners and foaming drain treatments to eliminate biofilm breeding medium; house fly treatments combine exterior bait stations, residual applications at entry points, and interior fly lights; phorid fly investigations include moisture mapping and, if a hidden decomposition source is suspected, thermal imaging. Commercial accounts receive regular monitoring visits, staff sanitation training recommendations, and documentation for health department compliance.",
+  "faqs": [
+    {
+      "q": "I have fruit flies — do I need a professional?",
+      "a": "It depends on the severity and your ability to find and eliminate the source yourself. If you've removed all overripe fruit, cleaned drains, and emptied recycling bins and still have persistent fruit flies, the breeding source is somewhere you haven't located — possibly a forgotten drain, a crack where liquid has accumulated, or a hidden piece of produce. That's when a professional inspection is worth it."
+    },
+    {
+      "q": "What are the tiny moth-looking flies in my bathroom?",
+      "a": "Those are drain flies (moth flies). They breed in the organic slime coating the inside of drains, particularly slow or infrequently used ones. Treatment requires breaking up and removing the biofilm inside the drain, not just pouring bleach down it (bleach kills the adults it contacts but doesn't penetrate the slime layer). We use enzyme-based foaming drain treatments specifically designed for this."
+    },
+    {
+      "q": "Why do I have humpbacked flies in my apartment?",
+      "a": "Phorid flies (humpbacked flies) are a serious indicator — they breed in decaying organic matter, sewage leaks, or animal remains inside walls. If you have a consistent phorid fly problem, we strongly recommend an inspection to rule out a dead animal inside the wall cavity, a sewage leak, or a drain connection issue."
+    },
+    {
+      "q": "Are fly zappers effective?",
+      "a": "Electric fly zappers kill adult flies but don't address the breeding source — you'll keep killing adults indefinitely while the source continues producing new ones. UV fly lights used in commercial settings are monitoring tools, not control tools. Source elimination is the only way to stop a fly infestation."
+    },
+    {
+      "q": "How much does fly control cost in NYC?",
+      "a": "Residential fly control starts at $350–$550. Commercial programs are structured as monthly service contracts starting at $175/month depending on facility size and pest pressure. We provide a written estimate after inspection."
+    }
+  ],
   "generatedAt": "2026-04-10T00:00:00Z"
 }
