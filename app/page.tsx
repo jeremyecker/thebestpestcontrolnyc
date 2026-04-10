@@ -4,9 +4,9 @@ import { SERVICES, SERVICE_CATEGORIES } from "@/data/services";
 import { AREAS, BOROUGH_GROUPS } from "@/data/areas";
 
 export const metadata: Metadata = {
-  title: "The Best Pest Control NYC | Licensed Exterminators — 310+ Neighborhoods",
+  title: "The Best Pest Control NYC | Licensed Exterminators — 318+ Neighborhoods",
   description:
-    "NYS DEC licensed exterminators serving 310+ neighborhoods across NYC, NJ, Long Island & Westchester. 32 pest types eliminated. Free inspection. No money upfront. Guaranteed.",
+    "NYS DEC licensed exterminators serving 318+ neighborhoods across NYC, NJ, Long Island & Westchester. 32 pest types eliminated. Free inspection. No money upfront. Guaranteed.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com" },
 };
 
@@ -23,7 +23,7 @@ const schema = {
       url: "https://www.thebestpestcontrolnyc.com",
       telephone: PHONE,
       email: "hello@thebestpestcontrolnyc.com",
-      description: "NYS DEC licensed exterminators serving 310+ NYC neighborhoods. 32 pest types eliminated. Free inspection.",
+      description: "NYS DEC licensed exterminators serving 318+ NYC neighborhoods. 32 pest types eliminated. Free inspection.",
       address: {
         "@type": "PostalAddress",
         addressLocality: "New York",
@@ -79,7 +79,7 @@ const HOMEFAQS = [
   },
   {
     q: "What areas does The Best Pest Control NYC serve?",
-    a: "We serve 310+ neighborhoods across Manhattan, Brooklyn, Queens, the Bronx, Staten Island, northern New Jersey, Long Island, and Westchester County. If you're anywhere in the NYC metro area, we have a technician near you.",
+    a: "We serve 318+ neighborhoods across Manhattan, Brooklyn, Queens, the Bronx, Staten Island, northern New Jersey, Long Island, and Westchester County. If you're anywhere in the NYC metro area, we have a technician near you.",
   },
   {
     q: "Do you offer pest control maintenance plans?",
@@ -127,7 +127,7 @@ export default function HomePage() {
             NYC's Best Pest Control<br className="hidden md:block" /> — Guaranteed.
           </h1>
           <p className="text-xl md:text-2xl text-green-100 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Licensed exterminators serving 310+ neighborhoods across NYC, NJ, Long Island & Westchester. Cockroaches, bed bugs, rats, mice, termites, wildlife, and 32 pest types — eliminated for good. No money upfront.
+            Licensed exterminators serving 318+ neighborhoods across NYC, NJ, Long Island & Westchester. Cockroaches, bed bugs, rats, mice, termites, wildlife, and 32 pest types — eliminated for good. Starting at $49. No money upfront.
           </p>
 
           {/* CTA Buttons */}
@@ -204,19 +204,22 @@ export default function HomePage() {
               <p className="text-gray-700 text-lg leading-relaxed mb-4">
                 The Best Pest Control NYC is a full-service exterminator company built specifically for the challenges of New York City living. Whether you're in a Harlem walkup, a Williamsburg loft, a Midtown hotel, a Queens restaurant, or a Westchester colonial — our team of NYS DEC-licensed exterminators has seen your pest problem before, and we know exactly how to fix it.
               </p>
+              <p className="text-gray-700 text-lg leading-relaxed mb-4">
+                We cover 32 pest types across 318+ neighborhoods in all five boroughs, northern New Jersey, Long Island, and Westchester County. From cockroach gel bait treatments and whole-room bed bug heat treatment to rodent exclusion, termite barrier systems, and wildlife removal — every service starts with a free inspection and ends with a written guarantee.
+              </p>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                We cover 32 pest types across 310+ neighborhoods in all five boroughs, northern New Jersey, Long Island, and Westchester County. From cockroach gel bait treatments and whole-room bed bug heat treatment to rodent exclusion, termite barrier systems, and wildlife removal — every service starts with a free inspection and ends with a written guarantee.
+                What separates us from every other pest control company in NYC is simple: we treat root causes, not just symptoms. Any exterminator can spray. We find where pests are entering, why they're thriving, and what needs to change permanently. That's why our customers don't call us twice for the same problem.
               </p>
               <a href="/contact" className="inline-block bg-green-700 text-white font-bold px-6 py-3 rounded-xl hover:bg-green-600 transition">Get Your Free Inspection →</a>
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
-                { icon: "🏛️", title: "Licensed & Insured", desc: "Every technician holds active NYS DEC certification" },
-                { icon: "⚡", title: "Same-Day Service", desc: "Emergency dispatch available nights, weekends, holidays" },
-                { icon: "🔍", title: "Free Inspections", desc: "Thorough inspection before any work begins — no charge" },
-                { icon: "✅", title: "Guaranteed Results", desc: "We return at no cost if pests come back during guarantee period" },
-                { icon: "🗺️", title: "310+ Neighborhoods", desc: "Most coverage in NYC — all 5 boroughs, NJ, LI, Westchester" },
-                { icon: "💰", title: "Transparent Pricing", desc: "Written quote before work. No hidden fees. No money upfront." },
+                { icon: "🏛️", title: "Licensed & Insured — Every Single Technician", desc: "Every member of our pest control team holds an active NYS DEC Commercial Pesticide Applicator license. Full general liability insurance on every job — residential and commercial." },
+                { icon: "⚡", title: "Same-Day Service — When You Need It Now", desc: "Pest emergencies don't work on a 9-to-5 schedule. We dispatch same-day for urgent situations across all our service areas. Call or text anytime. We pick up nights, weekends, and holidays." },
+                { icon: "🔍", title: "Free Pest Inspections — Before Any Work Begins", desc: "We don't guess. Every job starts with a thorough inspection by a licensed exterminator. You'll see exactly what we find before we recommend a single treatment. No upsells. No pressure. No charge." },
+                { icon: "✅", title: "Guaranteed Results — We Come Back at No Cost", desc: "If pests return within our guarantee period, our team returns and retreats at zero additional charge. General pest control: 30-day. Bed bugs: 90-day. Rodent proofing: full-year structural guarantee." },
+                { icon: "🗺️", title: "318+ Neighborhoods — The Most Coverage in NYC", desc: "All five boroughs, 48 New Jersey communities, 55 Long Island neighborhoods, and 30 Westchester locations — 318+ neighborhoods in total. One call reaches our whole network." },
+                { icon: "💰", title: "Transparent Pricing — No Hidden Fees, Ever", desc: "You'll see a detailed written estimate before any work begins — what we'll do, which products we'll use, and the exact total cost. No surprise charges. No money upfront. You pay when done." },
               ].map((item) => (
                 <div key={item.title} className="bg-green-50 rounded-xl p-4">
                   <div className="text-2xl mb-2">{item.icon}</div>
@@ -235,7 +238,7 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-3" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>32 Services. Zero Pests.</h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              Every pest that thrives in NYC — we eliminate it. Click any service to see treatment details, pricing, and coverage across all 310 neighborhoods.
+              Every pest that thrives in NYC — we eliminate it. Click any service to see treatment details, pricing, and coverage across all 318 neighborhoods.
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
@@ -302,7 +305,7 @@ export default function HomePage() {
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-10">
-            <h2 className="text-4xl font-bold text-gray-900 mb-3" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>310+ Neighborhoods Served</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-3" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>318+ Neighborhoods Served</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">From Harlem to the Hamptons, Hoboken to Hudson Valley — the most complete pest control coverage in the NYC metro area.</p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
@@ -315,7 +318,7 @@ export default function HomePage() {
           </div>
           <div className="text-center">
             <Link href="/areas" className="inline-block border-2 border-green-700 text-green-700 font-bold px-6 py-3 rounded-xl hover:bg-green-700 hover:text-white transition">
-              View All 310+ Neighborhoods →
+              View All 318+ Neighborhoods →
             </Link>
           </div>
         </div>

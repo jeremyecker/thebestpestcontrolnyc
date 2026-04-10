@@ -31,10 +31,17 @@ export interface ComboContent {
 export interface ServiceContent {
   metaTitle: string;
   metaDescription: string;
-  introParagraphs: string[];
-  signsSection: string;
-  treatmentSection: string;
-  whyProfessional: string;
+  // Approved copy fields (new)
+  h1?: string;
+  heroParagraph?: string;
+  bodyParagraphs?: string[];
+  signs?: string[];
+  treatmentApproach?: string;
+  // Legacy generated fields (may exist in older files)
+  introParagraphs?: string[];
+  signsSection?: string;
+  treatmentSection?: string;
+  whyProfessional?: string;
   faqs: { q: string; a: string }[];
   generatedAt: string;
 }

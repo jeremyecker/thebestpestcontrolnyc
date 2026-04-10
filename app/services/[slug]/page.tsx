@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { SERVICES } from "@/data/services";
-import { AREAS, BOROUGH_GROUPS } from "@/data/areas";
+import { AREAS } from "@/data/areas";
+import { getServiceContent } from "@/lib/content";
 
 export async function generateStaticParams() {
   return SERVICES.map((s) => ({ slug: s.slug }));
@@ -11,9 +12,14 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const service = SERVICES.find((s) => s.slug === params.slug);
   if (!service) return { title: "The Best Pest Control NYC" };
+  const content = getServiceContent(params.slug);
+  const title = content?.metaTitle || `${service.name} NYC | The Best Pest Control NYC`;
+  const description =
+    content?.metaDescription ||
+    `Professional ${service.name.toLowerCase()} in NYC. ${service.priceRange}. NYS DEC licensed exterminators. Free inspection. No money upfront. ${service.seasonal ? "Seasonal treatment." : `${service.guaranteeDays}-day guarantee.`}`;
   return {
-    title: `${service.name} NYC | The Best Pest Control NYC`,
-    description: `Professional ${service.name.toLowerCase()} in NYC. ${service.priceRange}. NYS DEC licensed exterminators. Free inspection. No money upfront. ${service.seasonal ? "Seasonal treatment." : `${service.guaranteeDays}-day guarantee.`}`,
+    title,
+    description,
     alternates: { canonical: `https://www.thebestpestcontrolnyc.com/services/${service.slug}` },
   };
 }
@@ -27,8 +33,19 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
   const service = SERVICES.find((s) => s.slug === params.slug);
   if (!service) notFound();
 
+  const content = getServiceContent(params.slug);
   const relatedServices = SERVICES.filter((s) => s.slug !== service.slug && s.category === service.category).slice(0, 4);
   const featuredAreas = AREAS.slice(0, 24);
+
+  // Resolve content fields with fallbacks
+  const h1 = content?.h1 || `${service.name} NYC`;
+  const heroParagraph =
+    content?.heroParagraph ||
+    `Professional ${service.name.toLowerCase()} serving all five boroughs, northern NJ, Long Island, and Westchester County. NYS DEC licensed. Free inspection. No money upfront.`;
+  const bodyParagraphs = content?.bodyParagraphs || content?.introParagraphs || [];
+  const signs = content?.signs || [];
+  const treatmentApproach = content?.treatmentApproach || content?.treatmentSection || "";
+  const faqs = content?.faqs || [];
 
   const schema = {
     "@context": "https://schema.org",
@@ -36,7 +53,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
       {
         "@type": "Service",
         name: `${service.name} in New York City`,
-        description: `Professional ${service.name.toLowerCase()} serving 310+ NYC neighborhoods.`,
+        description: `Professional ${service.name.toLowerCase()} serving 318+ NYC neighborhoods.`,
         provider: {
           "@type": "LocalBusiness",
           name: "The Best Pest Control NYC",
@@ -61,6 +78,18 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
           { "@type": "ListItem", position: 3, name: service.name, item: `https://www.thebestpestcontrolnyc.com/services/${service.slug}` },
         ],
       },
+      ...(faqs.length > 0
+        ? [
+            {
+              "@type": "FAQPage",
+              mainEntity: faqs.map((faq) => ({
+                "@type": "Question",
+                name: faq.q,
+                acceptedAnswer: { "@type": "Answer", text: faq.a },
+              })),
+            },
+          ]
+        : []),
     ],
   };
 
@@ -74,6 +103,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
         <span className="text-gray-900 font-medium">{service.name}</span>
       </nav>
 
+      {/* HERO */}
       <section className="bg-green-800 text-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="flex gap-3 mb-4 flex-wrap">
@@ -89,10 +119,10 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
             </div>
           </div>
           <h1 className="text-5xl font-bold mb-6" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
-            {service.name} NYC
+            {h1}
           </h1>
           <p className="text-xl text-green-100 mb-8 max-w-3xl">
-            Professional {service.name.toLowerCase()} serving all five boroughs, northern NJ, Long Island, and Westchester County. NYS DEC licensed. Free inspection. No money upfront.
+            {heroParagraph}
           </p>
           <div className="flex flex-wrap gap-4">
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-50 transition">📞 Call {PHONE_DISPLAY}</a>
@@ -106,11 +136,12 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
         <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-semibold text-green-800">
           <span>✓ NYS DEC Licensed</span><span>✓ Free Inspection</span><span>✓ No Money Upfront</span>
           {!service.seasonal && <span>✓ {service.guaranteeDays}-Day Guarantee</span>}
-          <span>✓ 310+ Neighborhoods</span>
+          <span>✓ 318+ Neighborhoods</span>
         </div>
       </section>
 
       <div className="max-w-5xl mx-auto px-4 py-12">
+
         {/* Pricing */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-6" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>{service.name} Cost in NYC</h2>
@@ -131,6 +162,33 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
           </div>
         </section>
 
+        {/* Body copy */}
+        {bodyParagraphs.length > 0 && (
+          <section className="mb-12 prose prose-lg max-w-none">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>About {service.name} in NYC</h2>
+            {bodyParagraphs.map((para, i) => (
+              <p key={i} className="text-gray-700 leading-relaxed mb-4">{para}</p>
+            ))}
+          </section>
+        )}
+
+        {/* Signs of Infestation */}
+        {signs.length > 0 && (
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Signs of Infestation</h2>
+            <div className="bg-red-50 border border-red-100 rounded-xl p-6">
+              <ul className="space-y-3">
+                {signs.map((sign, i) => (
+                  <li key={i} className="flex gap-3 items-start">
+                    <span className="text-red-600 font-bold mt-0.5 shrink-0">⚠</span>
+                    <span className="text-gray-800">{sign}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </section>
+        )}
+
         {/* Mid-page CTA */}
         <section className="bg-green-800 text-white rounded-2xl p-8 mb-12 text-center">
           <h2 className="text-2xl font-bold mb-3">Need {service.name} in NYC?</h2>
@@ -140,6 +198,34 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
             <a href={`sms:${PHONE}`} className="bg-green-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-green-500 border border-green-400">💬 Text Us</a>
           </div>
         </section>
+
+        {/* Our Treatment Approach */}
+        {treatmentApproach && (
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Our Treatment Approach</h2>
+            <div className="bg-green-50 border border-green-100 rounded-xl p-6">
+              <p className="text-gray-700 leading-relaxed">{treatmentApproach}</p>
+            </div>
+          </section>
+        )}
+
+        {/* FAQ */}
+        {faqs.length > 0 && (
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Frequently Asked Questions</h2>
+            <div className="space-y-4">
+              {faqs.map((faq, i) => (
+                <details key={i} className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm group">
+                  <summary className="font-semibold text-gray-900 cursor-pointer list-none flex justify-between items-center">
+                    {faq.q}
+                    <span className="text-green-700 ml-4 group-open:rotate-180 transition-transform shrink-0">▾</span>
+                  </summary>
+                  <p className="mt-4 text-gray-700 leading-relaxed">{faq.a}</p>
+                </details>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Service by Borough */}
         <section className="mb-12">
@@ -163,7 +249,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
               </Link>
             ))}
           </div>
-          <Link href="/areas" className="inline-block mt-4 text-green-700 font-semibold hover:underline">View all 310+ neighborhoods →</Link>
+          <Link href="/areas" className="inline-block mt-4 text-green-700 font-semibold hover:underline">View all 318+ neighborhoods →</Link>
         </section>
 
         {/* Related services */}
