@@ -1,22 +1,35 @@
 {
-  "metaTitle": "Port Washington Pest Control | The Best Pest Control NYC",
-  "metaDescription": "Professional pest control services in Port Washington, NY. Waterfront home protection from rodents, ants, and seasonal pests. Call (855) 930-5016 today.",
-  "heroParagraph": "Port Washington's scenic waterfront location along Long Island Sound creates unique pest challenges for homeowners. The community's proximity to water attracts moisture-loving pests, while established neighborhoods with mature landscaping provide ideal harborage areas. Seasonal temperature fluctuations drive rodents and insects to seek shelter in warm homes during cooler months. Our comprehensive pest control services protect Port Washington properties from common invaders including Norway rats, carpenter ants, pavement ants, and occasional invaders like silverfish and centipedes. We understand the specific pest pressures facing waterfront communities and provide targeted solutions to keep your Long Island home pest-free year-round.",
-  "commonPestsSection": "Port Washington's waterfront environment supports diverse pest populations that commonly invade area homes. The proximity to Long Island Sound creates ideal conditions for moisture-loving pests like silverfish, centipedes, and springtails. Norway rats and house mice frequently enter homes seeking food and shelter, particularly during fall and winter months. Carpenter ants thrive in the area's humid conditions, often nesting in water-damaged wood near foundations. Pavement ants emerge from sidewalk cracks and driveways in spring. The established trees and landscaping throughout Port Washington provide harborage for various occasional invaders. Our local expertise ensures effective treatment strategies tailored to these specific waterfront pest challenges.",
-  "whyUsSection": "The Best Pest Control NYC understands Port Washington's unique waterfront pest challenges. Our technicians are experienced in treating Long Island properties and familiar with local pest patterns influenced by proximity to Long Island Sound. We provide comprehensive inspections, targeted treatments, and preventive strategies specifically designed for Port Washington homes. Our proven methods effectively address moisture-related pests and seasonal invaders common to Nassau County waterfront communities.",
+  "title": "Port Washington Pest Control | Expert Extermination Services on Long Island",
+  "metaDescription": "Professional pest control services in Port Washington, NY. Protecting waterfront homes and businesses from rodents, mosquitoes, termites, and more. Call today for fast, reliable service!",
+  "intro": "Port Washington's beautiful waterfront location on Long Island Sound brings unique pest control challenges to this picturesque Nassau County community. Our experienced exterminators understand the specific pest pressures facing Port Washington homes and businesses, from moisture-loving insects to rodents seeking harbor-side shelter. We provide comprehensive, eco-friendly pest management solutions tailored to protect your property year-round.",
+  "localContext": "Port Washington's mix of historic waterfront estates, marina-adjacent properties, and charming downtown buildings creates diverse pest control needs. The proximity to Long Island Sound, Manhasset Bay, and numerous parks means residents must be vigilant against moisture-related pests and wildlife intrusions common to coastal communities.",
+  "commonPests": "Waterfront properties in Port Washington commonly face mosquitoes, carpenter ants, termites, and moisture-seeking pests like silverfish and centipedes drawn to the humid coastal environment. Rodents, particularly mice and Norway rats, frequently seek shelter in homes during cooler months, while stinging insects like wasps and hornets are prevalent near the water during summer.",
+  "services": [
+    "Mosquito Control & Abatement",
+    "Termite Inspection & Treatment",
+    "Rodent Exclusion & Removal",
+    "Carpenter Ant Extermination",
+    "Bed Bug Heat Treatment",
+    "Cockroach Extermination",
+    "Tick & Flea Control",
+    "Wasp & Hornet Removal",
+    "Silverfish Treatment",
+    "Wildlife Removal",
+    "Preventative Pest Management",
+    "Commercial Pest Control"
+  ],
   "faqs": [
     {
-      "q": "What pests are most common in Port Washington waterfront homes?",
-      "a": "Port Washington homes frequently deal with moisture-loving pests like silverfish and centipedes, along with Norway rats, house mice, and carpenter ants. The waterfront location and humid conditions create ideal environments for these pests."
+      "question": "Why are mosquitoes such a problem in Port Washington?",
+      "answer": "Port Washington's location on Long Island Sound, combined with Manhasset Bay and numerous wetland areas, creates ideal breeding conditions for mosquitoes. Standing water near marinas, harbors, and residential properties provides ample breeding sites. Our mosquito control program includes larvicide treatments, barrier spraying, and identification of breeding sources to significantly reduce mosquito populations throughout the season."
     },
     {
-      "q": "How does Port Washington's location affect pest activity?",
-      "a": "Being situated on Long Island Sound creates higher humidity levels that attract moisture-loving pests. The waterfront environment and established neighborhoods provide numerous harborage areas, while seasonal changes drive pests indoors for shelter."
+      "question": "Are termites common in Port Washington waterfront homes?",
+      "answer": "Yes, termites are a significant concern in Port Washington due to the humid coastal climate and moisture levels that attract these wood-destroying insects. Both subterranean and dampwood termites thrive in waterfront environments. We recommend annual termite inspections for all Port Washington properties, with particular attention to homes near the water, older structures, and properties with wooden decks or pilings."
     },
     {
-      "q": "Do you service other Nassau County areas near Port Washington?",
-      "a": "Yes, we provide comprehensive pest control services throughout Nassau County, including nearby Great Neck, Manhasset, and Sands Point. Our technicians are familiar with pest challenges specific to Long Island waterfront communities."
+      "question": "How quickly can you respond to pest emergencies in Port Washington?",
+      "answer": "We offer same-day or next-day service for most pest emergencies in Port Washington and throughout Nassau County. Whether you're dealing with a rodent infestation, bed bugs, stinging insects, or any urgent pest situation, our local technicians are equipped to respond quickly and effectively to protect your home or business."
     }
-  ],
-  "generatedAt": "2026-04-11T00:28:18.082771"
+  ]
 }
