@@ -59,7 +59,7 @@ export default function Header() {
               href={`tel:${PHONE_NUMBER}`}
               className="bg-green-700 hover:bg-green-600 text-white font-bold px-4 py-2 rounded-lg text-sm transition"
             >
-              📞 {PHONE_DISPLAY}
+              📞 Call Now
             </a>
           </div>
 
@@ -99,7 +99,7 @@ export default function Header() {
                 href={`tel:${PHONE_NUMBER}`}
                 className="block text-center bg-green-700 text-white font-bold px-4 py-3 rounded-lg hover:bg-green-600 transition"
               >
-                📞 Call {PHONE_DISPLAY}
+                📞 Call Now
               </a>
               <a
                 href={`sms:${PHONE_NUMBER}`}

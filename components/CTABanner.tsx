@@ -20,7 +20,6 @@ import { useState } from "react";
 import ContactForm from "./ContactForm";
 
 const PHONE_NUMBER = process.env.NEXT_PUBLIC_PHONE_NUMBER || "YOUR-PHONE-NUMBER";
-const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(212) 000-0000";
 
 interface CTABannerProps {
   variant?: "full" | "compact" | "form";
@@ -28,7 +27,7 @@ interface CTABannerProps {
   subhead?: string;
   preselectedPest?: string;
   source?: string;
-  dark?: boolean; // dark=true uses green-800 bg, dark=false uses white/gray
+  dark?: boolean;
 }
 
 export default function CTABanner({
@@ -58,7 +57,7 @@ export default function CTABanner({
               href={`tel:${PHONE_NUMBER}`}
               className={`font-bold px-5 py-3 rounded-xl text-sm transition ${dark ? "bg-white text-green-800 hover:bg-green-50" : "bg-green-700 text-white hover:bg-green-600"}`}
             >
-              📞 {PHONE_DISPLAY}
+              📞 Call Now
             </a>
             <a
               href={`sms:${PHONE_NUMBER}`}
@@ -116,7 +115,7 @@ export default function CTABanner({
                 href={`tel:${PHONE_NUMBER}`}
                 className={`text-xl font-bold hover:underline ${dark ? "text-white" : "text-green-700"}`}
               >
-                📞 {PHONE_DISPLAY}
+                📞 Call Now
               </a>
             </div>
           </div>
@@ -159,7 +158,7 @@ export default function CTABanner({
             href={`tel:${PHONE_NUMBER}`}
             className={`font-bold px-8 py-4 rounded-xl text-lg transition ${dark ? "bg-white text-green-800 hover:bg-green-50" : "bg-green-700 text-white hover:bg-green-600"}`}
           >
-            📞 Call {PHONE_DISPLAY}
+            📞 Call Now
           </a>
           <a
             href={`sms:${PHONE_NUMBER}`}

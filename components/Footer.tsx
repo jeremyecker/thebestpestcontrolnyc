@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 const PHONE_NUMBER = process.env.NEXT_PUBLIC_PHONE_NUMBER || "8559305016";
-const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(855) 930-5016";
 
 const SERVICES_LINKS = [
   { label: "Cockroach Extermination", href: "/services/cockroach-extermination" },
@@ -51,7 +50,7 @@ export default function Footer() {
               href={`tel:${PHONE_NUMBER}`}
               className="bg-white text-green-800 font-bold px-5 py-2.5 rounded-lg hover:bg-green-50 transition text-sm"
             >
-              📞 {PHONE_DISPLAY}
+              📞 Call Now
             </a>
             <a
               href={`sms:${PHONE_NUMBER}`}
