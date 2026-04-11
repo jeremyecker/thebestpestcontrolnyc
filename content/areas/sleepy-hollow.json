@@ -1,22 +1,33 @@
 {
-  "metaTitle": "Pest Control Sleepy Hollow NY | The Best Pest Control NYC",
-  "metaDescription": "Professional pest control in Sleepy Hollow, NY. Protecting Colonial & Victorian homes from rodents, ants, and seasonal pests. Call (855) 930-5016 today!",
-  "heroParagraph": "Sleepy Hollow's historic Colonial and Victorian homes offer unique charm but also present distinct pest control challenges. The village's mature trees, wooded areas, and proximity to the Hudson River create ideal conditions for various pests seeking shelter in your historic property. Older homes with their original foundations, wooden structures, and numerous entry points require specialized pest management strategies. From field mice seeking warmth in your attic to carpenter ants attracted to aged wooden beams, The Best Pest Control NYC understands the specific needs of Sleepy Hollow's residential properties and provides targeted solutions that preserve your home's historic integrity.",
-  "commonPestsSection": "Sleepy Hollow's wooded landscape and historic architecture attract specific pests throughout the seasons. Field mice and house mice commonly invade homes during fall and winter, using small gaps in older foundations. Carpenter ants target the wooden structures prevalent in Colonial and Victorian homes, while pavement ants emerge from cracks in aged walkways and driveways. The village's abundant trees support populations of squirrels that often find attic access through loose roof tiles. Spring brings increased activity from black ants and occasional carpenter bee issues around wooden porches and trim. Basement moisture in older homes can attract silverfish and occasional centipede problems, making year-round pest management essential.",
-  "whyUsSection": "The Best Pest Control NYC specializes in protecting Sleepy Hollow's historic homes with proven expertise throughout Westchester County. We understand the unique challenges of older properties and use targeted treatments that are safe for families while preserving your home's character. Our technicians are familiar with Colonial and Victorian architecture, ensuring effective pest elimination without compromising structural integrity. We proudly serve Sleepy Hollow alongside Tarrytown, Ossining, and Pleasantville with reliable, professional service.",
+  "title": "Pest Control in Sleepy Hollow, NY | Extermination Services in Westchester",
+  "metaDescription": "Professional pest control services in Sleepy Hollow, NY. Protecting historic Colonial and Victorian homes from rodents, termites, bed bugs, and more. Call today!",
+  "intro": "Sleepy Hollow's historic homes and picturesque Hudson River location require specialized pest control services that protect your property while respecting its architectural integrity. Our experienced technicians understand the unique challenges of maintaining pest-free Colonial and Victorian homes in this famous Westchester village. We provide comprehensive, family-safe solutions for all residential and commercial pest problems.",
+  "localContext": "Sleepy Hollow's concentration of Colonial-era and Victorian homes, many dating back centuries, presents unique pest control challenges with their original woodwork, stone foundations, and historic construction methods. The village's tree-lined streets, proximity to the Hudson River, and wooded areas create an environment where pests naturally seek shelter in these beautiful but vulnerable older structures.",
+  "commonPests": "Historic homes in Sleepy Hollow commonly face issues with carpenter ants, termites, mice, and squirrels that exploit gaps in aged construction and foundation cracks. The area's mature trees and riverside location also attract mosquitoes, stink bugs, and occasional wildlife intrusions that require professional intervention.",
+  "services": [
+    "Termite Inspection & Treatment",
+    "Rodent Control & Exclusion",
+    "Carpenter Ant Extermination",
+    "Bed Bug Heat Treatment",
+    "Cockroach Elimination",
+    "Mosquito Control",
+    "Squirrel & Wildlife Removal",
+    "Stink Bug Prevention",
+    "Spider Control",
+    "Tick & Flea Treatment"
+  ],
   "faqs": [
     {
-      "q": "How do pests get into older Colonial homes in Sleepy Hollow?",
-      "a": "Older Colonial homes often have gaps in stone foundations, loose mortar, and wooden structures that create entry points. Mice can squeeze through holes as small as a dime, while ants follow moisture trails. We seal these historic vulnerabilities while preserving your home's character."
+      "question": "What pest control challenges are unique to Sleepy Hollow's historic homes?",
+      "answer": "Sleepy Hollow's Colonial and Victorian homes often have original wood construction, stone foundations with settling cracks, and centuries-old structural gaps that pests exploit. We use specialized treatments that protect historic materials while effectively eliminating termites, carpenter ants, and rodents without damaging architectural features or period details."
     },
     {
-      "q": "Are pest treatments safe for Victorian homes with original woodwork?",
-      "a": "Yes, we use specialized treatments designed for historic properties. Our methods target pests effectively while protecting original wooden beams, trim, and architectural details that make Victorian homes special. We understand the importance of preserving Sleepy Hollow's historic character."
+      "question": "How quickly can you respond to pest emergencies in Sleepy Hollow?",
+      "answer": "We offer same-day and next-day service for urgent pest problems in Sleepy Hollow, including rodent infestations, wasp nests, and bed bug discoveries. Our local Westchester team is familiar with the village's layout and can quickly reach properties near the Old Dutch Church, Philipsburg Manor, or any residential neighborhood."
     },
     {
-      "q": "Do you service areas near Sleepy Hollow like Tarrytown and Mount Pleasant?",
-      "a": "Absolutely! We provide comprehensive pest control services throughout Westchester County, including Sleepy Hollow, Tarrytown, Ossining, Pleasantville, and Mount Pleasant. Call (855) 930-5016 to schedule service in your area."
+      "question": "Are your pest control treatments safe for older homes and families?",
+      "answer": "Absolutely. We use eco-friendly, low-toxicity treatments specifically selected for historic properties and family homes. Our methods are safe for children, pets, and won't damage antique woodwork, original plaster, or historic materials while effectively eliminating pests and preventing future infestations."
     }
-  ],
-  "generatedAt": "2026-04-11T00:29:58.016576"
+  ]
 }

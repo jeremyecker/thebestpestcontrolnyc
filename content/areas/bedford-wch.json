@@ -1,22 +1,33 @@
 {
-  "metaTitle": "Bedford NY Pest Control | The Best Pest Control NYC",
-  "metaDescription": "Professional pest control for Bedford's luxury homes & horse properties. Serving estates in Westchester County. Expert rodent, ant & wildlife removal. Call (855) 930-5016!",
-  "heroParagraph": "Bedford's sprawling estates and horse farms create unique pest control challenges that require specialized expertise. The rural setting and proximity to wooded areas make properties vulnerable to wildlife intrusions, while luxury homes demand discreet, effective treatments that protect both residents and valuable equine investments. Our team understands the specific needs of Bedford's upscale community, from managing rodent issues in horse barns to preventing carpenter ant damage in custom-built estates. We provide comprehensive pest solutions that maintain the pristine condition of your property while respecting the natural beauty that makes Bedford one of Westchester County's most desirable communities.",
-  "commonPestsSection": "Bedford's rural landscape attracts various pests that thrive in the area's wooded environment and agricultural setting. Mice and rats frequently invade horse barns and estate homes, seeking shelter and food sources. Carpenter ants pose significant threats to wooden structures, particularly affecting custom millwork in luxury homes. Deer mice are common due to the abundant wildlife corridors, while wasps and hornets build nests in estate outbuildings and landscaped areas. The area's mature trees and extensive gardens also harbor ticks, creating health concerns for families and their horses. Additionally, raccoons and other wildlife often damage property while seeking food around barns and outdoor living spaces.",
-  "whyUsSection": "The Best Pest Control NYC understands Bedford's unique pest challenges, from protecting million-dollar estates to safeguarding horse facilities. Our licensed technicians provide discreet, effective treatments that won't disrupt your property's elegance or your horses' well-being. We use eco-friendly methods safe for children, pets, and livestock while delivering results that maintain Bedford's high standards. With emergency services and customized treatment plans, we're the trusted choice for Westchester County's most discerning homeowners.",
+  "title": "Pest Control in Bedford, Westchester County | Expert Extermination Services",
+  "metaDescription": "Professional pest control services in Bedford, NY. Protecting horse farms, estates, and upscale properties from rodents, wildlife, termites, and seasonal pests. Call today!",
+  "intro": "Bedford's sprawling estates, horse farms, and historic properties require specialized pest control solutions that protect both your family and your investment. The Best Pest Control NYC provides discreet, effective pest management services tailored to the unique needs of Bedford's upscale rural community. Our experienced technicians understand the challenges of protecting large properties and equestrian facilities from pests common to Westchester's countryside.",
+  "localContext": "Bedford's landscape of expansive estates, stone walls, barns, and wooded properties creates an ideal environment for various pests seeking shelter and food sources. From the historic Bedford Village to the rural back roads lined with horse farms, our team knows the area intimately and provides customized pest solutions that preserve the character and value of your property.",
+  "commonPests": "Bedford properties commonly face issues with mice, rats, and other rodents seeking warmth in barns and main houses, carpenter ants and termites threatening wooden structures, and wildlife including raccoons, squirrels, and bats entering attics and outbuildings. Seasonal pests like stinging insects, ticks, and mosquitoes are prevalent given the area's extensive lawns, gardens, and proximity to wooded areas.",
+  "services": [
+    "Rodent Control & Exclusion",
+    "Wildlife Removal",
+    "Termite Inspection & Treatment",
+    "Carpenter Ant Extermination",
+    "Tick & Mosquito Control",
+    "Stinging Insect Removal",
+    "Bat Exclusion Services",
+    "Squirrel & Raccoon Removal",
+    "Preventative Pest Management",
+    "Equestrian Facility Pest Control"
+  ],
   "faqs": [
     {
-      "q": "Do you provide pest control for horse farms in Bedford?",
-      "a": "Yes, we specialize in pest control for equestrian properties throughout Bedford. Our treatments are safe for horses and livestock while effectively eliminating rodents, flies, and other pests commonly found in barns and stable areas."
+      "question": "What pest control challenges are unique to Bedford's horse farms and estates?",
+      "answer": "Large Bedford properties face unique challenges including rodent control in barns and stables, fly management around horses, wildlife intrusion in multiple structures, and pest prevention across extensive grounds. We offer specialized services for equestrian facilities that protect your horses' health while maintaining sanitary conditions, along with comprehensive estate-wide treatments that address the full scope of your property."
     },
     {
-      "q": "How do you handle wildlife issues on large Bedford estates?",
-      "a": "We provide comprehensive wildlife management for Bedford's luxury properties, including humane removal of raccoons, squirrels, and other animals. Our approach protects your estate's landscaping and structures while preventing future wildlife intrusions through exclusion methods."
+      "question": "How can I protect my Bedford home from wildlife intrusions?",
+      "answer": "Bedford's wooded setting makes homes vulnerable to raccoons, squirrels, bats, and other wildlife seeking entry through chimneys, vents, and roof gaps. We provide humane wildlife exclusion services including thorough property inspections, safe animal removal, entry point sealing, and preventative measures to keep wildlife out permanently. Our approach protects your home's integrity while respecting the natural environment that makes Bedford special."
     },
     {
-      "q": "Are your treatments safe for the wooded areas around my Bedford property?",
-      "a": "Absolutely. We use eco-friendly pest control methods that protect Bedford's natural environment while effectively treating your home. Our treatments are designed to target specific pests without harming beneficial wildlife or the pristine wooded areas that make Bedford special."
+      "question": "Are your pest control treatments safe for my horses and other animals?",
+      "answer": "Absolutely. We use pet-safe and livestock-safe pest control methods specifically designed for properties with horses, dogs, cats, and other animals. Our technicians are trained in equestrian facility pest management and work around your animals' schedules, applying targeted treatments that eliminate pests without putting your beloved animals at risk. We always discuss treatment plans with you beforehand to ensure complete peace of mind."
     }
-  ],
-  "generatedAt": "2026-04-11T00:30:19.886713"
+  ]
 }

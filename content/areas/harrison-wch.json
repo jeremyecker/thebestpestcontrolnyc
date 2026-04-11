@@ -1,22 +1,33 @@
 {
-  "metaTitle": "Harrison NY Pest Control | The Best Pest Control NYC",
-  "metaDescription": "Expert pest control services for Harrison, NY homes. Protecting Westchester County's affluent residential properties from termites, rodents & more. Call (855) 930-5016!",
-  "heroParagraph": "Harrison's beautiful residential properties and mature landscaping create unique pest control challenges for homeowners in this affluent Westchester County community. The town's well-established neighborhoods, with their large homes and extensive gardens, provide ideal conditions for various pests to thrive. From carpenter ants attracted to the area's abundant woodwork to rodents seeking shelter in spacious basements, Harrison residents need specialized pest management solutions. Our comprehensive approach addresses the specific needs of Harrison's upscale properties, ensuring your family's comfort and protecting your significant real estate investment from costly pest damage.",
-  "commonPestsSection": "Harrison's mature trees and well-maintained gardens attract carpenter ants, termites, and wood-boring beetles that threaten the structural integrity of the area's valuable homes. The town's proximity to wooded areas brings occasional wildlife issues, while mice and rats often seek warmth in basements during Westchester's cold winters. Mosquitoes and ticks thrive in Harrison's lush landscapes, posing health risks to families enjoying their outdoor spaces. The area's older, established homes may also experience occasional issues with silverfish in humid areas and cluster flies seeking winter shelter in attics and wall voids.",
-  "whyUsSection": "Harrison homeowners trust The Best Pest Control NYC for discreet, professional service that matches their community's standards. We understand the unique challenges of Westchester County's upscale properties and provide customized solutions that protect your investment. Our experienced technicians respect your privacy and property while delivering effective results. Serving nearby Rye, White Plains, Mamaroneck, and Scarsdale, we're the local experts Harrison residents rely on for comprehensive pest management.",
+  "title": "Expert Pest Control in Harrison, NY | The Best Pest Control NYC",
+  "metaDescription": "Professional pest control services in Harrison, Westchester County. Protecting your upscale home from rodents, termites, and wildlife. Call today for a free inspection!",
+  "intro": "Harrison's beautiful estates and well-maintained properties deserve the highest level of pest protection. The Best Pest Control NYC provides discreet, effective pest management services tailored to the unique needs of Harrison's affluent residential community. Our experienced technicians understand the importance of protecting your valuable investment while maintaining the pristine appearance of your property.",
+  "localContext": "Harrison's mix of stately Colonial and Tudor-style homes, expansive properties, and proximity to wooded areas creates unique pest management challenges. From estates near the Purchase Country Club to homes along Harrison's tree-lined streets, our team understands the local landscape and architectural features that can attract unwanted pests.",
+  "commonPests": "Harrison's larger properties and mature landscaping often attract rodents, termites, carpenter ants, and occasional wildlife intrusions such as raccoons and squirrels. The town's wooded areas and well-established gardens also make mosquitoes, ticks, and stinging insects common concerns, especially during warmer months.",
+  "services": [
+    "Rodent Control & Exclusion",
+    "Termite Inspection & Treatment",
+    "Carpenter Ant Elimination",
+    "Wildlife Removal & Prevention",
+    "Mosquito & Tick Control",
+    "Bed Bug Treatment",
+    "Cockroach Extermination",
+    "Wasp & Hornet Nest Removal",
+    "Spider Control",
+    "Preventative Maintenance Programs"
+  ],
   "faqs": [
     {
-      "q": "What pests are most common in Harrison homes?",
-      "a": "Harrison homes commonly deal with carpenter ants, termites, mice, and seasonal issues with mosquitoes and ticks due to the area's mature landscaping and wooded surroundings."
+      "question": "What pest control challenges are unique to Harrison's larger estates?",
+      "answer": "Harrison's expansive properties with mature trees, extensive landscaping, and outbuildings can provide multiple entry points and habitats for pests. We conduct comprehensive inspections of main residences, pool houses, garages, and surrounding grounds to identify and address all potential pest issues. Our discreet service ensures your property remains protected without disrupting your privacy or lifestyle."
     },
     {
-      "q": "How often should Harrison properties be inspected for pests?",
-      "a": "We recommend quarterly inspections for Harrison homes, with additional seasonal treatments for outdoor pests like mosquitoes and ticks that thrive in the area's lush environments."
+      "question": "How do you handle wildlife issues common in Harrison's wooded areas?",
+      "answer": "Harrison's proximity to natural wooded areas means wildlife such as raccoons, squirrels, and bats occasionally seek shelter in attics, chimneys, and crawl spaces. We provide humane wildlife removal services along with exclusion work to prevent future intrusions. Our team also inspects for and repairs any damage caused by wildlife while ensuring compliance with local regulations."
     },
     {
-      "q": "Do you provide discreet service for Harrison's residential neighborhoods?",
-      "a": "Yes, we understand Harrison's community standards and provide professional, discreet service using unmarked vehicles when requested to maintain your privacy and neighborhood aesthetics."
+      "question": "Do you offer eco-friendly pest control options for Harrison residents?",
+      "answer": "Absolutely. We understand that Harrison homeowners value both effective pest control and environmental responsibility. We offer integrated pest management solutions that prioritize non-toxic methods, targeted treatments, and eco-friendly products that are safe for families, pets, and the beautiful landscaping that defines Harrison's neighborhoods."
     }
-  ],
-  "generatedAt": "2026-04-11T00:29:49.531939"
+  ]
 }

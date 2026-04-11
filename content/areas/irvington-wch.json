@@ -1,22 +1,34 @@
 {
-  "metaTitle": "Pest Control Irvington NY - The Best Pest Control NYC",
-  "metaDescription": "Professional pest control services in Irvington, NY. Protecting Victorian homes from ants, rodents, termites & more. Call (855) 930-5016 today!",
-  "heroParagraph": "Irvington's prestigious Hudson River location and magnificent Victorian homes create unique pest control challenges that require specialized expertise. The village's mature tree canopy and proximity to the Hudson River attract various pests seeking shelter in these historic properties. From carpenter ants damaging ornate woodwork to mice infiltrating basements during harsh winters, Irvington homeowners need reliable pest protection. Our experienced technicians understand the delicate balance required to protect your valuable Victorian home while maintaining its architectural integrity and your family's safety.",
-  "commonPestsSection": "Irvington's riverside location and historic Victorian architecture create ideal conditions for specific pest problems. Carpenter ants frequently target the intricate wooden details and aging timber found in these classic homes. The Hudson River's moisture attracts mosquitoes and creates humid conditions perfect for silverfish and house centipedes. Mature oak and maple trees provide highways for squirrels and shelter for various insects. During winter months, mice and rats seek warmth in basements and attics of these large homes. Additionally, the village's affluent landscaping often harbors ticks and seasonal ant colonies.",
-  "whyUsSection": "The Best Pest Control NYC specializes in protecting Irvington's historic Victorian homes with tailored treatment plans that preserve architectural integrity. Our technicians understand the unique challenges of riverside properties and mature neighborhoods. We serve nearby Tarrytown, Dobbs Ferry, Ardsley, and Elmsford with proven results. Our eco-friendly methods protect your family, pets, and valuable property investments while effectively eliminating pests year-round.",
+  "title": "Pest Control in Irvington, NY | Westchester Extermination Services",
+  "metaDescription": "Professional pest control services in Irvington, NY. Protecting Victorian homes and historic properties from rodents, termites, and seasonal pests. Call for same-day service.",
+  "intro": "Irvington's beautiful Victorian homes and historic properties along the Hudson River require specialized pest control services that protect both structural integrity and resident comfort. Our experienced technicians understand the unique challenges of maintaining pest-free environments in this affluent Westchester village. We provide discreet, effective treatments tailored to Irvington's distinctive architecture and lifestyle.",
+  "localContext": "Irvington's tree-lined streets, historic Victorian estates, and proximity to the Hudson River create specific pest pressures from moisture-loving insects and wildlife seeking shelter in ornate woodwork and spacious attics. The village's mature landscaping and wooded areas near the river provide ideal habitats for various pests year-round.",
+  "commonPests": "Irvington residents commonly encounter termites and carpenter ants that threaten historic wood structures, mice and squirrels seeking entry through older home foundations, and moisture pests like silverfish and earwigs in basements near the Hudson. Seasonal influxes of stink bugs, ladybugs, and wasps are also prevalent in this leafy riverside community.",
+  "services": [
+    "Termite Inspection & Treatment",
+    "Carpenter Ant Extermination",
+    "Rodent Control & Exclusion",
+    "Bed Bug Heat Treatment",
+    "Cockroach Extermination",
+    "Wasp & Hornet Nest Removal",
+    "Mosquito Control",
+    "Tick Treatment",
+    "Squirrel & Wildlife Removal",
+    "Silverfish Control",
+    "Preventative Maintenance Plans"
+  ],
   "faqs": [
     {
-      "q": "How do you protect Victorian homes during pest treatment?",
-      "a": "We use specialized techniques that preserve historic woodwork and architectural details. Our treatments target pest entry points while protecting delicate surfaces and maintaining your home's character."
+      "question": "Are pest control treatments safe for historic Victorian homes in Irvington?",
+      "answer": "Yes, we use specialized treatments designed to protect historic structures while effectively eliminating pests. Our technicians are trained in treating older homes with delicate woodwork, plaster, and original architectural details, using methods that won't damage finishes or materials while providing long-lasting pest protection."
     },
     {
-      "q": "What pests are most common near the Hudson River?",
-      "a": "Riverside Irvington properties commonly face carpenter ants, moisture-loving insects, seasonal mosquitoes, and rodents seeking winter shelter. We provide targeted treatments for these water-adjacent pest challenges."
+      "question": "Why are termites such a concern in Irvington?",
+      "answer": "Irvington's combination of historic wooden structures, proximity to the Hudson River, and mature trees creates ideal conditions for termite activity. Many Victorian homes feature extensive wood framing, trim, and porches that are vulnerable to termite damage. Regular inspections and preventative treatments are essential to protect these valuable properties."
     },
     {
-      "q": "Do you service other Westchester villages near Irvington?",
-      "a": "Yes, we proudly serve Irvington and surrounding communities including Tarrytown, Dobbs Ferry, Ardsley, and Elmsford with the same expert pest control services."
+      "question": "How quickly can you respond to pest emergencies in Irvington?",
+      "answer": "We offer same-day or next-day service for most pest emergencies in Irvington and surrounding Westchester areas. Whether you're dealing with a wasp nest, rodent infestation, or bed bugs, our team prioritizes rapid response to protect your home and family with minimal disruption to your daily routine."
     }
-  ],
-  "generatedAt": "2026-04-11T00:29:55.405491"
+  ]
 }

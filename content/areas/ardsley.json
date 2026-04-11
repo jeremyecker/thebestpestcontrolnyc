@@ -1,22 +1,35 @@
 {
-  "metaTitle": "Pest Control Ardsley NY | The Best Pest Control NYC",
-  "metaDescription": "Professional pest control services in Ardsley, NY. Protect your suburban home from ants, mice, termites & more. Local experts serving Westchester County.",
-  "heroParagraph": "Ardsley's charming suburban homes nestled among mature trees and well-established neighborhoods create the perfect environment for various pests to thrive. This small Westchester County village's proximity to the Hudson River and abundant green spaces means residents often deal with seasonal ant invasions, mice seeking warm shelter, and occasional termite concerns in older wooden structures. The village's quiet residential streets and lush landscaping, while beautiful, can harbor carpenter ants, stink bugs, and wasps. Our local pest control experts understand Ardsley's unique challenges and provide targeted solutions to keep your family home pest-free year-round.",
-  "commonPestsSection": "Ardsley homeowners frequently encounter ants marching through kitchens during spring and summer months, attracted by the village's humid climate near the Hudson River valley. Field mice and house mice are common fall and winter invaders, seeking warmth in Ardsley's cozy suburban homes. The area's mature oak and maple trees attract carpenter ants that can damage wooden structures, while stink bugs often congregate on home exteriors during cooler months. Wasps and yellow jackets build nests in eaves and landscaping, posing risks during outdoor family activities. Occasional spider infestations and seasonal cluster flies also plague residents in this peaceful Westchester community.",
-  "whyUsSection": "The Best Pest Control NYC has served Westchester County communities like Ardsley for years, understanding the unique pest pressures of suburban village life. Our technicians know local pest patterns, from seasonal ant trails to winter rodent behavior specific to this Hudson River valley area. We provide same-day service to Ardsley and nearby Dobbs Ferry, Irvington, and Elmsford, ensuring rapid response when pests threaten your family's comfort and home's integrity.",
+  "title": "Pest Control in Ardsley, NY | Westchester Extermination Services",
+  "metaDescription": "Professional pest control services in Ardsley, Westchester. Expert extermination for residential homes and properties. Fast, reliable, and eco-friendly solutions.",
+  "intro": "Ardsley's beautiful suburban homes and tree-lined streets deserve protection from unwanted pests year-round. Our professional pest control services provide Ardsley residents with comprehensive solutions tailored to the unique needs of this peaceful Westchester village. From preventative treatments to emergency extermination, we're committed to keeping your home pest-free.",
+  "localContext": "Ardsley's charming mix of early 20th-century homes and newer residential developments, combined with its proximity to wooded areas and the Saw Mill River, creates an environment where pest management is essential. The village's quiet neighborhoods and well-maintained properties benefit from regular pest prevention to maintain their pristine condition.",
+  "commonPests": "Ardsley homeowners commonly encounter ants, termites, mice, squirrels, and carpenter bees, particularly given the area's mature trees and older home structures. Seasonal issues with stinging insects like wasps and yellow jackets are also prevalent during warmer months, while rodents seek indoor shelter as temperatures drop.",
+  "services": [
+    "Cockroach Extermination",
+    "Bed Bug Treatment",
+    "Rodent Control",
+    "Ant Removal",
+    "Termite Inspection & Treatment",
+    "Wasp & Hornet Removal",
+    "Squirrel Removal",
+    "Carpenter Bee Control",
+    "Mosquito Control",
+    "Tick Treatment",
+    "Wildlife Exclusion",
+    "Preventative Pest Maintenance"
+  ],
   "faqs": [
     {
-      "q": "What pests are most common in Ardsley homes?",
-      "a": "Ardsley residents most commonly deal with ants, mice, carpenter ants, stink bugs, and wasps. The village's mature trees and proximity to green spaces create ideal conditions for these pests to thrive near homes."
+      "question": "What are the most common pest problems in Ardsley homes?",
+      "answer": "Ardsley residents most frequently deal with ants, carpenter bees, termites, and rodents like mice and squirrels. The village's many mature trees and older homes provide ideal conditions for wood-destroying insects, while proximity to wooded areas means wildlife and rodents are common concerns, especially during fall and winter months."
     },
     {
-      "q": "Do you provide same-day pest control service in Ardsley?",
-      "a": "Yes, we offer same-day pest control services throughout Ardsley and surrounding Westchester County areas including Dobbs Ferry, Irvington, and Elmsford. Call (855) 930-5016 for immediate assistance."
+      "question": "How quickly can you respond to a pest emergency in Ardsley?",
+      "answer": "We offer same-day or next-day service for most pest emergencies in Ardsley and throughout Westchester County. Our local technicians are familiar with the area and can typically respond within 24 hours for urgent situations like bed bug infestations, wasp nests, or rodent problems."
     },
     {
-      "q": "How do I prevent mice in my Ardsley home during winter?",
-      "a": "Seal cracks around your home's foundation, store food in airtight containers, remove outdoor food sources, and trim vegetation away from your house. Our Ardsley pest control team can perform preventive treatments before peak season."
+      "question": "Are your pest control treatments safe for families and pets in Ardsley?",
+      "answer": "Yes, we use EPA-approved products and eco-friendly treatment methods that are safe for children, pets, and the environment. Our technicians are trained in integrated pest management techniques that minimize chemical use while maximizing effectiveness, making them ideal for Ardsley's residential neighborhoods and family homes."
     }
-  ],
-  "generatedAt": "2026-04-11T00:29:57.653934"
+  ]
 }

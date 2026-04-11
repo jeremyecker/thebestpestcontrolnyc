@@ -1,22 +1,33 @@
 {
-  "metaTitle": "Pest Control Tarrytown NY | The Best Pest Control NYC",
-  "metaDescription": "Professional pest control in Tarrytown, NY. Protecting historic riverfront homes from ants, mice, termites & more. Serving Westchester County. Call (855) 930-5016",
-  "heroParagraph": "Tarrytown's historic riverfront charm along the Hudson River creates unique pest control challenges for homeowners. The village's mature trees, proximity to water, and century-old architecture provide ideal conditions for various pests seeking shelter and moisture. From the historic districts near the Old Dutch Church to neighborhoods along the Tappan Zee, Tarrytown homes face seasonal invasions of ants, mice, and moisture-loving insects. The Best Pest Control NYC understands these local challenges and provides targeted solutions that protect your Tarrytown home while preserving its historic character and riverside location.",
-  "commonPestsSection": "Tarrytown's Hudson River location and historic architecture attract specific pests year-round. Carpenter ants thrive in the village's older wooden structures, while moisture from the river creates perfect conditions for silverfish and house centipedes. Field mice seek winter shelter in Tarrytown's cozy homes, especially those near wooded areas along the Hudson. The village's mature landscaping harbors pavement ants and occasional carpenter bee activity. Termites pose particular risks to Tarrytown's historic wooden homes, making regular inspections essential for preservation-conscious homeowners throughout Westchester County.",
-  "whyUsSection": "The Best Pest Control NYC brings specialized expertise to Tarrytown's unique riverfront environment. We understand how Hudson Valley weather patterns affect pest activity and tailor treatments accordingly. Our technicians respect the historic nature of Tarrytown properties while delivering effective, modern pest solutions. With deep knowledge of Westchester County pest behavior and proven success throughout the region, we're the trusted choice for Tarrytown homeowners.",
+  "title": "Pest Control in Tarrytown, NY | Extermination & Removal Services",
+  "metaDescription": "Professional pest control services in Tarrytown, Westchester. Protecting historic Hudson River homes from rodents, termites, and seasonal pests. Call for fast, local service.",
+  "intro": "Tarrytown's historic homes and proximity to the Hudson River create unique pest control challenges that require experienced professionals. Our licensed exterminators provide comprehensive pest management solutions tailored to this charming riverfront village's specific needs. We protect both historic properties and modern residences throughout Tarrytown with safe, effective treatments.",
+  "localContext": "Tarrytown's beautiful 18th and 19th-century architecture, tree-lined streets, and waterfront location attract not only visitors drawn to sites like Lyndhurst Mansion and Sleepy Hollow Cemetery, but also pests seeking shelter in older structures. The village's dense residential areas, proximity to wooded areas, and historic buildings with aging foundations require specialized pest prevention strategies.",
+  "commonPests": "Tarrytown properties commonly face issues with mice and rats seeking warmth in older homes, termites threatening historic wooden structures, ants invading kitchens, and moisture-loving pests like silverfish and centipedes due to the humid riverfront climate. Seasonal mosquitoes and stinging insects are also prevalent near the Hudson River and surrounding greenspaces.",
+  "services": [
+    "Cockroach Extermination",
+    "Bed Bug Treatment",
+    "Rodent Control & Exclusion",
+    "Termite Inspection & Treatment",
+    "Ant Extermination",
+    "Mosquito Control",
+    "Wasp & Hornet Removal",
+    "Wildlife Removal",
+    "Silverfish Treatment",
+    "Flea & Tick Control"
+  ],
   "faqs": [
     {
-      "q": "What pests are most common in Tarrytown homes?",
-      "a": "Tarrytown homes commonly deal with carpenter ants, field mice, silverfish, and pavement ants due to the Hudson River proximity and historic wooden structures. Termite inspections are also crucial for older homes."
+      "question": "Why are pest problems common in Tarrytown's historic homes?",
+      "answer": "Tarrytown's many historic homes often have aging foundations, original woodwork, and structural gaps that develop over time, providing easy entry points for rodents and insects. The older construction methods and materials can also be more susceptible to termite damage and moisture issues that attract pests. Regular inspections and preventative treatments are essential for protecting these valuable properties."
     },
     {
-      "q": "How does Tarrytown's riverfront location affect pest activity?",
-      "a": "The Hudson River creates higher humidity levels that attract moisture-loving pests like silverfish and centipedes. The waterfront environment also supports larger ant populations and provides corridors for pest movement."
+      "question": "How does Tarrytown's location near the Hudson River affect pest activity?",
+      "answer": "The Hudson River creates a humid microclimate that attracts moisture-loving pests like silverfish, centipedes, and mosquitoes. The waterfront area also provides habitat for rodents and insects, while the combination of wooded areas and residential neighborhoods creates pathways for pests to move into homes. Seasonal flooding can also drive pests to seek higher ground in buildings."
     },
     {
-      "q": "Do you service other Westchester areas near Tarrytown?",
-      "a": "Yes, we provide comprehensive pest control throughout Westchester County, including nearby Sleepy Hollow, Irvington, White Plains, and Elmsford, with the same expert service Tarrytown residents trust."
+      "question": "What pest control methods are safe for Tarrytown's historic properties?",
+      "answer": "We use specialized, low-impact pest control techniques designed to protect historic structures while effectively eliminating infestations. Our approach includes careful inspections, targeted treatments that won't damage original materials, eco-friendly products when appropriate, and exclusion methods that preserve architectural integrity. We work closely with homeowners to ensure treatments meet both pest control needs and historic preservation standards."
     }
-  ],
-  "generatedAt": "2026-04-11T00:29:52.226888"
+  ]
 }

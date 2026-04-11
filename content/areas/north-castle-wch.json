@@ -1,22 +1,33 @@
 {
-  "metaTitle": "Pest Control North Castle NY | The Best Pest Control NYC",
-  "metaDescription": "Professional pest control services in North Castle, NY. Protecting Armonk homes from rodents, ants, and wildlife. Fast, effective treatment. Call (855) 930-5016!",
-  "heroParagraph": "North Castle's affluent suburban neighborhoods and wooded properties in areas like Armonk create unique pest challenges for homeowners. The town's mature landscaping, large lot sizes, and proximity to natural areas provide ideal conditions for various pests to thrive. From rodents seeking shelter in spacious homes during harsh Westchester winters to carpenter ants damaging wooden structures, North Castle residents need specialized pest control solutions. Our experienced team understands the specific pest pressures facing this prestigious community and provides discreet, effective treatments that protect your valuable investment while maintaining the pristine appearance of your property.",
-  "commonPestsSection": "North Castle's wooded suburban environment attracts several common pests throughout the year. Mice and rats frequently invade homes during fall and winter months, seeking warmth in basements and attics. Carpenter ants are particularly problematic, targeting the wooden elements of the area's many traditional and colonial-style homes. Stink bugs often become nuisances in late summer, while wasps and hornets build nests in eaves and landscaped areas. The town's proximity to natural areas also brings occasional wildlife issues. Ticks carrying Lyme disease are a significant concern given the extensive wooded properties and hiking trails throughout North Castle and neighboring areas.",
-  "whyUsSection": "The Best Pest Control NYC understands North Castle's unique pest challenges and affluent community standards. We provide discreet, professional service that respects your privacy and property values. Our technicians are experienced with the specific pest issues affecting Westchester's suburban homes, from rodent exclusion to carpenter ant treatments. We use safe, effective methods that protect your family and pets while delivering lasting results that North Castle homeowners expect.",
+  "title": "Pest Control in North Castle, NY | Armonk Exterminator Services",
+  "metaDescription": "Professional pest control services in North Castle and Armonk, NY. Protecting Westchester's affluent homes from rodents, termites, and wildlife. Call today!",
+  "intro": "North Castle, home to the prestigious hamlet of Armonk, requires specialized pest control services that protect its upscale properties and maintain the high standards this Westchester community expects. The Best Pest Control NYC delivers discreet, effective solutions tailored to North Castle's distinctive residential landscape. Our experienced technicians understand the unique pest challenges facing suburban estates, executive homes, and wooded properties throughout this affluent town.",
+  "localContext": "North Castle's expansive properties, colonial and contemporary architecture, and proximity to wooded conservation areas create an environment where wildlife encounters and pest issues require professional expertise. From estates near Wampus Brook Park to homes throughout Armonk's business district, our team serves the entire North Castle community with respect for your property and privacy.",
+  "commonPests": "The town's mature landscaping, stone walls, and wooded settings attract mice, squirrels, raccoons, and carpenter ants seeking shelter in attics, crawl spaces, and foundations. Termites pose particular risks to North Castle's valuable homes, while ticks and mosquitoes thrive in the area's lush yards and natural surroundings.",
+  "services": [
+    "Rodent Control & Exclusion",
+    "Termite Inspection & Treatment",
+    "Wildlife Removal",
+    "Carpenter Ant Extermination",
+    "Tick & Mosquito Control",
+    "Wasp & Hornet Removal",
+    "Squirrel & Raccoon Exclusion",
+    "Preventative Pest Management",
+    "Bed Bug Treatment",
+    "Spider Control"
+  ],
   "faqs": [
     {
-      "q": "What pest control services do you offer in North Castle?",
-      "a": "We provide comprehensive pest control including rodent control, ant elimination, wasp removal, tick treatments, and wildlife exclusion services specifically designed for North Castle's suburban properties and wooded lots."
+      "question": "What pest issues are most common in North Castle's wooded properties?",
+      "answer": "North Castle's wooded lots frequently experience issues with mice, squirrels, raccoons, and carpenter ants seeking entry through foundations, rooflines, and chimneys. Termites are also a concern given the area's mature trees and wood-sided homes. We provide comprehensive inspections and wildlife exclusion services designed specifically for suburban estates with natural surroundings."
     },
     {
-      "q": "How quickly can you respond to pest issues in the Armonk area?",
-      "a": "We offer same-day emergency service to North Castle and Armonk residents, with most routine appointments scheduled within 24-48 hours. Our proximity to Westchester County ensures rapid response times."
+      "question": "Do you offer discreet pest control services for Armonk homes?",
+      "answer": "Absolutely. We understand North Castle residents value privacy and discretion. Our unmarked vehicles and professional technicians work efficiently and respectfully, providing effective pest control without disrupting your household or attracting attention from neighbors. We schedule appointments at your convenience and maintain complete confidentiality."
     },
     {
-      "q": "Do you use safe pest control methods around North Castle homes?",
-      "a": "Yes, we use EPA-approved, family and pet-safe treatments that are effective yet gentle. Our methods are specifically chosen to protect North Castle's high-end properties while eliminating pest problems completely."
+      "question": "How can I protect my North Castle property from ticks and mosquitoes?",
+      "answer": "Our seasonal tick and mosquito control programs target breeding areas and resting spots throughout your property, including wooded edges, stone walls, and landscaped areas. We use EPA-approved treatments that are safe for families and pets while dramatically reducing tick and mosquito populations during peak seasons, allowing you to enjoy your outdoor spaces safely."
     }
-  ],
-  "generatedAt": "2026-04-11T00:30:13.382202"
+  ]
 }
