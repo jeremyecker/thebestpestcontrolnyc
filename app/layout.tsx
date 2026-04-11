@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.thebestpestcontrolnyc.com"),
@@ -27,11 +28,20 @@ export const metadata: Metadata = {
     title: "The Best Pest Control NYC | Licensed Exterminators",
     description:
       "NYS DEC licensed exterminators serving 318+ NYC neighborhoods. 32 pest types eliminated. Free inspection. No money upfront.",
+    images: [
+      {
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "The Best Pest Control NYC | Licensed Exterminators",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Best Pest Control NYC",
     description: "NYS DEC licensed exterminators. 318+ neighborhoods. Free inspection.",
+    images: ["/opengraph-image.png"],
   },
   robots: {
     index: true,
@@ -68,6 +78,27 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        {/* Google Analytics 4 — add NEXT_PUBLIC_GA_ID env var in Vercel to activate */}
+        {process.env.NEXT_PUBLIC_GA_ID && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
+              strategy="afterInteractive"
+            />
+            <Script
+              id="ga4-init"
+              strategy="afterInteractive"
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', { page_path: window.location.pathname });
+                `,
+              }}
+            />
+          </>
+        )}
       </body>
     </html>
   );
