@@ -1,22 +1,33 @@
 {
-  "metaTitle": "Pest Control Old Westbury NY | The Best Pest Control NYC",
-  "metaDescription": "Expert pest control for Old Westbury's luxury estates & horse farms. Serving Nassau County with comprehensive solutions. Call (855) 930-5016 today!",
-  "heroParagraph": "Old Westbury's sprawling estates and horse farms create unique pest control challenges that require specialized expertise. The village's large properties, extensive landscaping, and equestrian facilities provide ideal habitats for various pests. From rodents seeking shelter in barn structures to insects thriving in the lush gardens surrounding these luxury homes, pest issues can quickly escalate without professional intervention. The Best Pest Control NYC understands the distinct needs of Old Westbury's affluent community, offering discreet, effective solutions that protect your valuable property investments while maintaining the pristine appearance your estate deserves.",
-  "commonPestsSection": "Old Westbury's unique environment attracts specific pests that thrive around large estates and horse properties. Rodents like mice and rats are drawn to feed storage areas in barns and outbuildings. Carpenter ants and termites target the extensive wooden structures common on these properties. The village's mature trees and gardens harbor ticks, mosquitoes, and wasps, while horse farms often deal with flies and stored product pests. Ground-dwelling pests like moles and voles damage pristine lawns, and the proximity to wooded areas brings occasional wildlife intrusions. These luxury properties require comprehensive pest management to maintain their elegance and functionality.",
-  "whyUsSection": "The Best Pest Control NYC specializes in protecting Old Westbury's luxury estates with discreet, professional service. We understand the unique challenges of large properties and equestrian facilities. Our experienced technicians provide comprehensive solutions tailored to your estate's specific needs, ensuring effective pest control while maintaining the pristine appearance your property demands. Trust our expertise to safeguard your valuable investment.",
+  "title": "Pest Control in Old Westbury, Long Island | The Best Pest Control NYC",
+  "metaDescription": "Professional pest control services for Old Westbury's estates and horse farms. Protecting your luxury property from rodents, termites, and wildlife. Call today!",
+  "intro": "Old Westbury's sprawling estates and equestrian properties require specialized pest control solutions that protect both your home and valuable grounds. The Best Pest Control NYC provides discreet, effective pest management tailored to the unique needs of large properties and horse farms. Our experienced technicians understand the importance of maintaining your property's pristine condition while addressing pest issues comprehensively.",
+  "localContext": "This affluent Nassau County village features grand estates on multi-acre lots, historic mansions, and active horse farms that demand careful pest management strategies. The combination of wooded properties, manicured gardens, and agricultural buildings creates diverse environments where pests can thrive if not properly managed.",
+  "commonPests": "Large estates in Old Westbury commonly face challenges with rodents seeking shelter in barns and outbuildings, termites threatening historic wooden structures, and wildlife such as raccoons and squirrels. Horse farms also contend with flies, mosquitoes, and stored grain pests that can affect both equine health and property value.",
+  "services": [
+    "Rodent Control & Exclusion",
+    "Termite Inspection & Treatment",
+    "Wildlife Removal",
+    "Mosquito & Tick Control",
+    "Fly Control for Equestrian Facilities",
+    "Carpenter Ant Extermination",
+    "Wasp & Hornet Removal",
+    "Stored Product Pest Management",
+    "Perimeter Pest Protection",
+    "Bed Bug Treatment"
+  ],
   "faqs": [
     {
-      "q": "What pest control challenges are unique to Old Westbury estates?",
-      "a": "Old Westbury's large estates face unique challenges including rodent issues in horse barns, extensive landscaping that harbors insects, multiple outbuildings requiring protection, and wildlife management around wooded property borders."
+      "question": "What pest control challenges are unique to Old Westbury estates?",
+      "answer": "Large properties in Old Westbury face unique challenges including wildlife intrusion, rodents in multiple outbuildings, termites in historic structures, and equestrian-related pests like flies and stored grain beetles. Our comprehensive estate management approach addresses all buildings and grounds while maintaining the aesthetic integrity of your property."
     },
     {
-      "q": "How do you handle pest control around horse facilities?",
-      "a": "We use equine-safe treatments around horse facilities, focusing on integrated pest management. Our approach includes fly control systems, rodent management in feed areas, and careful application of treatments that won't harm horses or contaminate feed supplies."
+      "question": "How do you protect horse farms from pests without harming the animals?",
+      "answer": "We use equine-safe pest control methods specifically designed for horse farms, including targeted fly control systems, rodent stations placed away from animal areas, and eco-friendly treatments that won't contaminate feed or water sources. Our technicians are trained to work around horses and livestock safely while effectively managing pest populations."
     },
     {
-      "q": "Do you service the entire Old Westbury property or just the main house?",
-      "a": "We provide comprehensive coverage for your entire Old Westbury estate, including the main residence, guest houses, barns, pool houses, and all outbuildings. Our service plans are customized to address the full scope of your luxury property."
+      "question": "Do you offer discreet pest control services for luxury properties?",
+      "answer": "Absolutely. We understand the importance of privacy and discretion for Old Westbury residents. Our unmarked vehicles, flexible scheduling, and professional technicians ensure pest control services are conducted quietly and efficiently without disrupting your household or drawing attention to your property."
     }
-  ],
-  "generatedAt": "2026-04-11T00:28:38.915201"
+  ]
 }

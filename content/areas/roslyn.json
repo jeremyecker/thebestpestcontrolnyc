@@ -1,22 +1,33 @@
 {
-  "metaTitle": "Pest Control Roslyn NY | The Best Pest Control NYC",
-  "metaDescription": "Professional pest control services in Roslyn, NY. Protecting historic Victorian homes from termites, carpenter ants & waterfront pests. Call (855) 930-5016 today!",
-  "heroParagraph": "Roslyn's historic Victorian homes and waterfront location create unique pest control challenges that require specialized expertise. The village's century-old wooden structures are particularly vulnerable to termites, carpenter ants, and wood-boring beetles that can compromise these architectural treasures. Moisture from the nearby harbor attracts silverfish, house centipedes, and occasional spider infestations. The mature landscaping surrounding these stately homes provides ideal harborage for rodents, especially during Long Island's harsh winters. Our comprehensive pest management approach protects both the structural integrity and historic value of your Roslyn property while maintaining the village's charming aesthetic.",
-  "commonPestsSection": "Roslyn's waterfront Victorian homes face persistent threats from moisture-loving pests and wood-destroying insects. Termites and carpenter ants are drawn to the older wooden framing and decorative elements common in the village's historic architecture. The harbor's humidity creates perfect conditions for silverfish, house centipedes, and basement-dwelling spiders. Norway rats and house mice frequently invade during fall months, seeking warmth in crawl spaces and attics. Occasional carpenter bee activity threatens exterior wooden trim and porches. The combination of age, moisture, and abundant vegetation makes regular professional pest monitoring essential for preserving these valuable Nassau County properties.",
-  "whyUsSection": "The Best Pest Control NYC understands Roslyn's unique challenges, from protecting historic Victorian architecture to managing waterfront pest pressures. Our technicians are experienced with older Long Island homes and use preservation-friendly treatments that won't damage original woodwork or period features. We serve the greater Nassau County area including nearby Old Westbury, Great Neck, and Manhasset, providing reliable local expertise you can trust.",
+  "title": "Pest Control in Roslyn, Long Island | Extermination Services | The Best Pest Control NYC",
+  "metaDescription": "Professional pest control services in Roslyn, Long Island. Protecting historic Victorian homes and waterfront properties from rodents, termites, and seasonal pests. Call today!",
+  "intro": "Roslyn's beautiful Victorian homes and historic waterfront properties require specialized pest control services that protect their unique architectural features and aging structures. The Best Pest Control NYC provides comprehensive extermination solutions tailored to Roslyn's distinctive residential needs. Our experienced technicians understand the challenges of maintaining pest-free historic homes while preserving their character and value.",
+  "localContext": "Roslyn's charming Victorian-era homes with ornate woodwork and original structures create numerous entry points for pests, while the waterfront location attracts moisture-loving insects. The village's mature trees, established gardens, and proximity to Hempstead Harbor make professional pest management essential for protecting these valuable historic properties.",
+  "commonPests": "Roslyn residents commonly face termite infestations that threaten historic wood structures, carpenter ants attracted to older lumber, and moisture pests like silverfish and earwigs near the waterfront. Rodents seek shelter in attics and basements during colder months, while seasonal mosquitoes and ticks thrive in the area's lush landscaping and wooded surroundings.",
+  "services": [
+    "Termite Inspection & Treatment",
+    "Carpenter Ant Extermination",
+    "Rodent Control & Exclusion",
+    "Bed Bug Heat Treatment",
+    "Mosquito & Tick Control",
+    "Cockroach Extermination",
+    "Wildlife Removal",
+    "Silverfish Treatment",
+    "Wasp & Hornet Removal",
+    "Preventative Pest Management"
+  ],
   "faqs": [
     {
-      "q": "Do Victorian homes in Roslyn have more pest problems?",
-      "a": "Yes, older Victorian homes often have more entry points, original wood construction attractive to termites and carpenter ants, and basement moisture issues that create ideal pest conditions requiring specialized treatment approaches."
+      "question": "How can I protect my historic Victorian home in Roslyn from termite damage?",
+      "answer": "Annual termite inspections are crucial for Roslyn's older homes, as termites can silently damage original woodwork and structural components. We offer comprehensive termite treatments including liquid barrier applications and baiting systems specifically designed for historic properties. Our technicians take special care to protect architectural details while creating long-term termite protection for your valuable home."
     },
     {
-      "q": "How does Roslyn's waterfront location affect pest activity?",
-      "a": "The harbor's moisture and humidity attract silverfish, house centipedes, and spiders while creating ideal breeding conditions for various insects. Waterfront properties typically require more frequent monitoring and moisture control measures."
+      "question": "Why are carpenter ants so common in Roslyn's waterfront area?",
+      "answer": "Carpenter ants thrive in Roslyn due to the combination of moisture from proximity to Hempstead Harbor and the abundance of older wood in Victorian homes. These pests excavate galleries in damp or decaying wood, potentially compromising structural integrity. We provide targeted carpenter ant treatments that locate and eliminate colonies while addressing moisture issues to prevent future infestations."
     },
     {
-      "q": "Can pest treatments damage my historic Roslyn home's original features?",
-      "a": "Our technicians use preservation-friendly methods specifically designed for historic properties, avoiding harsh chemicals that could damage original woodwork, plaster, or period architectural details while effectively eliminating pests."
+      "question": "What pest control services are safe for homes with original antique features?",
+      "answer": "We specialize in protecting Roslyn's historic homes using targeted, low-impact treatments that safeguard antique woodwork, original plaster, and period features. Our integrated pest management approach emphasizes precise application methods, eco-friendly products when appropriate, and exclusion techniques that don't damage historic architectural elements. We work carefully to preserve your home's character while providing effective pest elimination."
     }
-  ],
-  "generatedAt": "2026-04-11T00:28:44.642338"
+  ]
 }

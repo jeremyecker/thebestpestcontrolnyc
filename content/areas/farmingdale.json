@@ -1,22 +1,35 @@
 {
-  "metaTitle": "Pest Control Farmingdale NY | The Best Pest Control NYC",
-  "metaDescription": "Professional pest control services in Farmingdale, NY. Serving suburban homes with expert rodent, ant, and termite removal. Call (855) 930-5016 today!",
-  "heroParagraph": "Farmingdale's beautiful suburban neighborhoods and well-maintained single-family homes create the perfect environment for Long Island living, but they also attract unwanted pests year-round. From carpenter ants targeting the wooden structures common in this Nassau County village to rodents seeking warm shelter during harsh winters, Farmingdale homeowners face unique pest challenges. The area's proximity to Bethpage State Park and mature landscaping provides ideal harborage for various insects and wildlife. Our experienced technicians understand Farmingdale's specific pest pressures and provide comprehensive solutions to protect your family home and maintain your property's value in this desirable residential community.",
-  "commonPestsSection": "Farmingdale homes commonly encounter carpenter ants that damage wooden deck structures and siding, particularly during spring months. Mice and rats infiltrate basements and attics as temperatures drop, while pavement ants establish colonies along driveways and walkways. The village's mature oak and maple trees attract wood-boring beetles and provide nesting sites for wasps. Subterranean termites pose a significant threat to Farmingdale's predominantly wooden-frame houses, especially those built before 1980. German cockroaches often appear in kitchen areas, while occasional invaders like stink bugs and cluster flies enter homes seeking overwintering sites. The area's suburban density creates ideal conditions for these pest populations to thrive and spread between neighboring properties throughout the village.",
-  "whyUsSection": "The Best Pest Control NYC brings over a decade of Long Island pest control expertise to Farmingdale residents. Our certified technicians understand Nassau County's unique pest challenges and provide customized treatment plans for single-family homes. We offer same-day service to Farmingdale and surrounding areas including Bethpage, Massapequa, and South Farmingdale. Our eco-friendly approaches protect your family while effectively eliminating pests. With our comprehensive warranties and ongoing monitoring, we ensure long-term protection for your Farmingdale home investment.",
+  "title": "Pest Control in Farmingdale, Long Island | Expert Extermination Services",
+  "metaDescription": "Professional pest control services in Farmingdale, NY. Expert extermination for residential homes and businesses. Safe, effective treatments for Long Island families.",
+  "intro": "Farmingdale's suburban charm and tree-lined streets make it a wonderful place to call home, but the village's residential neighborhoods can attract unwanted pests year-round. Our professional pest control services protect Farmingdale homes and businesses from infestations with safe, effective treatments tailored to Long Island's unique pest pressures. We're committed to keeping your property pest-free so you can enjoy everything this vibrant community has to offer.",
+  "localContext": "Farmingdale's mix of classic suburban homes, well-established neighborhoods, and proximity to commercial areas along Route 110 creates diverse environments where pests can thrive. From the historic Main Street district to the residential areas near Bethpage State Park, our local expertise ensures comprehensive protection for all property types in this close-knit village.",
+  "commonPests": "Farmingdale residents commonly encounter ants, termites, rodents, and carpenter bees due to the area's mature trees and older housing stock. Seasonal mosquito activity near green spaces and the occasional bed bug issue in multi-family dwellings also require professional attention.",
+  "services": [
+    "Cockroach Extermination",
+    "Bed Bug Treatment",
+    "Termite Control",
+    "Ant Removal",
+    "Rodent Control",
+    "Mosquito Treatments",
+    "Carpenter Bee Removal",
+    "Wasp & Hornet Nest Removal",
+    "Tick & Flea Control",
+    "Spider Extermination",
+    "Preventative Pest Management",
+    "Wildlife Exclusion"
+  ],
   "faqs": [
     {
-      "q": "What pests are most common in Farmingdale homes?",
-      "a": "Farmingdale homes frequently deal with carpenter ants, mice, pavement ants, and subterranean termites. The village's mature trees and wooden-frame houses create ideal conditions for wood-destroying insects, while seasonal changes drive rodents indoors seeking shelter."
+      "question": "What are the most common pest problems in Farmingdale homes?",
+      "answer": "Farmingdale homeowners most frequently deal with ants, termites, and rodents, particularly mice seeking shelter during colder months. The village's mature trees and older homes also attract carpenter bees and carpenter ants. We recommend seasonal inspections to catch these issues early, especially for homes with basements, attics, or wood siding common in Farmingdale's residential areas."
     },
     {
-      "q": "How quickly can you respond to pest emergencies in Farmingdale?",
-      "a": "We provide same-day service to Farmingdale and can typically arrive within 2-4 hours of your call. Our Nassau County technicians are strategically located to serve Farmingdale, Bethpage, Massapequa, and surrounding Long Island communities promptly."
+      "question": "How quickly can you respond to pest emergencies in Farmingdale?",
+      "answer": "We offer same-day or next-day service for pest emergencies throughout Farmingdale and surrounding Long Island communities. Whether you're dealing with a rodent sighting, wasp nest near your entrance, or bed bug concern, our team prioritizes urgent situations and can typically arrive within 24 hours of your call to assess and begin treatment."
     },
     {
-      "q": "Do you offer preventative pest control for Farmingdale properties?",
-      "a": "Yes, we provide comprehensive preventative pest control programs specifically designed for Farmingdale's suburban homes. Our quarterly treatments target seasonal pest cycles and include ongoing monitoring to prevent infestations before they start, protecting your property investment year-round."
+      "question": "Are your pest control treatments safe for families and pets in Farmingdale?",
+      "answer": "Absolutely. We use EPA-approved products and integrated pest management techniques that are safe for children, pets, and the environment. Our technicians are trained in the latest application methods that minimize exposure while maximizing effectiveness. We're happy to discuss our treatment plans and answer any safety questions specific to your Farmingdale home or business."
     }
-  ],
-  "generatedAt": "2026-04-11T00:28:52.027916"
+  ]
 }
