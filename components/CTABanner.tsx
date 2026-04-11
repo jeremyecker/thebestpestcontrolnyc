@@ -20,6 +20,7 @@ import { useState } from "react";
 import ContactForm from "./ContactForm";
 
 const PHONE_NUMBER = process.env.NEXT_PUBLIC_PHONE_NUMBER || "YOUR-PHONE-NUMBER";
+const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(212) 000-0000";
 
 interface CTABannerProps {
   variant?: "full" | "compact" | "form";
@@ -27,7 +28,7 @@ interface CTABannerProps {
   subhead?: string;
   preselectedPest?: string;
   source?: string;
-  dark?: boolean;
+  dark?: boolean; // dark=true uses green-800 bg, dark=false uses white/gray
 }
 
 export default function CTABanner({
@@ -57,13 +58,7 @@ export default function CTABanner({
               href={`tel:${PHONE_NUMBER}`}
               className={`font-bold px-5 py-3 rounded-xl text-sm transition ${dark ? "bg-white text-green-800 hover:bg-green-50" : "bg-green-700 text-white hover:bg-green-600"}`}
             >
-              📞 Call Now
-            </a>
-            <a
-              href={`sms:${PHONE_NUMBER}`}
-              className={`font-bold px-5 py-3 rounded-xl text-sm transition border ${dark ? "border-green-400 bg-green-600 text-white hover:bg-green-500" : "border-green-700 text-green-700 hover:bg-green-50"}`}
-            >
-              💬 Text Us
+              📞 {PHONE_DISPLAY}
             </a>
             <a
               href="/contact"
@@ -115,7 +110,7 @@ export default function CTABanner({
                 href={`tel:${PHONE_NUMBER}`}
                 className={`text-xl font-bold hover:underline ${dark ? "text-white" : "text-green-700"}`}
               >
-                📞 Call Now
+                📞 {PHONE_DISPLAY}
               </a>
             </div>
           </div>
@@ -158,13 +153,7 @@ export default function CTABanner({
             href={`tel:${PHONE_NUMBER}`}
             className={`font-bold px-8 py-4 rounded-xl text-lg transition ${dark ? "bg-white text-green-800 hover:bg-green-50" : "bg-green-700 text-white hover:bg-green-600"}`}
           >
-            📞 Call Now
-          </a>
-          <a
-            href={`sms:${PHONE_NUMBER}`}
-            className={`font-bold px-8 py-4 rounded-xl text-lg transition border ${dark ? "border-green-400 bg-green-600 text-white hover:bg-green-500" : "border-green-700 text-green-700 hover:bg-green-50"}`}
-          >
-            💬 Text Us Now
+            📞 Call {PHONE_DISPLAY}
           </a>
           <a
             href="/contact"

@@ -49,17 +49,11 @@ export default function Header() {
 
           {/* Desktop CTAs */}
           <div className="hidden md:flex items-center gap-3">
-            <a
-              href={`sms:${PHONE_NUMBER}`}
-              className="text-sm font-semibold text-green-700 hover:text-green-800 transition"
-            >
-              💬 Text Us
-            </a>
-            <a
+<a
               href={`tel:${PHONE_NUMBER}`}
               className="bg-green-700 hover:bg-green-600 text-white font-bold px-4 py-2 rounded-lg text-sm transition"
             >
-              📞 Call Now
+              📞 {PHONE_DISPLAY}
             </a>
           </div>
 
@@ -99,13 +93,7 @@ export default function Header() {
                 href={`tel:${PHONE_NUMBER}`}
                 className="block text-center bg-green-700 text-white font-bold px-4 py-3 rounded-lg hover:bg-green-600 transition"
               >
-                📞 Call Now
-              </a>
-              <a
-                href={`sms:${PHONE_NUMBER}`}
-                className="block text-center border-2 border-green-700 text-green-700 font-bold px-4 py-3 rounded-lg hover:bg-green-50 transition"
-              >
-                💬 Text Us — Fast Response
+                📞 Call {PHONE_DISPLAY}
               </a>
             </div>
           </nav>
