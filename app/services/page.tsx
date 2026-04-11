@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SERVICES, SERVICE_CATEGORIES } from "@/data/services";
 
 export const metadata: Metadata = {
-  title: "All 32 Pest Control Services NYC | The Best Pest Control NYC",
+  title: { absolute: "All 32 Pest Control Services NYC | The Best Pest Control NYC" },
   description: "Complete list of 32 pest control services in NYC. Cockroaches, bed bugs, rats, termites, wildlife, and more. Licensed exterminators. Free inspection. No money upfront.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com/services" },
 };

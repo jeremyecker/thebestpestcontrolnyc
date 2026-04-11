@@ -4,7 +4,7 @@ import { SERVICES, SERVICE_CATEGORIES } from "@/data/services";
 import { AREAS, BOROUGH_GROUPS } from "@/data/areas";
 
 export const metadata: Metadata = {
-  title: "The Best Pest Control NYC | Licensed Exterminators — 318+ Neighborhoods",
+  title: { absolute: "The Best Pest Control NYC | Licensed Exterminators — 318+ Neighborhoods" },
   description:
     "NYS DEC licensed exterminators serving 318+ neighborhoods across NYC, NJ, Long Island & Westchester. 32 pest types eliminated. Free inspection. No money upfront. Guaranteed.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com" },
@@ -127,7 +127,7 @@ export default function HomePage() {
             NYC's Best Pest Control<br className="hidden md:block" /> — Guaranteed.
           </h1>
           <p className="text-xl md:text-2xl text-green-100 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Licensed exterminators serving 318+ neighborhoods across NYC, NJ, Long Island & Westchester. Cockroaches, bed bugs, rats, mice, termites, wildlife, and 32 pest types — eliminated for good. Starting at $49. No money upfront.
+            Licensed exterminators serving 318+ neighborhoods across NYC, NJ, Long Island & Westchester. Cockroaches, bed bugs, rats, mice, termites, wildlife, and 32 pest types — eliminated for good. Starting at $125. No money upfront.
           </p>
 
           {/* CTA Buttons */}

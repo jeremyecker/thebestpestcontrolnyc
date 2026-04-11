@@ -12,7 +12,7 @@ const PHONE_NUMBER = process.env.NEXT_PUBLIC_PHONE_NUMBER || "8559305016";
 const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(855) 930-5016";
 
 export const metadata: Metadata = {
-  title: "Contact Us | The Best Pest Control NYC",
+  title: { absolute: "Contact Us | The Best Pest Control NYC" },
   description:
     "Contact The Best Pest Control NYC for a free pest inspection. Call, text, or fill out the form. We respond within minutes. Licensed NYS DEC exterminators serving all of NYC.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com/contact" },

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Pest Control Pricing NYC | No Hidden Fees | The Best Pest Control NYC",
+  title: { absolute: "Pest Control Pricing NYC | No Hidden Fees | The Best Pest Control NYC" },
   description:
     "Transparent pest control pricing in NYC. No hidden fees. Written quote before work begins. No money upfront. See all 32 services with price ranges.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com/pricing" },
