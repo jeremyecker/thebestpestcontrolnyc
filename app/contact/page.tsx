@@ -23,7 +23,6 @@ const schema = {
   "@type": "LocalBusiness",
   name: "The Best Pest Control NYC",
   telephone: PHONE_NUMBER,
-  email: "hello@thebestpestcontrolnyc.com",
   url: "https://www.thebestpestcontrolnyc.com",
   address: {
     "@type": "PostalAddress",
@@ -53,7 +52,7 @@ export default function ContactPage() {
             Get in Touch — We Respond Fast
           </h1>
           <p className="text-xl text-green-100 max-w-2xl mx-auto">
-            Text us for the fastest response. Licensed exterminators ready to
+            Call us or fill out the form below. Licensed exterminators ready to
             inspect, quote, and treat — often the same day. No money upfront.
           </p>
         </div>
@@ -61,7 +60,7 @@ export default function ContactPage() {
 
       {/* Quick Contact Bar */}
       <section className="bg-green-50 border-b border-green-100 py-6 px-4">
-        <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
+        <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4 text-center">
           <a
             href={`sms:${PHONE_NUMBER}`}
             className="flex flex-col items-center gap-1 p-4 bg-white rounded-xl border border-green-200 hover:border-green-500 hover:shadow-md transition"
@@ -80,15 +79,7 @@ export default function ContactPage() {
             <span className="text-green-700 font-semibold">{PHONE_DISPLAY}</span>
             <span className="text-xs text-gray-500">24/7 for emergencies</span>
           </a>
-          <a
-            href="mailto:hello@thebestpestcontrolnyc.com"
-            className="flex flex-col items-center gap-1 p-4 bg-white rounded-xl border border-green-200 hover:border-green-500 hover:shadow-md transition"
-          >
-            <span className="text-3xl">✉️</span>
-            <span className="font-bold text-green-800">Email Us</span>
-            <span className="text-green-700 font-semibold text-sm">hello@thebestpestcontrolnyc.com</span>
-            <span className="text-xs text-gray-500">Response within 1 hour</span>
-          </a>
+
         </div>
       </section>
 
