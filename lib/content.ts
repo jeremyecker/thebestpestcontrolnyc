@@ -56,6 +56,22 @@ export interface AreaContent {
 }
 
 // ─────────────────────────────────────────
+// FIELD MAPPERS
+// ─────────────────────────────────────────
+
+/**
+ * Normalize FAQ items — generated JSONs use { question, answer },
+ * template expects { q, a }.
+ */
+function normalizeFaqs(faqs: unknown[]): { q: string; a: string }[] {
+  if (!Array.isArray(faqs)) return [];
+  return faqs.map((faq: any) => ({
+    q: faq.q || faq.question || "",
+    a: faq.a || faq.answer || "",
+  }));
+}
+
+// ─────────────────────────────────────────
 // LOADERS
 // ─────────────────────────────────────────
 
@@ -63,8 +79,12 @@ export interface AreaContent {
  * Load content for a service × area combo page.
  * Returns null if content file doesn't exist yet.
  *
- * Usage in app/[area]/[service]/page.tsx:
- *   const content = getComboContent(areaSlug, serviceSlug);
+ * Maps generated JSON fields to template-expected fields:
+ *   title        → metaTitle
+ *   intro        → heroParagraph
+ *   localContext → whyThisAreaSection
+ *   whyUs        → ourProcessSection
+ *   faqs[].question/answer → faqs[].q/a
  */
 export function getComboContent(
   areaSlug: string,
@@ -76,43 +96,60 @@ export function getComboContent(
     `${areaSlug}--${serviceSlug}.json`
   );
   if (!fs.existsSync(filePath)) return null;
-  return JSON.parse(fs.readFileSync(filePath, "utf-8")) as ComboContent;
+  const raw = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  return {
+    metaTitle: raw.metaTitle || raw.title || "",
+    metaDescription: raw.metaDescription || "",
+    heroParagraph: raw.heroParagraph || raw.intro || "",
+    whyThisAreaSection: raw.whyThisAreaSection || raw.localContext || "",
+    ourProcessSection: raw.ourProcessSection || raw.whyUs || "",
+    faqs: normalizeFaqs(raw.faqs || []),
+    generatedAt: raw.generatedAt || "",
+  };
 }
 
 /**
  * Load content for a service page.
  * Returns null if content file doesn't exist yet.
- *
- * Usage in app/services/[slug]/page.tsx:
- *   const content = getServiceContent(slug);
  */
 export function getServiceContent(serviceSlug: string): ServiceContent | null {
   const filePath = path.join(CONTENT_DIR, "services", `${serviceSlug}.json`);
   if (!fs.existsSync(filePath)) return null;
-  return JSON.parse(fs.readFileSync(filePath, "utf-8")) as ServiceContent;
+  const raw = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  return {
+    ...raw,
+    metaTitle: raw.metaTitle || raw.title || "",
+    faqs: normalizeFaqs(raw.faqs || []),
+  };
 }
 
 /**
  * Load content for an area page.
  * Returns null if content file doesn't exist yet.
  *
- * Usage in app/areas/[slug]/page.tsx:
- *   const content = getAreaContent(slug);
+ * Maps generated JSON fields to template-expected fields:
+ *   title       → metaTitle
+ *   intro       → introParagraph
+ *   commonPests → commonPestsSection
+ *   faqs[].question/answer → faqs[].q/a
  */
 export function getAreaContent(areaSlug: string): AreaContent | null {
   const filePath = path.join(CONTENT_DIR, "areas", `${areaSlug}.json`);
   if (!fs.existsSync(filePath)) return null;
-  return JSON.parse(fs.readFileSync(filePath, "utf-8")) as AreaContent;
+  const raw = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  return {
+    metaTitle: raw.metaTitle || raw.title || "",
+    metaDescription: raw.metaDescription || "",
+    introParagraph: raw.introParagraph || raw.intro || "",
+    commonPestsSection: raw.commonPestsSection || raw.commonPests || raw.localContext || "",
+    faqs: normalizeFaqs(raw.faqs || []),
+    generatedAt: raw.generatedAt || "",
+  };
 }
 
 /**
  * Get all available combo slugs — used by generateStaticParams()
  * to tell Next.js which pages to build.
- *
- * Usage in app/[area]/[service]/page.tsx:
- *   export async function generateStaticParams() {
- *     return getAllComboSlugs();
- *   }
  */
 export function getAllComboSlugs(): { area: string; service: string }[] {
   const combosDir = path.join(CONTENT_DIR, "combos");
@@ -122,18 +159,18 @@ export function getAllComboSlugs(): { area: string; service: string }[] {
     .readdirSync(combosDir)
     .filter((f) => f.endsWith(".json"))
     .map((f) => {
-      const [area, service] = f.replace(".json", "").split("--");
+      const base = f.replace(".json", "");
+      const separatorIndex = base.indexOf("--");
+      if (separatorIndex === -1) return null;
+      const area = base.substring(0, separatorIndex);
+      const service = base.substring(separatorIndex + 2);
       return { area, service };
-    });
+    })
+    .filter((item): item is { area: string; service: string } => item !== null);
 }
 
 /**
  * Get all available service slugs.
- *
- * Usage in app/services/[slug]/page.tsx:
- *   export async function generateStaticParams() {
- *     return getAllServiceSlugs().map(slug => ({ slug }));
- *   }
  */
 export function getAllServiceSlugs(): string[] {
   const servicesDir = path.join(CONTENT_DIR, "services");
@@ -147,11 +184,6 @@ export function getAllServiceSlugs(): string[] {
 
 /**
  * Get all available area slugs.
- *
- * Usage in app/areas/[slug]/page.tsx:
- *   export async function generateStaticParams() {
- *     return getAllAreaSlugs().map(slug => ({ slug }));
- *   }
  */
 export function getAllAreaSlugs(): string[] {
   const areasDir = path.join(CONTENT_DIR, "areas");
@@ -163,59 +195,7 @@ export function getAllAreaSlugs(): string[] {
     .map((f) => f.replace(".json", ""));
 }
 
-/**
- * Get all combo slugs from the content directory.
- * Used by generateStaticParams in combo page.
- */
-export function getAllComboSlugsFromFiles(): { area: string; service: string }[] {
-  const combosDir = path.join(CONTENT_DIR, "combos");
-  if (!fs.existsSync(combosDir)) return [];
-  try {
-    const files = fs.readdirSync(combosDir);
-    return files
-      .filter((f) => f.endsWith(".json"))
-      .map((f) => {
-        const base = f.replace(".json", "");
-        const separatorIndex = base.indexOf("--");
-        if (separatorIndex === -1) return null;
-        const area = base.substring(0, separatorIndex);
-        const service = base.substring(separatorIndex + 2);
-        return { area, service };
-      })
-      .filter((item): item is { area: string; service: string } => item !== null);
-  } catch {
-    return [];
-  }
-}
-
-/**
- * Get all service content slugs.
- */
-export function getAllServiceContentSlugs(): string[] {
-  const servicesDir = path.join(CONTENT_DIR, "services");
-  if (!fs.existsSync(servicesDir)) return [];
-  try {
-    return fs
-      .readdirSync(servicesDir)
-      .filter((f) => f.endsWith(".json"))
-      .map((f) => f.replace(".json", ""));
-  } catch {
-    return [];
-  }
-}
-
-/**
- * Get all area content slugs.
- */
-export function getAllAreaContentSlugs(): string[] {
-  const areasDir = path.join(CONTENT_DIR, "areas");
-  if (!fs.existsSync(areasDir)) return [];
-  try {
-    return fs
-      .readdirSync(areasDir)
-      .filter((f) => f.endsWith(".json"))
-      .map((f) => f.replace(".json", ""));
-  } catch {
-    return [];
-  }
-}
+// Aliases for backward compatibility
+export const getAllComboSlugsFromFiles = getAllComboSlugs;
+export const getAllServiceContentSlugs = getAllServiceSlugs;
+export const getAllAreaContentSlugs = getAllAreaSlugs;
