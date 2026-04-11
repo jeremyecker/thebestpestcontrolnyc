@@ -4,6 +4,7 @@ import Link from "next/link";
 import { SERVICES } from "@/data/services";
 import { AREAS } from "@/data/areas";
 import { getServiceContent } from "@/lib/content";
+import { SERVICE_INSIGHTS } from "@/data/service-insights";
 
 export async function generateStaticParams() {
   return SERVICES.map((s) => ({ slug: s.slug }));
@@ -47,6 +48,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
   const signs = content?.signs || [];
   const treatmentApproach = content?.treatmentApproach || content?.treatmentSection || "";
   const faqs = content?.faqs || [];
+  const insights = SERVICE_INSIGHTS[params.slug] || [];
 
   const schema = {
     "@context": "https://schema.org",
@@ -223,6 +225,14 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
             </div>
           </section>
         )}
+
+        {/* Service Insights */}
+        {insights.length > 0 && insights.map((insight, i) => (
+          <section key={i} className="mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>{insight.h2}</h2>
+            <p className="text-gray-700 leading-relaxed text-lg">{insight.body}</p>
+          </section>
+        ))}
 
         {/* FAQ */}
         {faqs.length > 0 && (
