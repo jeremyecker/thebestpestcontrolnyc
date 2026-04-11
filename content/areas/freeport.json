@@ -1,22 +1,35 @@
 {
-  "metaTitle": "Pest Control Freeport NY | The Best Pest Control NYC",
-  "metaDescription": "Professional pest control services in Freeport, NY. Protecting waterfront homes along Nautical Mile from termites, ants & rodents. Call (855) 930-5016 today!",
-  "heroParagraph": "Freeport's beautiful waterfront location along the famous Nautical Mile creates unique pest control challenges for homeowners. The combination of marina proximity, salt air, and moisture-rich environment attracts various pests year-round. From termites thriving in the humid coastal climate to rodents seeking shelter in boat storage areas and waterfront properties, Freeport residents face distinct pest pressures. Our professional pest control services understand these local challenges, providing targeted solutions that protect your home while preserving the coastal lifestyle you love. We serve all Freeport neighborhoods, from the bustling Nautical Mile district to quiet residential streets.",
-  "commonPestsSection": "Freeport's waterfront environment creates ideal conditions for specific pests. Subterranean termites flourish in the moist soil near marinas and canals, while carpenter ants are drawn to water-damaged wood in coastal homes. Norway rats and house mice frequently infest boat storage facilities and migrate to nearby residences seeking food and shelter. The area's numerous restaurants along Nautical Mile can attract cockroaches and flies. Mosquitoes breed prolifically in stagnant water around docks and marina areas. Additionally, silverfish thrive in Freeport's humid conditions, often found in basements and crawl spaces of waterfront properties.",
-  "whyUsSection": "The Best Pest Control NYC understands Freeport's unique waterfront pest challenges. Our technicians are experienced with coastal pest issues, from marina-related rodent problems to moisture-driven termite infestations. We use marine-safe treatment methods that protect both your home and the local aquatic environment. Serving Freeport, Merrick, Bellmore, Wantagh, and Baldwin, we provide rapid response times and comprehensive solutions tailored to Long Island's South Shore communities.",
+  "title": "Pest Control in Freeport, Long Island | Waterfront Extermination Services",
+  "metaDescription": "Professional pest control services in Freeport, NY. Protecting waterfront homes and businesses along Nautical Mile from rodents, termites, and moisture-loving pests. Call today!",
+  "intro": "Freeport's waterfront location along the famous Nautical Mile creates unique pest control challenges for homeowners and businesses. The moisture-rich environment, combined with historic structures and bustling marinas, attracts various pests year-round. Our expert exterminators provide comprehensive pest management solutions tailored to Freeport's coastal community.",
+  "localContext": "From the restaurants and shops along Nautical Mile to the residential neighborhoods near Cow Meadow Park, Freeport's mix of waterfront properties and older homes requires specialized pest prevention. The village's proximity to waterways and seasonal boating activity creates conditions where moisture-loving pests and rodents thrive.",
+  "commonPests": "Freeport properties commonly face issues with moisture-attracted pests including termites, carpenter ants, silverfish, and centipedes due to the humid coastal climate. Rodents seek shelter in homes and businesses near the marinas, while cockroaches and flies are attracted to the area's many restaurants and food establishments.",
+  "services": [
+    "Cockroach Extermination",
+    "Bed Bug Treatment",
+    "Termite Inspection & Control",
+    "Rodent Control & Exclusion",
+    "Carpenter Ant Removal",
+    "Mosquito Control",
+    "Fly Control for Restaurants",
+    "Silverfish Extermination",
+    "Spider Control",
+    "Wildlife Removal",
+    "Preventative Pest Maintenance",
+    "Commercial Pest Control"
+  ],
   "faqs": [
     {
-      "q": "How does Freeport's waterfront location affect pest problems?",
-      "a": "Freeport's proximity to water creates higher humidity levels that attract termites, carpenter ants, and silverfish. Marina areas often harbor rodents that migrate to nearby homes, while stagnant water around docks provides breeding grounds for mosquitoes."
+      "question": "Why are pest problems so common in Freeport's waterfront areas?",
+      "answer": "Freeport's location along the water creates high humidity levels that attract moisture-loving pests like termites, carpenter ants, and silverfish. The marinas, restaurants, and older structures along Nautical Mile provide ideal harborage areas for rodents and insects. Regular professional pest control is essential for waterfront properties to prevent infestations."
     },
     {
-      "q": "Are your treatments safe for use near Freeport's marinas and waterways?",
-      "a": "Yes, we use environmentally responsible treatments that are safe for marine environments. Our technicians are trained in coastal application methods that effectively control pests while protecting Freeport's waterfront ecosystem and marine life."
+      "question": "How can I protect my Freeport home from termites?",
+      "answer": "The coastal humidity in Freeport creates perfect conditions for termite activity. We recommend annual termite inspections, ensuring proper drainage around your foundation, fixing any water leaks promptly, and maintaining a professional termite protection plan. Our team specializes in both preventative treatments and active termite elimination for Freeport properties."
     },
     {
-      "q": "Do you service both residential and commercial properties along Nautical Mile?",
-      "a": "Absolutely. We provide comprehensive pest control for Freeport homes and businesses, including restaurants, marinas, and retail establishments along Nautical Mile. Our services are customized based on each property's specific location and pest challenges."
+      "question": "Do restaurants on Nautical Mile need special pest control services?",
+      "answer": "Yes, Freeport's restaurants and food establishments require specialized commercial pest control to meet health code requirements and protect their reputation. We provide customized programs including regular inspections, fly control, rodent monitoring, and documentation for health inspections. Our discreet services ensure minimal disruption to your business operations along the busy Nautical Mile."
     }
-  ],
-  "generatedAt": "2026-04-11T00:28:23.648327"
+  ]
 }
