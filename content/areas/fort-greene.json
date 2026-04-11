@@ -1,22 +1,33 @@
 {
-  "metaTitle": "Fort Greene Pest Control | The Best Pest Control NYC",
-  "metaDescription": "Expert pest control for Fort Greene's historic brownstones. Protecting Victorian homes from mice, roaches, and bed bugs. Same-day service. Call (855) 930-5016.",
-  "heroParagraph": "Fort Greene's stunning Victorian brownstones and proximity to cultural hubs like BAM create unique pest control challenges. These historic homes, with their original wood structures and aging foundations, often provide entry points for rodents and insects. The neighborhood's tree-lined streets and older building stock make it particularly susceptible to seasonal pest invasions. From mice seeking shelter in century-old walls to cockroaches thriving in brownstone basements, Fort Greene residents need specialized pest control that respects their home's historic character while providing modern protection.",
-  "commonPestsSection": "Fort Greene's Victorian brownstones commonly face mouse and rat infestations due to aging infrastructure and proximity to Fort Greene Park. Cockroaches thrive in older building basements and shared walls between units. Bed bugs are frequent issues given the neighborhood's popularity with young professionals and frequent tenant turnover. The mature tree canopy attracts carpenter ants, while original wood structures can harbor powder post beetles. Seasonal spider invasions are common as pests seek warmth in these historic homes during colder months.",
-  "whyUsSection": "The Best Pest Control NYC understands Fort Greene's unique challenges, from protecting historic brownstone character to addressing pest issues common in older Brooklyn neighborhoods. Our technicians are experienced with Victorian-era homes and use treatments that preserve architectural integrity while eliminating pests. We provide same-day emergency service and understand the specific pest pressures facing Fort Greene residents near cultural districts.",
+  "title": "Fort Greene Pest Control - Brooklyn Exterminator Services | Best Pest Control NYC",
+  "metaDescription": "Professional pest control in Fort Greene, Brooklyn. Protecting Victorian brownstones and historic homes near BAM and Fort Greene Park. Licensed exterminators. Call today!",
+  "intro": "Fort Greene's beautiful Victorian brownstones and historic architecture require specialized pest control approaches that protect both residents and these treasured buildings. The Best Pest Control NYC provides expert extermination services tailored to Fort Greene's unique blend of residential charm and cultural vitality. Our experienced technicians understand the pest challenges facing this landmarked neighborhood.",
+  "localContext": "Fort Greene's densely packed Victorian brownstones, proximity to Fort Greene Park and the Brooklyn Academy of Music, and tree-lined streets create a vibrant cultural hub. The neighborhood's historic architecture and mix of renovated homes and older buildings require pest control solutions that preserve architectural integrity while addressing modern infestations.",
+  "commonPests": "Fort Greene's vintage brownstones often harbor cockroaches, bed bugs, mice, and rats, particularly in older unrenovated units and shared walls between row houses. The tree canopy along streets like South Portland Avenue and proximity to the park can also attract seasonal pests like ants, wasps, and occasional wildlife.",
+  "services": [
+    "Cockroach Extermination",
+    "Bed Bug Treatment",
+    "Rodent Control & Exclusion",
+    "Mouse Removal",
+    "Ant Control",
+    "Wasp & Hornet Removal",
+    "Flea & Tick Treatment",
+    "Termite Inspection",
+    "Wildlife Removal",
+    "Preventative Pest Maintenance"
+  ],
   "faqs": [
     {
-      "q": "How do you treat pests in Fort Greene's historic brownstones?",
-      "a": "We use specialized techniques that protect Victorian architecture while eliminating pests. Our treatments focus on targeted applications that preserve original woodwork and historic features while effectively addressing infestations common in older Brooklyn homes."
+      "question": "Why are rodents common in Fort Greene brownstones?",
+      "answer": "Fort Greene's historic brownstones often have gaps in foundations, shared walls between adjoining buildings, and older infrastructure that creates entry points for mice and rats. The neighborhood's proximity to Fort Greene Park and tree-lined streets provides food sources and shelter for rodents. Professional exclusion work and regular monitoring are essential for keeping these Victorian homes rodent-free."
     },
     {
-      "q": "What pests are most common in Fort Greene properties?",
-      "a": "Fort Greene commonly sees mice, cockroaches, and bed bugs due to older building stock and high tenant turnover. Carpenter ants and spiders are also frequent issues, particularly in brownstones with original wood structures and mature landscaping."
+      "question": "How do you treat bed bugs in Fort Greene apartments without damaging historic features?",
+      "answer": "Our Fort Greene bed bug treatments use heat treatment and targeted low-toxicity applications that effectively eliminate infestations while preserving original woodwork, moldings, and architectural details. We take special care in brownstones and landmarked buildings to protect historic features while ensuring complete eradication, including follow-up inspections to verify treatment success."
     },
     {
-      "q": "Do you provide emergency pest control in Fort Greene?",
-      "a": "Yes, we offer same-day emergency pest control service throughout Fort Greene. Call (855) 930-5016 for immediate assistance with urgent pest problems in your brownstone or apartment building."
+      "question": "Do Fort Greene's tree-lined streets increase pest problems?",
+      "answer": "While Fort Greene's beautiful mature trees enhance the neighborhood's character, they can attract ants, wasps, aphids, and provide pathways for rodents and squirrels to access buildings. We recommend seasonal inspections and preventative treatments, especially for homes with tree branches near rooflines or windows, along with proper trimming to minimize pest access to your brownstone."
     }
-  ],
-  "generatedAt": "2026-04-11T00:23:46.729040"
+  ]
 }

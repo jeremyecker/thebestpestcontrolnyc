@@ -1,22 +1,33 @@
 {
-  "metaTitle": "Pest Control Greenpoint Brooklyn | The Best Pest Control NYC",
-  "metaDescription": "Professional pest control in Greenpoint, Brooklyn. Specializing in waterfront apartment pest issues - rats, roaches, ants. Serving industrial lofts & rowhouses. Call (855) 930-5016!",
-  "heroParagraph": "Greenpoint's unique waterfront location and mix of converted industrial lofts and historic rowhouses create distinct pest challenges. The neighborhood's proximity to the East River attracts moisture-loving pests, while the area's industrial past and dense apartment living provide numerous entry points and hiding spots for unwanted invaders. From converted warehouse spaces along the waterfront to century-old rowhouses on tree-lined streets, Greenpoint properties require specialized pest control approaches. The Best Pest Control NYC understands these neighborhood-specific challenges and provides targeted solutions for Greenpoint residents dealing with urban pest problems in their apartments and converted industrial spaces.",
-  "commonPestsSection": "Greenpoint's waterfront location makes it particularly susceptible to moisture-attracted pests like cockroaches and silverfish, especially in basement apartments and ground-floor units near the East River. The neighborhood's converted industrial buildings often have multiple entry points where rodents can access apartment units, while the dense housing stock allows bed bugs to spread between adjacent rowhouses and apartment buildings. Ants are common in summer months, attracted to food sources in the area's many residential units. The combination of old infrastructure in historic rowhouses and large open spaces in converted lofts creates ideal conditions for various pest species to establish themselves throughout Greenpoint properties.",
-  "whyUsSection": "The Best Pest Control NYC has extensive experience with Greenpoint's unique property types, from waterfront industrial lofts to historic Brooklyn rowhouses. We understand how the neighborhood's proximity to Williamsburg, Long Island City, and Astoria affects pest migration patterns. Our technicians are familiar with the specific challenges of converted industrial spaces and older apartment buildings. We provide rapid response times throughout Greenpoint and offer customized treatment plans for the area's diverse housing stock.",
+  "title": "Pest Control in Greenpoint, Brooklyn | Expert Extermination Services",
+  "metaDescription": "Professional pest control services in Greenpoint, Brooklyn. Specialized treatments for waterfront lofts and historic rowhouses. Fast, effective extermination. Call today!",
+  "intro": "Greenpoint's unique mix of converted industrial lofts and historic rowhouses creates distinct pest control challenges that require specialized expertise. Our team understands the vulnerabilities of both century-old structures and modern warehouse conversions along the waterfront. We provide comprehensive pest management solutions tailored to Greenpoint's diverse residential and commercial properties.",
+  "localContext": "From the historic rowhouses near McCarren Park to the trendy waterfront lofts along the East River, Greenpoint's aging infrastructure and proximity to water create ideal conditions for pest activity. The neighborhood's dense residential blocks, combined with numerous restaurants and cafes along Manhattan Avenue, require proactive pest management strategies.",
+  "commonPests": "Greenpoint properties commonly face issues with cockroaches, mice, and rats drawn to the waterfront location and older building stock. Bed bugs are increasingly prevalent in multi-unit loft buildings, while carpenter ants and termites threaten the wooden structures of historic rowhouses.",
+  "services": [
+    "Cockroach Extermination",
+    "Bed Bug Treatment",
+    "Rodent Control (Rats & Mice)",
+    "Ant Elimination",
+    "Termite Inspection & Treatment",
+    "Carpenter Ant Control",
+    "Waterfront Pest Prevention",
+    "Commercial Restaurant Pest Control",
+    "Multi-Unit Building Treatment",
+    "Wildlife Removal"
+  ],
   "faqs": [
     {
-      "q": "Why are pest problems common in Greenpoint's converted industrial lofts?",
-      "a": "Converted industrial buildings in Greenpoint often have large open spaces, multiple entry points, and older infrastructure that can harbor pests. The waterfront location also attracts moisture-loving pests, while the building conversion process may leave gaps and access points that weren't properly sealed for residential use."
+      "question": "Why are waterfront lofts in Greenpoint prone to pest problems?",
+      "answer": "Waterfront properties in Greenpoint face increased pest pressure due to proximity to the East River, which attracts rodents and moisture-loving insects. Many converted industrial buildings have numerous entry points from their original construction, and shared walls in loft conversions allow pests to move between units easily. Regular professional pest control is essential for waterfront buildings."
     },
     {
-      "q": "How does Greenpoint's waterfront location affect pest activity?",
-      "a": "The East River waterfront creates higher humidity levels that attract cockroaches, silverfish, and other moisture-dependent pests. The industrial waterfront area also provides food sources and harborage for rodents, which then migrate into nearby residential apartments and rowhouses throughout the neighborhood."
+      "question": "How do you treat pest problems in historic Greenpoint rowhouses?",
+      "answer": "Our approach to historic rowhouses focuses on protecting the structural integrity while eliminating pests. We use targeted treatments for common issues like mice in wall voids, cockroaches in old plumbing systems, and wood-destroying insects. We carefully inspect foundations, crawl spaces, and attics, then apply appropriate treatments that are effective yet safe for older construction materials."
     },
     {
-      "q": "Do you service all apartment types in Greenpoint?",
-      "a": "Yes, we provide pest control services for all Greenpoint apartment types, including units in converted industrial lofts, historic rowhouses, and modern apartment buildings. Our technicians are experienced with the unique pest challenges each property type presents in the neighborhood."
+      "question": "How quickly can you respond to pest emergencies in Greenpoint?",
+      "answer": "We offer same-day or next-day service for pest emergencies throughout Greenpoint, including the waterfront area and residential streets. Whether you're dealing with a sudden rodent infestation, bed bugs, or cockroaches in your loft or rowhouse, our team can rapidly assess the situation and begin treatment to protect your property and health."
     }
-  ],
-  "generatedAt": "2026-04-11T00:23:36.240714"
+  ]
 }
