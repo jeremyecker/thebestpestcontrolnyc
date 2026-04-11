@@ -8,8 +8,8 @@
 import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
 
-const PHONE_NUMBER = process.env.NEXT_PUBLIC_PHONE_NUMBER || "YOUR-PHONE-NUMBER";
-const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(212) 000-0000";
+const PHONE_NUMBER = process.env.NEXT_PUBLIC_PHONE_NUMBER || "8559305016";
+const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(855) 930-5016";
 
 export const metadata: Metadata = {
   title: "Contact Us | The Best Pest Control NYC",

@@ -4,6 +4,18 @@ import { AREAS } from "@/data/areas";
 
 const BASE_URL = "https://www.thebestpestcontrolnyc.com";
 
+// Borough hub slugs (static pages under /areas/)
+const BOROUGH_HUBS = [
+  "manhattan",
+  "brooklyn",
+  "queens",
+  "the-bronx",
+  "staten-island",
+  "new-jersey",
+  "long-island",
+  "westchester",
+];
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString();
 
@@ -16,6 +28,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/faq`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/contact`, lastModified: now, changeFrequency: "yearly", priority: 0.7 },
   ];
+
+  // Borough hub pages
+  const boroughHubPages: MetadataRoute.Sitemap = BOROUGH_HUBS.map((slug) => ({
+    url: `${BASE_URL}/areas/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
 
   // Service pages
   const servicePages: MetadataRoute.Sitemap = SERVICES.map((service) => ({
@@ -33,8 +53,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  // Note: Combo pages (~9,800) are excluded from sitemap for now
-  // to keep sitemap manageable. Add top combo pages as traffic grows.
+  // Combo pages — area × service (10,176+ pages)
+  // Included so Googlebot can discover all geo-targeted service pages.
+  const comboPages: MetadataRoute.Sitemap = AREAS.flatMap((area) =>
+    SERVICES.map((service) => ({
+      url: `${BASE_URL}/${area.slug}/${service.slug}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    }))
+  );
 
-  return [...staticPages, ...servicePages, ...areaPages];
+  return [...staticPages, ...boroughHubPages, ...servicePages, ...areaPages, ...comboPages];
 }

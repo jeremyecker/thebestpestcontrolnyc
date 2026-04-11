@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const content = getAreaContent(area.slug);
 
   return {
-    title: content?.metaTitle || `Pest Control in ${area.name} | The Best Pest Control NYC`,
+    title: { absolute: content?.metaTitle || `Pest Control in ${area.name} | The Best Pest Control NYC` },
     description: content?.metaDescription || `Licensed pest control in ${area.name}, ${area.borough}. Cockroaches, bed bugs, rats, termites, wildlife & 32 pest types. Free inspection. No money upfront.`,
     alternates: { canonical: `https://www.thebestpestcontrolnyc.com/areas/${area.slug}` },
   };

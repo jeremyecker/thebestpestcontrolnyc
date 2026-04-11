@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 
 export const metadata: Metadata = {
-  title: "Pest Control FAQ NYC | The Best Pest Control NYC",
+  title: { absolute: "NYC Pest Control FAQ | The Best Pest Control NYC" },
   description:
-    "Answers to the most common pest control questions in NYC — pricing, safety, guarantees, licensing, and more. Free inspection, no money upfront.",
+    "Answers to common pest control questions in NYC — pricing, treatments, bed bugs, rodents, cockroaches, and more. Free inspection. No money upfront. Licensed NYS DEC exterminators.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com/faq" },
 };
 
-export default function FAQLayout({ children }: { children: React.ReactNode }) {
+export default function FAQLayout({ children }: { children: ReactNode }) {
   return <>{children}</>;
 }
