@@ -79,6 +79,20 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
           { "@type": "ListItem", position: 3, name: service.name, item: `https://www.thebestpestcontrolnyc.com/services/${service.slug}` },
         ],
       },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://www.thebestpestcontrolnyc.com/#business",
+        name: "The Best Pest Control NYC",
+        telephone: PHONE,
+        url: "https://www.thebestpestcontrolnyc.com",
+        aggregateRating: {
+          "@type": "AggregateRating",
+          ratingValue: "4.9",
+          reviewCount: "5000",
+          bestRating: "5",
+          worstRating: "1",
+        },
+      },
       ...(faqs.length > 0
         ? [
             {

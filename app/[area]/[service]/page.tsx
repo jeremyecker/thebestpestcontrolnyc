@@ -15,6 +15,7 @@
 
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import { SERVICES } from "@/data/services";
 import { AREAS } from "@/data/areas";
 import {
@@ -284,6 +285,21 @@ export default function ComboPage({
                 View full pricing →
               </a>
             </div>
+          </div>
+        </section>
+
+        {/* Parent Service Page Link */}
+        <section className="mb-8">
+          <div className="bg-green-50 border border-green-200 rounded-xl p-4 flex items-center justify-between flex-wrap gap-3">
+            <span className="text-gray-700 text-sm">
+              Want info on <strong>{service.name}</strong> across all 318+ NYC neighborhoods?
+            </span>
+            <Link
+              href={`/services/${service.slug}`}
+              className="text-green-700 font-semibold hover:underline text-sm shrink-0"
+            >
+              View full {service.shortName} service page →
+            </Link>
           </div>
         </section>
 
