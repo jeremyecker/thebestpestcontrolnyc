@@ -1,22 +1,35 @@
 {
-  "metaTitle": "Canarsie Pest Control Services | The Best Pest Control NYC",
-  "metaDescription": "Professional pest control for Canarsie homes near Jamaica Bay. Expert exterminators serving single-family houses in Brooklyn. Call (855) 930-5016 today!",
-  "heroParagraph": "Canarsie's unique location along Jamaica Bay creates specific pest challenges for homeowners in this Brooklyn neighborhood. The waterfront environment, combined with the area's abundance of single-family and attached houses, attracts moisture-loving pests year-round. From basement invaders taking advantage of the bay's humidity to outdoor pests seeking shelter in your home's many entry points, Canarsie properties face distinct pest pressures. The Best Pest Control NYC understands these local challenges and provides targeted solutions for Canarsie homeowners. Our experienced technicians know exactly what pests thrive in this bayfront community and how to eliminate them effectively, protecting your family home from unwanted invaders.",
-  "commonPestsSection": "Canarsie's proximity to Jamaica Bay creates ideal conditions for several pest species. Moisture from the bay attracts silverfish, house centipedes, and cockroaches that thrive in humid basements and crawl spaces. The neighborhood's single-family homes with yards and gardens commonly experience ant infestations, particularly carpenter ants that damage wooden structures. Rodents like mice and rats frequently invade homes seeking warmth, especially during colder months. The waterfront location also brings occasional issues with water bugs and drain flies. Additionally, Canarsie's tree-lined streets and proximity to green spaces can lead to spider infestations and seasonal stink bug problems as pests seek indoor shelter.",
-  "whyUsSection": "The Best Pest Control NYC has served Canarsie homeowners for years, understanding the unique pest challenges of bayfront Brooklyn living. Our technicians are familiar with the moisture issues common in Canarsie basements and the seasonal pest patterns affecting single-family homes near Jamaica Bay. We use targeted treatments designed for Canarsie's specific environment and provide ongoing protection plans. With same-day service available and our deep knowledge of local pest behavior, we're the trusted choice for Canarsie residents seeking effective, long-lasting pest solutions.",
+  "title": "Pest Control in Canarsie, Brooklyn | Waterfront Home Protection",
+  "metaDescription": "Professional pest control services in Canarsie, Brooklyn. Protecting single-family and attached homes near Jamaica Bay from rodents, termites, and waterfront pests. Call today!",
+  "intro": "Canarsie's waterfront location near Jamaica Bay and prevalence of single-family and attached homes create unique pest control challenges that require specialized expertise. The Best Pest Control NYC provides comprehensive extermination services tailored to protect Canarsie residences from moisture-loving pests, rodents, and seasonal invaders. Our local technicians understand the specific needs of this close-knit Brooklyn community.",
+  "localContext": "Canarsie's mix of single-family homes, attached houses, and proximity to Jamaica Bay creates a neighborhood where waterfront conditions meet residential living. The area's marsh ecosystems, Canarsie Pier, and residential streets lined with detached and semi-detached homes require pest control strategies that address both coastal moisture issues and traditional urban pest pressures.",
+  "commonPests": "Canarsie homes frequently deal with moisture-attracted pests like silverfish, earwigs, and carpenter ants due to the bay's humidity, while rodents seek shelter in basements and crawl spaces during cooler months. The area's proximity to water also brings mosquitoes, termites drawn to damp wood, and occasional wildlife intrusions from nearby marshlands and parks.",
+  "services": [
+    "Cockroach Extermination",
+    "Bed Bug Treatment",
+    "Rodent Control & Exclusion",
+    "Termite Inspection & Treatment",
+    "Ant Extermination",
+    "Mosquito Control",
+    "Silverfish Removal",
+    "Carpenter Ant Treatment",
+    "Wildlife Removal",
+    "Basement & Crawl Space Treatment",
+    "Preventative Pest Management",
+    "Commercial Pest Control"
+  ],
   "faqs": [
     {
-      "q": "What pests are most common in Canarsie homes?",
-      "a": "Canarsie homes commonly deal with moisture-loving pests like silverfish, cockroaches, and house centipedes due to Jamaica Bay's humidity. Ants, mice, rats, and seasonal stink bugs are also frequent issues in the neighborhood's single-family houses."
+      "question": "Why are moisture pests so common in Canarsie homes?",
+      "answer": "Canarsie's proximity to Jamaica Bay creates higher humidity levels that attract moisture-loving pests like silverfish, earwigs, and carpenter ants. Homes near the waterfront or with basements are especially vulnerable. Our treatments include moisture control recommendations and targeted barrier applications to keep these pests out of your living spaces."
     },
     {
-      "q": "How does living near Jamaica Bay affect pest problems?",
-      "a": "Jamaica Bay's proximity increases moisture levels in Canarsie homes, creating ideal conditions for humidity-loving pests. The waterfront environment also attracts water bugs, drain flies, and provides year-round harborage for various pest species seeking shelter."
+      "question": "How do I protect my Canarsie home from rodents in winter?",
+      "answer": "Rodents seek warm shelter in Canarsie's single-family and attached homes as temperatures drop. We provide comprehensive rodent exclusion services including sealing entry points around foundations, gaps in siding, and utility penetrations common in this housing type. Our approach combines trapping, exclusion, and ongoing monitoring to keep your home rodent-free year-round."
     },
     {
-      "q": "Do you service all types of homes in Canarsie?",
-      "a": "Yes, we provide comprehensive pest control services for all Canarsie property types, including single-family houses, attached homes, and multi-family residences. Our treatments are customized for each home's specific pest challenges and structural characteristics."
+      "question": "Do termites pose a risk to homes near Jamaica Bay?",
+      "answer": "Yes, the moisture from Jamaica Bay creates ideal conditions for termite activity in Canarsie. Both subterranean and dampwood termites can threaten wooden structures, decks, and foundations. We recommend annual termite inspections for all Canarsie homeowners and offer both preventative treatments and active infestation elimination using the latest termite control technologies."
     }
-  ],
-  "generatedAt": "2026-04-11T00:23:14.744978"
+  ]
 }
