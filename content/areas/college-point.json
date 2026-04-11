@@ -1,22 +1,33 @@
 {
-  "metaTitle": "College Point Pest Control | The Best Pest Control NYC",
-  "metaDescription": "Professional pest control for College Point's peninsula homes. Serving single-family houses with waterfront pest challenges. Call (855) 930-5016 today!",
-  "heroParagraph": "College Point's unique peninsula location creates distinct pest control challenges for homeowners. The waterfront environment attracts moisture-loving pests, while the area's single-family homes provide numerous entry points for unwanted invaders. From basement moisture issues that draw silverfish and centipedes to attic spaces vulnerable to rodents, College Point properties face year-round pest pressures. The proximity to Flushing Bay and surrounding water bodies increases humidity levels, creating ideal conditions for cockroaches, ants, and other moisture-dependent pests. Our specialized College Point pest control services address these geographic-specific challenges with targeted treatments designed for peninsula properties.",
-  "commonPestsSection": "College Point's waterfront peninsula environment fosters specific pest problems. The high humidity from surrounding waters creates ideal conditions for German cockroaches, silverfish, and house centipedes in basements and crawl spaces. Norway rats and mice frequently invade single-family homes seeking shelter, particularly during colder months. Carpenter ants thrive in the moisture-rich environment, potentially damaging wooden structures. Pavement ants are common around driveways and foundations, while the area's proximity to Flushing Bay brings occasional issues with drain flies and gnats. The peninsula's unique microclimate, combined with dense residential housing, creates perfect conditions for these persistent pest populations throughout the year.",
-  "whyUsSection": "The Best Pest Control NYC understands College Point's unique peninsula pest challenges. Our technicians are specially trained to handle waterfront property issues, from moisture-related infestations to seasonal rodent invasions. We serve College Point, Flushing, Whitestone, and Bayside with customized treatment plans designed for single-family homes. Our local expertise, combined with eco-friendly solutions safe for families and pets, makes us the trusted choice for College Point homeowners facing persistent pest problems.",
+  "title": "Pest Control in College Point, Queens | Expert Extermination Services",
+  "metaDescription": "Professional pest control services in College Point, Queens. Protecting single-family homes on the peninsula from rodents, termites, ants & more. Call today for fast, reliable service!",
+  "intro": "College Point's unique peninsula location and concentration of single-family homes require specialized pest control solutions tailored to waterfront residential communities. Our experienced exterminators understand the specific challenges facing homeowners in this Queens neighborhood, from moisture-related pest issues to seasonal infestations. We provide comprehensive, family-safe treatments that protect your College Point home year-round.",
+  "localContext": "This quiet peninsula community features predominantly single-family homes with yards and basements, many dating back several decades, creating numerous entry points and nesting areas for pests. College Point's proximity to the Flushing Bay and various waterways contributes to higher humidity levels that can attract moisture-loving pests.",
+  "commonPests": "College Point homeowners frequently encounter mice and rats seeking shelter in basements and attics, carpenter ants attracted to moisture-damaged wood, termites threatening wooden structures, and waterbugs entering from the nearby waterfront. The area's single-family homes with crawl spaces and yards also see activity from wasps, mosquitoes during warmer months, and occasional raccoon or opossum intrusions.",
+  "services": [
+    "Cockroach Extermination",
+    "Bed Bug Treatment",
+    "Rodent Control & Exclusion",
+    "Termite Inspection & Treatment",
+    "Ant Extermination",
+    "Wasp & Hornet Removal",
+    "Mosquito Control",
+    "Wildlife Removal",
+    "Carpenter Ant Treatment",
+    "Preventative Pest Maintenance"
+  ],
   "faqs": [
     {
-      "q": "Why do College Point homes have more moisture-related pests?",
-      "a": "College Point's peninsula location surrounded by water creates high humidity levels year-round. This moisture attracts silverfish, centipedes, cockroaches, and other pests that thrive in damp environments, making regular pest control essential for waterfront properties."
+      "question": "Why are pest problems common in College Point homes?",
+      "answer": "College Point's peninsula location creates higher humidity levels due to proximity to Flushing Bay and surrounding waterways, which attracts moisture-loving pests like carpenter ants, silverfish, and waterbugs. Additionally, many single-family homes in the area have basements, crawl spaces, and aging foundations that provide entry points and harborage areas for rodents and insects. The residential yards and vegetation also support populations of ants, wasps, and mosquitoes."
     },
     {
-      "q": "What's the best pest prevention for College Point single-family homes?",
-      "a": "Focus on moisture control in basements and crawl spaces, seal entry points around foundations, maintain proper drainage, and schedule regular professional inspections. College Point's unique environment requires proactive pest management due to constant moisture exposure."
+      "question": "How quickly can you respond to a pest emergency in College Point?",
+      "answer": "We offer same-day or next-day service for most pest emergencies in College Point, Queens. Our team understands that issues like rodent infestations, wasp nests near entryways, or bed bug discoveries require immediate attention. We prioritize urgent situations and will dispatch a licensed exterminator to your College Point home as quickly as possible to assess and begin treatment."
     },
     {
-      "q": "Do you service all of College Point including areas near Flushing Bay?",
-      "a": "Yes, we provide comprehensive pest control throughout College Point, including waterfront properties near Flushing Bay. Our technicians understand the specific challenges of peninsula homes and provide customized treatments for all College Point neighborhoods."
+      "question": "Do you offer ongoing pest prevention plans for College Point homeowners?",
+      "answer": "Yes, we provide customized quarterly and monthly pest prevention plans specifically designed for College Point's single-family homes. These programs include regular inspections, exterior perimeter treatments, rodent monitoring, and seasonal adjustments to address pests like mosquitoes in summer and mice in fall. Ongoing prevention is especially important in waterfront communities like College Point to maintain a protective barrier against the constant pest pressure from the surrounding environment."
     }
-  ],
-  "generatedAt": "2026-04-11T00:25:05.999708"
+  ]
 }
