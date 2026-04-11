@@ -1,22 +1,35 @@
 {
-  "metaTitle": "Pest Control Cedarhurst NY | The Best Pest Control NYC",
-  "metaDescription": "Professional pest control services in Cedarhurst, NY. Protecting Five Towns luxury homes from ants, rodents, termites & more. Call (855) 930-5016 today!",
-  "heroParagraph": "Cedarhurst's prestigious Five Towns location and beautiful residential properties deserve premium pest protection. This upscale Nassau County village, with its mature landscaping and well-maintained homes, can attract various pests seeking shelter and resources. From seasonal ant invasions that target kitchen areas to rodents seeking warmth in basements and attics, Cedarhurst homeowners face unique pest challenges. The proximity to neighboring communities like Woodmere and Lawrence means pests can easily migrate between areas. Our comprehensive pest control services are specifically designed to protect your valuable Cedarhurst investment while maintaining the aesthetic appeal of your property.",
-  "commonPestsSection": "Cedarhurst's lush residential environment and established neighborhoods create ideal conditions for several pest species. Carpenter ants frequently target the area's mature wooden structures, while pavement ants emerge from sidewalk cracks during warmer months. Mice and rats often seek entry through small gaps in foundations, particularly as temperatures drop. The village's proximity to water sources and dense vegetation attracts mosquitoes during summer months. Termites pose a significant threat to Cedarhurst's valuable properties, silently damaging wooden structures. Additionally, wasps and hornets commonly build nests in eaves and outdoor structures, creating safety concerns for families enjoying their well-appointed outdoor spaces.",
-  "whyUsSection": "The Best Pest Control NYC understands the unique needs of Cedarhurst's discerning homeowners. Our licensed technicians provide discreet, professional service that protects your property value and family's comfort. We use environmentally responsible treatments safe for children and pets, while delivering effective results. Our comprehensive approach includes thorough inspections, customized treatment plans, and ongoing monitoring. With deep knowledge of Five Towns pest patterns and commitment to excellence, we're the trusted choice for Cedarhurst residents who demand premium pest protection services.",
+  "title": "Pest Control in Cedarhurst, NY | Five Towns Exterminator Services",
+  "metaDescription": "Professional pest control services in Cedarhurst, Long Island. Protecting upscale Five Towns homes from rodents, termites, bed bugs & more. Call today!",
+  "intro": "Cedarhurst's beautiful residential properties and proximity to the coast require specialized pest control solutions to protect your investment. The Best Pest Control NYC provides comprehensive extermination services tailored to the unique needs of this upscale Five Towns community. Our experienced technicians understand the specific pest challenges facing Cedarhurst homeowners and deliver effective, discreet solutions.",
+  "localContext": "This prestigious village features elegant single-family homes, well-maintained gardens, and tree-lined streets that create an ideal environment for year-round pest activity. The combination of coastal humidity, mature landscaping, and proximity to neighboring communities means Cedarhurst properties require proactive pest management to maintain their pristine condition.",
+  "commonPests": "Cedarhurst residents commonly encounter mice and rats seeking warmth in colder months, carpenter ants and termites attracted to wooden structures, and moisture-loving pests like silverfish and centipedes due to coastal humidity. The area's established homes and lush vegetation also create habitats for wasps, mosquitoes, and occasional wildlife intrusions.",
+  "services": [
+    "Rodent Control & Exclusion",
+    "Termite Inspection & Treatment",
+    "Bed Bug Heat Treatment",
+    "Carpenter Ant Extermination",
+    "Cockroach Elimination",
+    "Wasp & Hornet Removal",
+    "Mosquito Control",
+    "Tick Treatment",
+    "Silverfish Extermination",
+    "Spider Control",
+    "Wildlife Removal",
+    "Preventative Maintenance Programs"
+  ],
   "faqs": [
     {
-      "q": "What pest control services do you offer in Cedarhurst?",
-      "a": "We provide comprehensive pest control including ant control, rodent exclusion, termite protection, wasp removal, and mosquito treatment specifically designed for Cedarhurst's upscale residential properties."
+      "question": "What pest control challenges are unique to Cedarhurst homes?",
+      "answer": "Cedarhurst's coastal location brings higher humidity levels that attract moisture pests like silverfish, centipedes, and carpenter ants. The village's mature trees and established landscaping also provide harborage for rodents, while older homes may have entry points that require professional exclusion work. Our team specializes in addressing these specific Five Towns pest pressures."
     },
     {
-      "q": "How quickly can you respond to pest issues in Cedarhurst?",
-      "a": "We offer same-day and next-day service appointments for Cedarhurst residents. Call (855) 930-5016 to schedule your inspection and treatment."
+      "question": "How quickly can you respond to pest emergencies in Cedarhurst?",
+      "answer": "We offer same-day and next-day service for pest emergencies in Cedarhurst and throughout the Five Towns area. Whether you're dealing with a rodent sighting, wasp nest, or bed bug concern, our local team can quickly dispatch a licensed technician to assess and address the situation promptly and professionally."
     },
     {
-      "q": "Are your treatments safe for Cedarhurst's family homes?",
-      "a": "Yes, we use EPA-approved, family-safe treatments that are effective against pests while protecting children, pets, and the environment in your Cedarhurst home."
+      "question": "Do you offer eco-friendly pest control options for Cedarhurst families?",
+      "answer": "Yes, we provide green pest control solutions that are safe for children, pets, and the environment while remaining highly effective. Our integrated pest management approach prioritizes non-toxic methods, targeted treatments, and exclusion techniques that protect your Cedarhurst home without compromising your family's health or the area's natural beauty."
     }
-  ],
-  "generatedAt": "2026-04-11T00:29:19.883446"
+  ]
 }

@@ -1,22 +1,35 @@
 {
-  "metaTitle": "East Rockaway Pest Control | The Best Pest Control NYC",
-  "metaDescription": "Professional pest control in East Rockaway, NY. Serving canal waterfront homes with expert treatment for moisture pests, rodents & insects. Call (855) 930-5016.",
-  "heroParagraph": "East Rockaway's unique South Shore location along canal waterways creates specific pest challenges for homeowners. The village's proximity to water sources and humid canal environment attracts moisture-loving pests like carpenter ants, termites, and silverfish. Seasonal flooding and high humidity levels in waterfront properties provide ideal breeding conditions for various insects and rodents. The Best Pest Control NYC understands East Rockaway's distinct pest pressures, from basement moisture issues to attic rodent infestations. Our local expertise ensures your canal-side home receives targeted protection against the pests that thrive in this beautiful waterfront community.",
-  "commonPestsSection": "East Rockaway's canal waterfront environment supports numerous pest species year-round. Carpenter ants and subterranean termites thrive in the moisture-rich conditions near waterways, often targeting wooden structures in homes. Norway rats and house mice seek shelter in basements and crawl spaces during cooler months. Silverfish and centipedes flourish in humid areas like bathrooms and basements. Spring brings increased mosquito activity from standing water near canals, while summer heat drives cockroaches and spiders indoors. The village's lush landscaping and proximity to Lynbrook and Valley Stream creates corridors for pest movement between properties, requiring comprehensive treatment approaches.",
-  "whyUsSection": "The Best Pest Control NYC provides East Rockaway residents with specialized waterfront pest management solutions. Our technicians understand the unique challenges of canal-area properties, from moisture control to seasonal pest patterns. We offer comprehensive inspections, targeted treatments, and ongoing prevention specifically designed for South Shore homes. With same-day service available and deep knowledge of Nassau County pest behavior, we're your trusted local partner for protecting your East Rockaway investment.",
+  "title": "East Rockaway Pest Control | Long Island Exterminator Services",
+  "metaDescription": "Professional pest control in East Rockaway, NY. Serving this South Shore canal community with expert extermination for rodents, termites, mosquitoes & more. Call today!",
+  "intro": "East Rockaway's waterfront location along the canal system creates unique pest control challenges that require local expertise. Our professional exterminators understand the specific needs of this South Shore village, from moisture-loving pests near the water to rodents seeking shelter in residential areas. We provide comprehensive pest management solutions tailored to protect East Rockaway homes and businesses year-round.",
+  "localContext": "This charming village features a mix of early 20th-century homes and newer waterfront properties along the canal, creating diverse pest entry points and nesting opportunities. The proximity to Mill River and interconnected waterways, combined with the area's tree-lined residential streets, makes professional pest prevention essential for maintaining property values and quality of life.",
+  "commonPests": "East Rockaway's canal waterfront environment attracts mosquitoes, termites, carpenter ants, and moisture-seeking pests that thrive near water. Rodents, cockroaches, and stinging insects are also common concerns in this densely populated village setting, particularly during seasonal transitions when pests seek indoor shelter.",
+  "services": [
+    "Cockroach Extermination",
+    "Bed Bug Treatment",
+    "Rodent Control",
+    "Termite Inspection & Treatment",
+    "Mosquito Control",
+    "Ant Extermination",
+    "Carpenter Ant Removal",
+    "Wasp & Bee Removal",
+    "Flea & Tick Treatment",
+    "Spider Control",
+    "Silverfish Elimination",
+    "Wildlife Removal"
+  ],
   "faqs": [
     {
-      "q": "What pests are most common in East Rockaway waterfront homes?",
-      "a": "East Rockaway waterfront properties commonly face carpenter ants, termites, silverfish, and rodents due to high moisture levels from canal proximity. Mosquitoes and flies also increase during warmer months near water sources."
+      "question": "Why are mosquitoes such a problem in East Rockaway?",
+      "answer": "East Rockaway's canal system and proximity to Mill River create ideal breeding conditions for mosquitoes. Standing water in canals, drainage areas, and waterfront properties provides numerous breeding sites. Professional mosquito control including larvicide treatments and barrier sprays is essential for outdoor comfort, especially during spring and summer months."
     },
     {
-      "q": "How does East Rockaway's canal location affect pest control needs?",
-      "a": "The canal environment creates year-round humidity that attracts moisture pests. Seasonal flooding can drive insects and rodents to higher ground, often into homes. We adjust treatment schedules and methods based on these waterfront conditions."
+      "question": "Are termites common in East Rockaway waterfront homes?",
+      "answer": "Yes, termites are a significant concern in East Rockaway due to the high moisture levels near the canal and waterfront areas. The combination of older wooden structures and humid conditions creates ideal environments for subterranean termites. Annual termite inspections and preventative treatments are highly recommended for all East Rockaway properties, especially those near water."
     },
     {
-      "q": "Do you service East Rockaway and nearby Lynbrook and Oceanside areas?",
-      "a": "Yes, we provide comprehensive pest control services throughout East Rockaway and surrounding Nassau County communities including Lynbrook, Valley Stream, Oceanside, and Hewlett. Call (855) 930-5016 for immediate service."
+      "question": "How quickly can you respond to pest emergencies in East Rockaway?",
+      "answer": "We offer same-day or next-day service for most pest emergencies in East Rockaway and throughout the South Shore. Our local Long Island team is familiar with the village layout and can quickly reach properties along the canal, Doughty Boulevard, and surrounding residential streets to address urgent pest situations like rodent infestations, wasp nests, or bed bug discoveries."
     }
-  ],
-  "generatedAt": "2026-04-11T00:29:09.125041"
+  ]
 }
