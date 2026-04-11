@@ -54,7 +54,8 @@ export async function generateMetadata({
   }
 
   return {
-    title: content.metaTitle,
+    // Use absolute to prevent layout template from appending brand name again
+    title: { absolute: content.metaTitle },
     description: content.metaDescription,
     alternates: {
       canonical: `https://www.thebestpestcontrolnyc.com/${params.area}/${params.service}`,

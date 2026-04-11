@@ -6,11 +6,11 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.thebestpestcontrolnyc.com"),
   title: {
-    default: "The Best Pest Control NYC | Licensed Exterminators — 310+ Neighborhoods",
+    default: "The Best Pest Control NYC | Licensed Exterminators — 318+ Neighborhoods",
     template: "%s | The Best Pest Control NYC",
   },
   description:
-    "NYS DEC licensed exterminators serving 310+ neighborhoods across NYC, NJ, Long Island & Westchester. 32 pest types eliminated. Free inspection. No money upfront. Guaranteed results.",
+    "NYS DEC licensed exterminators serving 318+ neighborhoods across NYC, NJ, Long Island & Westchester. 32 pest types eliminated. Free inspection. No money upfront. Guaranteed results.",
   keywords: [
     "pest control NYC",
     "exterminator NYC",
@@ -26,12 +26,12 @@ export const metadata: Metadata = {
     siteName: "The Best Pest Control NYC",
     title: "The Best Pest Control NYC | Licensed Exterminators",
     description:
-      "NYS DEC licensed exterminators serving 310+ NYC neighborhoods. 32 pest types eliminated. Free inspection. No money upfront.",
+      "NYS DEC licensed exterminators serving 318+ NYC neighborhoods. 32 pest types eliminated. Free inspection. No money upfront.",
   },
   twitter: {
     card: "summary_large_image",
     title: "The Best Pest Control NYC",
-    description: "NYS DEC licensed exterminators. 310+ neighborhoods. Free inspection.",
+    description: "NYS DEC licensed exterminators. 318+ neighborhoods. Free inspection.",
   },
   robots: {
     index: true,

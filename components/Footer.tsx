@@ -25,7 +25,7 @@ const AREA_LINKS = [
   { label: "New Jersey", href: "/areas/hoboken" },
   { label: "Long Island", href: "/areas/garden-city" },
   { label: "Westchester", href: "/areas/white-plains" },
-  { label: "All 310+ Areas →", href: "/areas" },
+  { label: "All 318+ Areas →", href: "/areas" },
 ];
 
 const QUICK_LINKS = [
@@ -79,7 +79,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="text-sm text-gray-400 mb-4 leading-relaxed">
-            NYS DEC licensed exterminators serving 310+ neighborhoods across NYC, NJ, Long Island, and Westchester. 32 pest types eliminated. Guaranteed.
+            NYS DEC licensed exterminators serving 318+ neighborhoods across NYC, NJ, Long Island, and Westchester. 32 pest types eliminated. Guaranteed.
           </p>
           <div className="space-y-1 text-sm">
             <p className="text-green-400 font-semibold">✓ NYS DEC Licensed</p>

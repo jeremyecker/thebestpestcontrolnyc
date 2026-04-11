@@ -18,7 +18,8 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     content?.metaDescription ||
     `Professional ${service.name.toLowerCase()} in NYC. ${service.priceRange}. NYS DEC licensed exterminators. Free inspection. No money upfront. ${service.seasonal ? "Seasonal treatment." : `${service.guaranteeDays}-day guarantee.`}`;
   return {
-    title,
+    // Use absolute to prevent layout template from appending brand name again
+    title: { absolute: title },
     description,
     alternates: { canonical: `https://www.thebestpestcontrolnyc.com/services/${service.slug}` },
   };
