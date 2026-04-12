@@ -13,7 +13,7 @@ const SERVICES_LINKS = [
   { label: "Wasp Removal", href: "/services/wasp-removal" },
   { label: "Mosquito Control", href: "/services/mosquito-control" },
   { label: "Wildlife Removal", href: "/services/raccoon-removal" },
-  { label: "All 32 Services \u2192", href: "/services" },
+  { label: "All 32 Services →", href: "/services" },
 ];
 
 const AREA_LINKS = [
@@ -25,7 +25,7 @@ const AREA_LINKS = [
   { label: "New Jersey", href: "/areas/hoboken" },
   { label: "Long Island", href: "/areas/garden-city" },
   { label: "Westchester", href: "/areas/white-plains" },
-  { label: "All 318+ Areas \u2192", href: "/areas" },
+  { label: "All 318+ Areas →", href: "/areas" },
 ];
 
 const QUICK_LINKS = [
@@ -51,7 +51,7 @@ export default function Footer() {
               href={`tel:${PHONE_NUMBER}`}
               className="bg-white text-green-800 font-bold px-5 py-2.5 rounded-lg hover:bg-green-50 transition text-sm"
             >
-              \ud83d\udcde {PHONE_DISPLAY}
+              📞 {PHONE_DISPLAY}
             </a>
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function Footer() {
         {/* Brand column */}
         <div>
           <div className="flex items-center gap-2 mb-4">
-            <span className="text-2xl">\ud83d\udc1b</span>
+            <span className="text-2xl">🐛</span>
             <div>
               <span className="font-bold text-white text-base leading-tight block" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
                 THE BEST PEST CONTROL
@@ -76,10 +76,10 @@ export default function Footer() {
             NYS DEC licensed exterminators serving 318+ neighborhoods across NYC, NJ, Long Island, and Westchester. 32 pest types eliminated. Guaranteed.
           </p>
           <div className="space-y-1 text-sm">
-            <p className="text-green-400 font-semibold">\u2713 NYS DEC Licensed</p>
-            <p className="text-green-400 font-semibold">\u2713 Fully Insured</p>
-            <p className="text-green-400 font-semibold">\u2713 4.9\u2605 Rated</p>
-            <p className="text-green-400 font-semibold">\u2713 No Money Upfront</p>
+            <p className="text-green-400 font-semibold">✓ NYS DEC Licensed</p>
+            <p className="text-green-400 font-semibold">✓ Fully Insured</p>
+            <p className="text-green-400 font-semibold">✓ 4.9★ Rated</p>
+            <p className="text-green-400 font-semibold">✓ No Money Upfront</p>
           </div>
         </div>
 
@@ -135,18 +135,18 @@ export default function Footer() {
           <h3 className="text-white font-bold text-sm uppercase tracking-wider mb-3">Hours</h3>
           <div className="space-y-1 text-sm text-gray-400">
             <div className="flex justify-between gap-4">
-              <span>Mon \u2013 Fri</span>
-              <span className="text-gray-300">7am \u2013 8pm</span>
+              <span>Mon – Fri</span>
+              <span className="text-gray-300">7am – 8pm</span>
             </div>
             <div className="flex justify-between gap-4">
               <span>Saturday</span>
-              <span className="text-gray-300">8am \u2013 6pm</span>
+              <span className="text-gray-300">8am – 6pm</span>
             </div>
             <div className="flex justify-between gap-4">
               <span>Sunday</span>
-              <span className="text-gray-300">9am \u2013 5pm</span>
+              <span className="text-gray-300">9am – 5pm</span>
             </div>
-            <p className="text-green-400 text-xs pt-1">\u26a1 Emergency service 24/7</p>
+            <p className="text-green-400 text-xs pt-1">⚡ Emergency service 24/7</p>
           </div>
         </div>
       </div>
