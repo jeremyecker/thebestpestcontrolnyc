@@ -179,7 +179,7 @@ export default function FAQPage() {
             {/* Still have questions? */}
             <div className="mt-10 bg-green-50 border border-green-200 rounded-2xl p-6">
               <h3 className="font-bold text-green-900 text-lg mb-2">Still Have a Question?</h3>
-              <p className="text-green-800 text-sm mb-4">Our team responds within minutes during business hours. Text for the fastest answer.</p>
+              <p className="text-green-800 text-sm mb-4">Our team responds within minutes during business hours. Call us for the fastest response.</p>
               <div className="flex flex-wrap gap-3">
                 <a href={`tel:${PHONE}`} className="bg-green-700 text-white font-bold px-5 py-2.5 rounded-xl hover:bg-green-600 transition text-sm">📞 Call {PHONE_DISPLAY}</a>
               </div>
