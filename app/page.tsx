@@ -63,7 +63,7 @@ const HOMEFAQS = [
   },
   {
     q: "Do you offer same-day exterminator service?",
-    a: "Yes. We offer same-day and emergency service throughout NYC, NJ, Long Island, and Westchester for urgent situations. Wasp nests, rat infestations in commercial spaces, bed bug discoveries — call or text and we'll dispatch as fast as possible.",
+    a: "Yes. We offer same-day and emergency service throughout NYC, NJ, Long Island, and Westchester for urgent situations. Wasp nests, rat infestations in commercial spaces, bed bug discoveries — call and we'll dispatch as fast as possible.",
   },
   {
     q: "Are your pest control treatments safe for kids and pets?",
@@ -186,7 +186,7 @@ export default function HomePage() {
           <div>
             <span className="font-bold text-amber-800 text-sm uppercase tracking-wider">Pro Tip</span>
             <p className="text-amber-900 mt-1 leading-relaxed">
-              Spotted one cockroach? There are probably 200 more hiding inside your walls. German cockroaches are nocturnal — if you see them during the day, the infestation is already serious. Don't waste money on store-bought sprays. They scatter roaches into new rooms and make the problem harder to treat. Text us a photo and we'll tell you exactly what you're dealing with — free, no obligation.
+              Spotted one cockroach? There are probably 200 more hiding inside your walls. German cockroaches are nocturnal — if you see them during the day, the infestation is already serious. Don't waste money on store-bought sprays. They scatter roaches into new rooms and make the problem harder to treat. Call us and we'll tell you exactly what you're dealing with — free, no obligation.
             </p>
           </div>
         </div>
@@ -265,7 +265,7 @@ export default function HomePage() {
           <h2 className="text-4xl font-bold text-gray-900 text-center mb-12" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>How It Works</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { num: "1", title: "Contact Us", desc: "Call us or book online. Send a photo if you have one. We respond in minutes. A quick two-question conversation gets you on the schedule." },
+              { num: "1", title: "Contact Us", desc: "Call us or book online. We respond in minutes. A quick two-question conversation gets you on the schedule." },
               { num: "2", title: "We Show Up & Investigate", desc: "A licensed exterminator arrives on time. We inspect kitchens, bathrooms, basements, walls, attics, and every entry point. We find the source." },
               { num: "3", title: "You See the Price First", desc: "After inspection, we show you exactly what we found, what we recommend, and the total cost. You approve before we touch anything." },
               { num: "4", title: "Pests Gone. Guaranteed.", desc: "We execute the treatment using EPA-approved products. If anything comes back during the guarantee period, we return at no charge." },
