@@ -3,7 +3,7 @@ import Link from "next/link";
 import { AREAS, BOROUGH_GROUPS } from "@/data/areas";
 
 export const metadata: Metadata = {
-  title: "Pest Control Service Areas NYC | 318+ Neighborhoods | The Best Pest Control NYC",
+  title: { absolute: "Pest Control Service Areas NYC | 318+ Neighborhoods | The Best Pest Control NYC" },
   description: "We serve 318+ neighborhoods across all NYC boroughs, New Jersey, Long Island, and Westchester. Find your neighborhood and book a free inspection.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com/areas" },
 };
