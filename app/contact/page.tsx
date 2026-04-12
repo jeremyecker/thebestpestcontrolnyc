@@ -14,7 +14,7 @@ const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(855) 930-5016";
 export const metadata: Metadata = {
   title: { absolute: "Contact Us | The Best Pest Control NYC" },
   description:
-    "Contact The Best Pest Control NYC for a free pest inspection. Call, text, or fill out the form. We respond within minutes. Licensed NYS DEC exterminators serving all of NYC.",
+    "Contact The Best Pest Control NYC for a free pest inspection. Call or fill out the form. We respond within minutes. Licensed NYS DEC exterminators serving all of NYC.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com/contact" },
 };
 
@@ -60,7 +60,7 @@ export default function ContactPage() {
 
       {/* Quick Contact Bar */}
       <section className="bg-green-50 border-b border-green-100 py-6 px-4">
-        <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4 text-center">
+        <div className="max-w-5xl mx-auto grid grid-cols-1 gap-4 text-center">
           <a
             href={`tel:${PHONE_NUMBER}`}
             className="flex flex-col items-center gap-1 p-4 bg-white rounded-xl border border-green-200 hover:border-green-500 hover:shadow-md transition"
@@ -133,9 +133,8 @@ export default function ContactPage() {
             <div className="bg-yellow-50 border border-yellow-200 rounded-2xl p-6">
               <h3 className="font-bold text-gray-900 mb-2">⚡ Our Response Time</h3>
               <p className="text-sm text-gray-700">
-                We respond to text messages within minutes during business hours.
-                Phone calls are answered live. Form submissions receive a call or
-                text back within 1 hour during business hours. Emergencies are
+                We respond within minutes during business hours.
+                Phone calls are answered live. Form submissions receive a callback within 1 hour during business hours. Emergencies are
                 dispatched immediately.
               </p>
             </div>
