@@ -64,7 +64,16 @@ export default function QueensPage() {
         </div>
       </section>
 
-      <section className="max-w-5xl mx-auto px-4 py-12">
+      <section className="max-w-5xl mx-auto px-4 pt-12 pb-0">
+        <p className="text-gray-700 text-lg leading-relaxed mb-5">
+          Queens is the most geographically and architecturally diverse borough — ranging from dense multi-family housing in Astoria and Jackson Heights to single-family neighborhoods in Bayside, Forest Hills, and Howard Beach, with high-volume commercial corridors in Flushing that generate significant food waste. Flushing’s restaurant density rivals Midtown Manhattan for cockroach pressure, while the proximity to JFK introduces international pest risks rarely seen in other boroughs. The range of housing types means Queens residents deal with both urban pest problems (bed bugs, cockroaches) and suburban ones (wildlife, termites, ticks).
+        </p>
+        <p className="text-gray-700 text-lg leading-relaxed">
+          Older two-family homes and basement apartments in Woodside, Elmhurst, and Corona are particular hot spots for mouse and roach infestations due to aging infrastructure and high occupancy turnover. Large single-family homes in Eastern Queens — Jamaica Estates, Hollis Hills, Queens Village — face more wildlife pressure: raccoons entering attics through deteriorated fascia, squirrels gaining entry around chimneys, and groundhogs burrowing under decks. Our Queens exterminators handle both the urban and suburban pest profiles across all 45 neighborhoods we serve.
+        </p>
+      </section>
+
+      <section className="max-w-5xl mx-auto px-4 pt-10 pb-12">
         <h2 className="text-3xl font-bold text-gray-900 mb-2" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
           {areas.length} Queens Neighborhoods We Serve
         </h2>
@@ -100,7 +109,7 @@ export default function QueensPage() {
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Licensed NYS DEC exterminators with Queens experience</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Same-day service available across all {areas.length} neighborhoods</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Free pest inspection — no obligation, no charge</li>
-            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> No money upfront — pay when the job is done and you're satisfied</li>
+            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> No money upfront — pay when the job is done and you’re satisfied</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> 30–365 day guarantee depending on service type</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> 32 pest types treated: cockroaches, bed bugs, rodents, termites, wildlife &amp; more</li>
           </ul>

@@ -64,7 +64,16 @@ export default function LongIslandPage() {
         </div>
       </section>
 
-      <section className="max-w-5xl mx-auto px-4 py-12">
+      <section className="max-w-5xl mx-auto px-4 pt-12 pb-0">
+        <p className="text-gray-700 text-lg leading-relaxed mb-5">
+          Long Island’s predominantly suburban, single-family character creates a pest profile dominated by wildlife, termites, ticks, and mosquitoes rather than the cockroach and bed bug pressures of denser urban environments — though Nassau County’s older housing stock, particularly in Hempstead, Elmont, and Valley Stream, does see roach and rodent pressure in multi-family buildings. Deer ticks are a major health concern across both Nassau and Suffolk Counties; Long Island has some of the highest Lyme disease rates in New York State, and seasonal tick control has become standard property maintenance for homeowners with lawn and wooded areas. Eastern subterranean termites are prevalent in Nassau County neighborhoods like Garden City, Rockville Centre, and Merrick, where mid-20th century wooden-frame homes are common.
+        </p>
+        <p className="text-gray-700 text-lg leading-relaxed">
+          Long Island’s extensive coastline and inland waterways — Great South Bay, the South Shore marshlands, the wetlands around Massapequa and Lindenhurst — create significant mosquito breeding habitat that drives summer pressure well beyond what mainland neighborhoods experience. Wildlife pressure — raccoons in attics, squirrels in soffits, groundhogs under decks — is active year-round in wooded neighborhoods throughout Nassau and western Suffolk County. Our Long Island exterminators understand the seasonal rhythm of pest activity here and design programs that address the full year-round pest profile.
+        </p>
+      </section>
+
+      <section className="max-w-5xl mx-auto px-4 pt-10 pb-12">
         <h2 className="text-3xl font-bold text-gray-900 mb-2" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
           {areas.length} Long Island Neighborhoods We Serve
         </h2>
@@ -100,7 +109,7 @@ export default function LongIslandPage() {
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Licensed NYS DEC exterminators with Long Island experience</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Same-day service available across all {areas.length} neighborhoods</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Free pest inspection — no obligation, no charge</li>
-            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> No money upfront — pay when the job is done and you're satisfied</li>
+            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> No money upfront — pay when the job is done and you’re satisfied</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> 30–365 day guarantee depending on service type</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> 32 pest types treated: cockroaches, bed bugs, rodents, termites, wildlife &amp; more</li>
           </ul>
