@@ -20,6 +20,11 @@ export const metadata: Metadata = {
     "rat extermination NYC",
     "pest control New York",
   ],
+  verification: {
+    other: {
+      "msvalidate.01": "7269DBA7AB2884805155E8C4E40544B8",
+    },
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
