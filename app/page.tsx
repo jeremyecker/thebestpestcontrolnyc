@@ -47,7 +47,7 @@ const schema = {
     {
       "@type": "FAQPage",
       mainEntity: [
-        { "@type": "Question", name: "How much does pest control cost in NYC?", acceptedAnswer: { "@type": "Answer", text: "General pest control starts at $175–$300. Bed bug treatment $1,200–$3,500. Rodent control $350–$600. Termite treatment $800–$4,000. Free inspection and written quote before any work begins." } },
+        { "@type": "Question", name: "How much does pest control cost in NYC?", acceptedAnswer: { "@type": "Answer", text: "General pest control starts at $300\u2013$450. Bed bug treatment $1,200\u2013$4,500. Rodent control $300\u2013$450. Termite treatment $800\u2013$2,500. Free inspection and written quote before any work begins." } },
         { "@type": "Question", name: "Do you offer same-day exterminator service?", acceptedAnswer: { "@type": "Answer", text: "Yes. Same-day and emergency service throughout NYC, NJ, Long Island, and Westchester for urgent situations. Call us and we'll dispatch as fast as possible." } },
         { "@type": "Question", name: "Are your exterminators licensed and insured?", acceptedAnswer: { "@type": "Answer", text: "Every technician holds a NYS DEC Commercial Pesticide Applicator license and we carry full liability insurance on every job." } },
       ],
@@ -58,19 +58,19 @@ const schema = {
 const HOMEFAQS = [
   {
     q: "How much does pest control cost in NYC?",
-    a: "Costs vary by pest type, infestation severity, and property size. General pest control starts at $175–$300. Bed bug treatment runs $1,200–$3,500. Rodent control is $350–$600. Termite treatment ranges from $800–$4,000. We always provide a free inspection and written upfront quote — no surprises, no hidden fees.",
+    a: "Costs vary by pest type, infestation severity, and property size. General pest control starts at $300\u2013$450. Bed bug treatment runs $1,200\u2013$4,500. Rodent control is $300\u2013$450. Termite treatment ranges from $800\u2013$2,500. We always provide a free inspection and written upfront quote \u2014 no surprises, no hidden fees.",
   },
   {
     q: "Do you offer same-day exterminator service?",
-    a: "Yes. We offer same-day and emergency service throughout NYC, NJ, Long Island, and Westchester for urgent situations. Wasp nests, rat infestations in commercial spaces, bed bug discoveries — call and we'll dispatch as fast as possible.",
+    a: "Yes. We offer same-day and emergency service throughout NYC, NJ, Long Island, and Westchester for urgent situations. Wasp nests, rat infestations in commercial spaces, bed bug discoveries \u2014 call and we'll dispatch as fast as possible.",
   },
   {
     q: "Are your pest control treatments safe for kids and pets?",
-    a: "All our treatments use EPA-approved products with targeted application methods designed to minimize exposure. Gel baits are placed inside cracks, crevices, and wall voids — out of everyday contact. We always provide specific safety instructions for your household before and after treatment.",
+    a: "All our treatments use EPA-approved products with targeted application methods designed to minimize exposure. Gel baits are placed inside cracks, crevices, and wall voids \u2014 out of everyday contact. We always provide specific safety instructions for your household before and after treatment.",
   },
   {
     q: "Do you service apartments, houses, and commercial properties?",
-    a: "All of the above. Studio apartments, co-ops, condos, brownstones, townhouses, single-family homes, restaurants, offices, retail stores, warehouses, and multi-unit residential buildings — we handle every property type across all our service areas.",
+    a: "All of the above. Studio apartments, co-ops, condos, brownstones, townhouses, single-family homes, restaurants, offices, retail stores, warehouses, and multi-unit residential buildings \u2014 we handle every property type across all our service areas.",
   },
   {
     q: "Are your exterminators licensed and insured?",
@@ -94,19 +94,19 @@ const HOMEFAQS = [
   },
   {
     q: "How do I pay? Is there money upfront?",
-    a: "No money upfront — you pay when the job is done and you're satisfied. We accept all major credit cards, debit cards, and checks.",
+    a: "No money upfront \u2014 you pay when the job is done and you're satisfied. We accept all major credit cards, debit cards, and checks.",
   },
 ];
 
 const BOROUGHS_DISPLAY = [
-  { name: "Manhattan", icon: "🗽", slug: "manhattan" },
-  { name: "Brooklyn", icon: "🌉", slug: "brooklyn" },
-  { name: "Queens", icon: "🏙️", slug: "queens" },
-  { name: "The Bronx", icon: "🏟️", slug: "the-bronx" },
-  { name: "Staten Island", icon: "⛴️", slug: "staten-island" },
-  { name: "New Jersey", icon: "🏢", slug: "hoboken" },
-  { name: "Long Island", icon: "🏖️", slug: "garden-city" },
-  { name: "Westchester", icon: "🌳", slug: "white-plains" },
+  { name: "Manhattan", icon: "\ud83d\uddfd", slug: "manhattan" },
+  { name: "Brooklyn", icon: "\ud83c\udf09", slug: "brooklyn" },
+  { name: "Queens", icon: "\ud83c\udfd9\ufe0f", slug: "queens" },
+  { name: "The Bronx", icon: "\ud83c\udfc1\ufe0f", slug: "the-bronx" },
+  { name: "Staten Island", icon: "\u26f4\ufe0f", slug: "staten-island" },
+  { name: "New Jersey", icon: "\ud83c\udfe2", slug: "hoboken" },
+  { name: "Long Island", icon: "\ud83c\udfd6\ufe0f", slug: "garden-city" },
+  { name: "Westchester", icon: "\ud83c\udf33", slug: "white-plains" },
 ];
 
 export default function HomePage() {
@@ -120,31 +120,31 @@ export default function HomePage() {
       <section className="bg-green-800 text-white pt-16 pb-20 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <div className="inline-block bg-green-600 text-white text-xs font-bold px-4 py-1.5 rounded-full mb-6 tracking-wider">
-            NYS DEC LICENSED • FULLY INSURED • FREE INSPECTION
+            NYS DEC LICENSED \u2022 FULLY INSURED \u2022 FREE INSPECTION
           </div>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
-            NYC's Best Pest Control<br className="hidden md:block" /> — Guaranteed.
+            NYC's Best Pest Control<br className="hidden md:block" /> \u2014 Guaranteed.
           </h1>
           <p className="text-xl md:text-2xl text-green-100 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Licensed exterminators serving 318+ neighborhoods across NYC, NJ, Long Island & Westchester. Cockroaches, bed bugs, rats, mice, termites, wildlife, and 32 pest types — eliminated for good. Starting at $125. No money upfront.
+            Licensed exterminators serving 318+ neighborhoods across NYC, NJ, Long Island & Westchester. Cockroaches, bed bugs, rats, mice, termites, wildlife, and 32 pest types \u2014 eliminated for good. Starting at $125. No money upfront.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-wrap justify-center gap-4 mb-10">
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-50 transition shadow-lg">
-              📞 Call {PHONE_DISPLAY}
+              \ud83d\udcde Call {PHONE_DISPLAY}
             </a>
             <a href="/contact" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-xl text-lg hover:bg-yellow-300 transition shadow-lg">
-              📅 Book Online
+              \ud83d\udcc5 Book Online
             </a>
           </div>
 
           {/* Trust Badges */}
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm font-semibold text-green-200">
-            <span>✓ No money upfront — pay when done</span>
-            <span>✓ 5,000+ five-star reviews across NYC</span>
-            <span>✓ 100% satisfaction guarantee</span>
-            <span>✓ NYS DEC Licensed & fully insured</span>
+            <span>\u2713 No money upfront \u2014 pay when done</span>
+            <span>\u2713 5,000+ five-star reviews across NYC</span>
+            <span>\u2713 100% satisfaction guarantee</span>
+            <span>\u2713 NYS DEC Licensed & fully insured</span>
           </div>
         </div>
       </section>
@@ -155,7 +155,7 @@ export default function HomePage() {
           {[
             { stat: "24/7", label: "We Never Sleep", sub: "Nights, weekends, holidays" },
             { stat: "60 sec", label: "Book in 60 Seconds", sub: "Fastest scheduling in NYC" },
-            { stat: "4.9★", label: "NYC Trusts Us", sub: "5,000+ verified reviews" },
+            { stat: "4.9\u2605", label: "NYC Trusts Us", sub: "5,000+ verified reviews" },
             { stat: "30,000+", label: "Pests Gone for Good", sub: "Homes & businesses cleared" },
           ].map((item) => (
             <div key={item.stat} className="text-white">
@@ -172,7 +172,7 @@ export default function HomePage() {
         <div className="flex ticker-track whitespace-nowrap">
           {[1, 2].map((n) => (
             <span key={n} className="text-white font-semibold text-sm mx-8">
-              NYS DEC Licensed Exterminators &bull; Fully Insured Pest Control &bull; Free Pest Inspections &bull; Same-Day Service Available &bull; Guaranteed Results &bull; No Hidden Fees &bull; No Money Upfront &bull; 4.9★ Rated &bull;&nbsp;
+              NYS DEC Licensed Exterminators &bull; Fully Insured Pest Control &bull; Free Pest Inspections &bull; Same-Day Service Available &bull; Guaranteed Results &bull; No Hidden Fees &bull; No Money Upfront &bull; 4.9\u2605 Rated &bull;&nbsp;
             </span>
           ))}
         </div>
@@ -181,11 +181,11 @@ export default function HomePage() {
       {/* PRO TIP 1 */}
       <section className="bg-amber-50 border-y border-amber-200 py-8 px-4">
         <div className="max-w-4xl mx-auto flex gap-4 items-start">
-          <span className="text-3xl shrink-0">💡</span>
+          <span className="text-3xl shrink-0">\ud83d\udca1</span>
           <div>
             <span className="font-bold text-amber-800 text-sm uppercase tracking-wider">Pro Tip</span>
             <p className="text-amber-900 mt-1 leading-relaxed">
-              Spotted one cockroach? There are probably 200 more hiding inside your walls. German cockroaches are nocturnal — if you see them during the day, the infestation is already serious. Don't waste money on store-bought sprays. They scatter roaches into new rooms and make the problem harder to treat. Call us and we'll tell you exactly what you're dealing with — free, no obligation.
+              Spotted one cockroach? There are probably 200 more hiding inside your walls. German cockroaches are nocturnal \u2014 if you see them during the day, the infestation is already serious. Don't waste money on store-bought sprays. They scatter roaches into new rooms and make the problem harder to treat. Call us and we'll tell you exactly what you're dealing with \u2014 free, no obligation.
             </p>
           </div>
         </div>
@@ -198,24 +198,24 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                The Best Pest Control NYC is a full-service exterminator company built specifically for the challenges of New York City living. Whether you're in a Harlem walkup, a Williamsburg loft, a Midtown hotel, a Queens restaurant, or a Westchester colonial — our team of NYS DEC-licensed exterminators has seen your pest problem before, and we know exactly how to fix it.
+                The Best Pest Control NYC is a full-service exterminator company built specifically for the challenges of New York City living. Whether you're in a Harlem walkup, a Williamsburg loft, a Midtown hotel, a Queens restaurant, or a Westchester colonial \u2014 our team of NYS DEC-licensed exterminators has seen your pest problem before, and we know exactly how to fix it.
               </p>
               <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                We cover 32 pest types across 318+ neighborhoods in all five boroughs, northern New Jersey, Long Island, and Westchester County. From cockroach gel bait treatments and whole-room bed bug heat treatment to rodent exclusion, termite barrier systems, and wildlife removal — every service starts with a free inspection and ends with a written guarantee.
+                We cover 32 pest types across 318+ neighborhoods in all five boroughs, northern New Jersey, Long Island, and Westchester County. From cockroach gel bait treatments and whole-room bed bug heat treatment to rodent exclusion, termite barrier systems, and wildlife removal \u2014 every service starts with a free inspection and ends with a written guarantee.
               </p>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 What separates us from every other pest control company in NYC is simple: we treat root causes, not just symptoms. Any exterminator can spray. We find where pests are entering, why they're thriving, and what needs to change permanently. That's why our customers don't call us twice for the same problem.
               </p>
-              <a href="/contact" className="inline-block bg-green-700 text-white font-bold px-6 py-3 rounded-xl hover:bg-green-600 transition">Get Your Free Inspection →</a>
+              <a href="/contact" className="inline-block bg-green-700 text-white font-bold px-6 py-3 rounded-xl hover:bg-green-600 transition">Get Your Free Inspection \u2192</a>
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
-                { icon: "🏛️", title: "Licensed & Insured — Every Single Technician", desc: "Every member of our pest control team holds an active NYS DEC Commercial Pesticide Applicator license. Full general liability insurance on every job — residential and commercial." },
-                { icon: "⚡", title: "Same-Day Service — When You Need It Now", desc: "Pest emergencies don't work on a 9-to-5 schedule. We dispatch same-day for urgent situations across all our service areas. Call anytime. We pick up nights, weekends, and holidays." },
-                { icon: "🔍", title: "Free Pest Inspections — Before Any Work Begins", desc: "We don't guess. Every job starts with a thorough inspection by a licensed exterminator. You'll see exactly what we find before we recommend a single treatment. No upsells. No pressure. No charge." },
-                { icon: "✅", title: "Guaranteed Results — We Come Back at No Cost", desc: "If pests return within our guarantee period, our team returns and retreats at zero additional charge. General pest control: 30-day. Bed bugs: 90-day. Rodent proofing: full-year structural guarantee." },
-                { icon: "🗺️", title: "318+ Neighborhoods — The Most Coverage in NYC", desc: "All five boroughs, 48 New Jersey communities, 55 Long Island neighborhoods, and 30 Westchester locations — 318+ neighborhoods in total. One call reaches our whole network." },
-                { icon: "💰", title: "Transparent Pricing — No Hidden Fees, Ever", desc: "You'll see a detailed written estimate before any work begins — what we'll do, which products we'll use, and the exact total cost. No surprise charges. No money upfront. You pay when done." },
+                { icon: "\ud83c\udfd9\ufe0f", title: "Licensed & Insured \u2014 Every Single Technician", desc: "Every member of our pest control team holds an active NYS DEC Commercial Pesticide Applicator license. Full general liability insurance on every job \u2014 residential and commercial." },
+                { icon: "\u26a1", title: "Same-Day Service \u2014 When You Need It Now", desc: "Pest emergencies don't work on a 9-to-5 schedule. We dispatch same-day for urgent situations across all our service areas. Call anytime. We pick up nights, weekends, and holidays." },
+                { icon: "\ud83d\udd0d", title: "Free Pest Inspections \u2014 Before Any Work Begins", desc: "We don't guess. Every job starts with a thorough inspection by a licensed exterminator. You'll see exactly what we find before we recommend a single treatment. No upsells. No pressure. No charge." },
+                { icon: "\u2705", title: "Guaranteed Results \u2014 We Come Back at No Cost", desc: "If pests return within our guarantee period, our team returns and retreats at zero additional charge. General pest control: 30-day. Bed bugs: 90-day. Rodent proofing: full-year structural guarantee." },
+                { icon: "\ud83d\uddfa\ufe0f", title: "318+ Neighborhoods \u2014 The Most Coverage in NYC", desc: "All five boroughs, 48 New Jersey communities, 55 Long Island neighborhoods, and 30 Westchester locations \u2014 318+ neighborhoods in total. One call reaches our whole network." },
+                { icon: "\ud83d\udcb0", title: "Transparent Pricing \u2014 No Hidden Fees, Ever", desc: "You'll see a detailed written estimate before any work begins \u2014 what we'll do, which products we'll use, and the exact total cost. No surprise charges. No money upfront. You pay when done." },
               ].map((item) => (
                 <div key={item.title} className="bg-green-50 rounded-xl p-4">
                   <div className="text-2xl mb-2">{item.icon}</div>
@@ -234,7 +234,7 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-3" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>32 Services. Zero Pests.</h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              Every pest that thrives in NYC — we eliminate it. Click any service to see treatment details, pricing, and coverage across all 318 neighborhoods.
+              Every pest that thrives in NYC \u2014 we eliminate it. Click any service to see treatment details, pricing, and coverage across all 318 neighborhoods.
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
@@ -252,7 +252,7 @@ export default function HomePage() {
           </div>
           <div className="text-center mt-8">
             <Link href="/services" className="inline-block border-2 border-green-700 text-green-700 font-bold px-6 py-3 rounded-xl hover:bg-green-700 hover:text-white transition">
-              View All 32 Services →
+              View All 32 Services \u2192
             </Link>
           </div>
         </div>
@@ -278,7 +278,7 @@ export default function HomePage() {
           </div>
           <div className="text-center mt-10">
             <a href={`tel:${PHONE}`} className="inline-block bg-green-700 text-white font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-600 transition">
-              📞 Start With a Free Inspection
+              \ud83d\udcde Start With a Free Inspection
             </a>
           </div>
         </div>
@@ -287,11 +287,11 @@ export default function HomePage() {
       {/* PRO TIP 2 */}
       <section className="bg-amber-50 border-y border-amber-200 py-8 px-4">
         <div className="max-w-4xl mx-auto flex gap-4 items-start">
-          <span className="text-3xl shrink-0">💡</span>
+          <span className="text-3xl shrink-0">\ud83d\udca1</span>
           <div>
             <span className="font-bold text-amber-800 text-sm uppercase tracking-wider">Pro Tip</span>
             <p className="text-amber-900 mt-1 leading-relaxed">
-              Moving into a new NYC apartment? Schedule a pest inspection before your furniture arrives. An empty unit takes 30 minutes to inspect and treat. A furnished one takes three times as long and costs twice as much. Our pre-move-in inspections are completely free — and they've saved thousands of New Yorkers from discovering an infestation behind their couch on move-in day.
+              Moving into a new NYC apartment? Schedule a pest inspection before your furniture arrives. An empty unit takes 30 minutes to inspect and treat. A furnished one takes three times as long and costs twice as much. Our pre-move-in inspections are completely free \u2014 and they've saved thousands of New Yorkers from discovering an infestation behind their couch on move-in day.
             </p>
           </div>
         </div>
@@ -302,7 +302,7 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-10">
             <h2 className="text-4xl font-bold text-gray-900 mb-3" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>318+ Neighborhoods Served</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">From Harlem to the Hamptons, Hoboken to Hudson Valley — the most complete pest control coverage in the NYC metro area.</p>
+            <p className="text-gray-600 max-w-2xl mx-auto">From Harlem to the Hamptons, Hoboken to Hudson Valley \u2014 the most complete pest control coverage in the NYC metro area.</p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
             {BOROUGHS_DISPLAY.map((borough) => (
@@ -314,7 +314,7 @@ export default function HomePage() {
           </div>
           <div className="text-center">
             <Link href="/areas" className="inline-block border-2 border-green-700 text-green-700 font-bold px-6 py-3 rounded-xl hover:bg-green-700 hover:text-white transition">
-              View All 318+ Neighborhoods →
+              View All 318+ Neighborhoods \u2192
             </Link>
           </div>
         </div>
@@ -323,11 +323,11 @@ export default function HomePage() {
       {/* NYC INSIDER TIP */}
       <section className="bg-green-800 py-10 px-4">
         <div className="max-w-4xl mx-auto flex gap-4 items-start">
-          <span className="text-3xl shrink-0">🗽</span>
+          <span className="text-3xl shrink-0">\ud83d\uddfd</span>
           <div>
             <span className="font-bold text-yellow-400 text-sm uppercase tracking-wider">NYC Insider Tip</span>
             <p className="text-green-100 mt-1 leading-relaxed">
-              NYC landlords are legally required to provide pest control. Under the NYC Housing Maintenance Code, your landlord must keep your apartment pest-free. If they're dragging their feet, you have rights — and we document everything. We work directly with building management to get the job done and provide written records for your files.
+              NYC landlords are legally required to provide pest control. Under the NYC Housing Maintenance Code, your landlord must keep your apartment pest-free. If they're dragging their feet, you have rights \u2014 and we document everything. We work directly with building management to get the job done and provide written records for your files.
             </p>
           </div>
         </div>
@@ -339,10 +339,10 @@ export default function HomePage() {
           <h2 className="text-4xl font-bold text-gray-900 text-center mb-10" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>NYC Seasonal Pest Guide</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { season: "🌸 Spring", text: "Termite swarming season. Ant colonies activate. Carpenter ants attack moist wood. Wasp queens start building nests. Most critical window for termite inspections." },
-              { season: "☀️ Summer", text: "Peak season. Cockroach populations explode. Mosquito breeding accelerates. Wasp/hornet nests reach full size. Bed bug activity spikes with travel." },
-              { season: "🍂 Fall", text: "Rodents invade. Mice and rats move indoors. Raccoons and squirrels seek attic shelter. Stink bugs aggregate. Most important window for rodent exclusion." },
-              { season: "❄️ Winter", text: "Interior pests dominate. Rodent infestations peak. German cockroaches thrive in heated buildings. Bed bugs remain active year-round." },
+              { season: "\ud83c\udf38 Spring", text: "Termite swarming season. Ant colonies activate. Carpenter ants attack moist wood. Wasp queens start building nests. Most critical window for termite inspections." },
+              { season: "\u2600\ufe0f Summer", text: "Peak season. Cockroach populations explode. Mosquito breeding accelerates. Wasp/hornet nests reach full size. Bed bug activity spikes with travel." },
+              { season: "\ud83c\udf42 Fall", text: "Rodents invade. Mice and rats move indoors. Raccoons and squirrels seek attic shelter. Stink bugs aggregate. Most important window for rodent exclusion." },
+              { season: "\u2744\ufe0f Winter", text: "Interior pests dominate. Rodent infestations peak. German cockroaches thrive in heated buildings. Bed bugs remain active year-round." },
             ].map((item) => (
               <div key={item.season} className="bg-green-50 rounded-xl p-6 border border-green-100">
                 <div className="font-bold text-green-800 text-lg mb-3">{item.season}</div>
@@ -356,11 +356,11 @@ export default function HomePage() {
       {/* DID YOU KNOW */}
       <section className="bg-gray-900 text-white py-10 px-4">
         <div className="max-w-4xl mx-auto flex gap-4 items-start">
-          <span className="text-3xl shrink-0">💡</span>
+          <span className="text-3xl shrink-0">\ud83d\udca1</span>
           <div>
             <span className="font-bold text-yellow-400 text-sm uppercase tracking-wider">Did You Know?</span>
             <p className="text-gray-300 mt-1 leading-relaxed">
-              A single house mouse can squeeze through a gap the size of a dime. That hairline crack where your baseboard meets the wall? That's a superhighway for mice. Our rodent-proofing team seals every entry point with steel wool, copper mesh, and caulk — materials mice literally cannot chew through. We don't just eliminate the mice you have. We make sure no new ones can take their place.
+              A single house mouse can squeeze through a gap the size of a dime. That hairline crack where your baseboard meets the wall? That's a superhighway for mice. Our rodent-proofing team seals every entry point with steel wool, copper mesh, and caulk \u2014 materials mice literally cannot chew through. We don't just eliminate the mice you have. We make sure no new ones can take their place.
             </p>
           </div>
         </div>
@@ -375,7 +375,7 @@ export default function HomePage() {
               <details key={i} className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm group">
                 <summary className="font-semibold text-gray-900 cursor-pointer list-none flex justify-between items-center">
                   {faq.q}
-                  <span className="text-green-700 ml-4 group-open:rotate-180 transition-transform shrink-0">▾</span>
+                  <span className="text-green-700 ml-4 group-open:rotate-180 transition-transform shrink-0">\u25be</span>
                 </summary>
                 <p className="mt-4 text-gray-700 leading-relaxed">{faq.a}</p>
               </details>
@@ -392,14 +392,14 @@ export default function HomePage() {
           </h2>
           <p className="text-green-100 text-xl mb-4">Licensed exterminators. Free inspection. No money upfront. Same-day available.</p>
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 mb-8 text-sm font-semibold text-green-200">
-            <span>✓ No money upfront</span>
-            <span>✓ 5,000+ five-star reviews</span>
-            <span>✓ 100% satisfaction guarantee</span>
-            <span>✓ Licensed & insured</span>
+            <span>\u2713 No money upfront</span>
+            <span>\u2713 5,000+ five-star reviews</span>
+            <span>\u2713 100% satisfaction guarantee</span>
+            <span>\u2713 Licensed & insured</span>
           </div>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-50 transition">📞 Call {PHONE_DISPLAY}</a>
-            <a href="/contact" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-xl text-lg hover:bg-yellow-300 transition">📅 Book Online</a>
+            <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-50 transition">\ud83d\udcde Call {PHONE_DISPLAY}</a>
+            <a href="/contact" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-xl text-lg hover:bg-yellow-300 transition">\ud83d\udcc5 Book Online</a>
           </div>
         </div>
       </section>
