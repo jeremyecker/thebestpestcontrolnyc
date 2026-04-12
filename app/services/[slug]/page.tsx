@@ -90,7 +90,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
         aggregateRating: {
           "@type": "AggregateRating",
           ratingValue: "4.9",
-          reviewCount: "5000",
+          reviewCount: "3654",
           bestRating: "5",
           worstRating: "1",
         },
