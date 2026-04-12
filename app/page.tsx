@@ -39,7 +39,7 @@ const schema = {
       aggregateRating: {
         "@type": "AggregateRating",
         ratingValue: "4.9",
-        reviewCount: "5000",
+        reviewCount: "3654",
         bestRating: "5",
         worstRating: "1",
       },
@@ -142,7 +142,7 @@ export default function HomePage() {
           {/* Trust Badges */}
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm font-semibold text-green-200">
             <span>\u2713 No money upfront \u2014 pay when done</span>
-            <span>\u2713 5,000+ five-star reviews across NYC</span>
+            <span>\u2713 3,654 five-star reviews and growing</span>
             <span>\u2713 100% satisfaction guarantee</span>
             <span>\u2713 NYS DEC Licensed & fully insured</span>
           </div>
@@ -155,8 +155,8 @@ export default function HomePage() {
           {[
             { stat: "24/7", label: "We Never Sleep", sub: "Nights, weekends, holidays" },
             { stat: "60 sec", label: "Book in 60 Seconds", sub: "Fastest scheduling in NYC" },
-            { stat: "4.9\u2605", label: "NYC Trusts Us", sub: "5,000+ verified reviews" },
-            { stat: "30,000+", label: "Pests Gone for Good", sub: "Homes & businesses cleared" },
+            { stat: "4.9\u2605", label: "NYC Trusts Us", sub: "3,654 reviews and growing" },
+            { stat: "47,587+", label: "Pests Gone for Good", sub: "Homes & businesses cleared" },
           ].map((item) => (
             <div key={item.stat} className="text-white">
               <div className="text-3xl font-black text-yellow-400" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>{item.stat}</div>
@@ -393,7 +393,7 @@ export default function HomePage() {
           <p className="text-green-100 text-xl mb-4">Licensed exterminators. Free inspection. No money upfront. Same-day available.</p>
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 mb-8 text-sm font-semibold text-green-200">
             <span>\u2713 No money upfront</span>
-            <span>\u2713 5,000+ five-star reviews</span>
+            <span>\u2713 3,654 five-star reviews</span>
             <span>\u2713 100% satisfaction guarantee</span>
             <span>\u2713 Licensed & insured</span>
           </div>

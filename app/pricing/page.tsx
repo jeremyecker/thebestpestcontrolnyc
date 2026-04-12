@@ -32,38 +32,38 @@ const PRICING_CATEGORIES: { category: string; rows: PricingRow[] }[] = [
   {
     category: "Common Pests",
     rows: [
-      { name: "Cockroach Extermination", price: "$350 – $550", guarantee: "30 days", emergency: true },
-      { name: "Bed Bug Treatment", price: "$1,200 – $3,500", guarantee: "90 days", emergency: true },
-      { name: "Ant Control", price: "$350 – $550", guarantee: "30 days", emergency: true },
-      { name: "Spider Control", price: "$350 – $550", guarantee: "30 days", emergency: true },
-      { name: "Mosquito Control", price: "$125 – $325", guarantee: "Seasonal", emergency: true, seasonal: true },
-      { name: "Flea Treatment", price: "$350 – $650", guarantee: "30 days", emergency: true },
-      { name: "Tick Control", price: "$125 – $325", guarantee: "Seasonal", emergency: true, seasonal: true },
-      { name: "Fly Control", price: "$350 – $550", guarantee: "30 days", emergency: true },
+      { name: "Cockroach Extermination", price: "$300 – $450", guarantee: "30 days", emergency: true },
+      { name: "Bed Bug Treatment", price: "$1,200 – $4,500", guarantee: "90 days", emergency: true },
+      { name: "Ant Control", price: "$300 – $450", guarantee: "30 days", emergency: true },
+      { name: "Spider Control", price: "$300 – $450", guarantee: "30 days", emergency: true },
+      { name: "Mosquito Control", price: "$125 – $150/visit", guarantee: "Seasonal", emergency: true, seasonal: true },
+      { name: "Flea Treatment", price: "$300 – $450", guarantee: "30 days", emergency: true },
+      { name: "Tick Control", price: "$125 – $150/visit", guarantee: "Seasonal", emergency: true, seasonal: true },
+      { name: "Fly Control", price: "$300 – $450", guarantee: "30 days", emergency: true },
     ],
   },
   {
     category: "Rodents",
     rows: [
-      { name: "Rat Extermination", price: "$350 – $600", guarantee: "30 days", emergency: true },
-      { name: "Mouse Extermination", price: "$350 – $600", guarantee: "30 days", emergency: true },
+      { name: "Rat Extermination", price: "$300 – $450", guarantee: "30 days", emergency: true },
+      { name: "Mouse Extermination", price: "$300 – $450", guarantee: "30 days", emergency: true },
       { name: "Rodent Proofing (Full Exclusion)", price: "$500 – $3,000", guarantee: "1 year", emergency: false },
     ],
   },
   {
     category: "Wood-Destroying Insects",
     rows: [
-      { name: "Termite Treatment", price: "$800 – $4,000", guarantee: "1 year", emergency: true },
-      { name: "Carpenter Ant Control", price: "$350 – $2,000", guarantee: "30 days", emergency: true },
+      { name: "Termite Treatment", price: "$800 – $2,500", guarantee: "1 year", emergency: true },
+      { name: "Carpenter Ant Control", price: "$300 – $450", guarantee: "30 days", emergency: true },
     ],
   },
   {
     category: "Stinging Insects",
     rows: [
-      { name: "Wasp Removal", price: "$350 – $550", guarantee: "30 days", emergency: true },
-      { name: "Bee Removal", price: "$350 – $550", guarantee: "30 days", emergency: true },
-      { name: "Hornet Removal", price: "$350 – $550", guarantee: "30 days", emergency: true },
-      { name: "Yellow Jacket Removal", price: "$350 – $550", guarantee: "30 days", emergency: true },
+      { name: "Wasp Removal", price: "$300 – $450", guarantee: "30 days", emergency: true },
+      { name: "Bee Removal", price: "$300 – $450", guarantee: "30 days", emergency: true },
+      { name: "Hornet Removal", price: "$300 – $450", guarantee: "30 days", emergency: true },
+      { name: "Yellow Jacket Removal", price: "$300 – $450", guarantee: "30 days", emergency: true },
     ],
   },
   {
@@ -79,12 +79,12 @@ const PRICING_CATEGORIES: { category: string; rows: PricingRow[] }[] = [
     category: "Specialty Pests",
     rows: [
       { name: "Clothes Moth Control", price: "$550 – $5,000", guarantee: "30 days", emergency: false },
-      { name: "Silverfish Control", price: "$350 – $550", guarantee: "30 days", emergency: false },
-      { name: "Centipede Control", price: "$350 – $550", guarantee: "30 days", emergency: false },
-      { name: "Cricket Control", price: "$350 – $550", guarantee: "30 days", emergency: false },
-      { name: "Stink Bug Control", price: "$350 – $550", guarantee: "30 days", emergency: false },
-      { name: "Drain Fly Treatment", price: "$350 – $550", guarantee: "30 days", emergency: false },
-      { name: "Pantry Pest Control", price: "$350 – $550", guarantee: "30 days", emergency: false },
+      { name: "Silverfish Control", price: "$300 – $450", guarantee: "30 days", emergency: false },
+      { name: "Centipede Control", price: "$300 – $450", guarantee: "30 days", emergency: false },
+      { name: "Cricket Control", price: "$300 – $450", guarantee: "30 days", emergency: false },
+      { name: "Stink Bug Control", price: "$300 – $450", guarantee: "30 days", emergency: false },
+      { name: "Drain Fly Treatment", price: "$300 – $450", guarantee: "30 days", emergency: false },
+      { name: "Pantry Pest Control", price: "$300 – $450", guarantee: "30 days", emergency: false },
     ],
   },
   {
@@ -92,7 +92,7 @@ const PRICING_CATEGORIES: { category: string; rows: PricingRow[] }[] = [
     rows: [
       { name: "Commercial Pest Control", price: "$175 – $1,500/mo", guarantee: "30 days", emergency: true },
       { name: "Restaurant Pest Control", price: "$175 – $600/mo", guarantee: "30 days", emergency: true },
-      { name: "General Pest Control", price: "$175 – $300", guarantee: "30 days", emergency: true },
+      { name: "General Pest Control", price: "$300 – $450", guarantee: "30 days", emergency: true },
       { name: "Emergency Pest Control", price: "$350 – $1,000", guarantee: "30 days", emergency: true },
     ],
   },
@@ -334,7 +334,7 @@ export default function PricingPage() {
         <p className="text-green-100 text-xl mb-6 max-w-2xl mx-auto">No money upfront. Written quote before work begins. Guaranteed results for most services.</p>
         <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 mb-8 text-sm font-semibold text-green-200">
           <span>✓ No money upfront</span>
-          <span>✓ 5,000+ five-star reviews</span>
+          <span>✓ 3,654 five-star reviews</span>
           <span>✓ Licensed & insured</span>
           <span>✓ Same-day available</span>
         </div>

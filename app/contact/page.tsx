@@ -121,7 +121,7 @@ export default function ContactPage() {
                   "✓ No Money Upfront",
                   "✓ 30–365 Day Guarantee",
                   "✓ Same-Day Available",
-                  "✓ 5,000+ Five-Star Reviews",
+                  "✓ 3,654+ Five-Star Reviews",
                   "✓ 318+ Neighborhoods Served",
                 ].map((item) => (
                   <li key={item} className="text-green-100">{item}</li>
