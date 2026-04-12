@@ -47,7 +47,7 @@ const FAQ_CATEGORIES: { id: string; label: string; icon: string; count: number; 
     icon: "🐜",
     count: 6,
     items: [
-      { q: "How do I know if I have bed bugs?", a: "Signs include small rust-colored blood stains on sheets, dark fecal spots on your mattress or headboard, shed exoskeletons near the bed, and clusters of small itchy bites on your skin — often in a line or cluster. Bed bugs themselves are small (apple seed size), flat, and reddish-brown. If you see any of these signs, call us for free identification." },
+      { q: "How do I know if I have bed bugs?", a: "Signs include small rust-colored blood stains on sheets, dark fecal spots on your mattress or headboard, shed exoskeletons near the bed, and clusters of small itchy bites on your skin — often in a line or cluster. Bed bugs themselves are small (apple seed size), flat, and reddish-brown. If you see any of these signs, call us for a free inspection and identification." },
       { q: "Do I have to throw away my mattress?", a: "Usually not. Bed bugs live in mattress seams but also in headboards, bed frames, baseboards, and wall voids — throwing away your mattress without treating the room doesn't solve the problem. Our heat treatment eliminates bed bugs in mattresses and throughout the entire room. Mattress encasements can protect treated mattresses going forward." },
       { q: "How long does heat treatment take?", a: "Whole-room heat treatment typically takes 6–8 hours. We bring in industrial heating equipment and raise the room temperature above 120°F for several hours — a lethal temperature for all bed bug life stages including eggs. You can return home the same evening." },
       { q: "Can bed bugs come back after heat treatment?", a: "Re-infestation from external sources (travel, used furniture, guests) is always possible, but heat treatment eliminates all bed bugs and eggs present in the treated space. Our 90-day guarantee covers re-infestation discovered within 90 days — we'll retreat at no charge." },
@@ -112,7 +112,6 @@ export default function FAQPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-6 py-3 rounded-xl hover:bg-green-50 transition">📞 Call {PHONE_DISPLAY}</a>
-            <a href={`tel:${PHONE}`} className="bg-green-600 text-white font-bold px-6 py-3 rounded-xl hover:bg-green-500 transition border border-green-400">📞 Call Us</a>
           </div>
         </div>
       </section>
@@ -183,7 +182,6 @@ export default function FAQPage() {
               <p className="text-green-800 text-sm mb-4">Our team responds within minutes during business hours. Text for the fastest answer.</p>
               <div className="flex flex-wrap gap-3">
                 <a href={`tel:${PHONE}`} className="bg-green-700 text-white font-bold px-5 py-2.5 rounded-xl hover:bg-green-600 transition text-sm">📞 Call {PHONE_DISPLAY}</a>
-                <a href={`tel:${PHONE}`} className="border-2 border-green-700 text-green-700 font-bold px-5 py-2.5 rounded-xl hover:bg-green-50 transition text-sm">📞 Call Us</a>
               </div>
             </div>
           </div>
@@ -196,7 +194,6 @@ export default function FAQPage() {
         <p className="text-green-100 text-xl mb-8 max-w-xl mx-auto">Free inspection. No money upfront. Guaranteed results for most services.</p>
         <div className="flex flex-wrap justify-center gap-4">
           <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-50 transition">📞 Call {PHONE_DISPLAY}</a>
-          <a href={`tel:${PHONE}`} className="bg-green-600 text-white font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-500 transition border border-green-400">📞 Call Us</a>
           <a href="/contact" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-xl text-lg hover:bg-yellow-300 transition">📅 Book Online</a>
         </div>
       </section>
