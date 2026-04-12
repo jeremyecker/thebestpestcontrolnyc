@@ -62,15 +62,6 @@ export default function ContactPage() {
       <section className="bg-green-50 border-b border-green-100 py-6 px-4">
         <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4 text-center">
           <a
-            href={`sms:${PHONE_NUMBER}`}
-            className="flex flex-col items-center gap-1 p-4 bg-white rounded-xl border border-green-200 hover:border-green-500 hover:shadow-md transition"
-          >
-            <span className="text-3xl">💬</span>
-            <span className="font-bold text-green-800">Text Us</span>
-            <span className="text-green-700 font-semibold">{PHONE_DISPLAY}</span>
-            <span className="text-xs text-gray-500">Fastest response</span>
-          </a>
-          <a
             href={`tel:${PHONE_NUMBER}`}
             className="flex flex-col items-center gap-1 p-4 bg-white rounded-xl border border-green-200 hover:border-green-500 hover:shadow-md transition"
           >
@@ -192,12 +183,6 @@ export default function ContactPage() {
             className="bg-white text-green-800 font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-50 transition"
           >
             📞 Call {PHONE_DISPLAY}
-          </a>
-          <a
-            href={`sms:${PHONE_NUMBER}`}
-            className="bg-green-600 border border-green-400 text-white font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-500 transition"
-          >
-            💬 Text Us Now
           </a>
         </div>
       </section>
