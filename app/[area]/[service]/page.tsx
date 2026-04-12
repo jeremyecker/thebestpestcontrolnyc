@@ -199,10 +199,10 @@ export default function ComboPage({
               📞 Call {PHONE_DISPLAY}
             </a>
             <a
-              href={`sms:${PHONE}`}
+              href={`tel:${PHONE}`}
               className="bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-500 transition border border-green-400"
             >
-              💬 Text Us
+              📞 Call Us Now
             </a>
             <a
               href="/contact"
@@ -260,8 +260,8 @@ export default function ComboPage({
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-6 py-3 rounded-lg hover:bg-green-50">
               📞 Call {PHONE_DISPLAY}
             </a>
-            <a href={`sms:${PHONE}`} className="bg-green-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-green-500 border border-green-400">
-              💬 Text Us
+            <a href={`tel:${PHONE}`} className="bg-green-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-green-500 border border-green-400">
+              📞 Call Us Now
             </a>
           </div>
         </section>
@@ -376,8 +376,8 @@ export default function ComboPage({
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-50 transition">
               📞 Call {PHONE_DISPLAY}
             </a>
-            <a href={`sms:${PHONE}`} className="bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-500 transition border border-green-400">
-              💬 Text Us
+            <a href={`tel:${PHONE}`} className="bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-500 transition border border-green-400">
+              📞 Call Us Now
             </a>
             <a href="/contact" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-300 transition">
               📅 Book Online
