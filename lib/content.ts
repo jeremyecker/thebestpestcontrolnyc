@@ -50,6 +50,10 @@ export interface AreaContent {
   metaTitle: string;
   metaDescription: string;
   introParagraph: string;
+  /** NEW (P2): Why this specific area / local context */
+  whyThisAreaSection: string;
+  /** NEW (P2): Property types and building context */
+  propertyTypesSection: string;
   commonPestsSection: string;
   faqs: { q: string; a: string }[];
   generatedAt: string;
@@ -127,11 +131,7 @@ export function getServiceContent(serviceSlug: string): ServiceContent | null {
  * Load content for an area page.
  * Returns null if content file doesn't exist yet.
  *
- * Maps generated JSON fields to template-expected fields:
- *   title       → metaTitle
- *   intro       → introParagraph
- *   commonPests → commonPestsSection
- *   faqs[].question/answer → faqs[].q/a
+ * P2 fields: whyThisAreaSection, propertyTypesSection (new)
  */
 export function getAreaContent(areaSlug: string): AreaContent | null {
   const filePath = path.join(CONTENT_DIR, "areas", `${areaSlug}.json`);
@@ -141,6 +141,8 @@ export function getAreaContent(areaSlug: string): AreaContent | null {
     metaTitle: raw.metaTitle || raw.title || "",
     metaDescription: raw.metaDescription || "",
     introParagraph: raw.introParagraph || raw.intro || "",
+    whyThisAreaSection: raw.whyThisAreaSection || "",
+    propertyTypesSection: raw.propertyTypesSection || "",
     commonPestsSection: raw.commonPestsSection || raw.commonPests || raw.localContext || "",
     faqs: normalizeFaqs(raw.faqs || []),
     generatedAt: raw.generatedAt || "",

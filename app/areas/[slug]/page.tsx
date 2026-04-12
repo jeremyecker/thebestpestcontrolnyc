@@ -31,7 +31,6 @@ export default function AreaPage({ params }: { params: { slug: string } }) {
 
   const content = getAreaContent(area.slug);
   const nearbyAreas = area.nearbyAreas.map((slug) => AREAS.find((a) => a.slug === slug)).filter(Boolean) as typeof AREAS;
-  const featuredServices = SERVICES.slice(0, 16);
 
   const schemaGraph: Record<string, unknown>[] = [
     {
@@ -87,7 +86,6 @@ export default function AreaPage({ params }: { params: { slug: string } }) {
           </p>
           <div className="flex flex-wrap gap-4">
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-50 transition">📞 Call {PHONE_DISPLAY}</a>
-            <a href={`tel:${PHONE}`} className="bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-500 transition border border-green-400">📞 Call Us Now</a>
             <a href="/contact" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-300 transition">📅 Book Online</a>
           </div>
         </div>
@@ -102,7 +100,27 @@ export default function AreaPage({ params }: { params: { slug: string } }) {
 
       <div className="max-w-5xl mx-auto px-4 py-12">
 
-        {/* Common Pests — only shown when generated content exists */}
+        {/* Why This Area (P2 new section) */}
+        {content?.whyThisAreaSection && (
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
+              Pest Control in {area.name}: What You Need to Know
+            </h2>
+            <p className="text-gray-700 text-lg leading-relaxed">{content.whyThisAreaSection}</p>
+          </section>
+        )}
+
+        {/* Property Types (P2 new section) */}
+        {content?.propertyTypesSection && (
+          <section className="bg-gray-50 rounded-2xl p-8 mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
+              {area.name} Building Types & Pest Risks
+            </h2>
+            <p className="text-gray-700 text-lg leading-relaxed">{content.propertyTypesSection}</p>
+          </section>
+        )}
+
+        {/* Common Pests */}
         {content?.commonPestsSection && (
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
@@ -147,11 +165,11 @@ export default function AreaPage({ params }: { params: { slug: string } }) {
           <p className="text-green-100 mb-6">Licensed exterminators. Free inspection. No money upfront. Same-day available.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-6 py-3 rounded-lg hover:bg-green-50">📞 Call {PHONE_DISPLAY}</a>
-            <a href={`tel:${PHONE}`} className="bg-green-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-green-500 border border-green-400">📞 Call Us</a>
+            <a href="/contact" className="bg-yellow-400 text-gray-900 font-bold px-6 py-3 rounded-lg hover:bg-yellow-300">📅 Book Online</a>
           </div>
         </section>
 
-        {/* FAQs — only shown when generated content exists */}
+        {/* FAQs */}
         {content?.faqs && content.faqs.length > 0 && (
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
@@ -191,7 +209,6 @@ export default function AreaPage({ params }: { params: { slug: string } }) {
           <p className="text-green-100 text-lg mb-8 max-w-2xl mx-auto">NYS DEC licensed. Free inspection. No money upfront. Guaranteed results. Same-day available.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-50 transition">📞 Call {PHONE_DISPLAY}</a>
-            <a href={`tel:${PHONE}`} className="bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-500 transition border border-green-400">📞 Call Us Now</a>
             <a href="/contact" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-300 transition">📅 Book Online</a>
           </div>
         </section>

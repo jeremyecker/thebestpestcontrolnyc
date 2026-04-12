@@ -1,33 +1,35 @@
 {
-  "title": "Pest Control in North Castle, NY | Armonk Exterminator Services",
-  "metaDescription": "Professional pest control services in North Castle and Armonk, NY. Protecting Westchester's affluent homes from rodents, termites, and wildlife. Call today!",
-  "intro": "North Castle, home to the prestigious hamlet of Armonk, requires specialized pest control services that protect its upscale properties and maintain the high standards this Westchester community expects. The Best Pest Control NYC delivers discreet, effective solutions tailored to North Castle's distinctive residential landscape. Our experienced technicians understand the unique pest challenges facing suburban estates, executive homes, and wooded properties throughout this affluent town.",
-  "localContext": "North Castle's expansive properties, colonial and contemporary architecture, and proximity to wooded conservation areas create an environment where wildlife encounters and pest issues require professional expertise. From estates near Wampus Brook Park to homes throughout Armonk's business district, our team serves the entire North Castle community with respect for your property and privacy.",
-  "commonPests": "The town's mature landscaping, stone walls, and wooded settings attract mice, squirrels, raccoons, and carpenter ants seeking shelter in attics, crawl spaces, and foundations. Termites pose particular risks to North Castle's valuable homes, while ticks and mosquitoes thrive in the area's lush yards and natural surroundings.",
-  "services": [
-    "Rodent Control & Exclusion",
-    "Termite Inspection & Treatment",
-    "Wildlife Removal",
-    "Carpenter Ant Extermination",
-    "Tick & Mosquito Control",
-    "Wasp & Hornet Removal",
-    "Squirrel & Raccoon Exclusion",
-    "Preventative Pest Management",
-    "Bed Bug Treatment",
-    "Spider Control"
-  ],
+  "metaTitle": "North Castle Pest Control | Same-Day Service Available",
+  "metaDescription": "Expert pest control in North Castle, NY. Serving estates near Banksville & Route 22. Same-day rodent, termite & wildlife removal. Call for fast service!",
+  "introParagraph": "North Castle's sprawling estates and wooded properties along Route 22 and Old Route 22 face unique pest challenges from field mice, carpenter ants, and wildlife. From Banksville to Whippoorwill Hills, our licensed exterminators protect homes near the North Castle Public Library and Bedford Road with same-day service. We understand how North Castle's rural character and proximity to Ward Pound Ridge Reservation create constant pest pressure requiring specialized local expertise.",
+  "whyThisAreaSection": "North Castle's semi-rural setting with extensive woodland borders, historic stone foundations, and proximity to the Kensico Reservoir creates ideal conditions for rodent and wildlife activity. Large lot sizes along Salem Road and Middle Patent Road mean properties back directly onto wooded habitats. Seasonal temperature swings drive mice, raccoons, and squirrels indoors. The area's mature landscaping and numerous outbuildings provide harborage, while aging septic systems and well houses offer entry points pests exploit year-round.",
+  "propertyTypesSection": "North Castle's predominant single-family estates feature fieldstone foundations, detached garages, and crawl spaces that attract rodents and termites. Homes near Armonk and Banksville often include additions built across multiple decades, creating structural gaps. Finished basements with bulkhead entries provide rodent access, while attic vents and roof valleys allow squirrel and bat entry. Properties with horse barns, pool houses, and garden sheds near Cox Avenue multiply potential pest nesting sites, requiring comprehensive perimeter inspections and exclusion work.",
+  "commonPestsSection": "White-footed mice and deer mice top North Castle's pest list, entering through foundation gaps each fall. Carpenter ants nest in moisture-damaged wood near stone walls and tree-touching structures. Eastern gray squirrels and raccoons breach attics and chimneys. Subterranean termites attack older homes with soil-contact wood. Residents first notice droppings in garages, scratching sounds in attics, or ant trails near kitchens during spring swarms along wooded property lines.",
   "faqs": [
     {
-      "question": "What pest issues are most common in North Castle's wooded properties?",
-      "answer": "North Castle's wooded lots frequently experience issues with mice, squirrels, raccoons, and carpenter ants seeking entry through foundations, rooflines, and chimneys. Termites are also a concern given the area's mature trees and wood-sided homes. We provide comprehensive inspections and wildlife exclusion services designed specifically for suburban estates with natural surroundings."
+      "question": "What does mouse extermination cost in North Castle?",
+      "answer": "Mouse extermination in North Castle ranges from $350 to $600 depending on infestation severity and property size. Larger estates with multiple outbuildings may require additional treatments. Our service includes trap placement, entry point identification, and sanitation recommendations. Comprehensive rodent proofing and exclusion services range from $500 to $3,000 for extensive perimeter sealing work."
     },
     {
-      "question": "Do you offer discreet pest control services for Armonk homes?",
-      "answer": "Absolutely. We understand North Castle residents value privacy and discretion. Our unmarked vehicles and professional technicians work efficiently and respectfully, providing effective pest control without disrupting your household or attracting attention from neighbors. We schedule appointments at your convenience and maintain complete confidentiality."
+      "question": "How quickly can you respond to pest emergencies in North Castle?",
+      "answer": "We offer same-day emergency pest control service throughout North Castle, including Banksville and areas near Route 22. Emergency services range from $350 to $1,000 depending on the pest type and time of day. We prioritize urgent situations like active wasp nests, rodent infestations, or wildlife in living spaces. Call before noon for same-day arrival in most North Castle neighborhoods."
     },
     {
-      "question": "How can I protect my North Castle property from ticks and mosquitoes?",
-      "answer": "Our seasonal tick and mosquito control programs target breeding areas and resting spots throughout your property, including wooded edges, stone walls, and landscaped areas. We use EPA-approved treatments that are safe for families and pets while dramatically reducing tick and mosquito populations during peak seasons, allowing you to enjoy your outdoor spaces safely."
+      "question": "Are your treatments safe for children and pets in our home?",
+      "answer": "Absolutely. We use EPA-registered products applied according to strict safety protocols, with pet- and child-safe options available upon request. Our technicians create buffer zones around play areas and inform you of any re-entry times, typically 2-4 hours for interior treatments. Many exterior treatments dry within 30 minutes. We prioritize low-toxicity solutions for North Castle families while maintaining complete effectiveness."
+    },
+    {
+      "question": "Why do I see more carpenter ants near my stone walls?",
+      "answer": "North Castle's abundant fieldstone foundations and retaining walls retain moisture and often contact soil, creating ideal carpenter ant nesting sites. These ants prefer damp, decaying wood near stone structures. Trees or shrubs touching your home provide bridges from outdoor colonies. Spring swarms indicate mature colonies nearby. Treatment costs $350 to $550 and includes locating parent colonies, often in landscape timbers or wood mulch."
+    },
+    {
+      "question": "How do mice spread between buildings on large North Castle properties?",
+      "answer": "On North Castle's multi-acre estates, mice travel along fence lines, stone walls, and underground utility trenches between main houses, garages, barns, and sheds. They follow established runways protected by landscaping and rarely cross open lawn. Detached structures without regular human activity become staging areas. Comprehensive control requires treating all buildings simultaneously and sealing connections like buried conduit entry points and foundation gaps."
+    },
+    {
+      "question": "Do homes near Ward Pound Ridge Reservation need special pest prevention?",
+      "answer": "Yes. Properties bordering the reservation or wooded conservation land experience higher wildlife and rodent pressure year-round. Deer mice, flying squirrels, raccoons, and occasional fisher cats use these corridors. We recommend quarterly inspections, especially before winter when animals seek warmth. Exclusion work focusing on roof lines, chimneys, and foundation perimeters is essential. Many North Castle homeowners near wooded areas maintain year-round service contracts."
     }
-  ]
+  ],
+  "generatedAt": "2026-04-12T16:35:28.919679Z"
 }
