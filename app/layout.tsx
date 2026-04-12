@@ -78,6 +78,8 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
+        {/* Ahrefs Web Analytics */}
+        <script src="https://analytics.ahrefs.com/analytics.js" data-key="QpYgL+Wg2xyFi8YhrpnFkw" async />
       </head>
       <body className="min-h-screen flex flex-col bg-white">
         <Header />
