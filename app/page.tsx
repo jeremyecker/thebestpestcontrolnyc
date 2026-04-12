@@ -22,7 +22,6 @@ const schema = {
       name: "The Best Pest Control NYC",
       url: "https://www.thebestpestcontrolnyc.com",
       telephone: PHONE,
-      email: "hello@thebestpestcontrolnyc.com",
       description: "NYS DEC licensed exterminators serving 318+ NYC neighborhoods. 32 pest types eliminated. Free inspection.",
       address: {
         "@type": "PostalAddress",
@@ -49,7 +48,7 @@ const schema = {
       "@type": "FAQPage",
       mainEntity: [
         { "@type": "Question", name: "How much does pest control cost in NYC?", acceptedAnswer: { "@type": "Answer", text: "General pest control starts at $175–$300. Bed bug treatment $1,200–$3,500. Rodent control $350–$600. Termite treatment $800–$4,000. Free inspection and written quote before any work begins." } },
-        { "@type": "Question", name: "Do you offer same-day exterminator service?", acceptedAnswer: { "@type": "Answer", text: "Yes. Same-day and emergency service throughout NYC, NJ, Long Island, and Westchester for urgent situations. Call or text and we'll dispatch as fast as possible." } },
+        { "@type": "Question", name: "Do you offer same-day exterminator service?", acceptedAnswer: { "@type": "Answer", text: "Yes. Same-day and emergency service throughout NYC, NJ, Long Island, and Westchester for urgent situations. Call us and we'll dispatch as fast as possible." } },
         { "@type": "Question", name: "Are your exterminators licensed and insured?", acceptedAnswer: { "@type": "Answer", text: "Every technician holds a NYS DEC Commercial Pesticide Applicator license and we carry full liability insurance on every job." } },
       ],
     },
@@ -155,7 +154,7 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
           {[
             { stat: "24/7", label: "We Never Sleep", sub: "Nights, weekends, holidays" },
-            { stat: "60 sec", label: "Text & You're Booked", sub: "Fastest scheduling in NYC" },
+            { stat: "60 sec", label: "Book in 60 Seconds", sub: "Fastest scheduling in NYC" },
             { stat: "4.9★", label: "NYC Trusts Us", sub: "5,000+ verified reviews" },
             { stat: "30,000+", label: "Pests Gone for Good", sub: "Homes & businesses cleared" },
           ].map((item) => (
@@ -212,7 +211,7 @@ export default function HomePage() {
             <div className="grid grid-cols-2 gap-4">
               {[
                 { icon: "🏛️", title: "Licensed & Insured — Every Single Technician", desc: "Every member of our pest control team holds an active NYS DEC Commercial Pesticide Applicator license. Full general liability insurance on every job — residential and commercial." },
-                { icon: "⚡", title: "Same-Day Service — When You Need It Now", desc: "Pest emergencies don't work on a 9-to-5 schedule. We dispatch same-day for urgent situations across all our service areas. Call or text anytime. We pick up nights, weekends, and holidays." },
+                { icon: "⚡", title: "Same-Day Service — When You Need It Now", desc: "Pest emergencies don't work on a 9-to-5 schedule. We dispatch same-day for urgent situations across all our service areas. Call anytime. We pick up nights, weekends, and holidays." },
                 { icon: "🔍", title: "Free Pest Inspections — Before Any Work Begins", desc: "We don't guess. Every job starts with a thorough inspection by a licensed exterminator. You'll see exactly what we find before we recommend a single treatment. No upsells. No pressure. No charge." },
                 { icon: "✅", title: "Guaranteed Results — We Come Back at No Cost", desc: "If pests return within our guarantee period, our team returns and retreats at zero additional charge. General pest control: 30-day. Bed bugs: 90-day. Rodent proofing: full-year structural guarantee." },
                 { icon: "🗺️", title: "318+ Neighborhoods — The Most Coverage in NYC", desc: "All five boroughs, 48 New Jersey communities, 55 Long Island neighborhoods, and 30 Westchester locations — 318+ neighborhoods in total. One call reaches our whole network." },
