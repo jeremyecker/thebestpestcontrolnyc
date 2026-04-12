@@ -79,6 +79,7 @@ export default function ContactForm({
     propertyType: "" as "residential" | "commercial" | "",
     pestType: preselectedPest,
     description: "",
+    smsConsent: false,
   });
 
   // ── Validation ──────────────────────────────────────────────────────
@@ -97,6 +98,7 @@ export default function ContactForm({
     }
     if (!fields.propertyType) errs.propertyType = "Please select residential or commercial.";
     if (!fields.pestType) errs.pestType = "Please select a pest type.";
+    if (!fields.smsConsent) errs.smsConsent = "Please check the consent box to continue.";
     return errs;
   }
 
@@ -121,6 +123,7 @@ export default function ContactForm({
         pest_type: fields.pestType,
         description: fields.description.trim() || null,
         // CRM metadata
+        sms_consent: fields.smsConsent,
         source: source,
         submitted_at: new Date().toISOString(),
         page_url: typeof window !== "undefined" ? window.location.href : "",
@@ -300,6 +303,29 @@ export default function ContactForm({
             className="w-full px-4 py-3 rounded-xl border border-gray-300 bg-white text-gray-900 text-base transition focus:outline-none focus:ring-2 focus:ring-green-500 hover:border-green-400 resize-none"
           />
         </div>
+
+        {/* SMS / Contact Consent */}
+        <div className="flex items-start gap-3">
+          <input
+            id="smsConsent"
+            type="checkbox"
+            checked={fields.smsConsent}
+            onChange={(e) => {
+              setFields((prev) => ({ ...prev, smsConsent: e.target.checked }));
+              if (errors.smsConsent) setErrors((prev) => ({ ...prev, smsConsent: "" }));
+            }}
+            className="mt-1 h-4 w-4 rounded border-gray-300 text-green-600 focus:ring-green-500 cursor-pointer"
+          />
+          <label htmlFor="smsConsent" className="text-xs text-gray-500 cursor-pointer leading-relaxed">
+            I agree to be contacted by The Best Pest Control NYC via phone or text message regarding my request. Message &amp; data rates may apply. You can reply STOP at any time to opt out.{" "}
+            <a href="/privacy" className="text-green-700 hover:underline">Privacy Policy</a>{" "}
+            &amp;{" "}
+            <a href="/terms" className="text-green-700 hover:underline">Terms of Service</a>.
+          </label>
+        </div>
+        {errors.smsConsent && (
+          <p className="text-red-500 text-sm -mt-2">{errors.smsConsent}</p>
+        )}
 
         {/* Error state */}
         {formState === "error" && (
