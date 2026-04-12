@@ -7,8 +7,8 @@
 
 import type { Metadata } from "next";
 
-const PHONE_NUMBER = process.env.NEXT_PUBLIC_PHONE_NUMBER || "YOUR-PHONE-NUMBER";
-const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(212) 000-0000";
+const PHONE_NUMBER = process.env.NEXT_PUBLIC_PHONE_NUMBER || "8559305016";
+const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(855) 930-5016";
 
 export const metadata: Metadata = {
   title: "Request Received | The Best Pest Control NYC",
@@ -39,18 +39,12 @@ export default function ThankYouPage() {
         </p>
 
         {/* Direct contact */}
-        <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
+        <div className="flex justify-center mb-12">
           <a
             href={`tel:${PHONE_NUMBER}`}
             className="bg-green-700 text-white font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-600 transition"
           >
             📞 Call {PHONE_DISPLAY}
-          </a>
-          <a
-            href={`tel:${PHONE_NUMBER}`}
-            className="bg-white border-2 border-green-700 text-green-700 font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-50 transition"
-          >
-            📞 Call Us Now
           </a>
         </div>
 
