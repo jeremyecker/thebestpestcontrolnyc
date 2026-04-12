@@ -18,6 +18,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { SERVICES } from "@/data/services";
 import { AREAS } from "@/data/areas";
+import { SERVICE_PROCESSES } from "@/data/service-processes";
 import {
   getAllComboSlugs,
   getComboContent,
@@ -97,6 +98,10 @@ export default function ComboPage({
 
   // Get other services in this area
   const otherServices = SERVICES.filter((s) => s.slug !== service.slug).slice(0, 8);
+
+  // Service-specific process copy — falls back to JSON content if slug not found
+  const processText =
+    SERVICE_PROCESSES[service.slug] || content.ourProcessSection;
 
   // Schema markup
   const schema = {
@@ -238,13 +243,13 @@ export default function ComboPage({
           </p>
         </section>
 
-        {/* Why Choose Us Section */}
+        {/* Why Choose Us Section — service-specific process copy */}
         <section className="bg-gray-50 rounded-2xl p-8 mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">
             Why Choose Us for {service.name} in {area.name}
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed">
-            {content.ourProcessSection}
+            {processText}
           </p>
         </section>
 
