@@ -34,7 +34,7 @@ export default function ThankYouPage() {
 
         <p className="text-gray-500 mb-10">
           For urgent pest situations — active wasp nests, restaurant
-          inspections, bed bug crises — call or text us directly for the fastest
+          inspections, bed bug crises — call us directly for the fastest
           response.
         </p>
 
@@ -47,10 +47,10 @@ export default function ThankYouPage() {
             📞 Call {PHONE_DISPLAY}
           </a>
           <a
-            href={`sms:${PHONE_NUMBER}`}
+            href={`tel:${PHONE_NUMBER}`}
             className="bg-white border-2 border-green-700 text-green-700 font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-50 transition"
           >
-            💬 Text Us
+            📞 Call Us Now
           </a>
         </div>
 
@@ -61,7 +61,7 @@ export default function ThankYouPage() {
           </h2>
           <ol className="space-y-3 text-sm text-green-800">
             {[
-              "We'll call or text you within minutes to confirm details about your pest situation.",
+              "We'll call you within minutes to confirm details about your pest situation.",
               "We'll schedule a free inspection at a time that works for you — same-day available.",
               "A licensed exterminator arrives, inspects your property, and gives you a written quote.",
               "You approve the plan. We treat. Pests gone. Guaranteed.",

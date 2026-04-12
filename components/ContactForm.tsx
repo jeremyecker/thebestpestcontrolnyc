@@ -155,7 +155,7 @@ export default function ContactForm({
         </h3>
         <p className="text-green-700 mb-6">
           A licensed exterminator will reach out within minutes during business hours.
-          For urgent situations, call or text us directly.
+          For urgent situations, call us directly.
         </p>
         <a
           href={`tel:${PHONE_NUMBER}`}
@@ -294,7 +294,7 @@ export default function ContactForm({
           </label>
           <textarea
             rows={3}
-            placeholder="Describe what you're seeing — where, how many, how long. A photo via text is even better: text us at the number above."
+            placeholder="Describe what you're seeing — where, how many, how long, and what the pest looks like."
             value={fields.description}
             onChange={(e) => update("description", e.target.value)}
             className="w-full px-4 py-3 rounded-xl border border-gray-300 bg-white text-gray-900 text-base transition focus:outline-none focus:ring-2 focus:ring-green-500 hover:border-green-400 resize-none"
@@ -304,7 +304,7 @@ export default function ContactForm({
         {/* Error state */}
         {formState === "error" && (
           <div className="bg-red-50 border border-red-200 rounded-xl p-4 text-sm text-red-700">
-            Something went wrong submitting your request. Please call or text us
+            Something went wrong submitting your request. Please call us
             directly at{" "}
             <a href={`tel:${PHONE_NUMBER}`} className="font-bold underline">
               {PHONE_DISPLAY}
