@@ -64,7 +64,16 @@ export default function WestchesterCountyPage() {
         </div>
       </section>
 
-      <section className="max-w-5xl mx-auto px-4 py-12">
+      <section className="max-w-5xl mx-auto px-4 pt-12 pb-0">
+        <p className="text-gray-700 text-lg leading-relaxed mb-5">
+          Westchester County’s mix of dense urban centers — Yonkers, Mount Vernon, New Rochelle — and wooded suburbs — Scarsdale, Bronxville, Larchmont, Bedford — creates two distinct pest environments. Urban Westchester, particularly southern Yonkers and Mount Vernon, shares the cockroach, rat, and bed bug pressures of NYC’s outer boroughs, driven by aging multi-family housing and commercial food waste. Suburban Westchester’s heavily wooded residential neighborhoods face intense wildlife pressure from raccoons, squirrels, and opossums, along with one of the highest deer tick densities in New York State — making tick prevention a top priority for most homeowners in the county.
+        </p>
+        <p className="text-gray-700 text-lg leading-relaxed">
+          Older homes throughout Westchester — Victorian-era houses in Tarrytown, Ossining, and Peekskill, and mid-century colonials across the county’s interior — are particularly vulnerable to carpenter ant damage along with structural moisture issues that attract silverfish and centipedes. Termites are an active concern in older wooden-frame homes throughout the county. Our Westchester technicians are licensed under NYS DEC and understand the county’s specific pest profile — from the urban roach problems in Yonkers high-rises to the deer tick and wildlife issues in Bedford’s horse country.
+        </p>
+      </section>
+
+      <section className="max-w-5xl mx-auto px-4 pt-10 pb-12">
         <h2 className="text-3xl font-bold text-gray-900 mb-2" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
           {areas.length} Westchester County Neighborhoods We Serve
         </h2>
@@ -100,7 +109,7 @@ export default function WestchesterCountyPage() {
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Licensed NYS DEC exterminators with Westchester County experience</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Same-day service available across all {areas.length} neighborhoods</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Free pest inspection — no obligation, no charge</li>
-            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> No money upfront — pay when the job is done and you're satisfied</li>
+            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> No money upfront — pay when the job is done and you’re satisfied</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> 30–365 day guarantee depending on service type</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> 32 pest types treated: cockroaches, bed bugs, rodents, termites, wildlife &amp; more</li>
           </ul>

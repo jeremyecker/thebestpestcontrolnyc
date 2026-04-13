@@ -64,7 +64,16 @@ export default function BrooklynPage() {
         </div>
       </section>
 
-      <section className="max-w-5xl mx-auto px-4 py-12">
+      <section className="max-w-5xl mx-auto px-4 pt-12 pb-0">
+        <p className="text-gray-700 text-lg leading-relaxed mb-5">
+          Brooklyn’s dense housing stock — pre-war brownstones in Bed-Stuy, Crown Heights, and Park Slope, attached row houses in Bay Ridge and Bensonhurst, and newer high-rises in Williamsburg and DUMBO — creates ideal conditions for pest spread between units. German cockroaches travel through shared walls, plumbing chases, and utility corridors; bed bugs move unit-to-unit through cracks in baseboards and shared walls, particularly in buildings with high renter turnover. Roof rats have expanded significantly along Brooklyn’s waterfront as development has pushed them inland from the docks.
+        </p>
+        <p className="text-gray-700 text-lg leading-relaxed">
+          Pest pressure in Brooklyn tends to be year-round rather than seasonal — steam-heated pre-war buildings stay warm through winter, keeping cockroach populations active even in January. Our licensed NYS DEC technicians understand Brooklyn’s specific building types, common entry points, and the pest species most prevalent in each neighborhood, which is why our treatment protocols are tailored to the borough rather than applied from a generic playbook.
+        </p>
+      </section>
+
+      <section className="max-w-5xl mx-auto px-4 pt-10 pb-12">
         <h2 className="text-3xl font-bold text-gray-900 mb-2" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
           {areas.length} Brooklyn Neighborhoods We Serve
         </h2>
@@ -100,7 +109,7 @@ export default function BrooklynPage() {
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Licensed NYS DEC exterminators with Brooklyn experience</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Same-day service available across all {areas.length} neighborhoods</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Free pest inspection — no obligation, no charge</li>
-            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> No money upfront — pay when the job is done and you're satisfied</li>
+            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> No money upfront — pay when the job is done and you’re satisfied</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> 30–365 day guarantee depending on service type</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> 32 pest types treated: cockroaches, bed bugs, rodents, termites, wildlife &amp; more</li>
           </ul>

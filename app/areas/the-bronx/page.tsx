@@ -64,7 +64,16 @@ export default function TheBronxPage() {
         </div>
       </section>
 
-      <section className="max-w-5xl mx-auto px-4 py-12">
+      <section className="max-w-5xl mx-auto px-4 pt-12 pb-0">
+        <p className="text-gray-700 text-lg leading-relaxed mb-5">
+          The Bronx has some of the oldest housing stock in New York City — decades-old pre-war apartment buildings in the Grand Concourse corridor, Fordham, Mott Haven, and Highbridge that have accumulated structural deterioration creating extensive pest harborage. German cockroach infestations in older multi-family buildings are particularly difficult to eliminate because they establish deep in wall voids, under sub-floors, and behind deteriorated plumbing — areas surface sprays don’t reach. Rat infestations along commercial corridors and near subway lines are persistent due to the borough’s high density of food retail and restaurants.
+        </p>
+        <p className="text-gray-700 text-lg leading-relaxed">
+          The Bronx’s northern and eastern areas — Riverdale, Pelham Bay, Throgs Neck — border significant wooded parkland, including Van Cortlandt Park and Pelham Bay Park, which drives wildlife pressure uncommon in more urban parts of the city. Raccoons and squirrels regularly enter attics and crawl spaces in neighborhoods adjacent to the parks, while deer tick populations in these areas represent a genuine Lyme disease risk for residents with yard space. Our Bronx exterminators handle the full spectrum from inner-city cockroach and rodent pressure to the wildlife and tick issues unique to the borough’s greener northern neighborhoods.
+        </p>
+      </section>
+
+      <section className="max-w-5xl mx-auto px-4 pt-10 pb-12">
         <h2 className="text-3xl font-bold text-gray-900 mb-2" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
           {areas.length} The Bronx Neighborhoods We Serve
         </h2>
@@ -100,7 +109,7 @@ export default function TheBronxPage() {
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Licensed NYS DEC exterminators with The Bronx experience</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Same-day service available across all {areas.length} neighborhoods</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Free pest inspection — no obligation, no charge</li>
-            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> No money upfront — pay when the job is done and you're satisfied</li>
+            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> No money upfront — pay when the job is done and you’re satisfied</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> 30–365 day guarantee depending on service type</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> 32 pest types treated: cockroaches, bed bugs, rodents, termites, wildlife &amp; more</li>
           </ul>

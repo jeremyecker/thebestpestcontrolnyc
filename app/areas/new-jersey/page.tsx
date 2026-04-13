@@ -64,7 +64,16 @@ export default function NorthernNewJerseyPage() {
         </div>
       </section>
 
-      <section className="max-w-5xl mx-auto px-4 py-12">
+      <section className="max-w-5xl mx-auto px-4 pt-12 pb-0">
+        <p className="text-gray-700 text-lg leading-relaxed mb-5">
+          Northern New Jersey presents a sharp urban-to-suburban gradient — Jersey City and Hoboken are effectively extensions of the NYC urban pest environment, with dense multi-family housing, shared infrastructure, and high renter turnover driving cockroach, bed bug, and rodent pressure indistinguishable from Brooklyn or Queens. Moving west and north into Essex County (Montclair, Maplewood, South Orange), Bergen County (Ridgewood, Teaneck, Fort Lee), and Morris County, the pest profile shifts to suburban: older Victorian and Colonial homes with crawl spaces, wooded lots with deer tick populations, and significant wildlife pressure from raccoons, squirrels, and opossums adapted to dense suburban development.
+        </p>
+        <p className="text-gray-700 text-lg leading-relaxed">
+          Victorian-era homes throughout Montclair, Glen Ridge, and Maplewood — many built in the late 1800s and early 1900s — have termite histories requiring ongoing monitoring, and their aged foundation infrastructure provides extensive mouse and carpenter ant entry points. The Watchung Mountains and surrounding ridgelines create wildlife corridors that drive raccoon and squirrel pressure into surrounding residential neighborhoods throughout Essex and Morris Counties. Our Northern New Jersey team handles the full range from Hudson County urban pest control to suburban wildlife and termite management across all 48 communities we serve.
+        </p>
+      </section>
+
+      <section className="max-w-5xl mx-auto px-4 pt-10 pb-12">
         <h2 className="text-3xl font-bold text-gray-900 mb-2" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
           {areas.length} Northern New Jersey Neighborhoods We Serve
         </h2>
@@ -100,7 +109,7 @@ export default function NorthernNewJerseyPage() {
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Licensed NYS DEC exterminators with Northern New Jersey experience</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Same-day service available across all {areas.length} neighborhoods</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Free pest inspection — no obligation, no charge</li>
-            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> No money upfront — pay when the job is done and you're satisfied</li>
+            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> No money upfront — pay when the job is done and you’re satisfied</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> 30–365 day guarantee depending on service type</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> 32 pest types treated: cockroaches, bed bugs, rodents, termites, wildlife &amp; more</li>
           </ul>

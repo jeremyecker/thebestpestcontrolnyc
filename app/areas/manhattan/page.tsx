@@ -64,7 +64,16 @@ export default function ManhattanPage() {
         </div>
       </section>
 
-      <section className="max-w-5xl mx-auto px-4 py-12">
+      <section className="max-w-5xl mx-auto px-4 pt-12 pb-0">
+        <p className="text-gray-700 text-lg leading-relaxed mb-5">
+          Manhattan is the most densely populated borough in the United States, and that density creates pest conditions unlike anywhere else. Shared walls in apartment buildings allow German cockroaches and bed bugs to spread unit-to-unit regardless of how clean any individual apartment is. The borough’s dense restaurant corridor — from Midtown to the Lower East Side to Chelsea — generates constant food waste pressure that supports large urban rat populations, and NYC’s subway system provides rats with a temperature-controlled travel network that extends infestations borough-wide.
+        </p>
+        <p className="text-gray-700 text-lg leading-relaxed">
+          High-rise buildings with older plumbing infrastructure are particularly prone to cockroach harborage in pipe chases and under appliances, while pre-war buildings in the Upper West Side, Upper East Side, and Harlem often have structural vulnerabilities — cracks in brick facades, gaps around aging utilities, deteriorated window frames — that allow mice to re-enter despite regular pest treatment. Our Manhattan technicians understand high-rise pest dynamics, co-op and condo treatment restrictions, and DOH compliance documentation requirements.
+        </p>
+      </section>
+
+      <section className="max-w-5xl mx-auto px-4 pt-10 pb-12">
         <h2 className="text-3xl font-bold text-gray-900 mb-2" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
           {areas.length} Manhattan Neighborhoods We Serve
         </h2>
@@ -100,7 +109,7 @@ export default function ManhattanPage() {
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Licensed NYS DEC exterminators with Manhattan experience</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Same-day service available across all {areas.length} neighborhoods</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Free pest inspection — no obligation, no charge</li>
-            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> No money upfront — pay when the job is done and you're satisfied</li>
+            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> No money upfront — pay when the job is done and you’re satisfied</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> 30–365 day guarantee depending on service type</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> 32 pest types treated: cockroaches, bed bugs, rodents, termites, wildlife &amp; more</li>
           </ul>

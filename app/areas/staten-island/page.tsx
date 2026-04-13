@@ -64,7 +64,16 @@ export default function StatenIslandPage() {
         </div>
       </section>
 
-      <section className="max-w-5xl mx-auto px-4 py-12">
+      <section className="max-w-5xl mx-auto px-4 pt-12 pb-0">
+        <p className="text-gray-700 text-lg leading-relaxed mb-5">
+          Staten Island’s suburban character sets it apart from the other boroughs when it comes to pest pressure. The borough’s extensive wooded areas — including the 2,800-acre Staten Island Greenbelt — support large wildlife populations that regularly move into residential neighborhoods: raccoons den in attics and crawl spaces, squirrels chew through roof fascia and soffit boards to nest in attic insulation, and white-footed mice from wooded areas are a primary vector for deer tick transmission in yards bordering open space. Deer tick populations in neighborhoods adjacent to the Greenbelt have among the highest Lyme disease transmission rates in New York City, making seasonal tick control a serious health consideration.
+        </p>
+        <p className="text-gray-700 text-lg leading-relaxed">
+          Unlike the dense multi-family housing of Brooklyn or Manhattan, Staten Island’s predominantly single-family housing stock brings different pest pressures: termite damage is more prevalent because of the higher proportion of wooden structures and crawl spaces, basement moisture issues in older homes near the borough’s wetlands create conditions hospitable to silverfish, centipedes, and carpenter ants, and mosquito pressure is heightened in neighborhoods near Fresh Kills Park and the Arthur Kill waterway where standing water in marshland provides breeding habitat throughout the warm season.
+        </p>
+      </section>
+
+      <section className="max-w-5xl mx-auto px-4 pt-10 pb-12">
         <h2 className="text-3xl font-bold text-gray-900 mb-2" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
           {areas.length} Staten Island Neighborhoods We Serve
         </h2>
@@ -100,7 +109,7 @@ export default function StatenIslandPage() {
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Licensed NYS DEC exterminators with Staten Island experience</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Same-day service available across all {areas.length} neighborhoods</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Free pest inspection — no obligation, no charge</li>
-            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> No money upfront — pay when the job is done and you're satisfied</li>
+            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> No money upfront — pay when the job is done and you’re satisfied</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> 30–365 day guarantee depending on service type</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> 32 pest types treated: cockroaches, bed bugs, rodents, termites, wildlife &amp; more</li>
           </ul>
