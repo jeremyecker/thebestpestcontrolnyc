@@ -151,6 +151,11 @@ export default function Footer() {
         </div>
       </div>
 
+      {/* Network */}
+      <div className="border-t border-gray-800 px-4 py-3 text-center">
+        <p className="text-xs text-gray-600">Part of the{" "}<a href="https://resteasypestcontrol.com" className="text-gray-500 hover:text-gray-300 transition" rel="noopener noreferrer">Rest Easy Pest Control</a>{" "}network &mdash; serving NY, NJ &amp; PA.</p>
+      </div>
+
       {/* Bottom bar */}
       <div className="border-t border-gray-800 px-4 py-6">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-gray-500">
