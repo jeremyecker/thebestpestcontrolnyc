@@ -11,6 +11,7 @@ const NAV_LINKS = [
   { label: "Areas", href: "/areas" },
   { label: "Pricing", href: "/pricing" },
   { label: "FAQ", href: "/faq" },
+  { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -49,7 +50,7 @@ export default function Header() {
 
           {/* Desktop CTAs */}
           <div className="hidden md:flex items-center gap-3">
-<a
+            <a
               href={`tel:${PHONE_NUMBER}`}
               className="bg-green-700 hover:bg-green-600 text-white font-bold px-4 py-2 rounded-lg text-sm transition"
             >
