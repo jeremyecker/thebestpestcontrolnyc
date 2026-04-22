@@ -21,12 +21,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticPages: MetadataRoute.Sitemap = [
     { url: BASE_URL, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
-    { url: `${BASE_URL}/services`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${BASE_URL}/pests`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE_URL}/areas`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE_URL}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/pricing`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/faq`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE_URL}/contact`, lastModified: now, changeFrequency: "yearly", priority: 0.7 },
+    { url: `${BASE_URL}/get-a-quote`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
   ];
 
   const boroughHubPages: MetadataRoute.Sitemap = BOROUGH_HUBS.map((slug) => ({
@@ -37,7 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const servicePages: MetadataRoute.Sitemap = SERVICES.map((service) => ({
-    url: `${BASE_URL}/services/${service.slug}`,
+    url: `${BASE_URL}/pests/${service.slug}`,
     lastModified: now,
     changeFrequency: "monthly" as const,
     priority: 0.8,

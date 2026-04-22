@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: { absolute: "Pest Control Pricing NYC | No Hidden Fees | The Best Pest Control NYC" },
+  title: { absolute: "Pest Control Pricing NYC | NYC Exterminator Rates" },
   description:
-    "Transparent pest control pricing in NYC. No hidden fees. Written quote before work begins. No money upfront. See all 32 services with price ranges.",
+    "Transparent NYC exterminator pricing. No hidden fees. Written quote before work begins. No money upfront. See all 32 pest control services with price ranges.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com/pricing" },
 };
 
@@ -340,7 +340,7 @@ export default function PricingPage() {
         </div>
         <div className="flex flex-wrap justify-center gap-4">
           <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-50 transition">📞 Call {PHONE_DISPLAY}</a>
-          <a href="/contact" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-xl text-lg hover:bg-yellow-300 transition">📅 Book Online</a>
+          <a href="/get-a-quote" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-xl text-lg hover:bg-yellow-300 transition">📅 Book Online</a>
         </div>
       </section>
     </>

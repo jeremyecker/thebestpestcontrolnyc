@@ -57,7 +57,7 @@ export default function TermsPage() {
             <li>Standard message and data rates may apply.</li>
             <li>To opt out at any time, reply <strong>STOP</strong> to any text message. You will receive a one-time confirmation and no further messages.</li>
             <li>For assistance, reply <strong>HELP</strong> or contact us via{" "}
-              <Link href="/contact" className="text-green-700 hover:underline">our contact page</Link>.
+              <Link href="/get-a-quote" className="text-green-700 hover:underline">our contact page</Link>.
             </li>
             <li>We do not sell, share, or transfer your phone number or SMS opt-in data to third parties for marketing purposes.</li>
           </ul>
@@ -104,7 +104,7 @@ export default function TermsPage() {
           <h2 className="text-2xl text-gray-900 font-bold mt-8 mb-4">10. Contact Us</h2>
           <p className="text-gray-700 leading-relaxed mb-8">
             Questions about these Terms? Visit our{" "}
-            <Link href="/contact" className="text-green-700 hover:underline">contact page</Link> or call{" "}
+            <Link href="/get-a-quote" className="text-green-700 hover:underline">contact page</Link> or call{" "}
             <a href="tel:8559305016" className="text-green-700 hover:underline">(855) 930-5016</a>.
           </p>
 

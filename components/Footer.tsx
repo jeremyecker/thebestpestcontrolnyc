@@ -4,16 +4,16 @@ const PHONE_NUMBER = process.env.NEXT_PUBLIC_PHONE_NUMBER || "8559305016";
 const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(855) 930-5016";
 
 const SERVICES_LINKS = [
-  { label: "Cockroach Extermination", href: "/services/cockroach-extermination" },
-  { label: "Bed Bug Treatment", href: "/services/bed-bug-treatment" },
-  { label: "Rat Extermination", href: "/services/rat-extermination" },
-  { label: "Mouse Extermination", href: "/services/mouse-extermination" },
-  { label: "Termite Treatment", href: "/services/termite-treatment" },
-  { label: "Ant Control", href: "/services/ant-control" },
-  { label: "Wasp Removal", href: "/services/wasp-removal" },
-  { label: "Mosquito Control", href: "/services/mosquito-control" },
-  { label: "Wildlife Removal", href: "/services/raccoon-removal" },
-  { label: "All 32 Services →", href: "/services" },
+  { label: "Cockroach Extermination", href: "/pests/cockroach-extermination" },
+  { label: "Bed Bug Treatment", href: "/pests/bed-bug-treatment" },
+  { label: "Rat Extermination", href: "/pests/rat-extermination" },
+  { label: "Mouse Extermination", href: "/pests/mouse-extermination" },
+  { label: "Termite Treatment", href: "/pests/termite-treatment" },
+  { label: "Ant Control", href: "/pests/ant-control" },
+  { label: "Wasp Removal", href: "/pests/wasp-removal" },
+  { label: "Mosquito Control", href: "/pests/mosquito-control" },
+  { label: "Wildlife Removal", href: "/pests/raccoon-removal" },
+  { label: "All 32 Services →", href: "/pests" },
 ];
 
 const AREA_LINKS = [
@@ -31,8 +31,8 @@ const AREA_LINKS = [
 const QUICK_LINKS = [
   { label: "Pricing", href: "/pricing" },
   { label: "FAQ", href: "/faq" },
-  { label: "Contact Us", href: "/contact" },
-  { label: "Book Online", href: "/contact" },
+  { label: "Get a Quote", href: "/get-a-quote" },
+  { label: "Book Online", href: "/get-a-quote" },
 ];
 
 export default function Footer() {

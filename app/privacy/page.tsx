@@ -59,7 +59,7 @@ export default function PrivacyPage() {
             <li><strong>Message &amp; data rates:</strong> Standard message and data rates may apply depending on your carrier plan.</li>
             <li><strong>Opt-out:</strong> You may opt out of SMS messages at any time by replying <strong>STOP</strong> to any text message you receive from us. After opting out, you will receive a single confirmation message and no further SMS messages.</li>
             <li><strong>Help:</strong> Reply <strong>HELP</strong> for assistance, or contact us at{" "}
-              <Link href="/contact" className="text-green-700 hover:underline">our contact page</Link>.
+              <Link href="/get-a-quote" className="text-green-700 hover:underline">our contact page</Link>.
             </li>
             <li><strong>No sharing:</strong> We do not sell, rent, or share your mobile phone number or SMS opt-in data with third parties for their marketing purposes.</li>
           </ul>
@@ -93,7 +93,7 @@ export default function PrivacyPage() {
           <h2 className="text-2xl text-gray-900 font-bold mt-8 mb-4">8. Your Rights</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
             You may request access to, correction of, or deletion of your personal information by contacting us at{" "}
-            <Link href="/contact" className="text-green-700 hover:underline">our contact page</Link>. We will respond to verifiable requests within a reasonable timeframe.
+            <Link href="/get-a-quote" className="text-green-700 hover:underline">our contact page</Link>. We will respond to verifiable requests within a reasonable timeframe.
           </p>
 
           <h2 className="text-2xl text-gray-900 font-bold mt-8 mb-4">9. Children&apos;s Privacy</h2>
@@ -109,7 +109,7 @@ export default function PrivacyPage() {
           <h2 className="text-2xl text-gray-900 font-bold mt-8 mb-4">11. Contact Us</h2>
           <p className="text-gray-700 leading-relaxed mb-8">
             If you have questions about this Privacy Policy or how we handle your information, please visit our{" "}
-            <Link href="/contact" className="text-green-700 hover:underline">contact page</Link> or call us at{" "}
+            <Link href="/get-a-quote" className="text-green-700 hover:underline">contact page</Link> or call us at{" "}
             <a href="tel:8559305016" className="text-green-700 hover:underline">(855) 930-5016</a>.
           </p>
 

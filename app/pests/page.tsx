@@ -3,9 +3,9 @@ import Link from "next/link";
 import { SERVICES, SERVICE_CATEGORIES } from "@/data/services";
 
 export const metadata: Metadata = {
-  title: { absolute: "All 32 Pest Control Services NYC | The Best Pest Control NYC" },
-  description: "Complete list of 32 pest control services in NYC. Cockroaches, bed bugs, rats, termites, wildlife, and more. Licensed exterminators. Free inspection. No money upfront.",
-  alternates: { canonical: "https://www.thebestpestcontrolnyc.com/services" },
+  title: { absolute: "NYC Exterminator Services — 32 Pests We Eliminate" },
+  description: "Complete list of 32 NYC exterminator services — cockroaches, bed bugs, rats, termites, wildlife, and more. Licensed NYS DEC exterminators. Free inspection. No money upfront.",
+  alternates: { canonical: "https://www.thebestpestcontrolnyc.com/pests" },
 };
 
 const PHONE = process.env.NEXT_PUBLIC_PHONE_NUMBER || "8559305016";
@@ -49,7 +49,7 @@ export default function ServicesPage() {
             {CATEGORY_DESCS[category] && <p className="text-gray-600 mb-6">{CATEGORY_DESCS[category]}</p>}
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
               {services.map((service) => (
-                <Link key={service.slug} href={`/services/${service.slug}`} className="bg-white border border-gray-200 rounded-xl p-5 hover:border-green-400 hover:shadow-md transition group">
+                <Link key={service.slug} href={`/pests/${service.slug}`} className="bg-white border border-gray-200 rounded-xl p-5 hover:border-green-400 hover:shadow-md transition group">
                   <div className="text-3xl mb-3">{service.icon}</div>
                   <h3 className="font-bold text-gray-900 text-base group-hover:text-green-800 mb-1">{service.name}</h3>
                   <p className="text-green-700 font-semibold text-sm mb-1">{service.priceRange}</p>

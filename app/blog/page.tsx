@@ -3,7 +3,7 @@ import Link from "next/link";
 import { getAllPosts, stripHtml } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: { absolute: "NYC Pest Control Blog | Expert Tips & Guides | The Best Pest Control NYC" },
+  title: { absolute: "NYC Pest Control Blog | Expert Exterminator Tips" },
   description:
     "Expert pest control advice for NYC apartments, restaurants, and buildings. Cockroaches, bed bugs, rats, mice, and more from licensed NYC exterminators.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com/blog" },
@@ -126,7 +126,7 @@ export default function BlogIndexPage() {
               Call {PHONE_DISPLAY}
             </a>
             <a
-              href="/contact"
+              href="/get-a-quote"
               className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-300 transition"
             >
               Book Online

@@ -19,8 +19,8 @@
 import { useState } from "react";
 import ContactForm from "./ContactForm";
 
-const PHONE_NUMBER = process.env.NEXT_PUBLIC_PHONE_NUMBER || "YOUR-PHONE-NUMBER";
-const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(212) 000-0000";
+const PHONE_NUMBER = process.env.NEXT_PUBLIC_PHONE_NUMBER || "8559305016";
+const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(855) 930-5016";
 
 interface CTABannerProps {
   variant?: "full" | "compact" | "form";
@@ -61,7 +61,7 @@ export default function CTABanner({
               📞 {PHONE_DISPLAY}
             </a>
             <a
-              href="/contact"
+              href="/get-a-quote"
               className="bg-yellow-400 text-gray-900 font-bold px-5 py-3 rounded-xl text-sm hover:bg-yellow-300 transition"
             >
               📅 Book Online
@@ -104,7 +104,7 @@ export default function CTABanner({
             </ul>
             <div className={`mt-8 pt-6 border-t ${dark ? "border-green-600" : "border-gray-200"}`}>
               <p className={`text-sm mb-2 ${dark ? "text-green-200" : "text-gray-500"}`}>
-                Prefer to call or text?
+                Prefer to call?
               </p>
               <a
                 href={`tel:${PHONE_NUMBER}`}
@@ -156,7 +156,7 @@ export default function CTABanner({
             📞 Call {PHONE_DISPLAY}
           </a>
           <a
-            href="/contact"
+            href="/get-a-quote"
             className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-xl text-lg hover:bg-yellow-300 transition"
           >
             📅 Book Online

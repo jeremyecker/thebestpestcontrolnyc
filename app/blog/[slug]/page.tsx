@@ -171,7 +171,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
               Call {PHONE_DISPLAY}
             </a>
             <a
-              href="/contact"
+              href="/get-a-quote"
               className="bg-yellow-400 text-gray-900 font-bold px-6 py-3 rounded-lg hover:bg-yellow-300 transition"
             >
               Book Online
@@ -220,7 +220,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
               {relatedServices.map((s) => (
                 <Link
                   key={s.slug}
-                  href={`/services/${s.slug}`}
+                  href={`/pests/${s.slug}`}
                   className="block bg-gray-50 hover:bg-green-50 border border-gray-200 hover:border-green-300 rounded-lg p-4 text-sm text-gray-700 hover:text-green-800 transition"
                 >
                   <div className="text-2xl mb-1">{s.icon}</div>
@@ -275,7 +275,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
               Call {PHONE_DISPLAY}
             </a>
             <a
-              href="/contact"
+              href="/get-a-quote"
               className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-300 transition"
             >
               Book Online

@@ -210,7 +210,7 @@ export default function ComboPage({
               📞 Call Us Now
             </a>
             <a
-              href="/contact"
+              href="/get-a-quote"
               className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-300 transition"
             >
               📅 Book Online
@@ -300,7 +300,7 @@ export default function ComboPage({
               Want info on <strong>{service.name}</strong> across all 318+ NYC neighborhoods?
             </span>
             <Link
-              href={`/services/${service.slug}`}
+              href={`/pests/${service.slug}`}
               className="text-green-700 font-semibold hover:underline text-sm shrink-0"
             >
               View full {service.shortName} service page →
@@ -384,7 +384,7 @@ export default function ComboPage({
             <a href={`tel:${PHONE}`} className="bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-500 transition border border-green-400">
               📞 Call Us Now
             </a>
-            <a href="/contact" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-300 transition">
+            <a href="/get-a-quote" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-300 transition">
               📅 Book Online
             </a>
           </div>

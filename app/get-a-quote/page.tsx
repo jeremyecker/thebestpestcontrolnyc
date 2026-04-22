@@ -1,7 +1,7 @@
 /**
- * app/contact/page.tsx
- * ====================
- * Full Contact Us page.
+ * app/get-a-quote/page.tsx
+ * ========================
+ * Free quote request page.
  * Uses the ContactForm component for the submission form.
  */
 
@@ -12,10 +12,10 @@ const PHONE_NUMBER = process.env.NEXT_PUBLIC_PHONE_NUMBER || "8559305016";
 const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(855) 930-5016";
 
 export const metadata: Metadata = {
-  title: { absolute: "Contact Us | The Best Pest Control NYC" },
+  title: { absolute: "Get a Free Quote | NYC Exterminator" },
   description:
-    "Contact The Best Pest Control NYC for a free pest inspection. Call or fill out the form. We respond within minutes. Licensed NYS DEC exterminators serving all of NYC.",
-  alternates: { canonical: "https://www.thebestpestcontrolnyc.com/contact" },
+    "Get a free quote from a licensed NYC exterminator. Free inspection. No money upfront. Same-day service across NYC, NJ, Long Island & Westchester. Call or request online.",
+  alternates: { canonical: "https://www.thebestpestcontrolnyc.com/get-a-quote" },
 };
 
 const schema = {
@@ -80,7 +80,7 @@ export default function ContactPage() {
 
           {/* Form — takes up 3 cols */}
           <div className="lg:col-span-3">
-            <ContactForm source="contact-page" />
+            <ContactForm source="get-a-quote-page" />
           </div>
 
           {/* Info sidebar — takes up 2 cols */}

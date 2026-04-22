@@ -7,12 +7,12 @@ const PHONE_NUMBER = process.env.NEXT_PUBLIC_PHONE_NUMBER || "8559305016";
 const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(855) 930-5016";
 
 const NAV_LINKS = [
-  { label: "Services", href: "/services" },
+  { label: "Pests", href: "/pests" },
   { label: "Areas", href: "/areas" },
   { label: "Pricing", href: "/pricing" },
   { label: "FAQ", href: "/faq" },
   { label: "Blog", href: "/blog" },
-  { label: "Contact", href: "/contact" },
+  { label: "Get a Quote", href: "/get-a-quote" },
 ];
 
 export default function Header() {
