@@ -16,8 +16,8 @@ import { useState } from "react";
 
 // ─── REPLACE BEFORE LAUNCH ───────────────────────────────────────────
 const WEBHOOK_URL = process.env.NEXT_PUBLIC_CRM_WEBHOOK_URL || "YOUR_WEBHOOK_URL_HERE";
-const PHONE_NUMBER = process.env.NEXT_PUBLIC_PHONE_NUMBER || "YOUR-PHONE-NUMBER";
-const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(212) 000-0000";
+const PHONE_NUMBER = process.env.NEXT_PUBLIC_PHONE_NUMBER || "8559305016";
+const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(855) 930-5016";
 // ─────────────────────────────────────────────────────────────────────
 
 const PEST_TYPES = [
@@ -75,7 +75,6 @@ export default function ContactForm({
   const [fields, setFields] = useState({
     name: "",
     phone: "",
-    email: "",
     propertyType: "" as "residential" | "commercial" | "",
     pestType: preselectedPest,
     description: "",
@@ -90,11 +89,6 @@ export default function ContactForm({
       errs.phone = "Phone number is required.";
     } else if (!/^[\d\s\-\(\)\+]{7,}$/.test(fields.phone)) {
       errs.phone = "Please enter a valid phone number.";
-    }
-    if (!fields.email.trim()) {
-      errs.email = "Email address is required.";
-    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(fields.email)) {
-      errs.email = "Please enter a valid email address.";
     }
     if (!fields.propertyType) errs.propertyType = "Please select residential or commercial.";
     if (!fields.pestType) errs.pestType = "Please select a pest type.";
@@ -118,7 +112,6 @@ export default function ContactForm({
         // Core fields
         name: fields.name.trim(),
         phone: fields.phone.trim(),
-        email: fields.email.trim(),
         property_type: fields.propertyType,
         pest_type: fields.pestType,
         description: fields.description.trim() || null,
@@ -209,36 +202,20 @@ export default function ContactForm({
           {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name}</p>}
         </div>
 
-        {/* Phone + Email side by side */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div>
-            <label className="block text-sm font-semibold text-gray-700 mb-1">
-              Phone Number <span className="text-red-500">*</span>
-            </label>
-            <input
-              type="tel"
-              placeholder="(212) 555-0000"
-              value={fields.phone}
-              onChange={(e) => update("phone", e.target.value)}
-              className={inputClass("phone")}
-              autoComplete="tel"
-            />
-            {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
-          </div>
-          <div>
-            <label className="block text-sm font-semibold text-gray-700 mb-1">
-              Email Address <span className="text-red-500">*</span>
-            </label>
-            <input
-              type="email"
-              placeholder="jane@example.com"
-              value={fields.email}
-              onChange={(e) => update("email", e.target.value)}
-              className={inputClass("email")}
-              autoComplete="email"
-            />
-            {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
-          </div>
+        {/* Phone */}
+        <div>
+          <label className="block text-sm font-semibold text-gray-700 mb-1">
+            Phone Number <span className="text-red-500">*</span>
+          </label>
+          <input
+            type="tel"
+            placeholder="(212) 555-0000"
+            value={fields.phone}
+            onChange={(e) => update("phone", e.target.value)}
+            className={inputClass("phone")}
+            autoComplete="tel"
+          />
+          {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
         </div>
 
         {/* Residential / Commercial */}

@@ -7,11 +7,11 @@ import Script from "next/script";
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.thebestpestcontrolnyc.com"),
   title: {
-    default: "The Best Pest Control NYC | Licensed Exterminators — 318+ Neighborhoods",
+    default: "NYC Exterminator | Licensed Pest Control — The Best Pest Control NYC",
     template: "%s | The Best Pest Control NYC",
   },
   description:
-    "NYS DEC licensed exterminators serving 318+ neighborhoods across NYC, NJ, Long Island & Westchester. 32 pest types eliminated. Free inspection. No money upfront. Guaranteed results.",
+    "NYC exterminator serving 318+ neighborhoods across NYC, NJ, Long Island & Westchester. NYS DEC licensed. 32 pest types eliminated. Free inspection. No money upfront. Guaranteed.",
   keywords: [
     "pest control NYC",
     "exterminator NYC",

@@ -28,7 +28,7 @@ import path from "path";
 // ─────────────────────────────────────────
 
 const SITE_NAME = "The Best Pest Control NYC";
-const SITE_PHONE = "YOUR-PHONE-NUMBER"; // ← Replace before running
+const SITE_PHONE = "(855) 930-5016";
 const MODEL = "claude-opus-4-5-20251101";
 const MAX_TOKENS = 1200;
 const DELAY_MS = 300; // Polite delay between API calls (ms)

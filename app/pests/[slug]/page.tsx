@@ -12,17 +12,27 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const service = SERVICES.find((s) => s.slug === params.slug);
-  if (!service) return { title: "The Best Pest Control NYC" };
+  if (!service) return { title: { absolute: "The Best Pest Control NYC" } };
   const content = getServiceContent(params.slug);
-  const title = content?.metaTitle || `${service.name} NYC | The Best Pest Control NYC`;
+  // Strip any trailing brand suffix to avoid doubling when absolute
+  const rawTitle = content?.metaTitle || `${service.name} NYC | NYC Exterminator`;
+  const title = rawTitle.replace(/\s*\|\s*(The\s+)?Best Pest Control NYC\s*$/i, "").slice(0, 60);
   const description =
     content?.metaDescription ||
-    `Professional ${service.name.toLowerCase()} in NYC. ${service.priceRange}. NYS DEC licensed exterminators. Free inspection. No money upfront. ${service.seasonal ? "Seasonal treatment." : `${service.guaranteeDays}-day guarantee.`}`;
+    `Professional ${service.name.toLowerCase()} in NYC from a licensed NYC exterminator. ${service.priceRange}. NYS DEC licensed. Free inspection. No money upfront. ${service.seasonal ? "Seasonal treatment." : `${service.guaranteeDays}-day guarantee.`}`;
   return {
     // Use absolute to prevent layout template from appending brand name again
     title: { absolute: title },
     description,
-    alternates: { canonical: `https://www.thebestpestcontrolnyc.com/services/${service.slug}` },
+    alternates: { canonical: `https://www.thebestpestcontrolnyc.com/pests/${service.slug}` },
+    openGraph: {
+      title,
+      description,
+      url: `https://www.thebestpestcontrolnyc.com/pests/${service.slug}`,
+      siteName: "The Best Pest Control NYC",
+      locale: "en_US",
+      type: "website",
+    },
   };
 }
 
@@ -77,8 +87,8 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
         "@type": "BreadcrumbList",
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Home", item: "https://www.thebestpestcontrolnyc.com" },
-          { "@type": "ListItem", position: 2, name: "Services", item: "https://www.thebestpestcontrolnyc.com/services" },
-          { "@type": "ListItem", position: 3, name: service.name, item: `https://www.thebestpestcontrolnyc.com/services/${service.slug}` },
+          { "@type": "ListItem", position: 2, name: "Services", item: "https://www.thebestpestcontrolnyc.com/pests" },
+          { "@type": "ListItem", position: 3, name: service.name, item: `https://www.thebestpestcontrolnyc.com/pests/${service.slug}` },
         ],
       },
       {
@@ -116,7 +126,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
 
       <nav className="bg-gray-100 px-4 py-2 text-sm text-gray-600">
         <Link href="/" className="hover:text-green-700">Home</Link>{" › "}
-        <Link href="/services" className="hover:text-green-700">Services</Link>{" › "}
+        <Link href="/pests" className="hover:text-green-700">Services</Link>{" › "}
         <span className="text-gray-900 font-medium">{service.name}</span>
       </nav>
 
@@ -144,7 +154,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
           <div className="flex flex-wrap gap-4">
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-50 transition">📞 Call {PHONE_DISPLAY}</a>
             <a href={`tel:${PHONE}`} className="bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-500 transition border border-green-400">📞 Call Us Now</a>
-            <a href="/contact" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-300 transition">📅 Book Online</a>
+            <a href="/get-a-quote" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-300 transition">📅 Book Online</a>
           </div>
         </div>
       </section>
@@ -283,7 +293,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
             <h2 className="text-2xl font-bold text-gray-900 mb-4" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Related Services</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
               {relatedServices.map((s) => (
-                <Link key={s.slug} href={`/services/${s.slug}`} className="block bg-gray-50 hover:bg-green-50 border border-gray-200 hover:border-green-300 rounded-lg p-4 text-sm text-gray-700 hover:text-green-800 transition">
+                <Link key={s.slug} href={`/pests/${s.slug}`} className="block bg-gray-50 hover:bg-green-50 border border-gray-200 hover:border-green-300 rounded-lg p-4 text-sm text-gray-700 hover:text-green-800 transition">
                   <div className="text-2xl mb-1">{s.icon}</div>
                   <div className="font-medium">{s.name}</div>
                   <div className="text-green-600 text-xs mt-1">{s.priceRange}</div>
@@ -300,7 +310,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
           <div className="flex flex-wrap justify-center gap-4">
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-50 transition">📞 Call {PHONE_DISPLAY}</a>
             <a href={`tel:${PHONE}`} className="bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-500 transition border border-green-400">📞 Call Us Now</a>
-            <a href="/contact" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-300 transition">📅 Book Online</a>
+            <a href="/get-a-quote" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-300 transition">📅 Book Online</a>
           </div>
         </section>
       </div>

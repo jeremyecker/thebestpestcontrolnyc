@@ -11,7 +11,7 @@ const PHONE_NUMBER = process.env.NEXT_PUBLIC_PHONE_NUMBER || "8559305016";
 const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(855) 930-5016";
 
 export const metadata: Metadata = {
-  title: "Request Received | The Best Pest Control NYC",
+  title: { absolute: "Request Received | The Best Pest Control NYC" },
   description: "We received your pest control request and will be in touch shortly.",
   robots: { index: false }, // don't index thank-you page
 };

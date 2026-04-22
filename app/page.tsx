@@ -3,12 +3,38 @@ import Link from "next/link";
 import { SERVICES, SERVICE_CATEGORIES } from "@/data/services";
 import { AREAS, BOROUGH_GROUPS } from "@/data/areas";
 
-export const metadata: Metadata = {
-  title: { absolute: "The Best Pest Control NYC | Licensed Exterminators — 318+ Neighborhoods" },
-  description:
-    "NYS DEC licensed exterminators serving 318+ neighborhoods across NYC, NJ, Long Island & Westchester. 32 pest types eliminated. Free inspection. No money upfront. Guaranteed.",
-  alternates: { canonical: "https://www.thebestpestcontrolnyc.com" },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: { absolute: "NYC Exterminator | Licensed Pest Control — Same-Day" },
+    description:
+      "NYC exterminator — licensed NYS DEC pest control serving 318+ NYC, NJ, Long Island & Westchester neighborhoods. Free inspection. No money upfront. Same-day available.",
+    alternates: { canonical: "https://www.thebestpestcontrolnyc.com" },
+    openGraph: {
+      type: "website",
+      locale: "en_US",
+      url: "https://www.thebestpestcontrolnyc.com",
+      siteName: "The Best Pest Control NYC",
+      title: "NYC Exterminator | Licensed Pest Control — Same-Day",
+      description:
+        "NYC exterminator — licensed NYS DEC pest control. 318+ neighborhoods. Free inspection. No money upfront.",
+      images: [
+        {
+          url: "/opengraph-image.png",
+          width: 1200,
+          height: 630,
+          alt: "NYC Exterminator — The Best Pest Control NYC",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "NYC Exterminator | Licensed Pest Control",
+      description:
+        "NYC exterminator — NYS DEC licensed. 318+ neighborhoods. Free inspection.",
+      images: ["/opengraph-image.png"],
+    },
+  };
+}
 
 const PHONE = process.env.NEXT_PUBLIC_PHONE_NUMBER || "8559305016";
 const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(855) 930-5016";
@@ -18,18 +44,30 @@ const schema = {
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "@id": "https://www.thebestpestcontrolnyc.com",
+      "@id": "https://www.thebestpestcontrolnyc.com/#business",
       name: "The Best Pest Control NYC",
+      alternateName: "NYC Exterminator",
       url: "https://www.thebestpestcontrolnyc.com",
       telephone: PHONE,
-      description: "NYS DEC licensed exterminators serving 318+ NYC neighborhoods. 32 pest types eliminated. Free inspection.",
+      description:
+        "NYC exterminator — NYS DEC licensed pest control serving 318+ neighborhoods across New York City, NJ, Long Island and Westchester. 32 pest types eliminated.",
       address: {
         "@type": "PostalAddress",
         addressLocality: "New York",
         addressRegion: "NY",
         addressCountry: "US",
       },
-      areaServed: { "@type": "City", name: "New York" },
+      areaServed: [
+        { "@type": "City", name: "New York City" },
+        { "@type": "AdministrativeArea", name: "Manhattan" },
+        { "@type": "AdministrativeArea", name: "Brooklyn" },
+        { "@type": "AdministrativeArea", name: "Queens" },
+        { "@type": "AdministrativeArea", name: "The Bronx" },
+        { "@type": "AdministrativeArea", name: "Staten Island" },
+        { "@type": "AdministrativeArea", name: "Westchester County" },
+        { "@type": "AdministrativeArea", name: "Long Island" },
+        { "@type": "AdministrativeArea", name: "Northern New Jersey" },
+      ],
       priceRange: "$$",
       openingHoursSpecification: [
         { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday"], opens: "07:00", closes: "20:00" },
@@ -123,7 +161,7 @@ export default function HomePage() {
             NYS DEC LICENSED • FULLY INSURED • FREE INSPECTION
           </div>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
-            NYC's Best Pest Control<br className="hidden md:block" /> — Guaranteed.
+            NYC Exterminator<br className="hidden md:block" /> — Pest Control, Guaranteed.
           </h1>
           <p className="text-xl md:text-2xl text-green-100 mb-8 max-w-3xl mx-auto leading-relaxed">
             Licensed exterminators serving 318+ neighborhoods across NYC, NJ, Long Island & Westchester. Cockroaches, bed bugs, rats, mice, termites, wildlife, and 32 pest types — eliminated for good. Starting at $125. No money upfront.
@@ -134,7 +172,7 @@ export default function HomePage() {
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-50 transition shadow-lg">
               📞 Call {PHONE_DISPLAY}
             </a>
-            <a href="/contact" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-xl text-lg hover:bg-yellow-300 transition shadow-lg">
+            <a href="/get-a-quote" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-xl text-lg hover:bg-yellow-300 transition shadow-lg">
               📅 Book Online
             </a>
           </div>
@@ -194,7 +232,7 @@ export default function HomePage() {
       {/* ABOUT */}
       <section className="py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl font-bold text-gray-900 mb-6" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>NYC's Premier Pest Control Company</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-6" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>NYC's Premier Exterminator & Pest Control Company</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-gray-700 text-lg leading-relaxed mb-4">
@@ -206,7 +244,7 @@ export default function HomePage() {
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 What separates us from every other pest control company in NYC is simple: we treat root causes, not just symptoms. Any exterminator can spray. We find where pests are entering, why they're thriving, and what needs to change permanently. That's why our customers don't call us twice for the same problem.
               </p>
-              <a href="/contact" className="inline-block bg-green-700 text-white font-bold px-6 py-3 rounded-xl hover:bg-green-600 transition">Get Your Free Inspection →</a>
+              <a href="/get-a-quote" className="inline-block bg-green-700 text-white font-bold px-6 py-3 rounded-xl hover:bg-green-600 transition">Get Your Free Inspection →</a>
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
@@ -241,7 +279,7 @@ export default function HomePage() {
             {featuredServices.map((service) => (
               <Link
                 key={service.slug}
-                href={`/services/${service.slug}`}
+                href={`/pests/${service.slug}`}
                 className="bg-white rounded-xl p-4 border border-gray-200 hover:border-green-400 hover:shadow-md transition group"
               >
                 <div className="text-2xl mb-2">{service.icon}</div>
@@ -251,7 +289,7 @@ export default function HomePage() {
             ))}
           </div>
           <div className="text-center mt-8">
-            <Link href="/services" className="inline-block border-2 border-green-700 text-green-700 font-bold px-6 py-3 rounded-xl hover:bg-green-700 hover:text-white transition">
+            <Link href="/pests" className="inline-block border-2 border-green-700 text-green-700 font-bold px-6 py-3 rounded-xl hover:bg-green-700 hover:text-white transition">
               View All 32 Services →
             </Link>
           </div>
@@ -399,7 +437,7 @@ export default function HomePage() {
           </div>
           <div className="flex flex-wrap justify-center gap-4">
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-50 transition">📞 Call {PHONE_DISPLAY}</a>
-            <a href="/contact" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-xl text-lg hover:bg-yellow-300 transition">📅 Book Online</a>
+            <a href="/get-a-quote" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-xl text-lg hover:bg-yellow-300 transition">📅 Book Online</a>
           </div>
         </div>
       </section>
