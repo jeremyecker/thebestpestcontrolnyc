@@ -75,6 +75,7 @@ export default function ContactForm({
   const [fields, setFields] = useState({
     name: "",
     phone: "",
+    email: "",
     propertyType: "" as "residential" | "commercial" | "",
     pestType: preselectedPest,
     description: "",
@@ -89,6 +90,9 @@ export default function ContactForm({
       errs.phone = "Phone number is required.";
     } else if (!/^[\d\s\-\(\)\+]{7,}$/.test(fields.phone)) {
       errs.phone = "Please enter a valid phone number.";
+    }
+    if (fields.email.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(fields.email)) {
+      errs.email = "Please enter a valid email address.";
     }
     if (!fields.propertyType) errs.propertyType = "Please select residential or commercial.";
     if (!fields.pestType) errs.pestType = "Please select a pest type.";
@@ -112,6 +116,7 @@ export default function ContactForm({
         // Core fields
         name: fields.name.trim(),
         phone: fields.phone.trim(),
+        email: fields.email.trim() || null,
         property_type: fields.propertyType,
         pest_type: fields.pestType,
         description: fields.description.trim() || null,
@@ -218,6 +223,23 @@ export default function ContactForm({
           {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
         </div>
 
+        {/* Email (optional) */}
+        <div>
+          <label className="block text-sm font-semibold text-gray-700 mb-1">
+            Email Address{" "}
+            <span className="text-gray-400 font-normal">(optional)</span>
+          </label>
+          <input
+            type="email"
+            placeholder="jane@example.com"
+            value={fields.email}
+            onChange={(e) => update("email", e.target.value)}
+            className={inputClass("email")}
+            autoComplete="email"
+          />
+          {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
+        </div>
+
         {/* Residential / Commercial */}
         <div>
           <label className="block text-sm font-semibold text-gray-700 mb-2">
@@ -274,7 +296,7 @@ export default function ContactForm({
           </label>
           <textarea
             rows={3}
-            placeholder="Describe what you're seeing — where, how many, how long, and what the pest looks like."
+            placeholder="Describe what you&#39;re seeing — where, how many, how long, and what the pest looks like."
             value={fields.description}
             onChange={(e) => update("description", e.target.value)}
             className="w-full px-4 py-3 rounded-xl border border-gray-300 bg-white text-gray-900 text-base transition focus:outline-none focus:ring-2 focus:ring-green-500 hover:border-green-400 resize-none"
@@ -312,7 +334,7 @@ export default function ContactForm({
             <a href={`tel:${PHONE_NUMBER}`} className="font-bold underline">
               {PHONE_DISPLAY}
             </a>{" "}
-            and we'll get you scheduled immediately.
+            and we&#39;ll get you scheduled immediately.
           </div>
         )}
 
