@@ -69,6 +69,7 @@ const schema = {
         { "@type": "AdministrativeArea", name: "Northern New Jersey" },
       ],
       priceRange: "$$",
+      logo: { "@type": "ImageObject", url: "https://www.thebestpestcontrolnyc.com/logo.png" },
       openingHoursSpecification: [
         { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday"], opens: "07:00", closes: "20:00" },
         { "@type": "OpeningHoursSpecification", dayOfWeek: ["Saturday"], opens: "08:00", closes: "18:00" },
