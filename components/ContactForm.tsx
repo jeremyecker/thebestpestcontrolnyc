@@ -81,6 +81,7 @@ export default function ContactForm({
     description: "",
     smsConsent: false,
   });
+  const [formStartedAt] = useState(Date.now());
 
   // ── Validation ──────────────────────────────────────────────────────
   function validate() {
@@ -142,7 +143,7 @@ export default function ContactForm({
       const res = await fetch(WEBHOOK_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
+        body: JSON.stringify({ ...payload, honeypot: (document.querySelector('input[name="honeypot"]') as HTMLInputElement)?.value || '', form_started_at: formStartedAt }),
       });
 
       if (!res.ok) throw new Error(`Webhook returned ${res.status}`);
@@ -351,6 +352,15 @@ export default function ContactForm({
         )}
 
         {/* Submit */}
+      {/* Honeypot - hidden from real users */}
+      <input
+        type="text"
+        name="honeypot"
+        style={{ position: 'absolute', left: '-9999px', opacity: 0, height: 0, width: 0, zIndex: -1 }}
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+      />
         <button
           type="submit"
           disabled={formState === "submitting"}
