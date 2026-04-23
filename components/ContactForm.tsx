@@ -111,6 +111,18 @@ export default function ContactForm({
     setErrors({});
     setFormState("submitting");
 
+    // === BLOCKLIST CHECK ===
+    const _BLOCKED_PHONES = ['2168596131'];
+    const _BLOCKED_EMAILS = ['susansmi@parallelaid.com'];
+    const _BLOCKED_DOMAINS = ['parallelaid.com'];
+    const _cp = (fields.phone || '').replace(/[^0-9]/g, '');
+    const _ce = (fields.email || '').trim().toLowerCase();
+    if (_BLOCKED_PHONES.includes(_cp) || _BLOCKED_EMAILS.includes(_ce) || _BLOCKED_DOMAINS.some(d => _ce.endsWith('@' + d))) {
+      setFormState('success');
+      return;
+    }
+    // === END BLOCKLIST ===
+
     try {
       const payload = {
         // Core fields
