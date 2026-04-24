@@ -3,7 +3,7 @@
 /**
  * components/ContactForm.tsx
  * ==========================
- * Reusable contact form — submits to CRM via webhook.
+ * Reusable contact form — submits to /api/leads (server-side).
  * Used on: Contact page, embedded in service pages, area pages, combo pages.
  *
  * Props:
@@ -14,11 +14,8 @@
 
 import { useState } from "react";
 
-// ─── REPLACE BEFORE LAUNCH ───────────────────────────────────────────
-const WEBHOOK_URL = process.env.NEXT_PUBLIC_CRM_WEBHOOK_URL || "YOUR_WEBHOOK_URL_HERE";
 const PHONE_NUMBER = process.env.NEXT_PUBLIC_PHONE_NUMBER || "8559305016";
 const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(855) 930-5016";
-// ─────────────────────────────────────────────────────────────────────
 
 const PEST_TYPES = [
   "Cockroaches",
@@ -83,7 +80,7 @@ export default function ContactForm({
   });
   const [formStartedAt] = useState(Date.now());
 
-  // ── Validation ──────────────────────────────────────────────────────
+  // ── Validation ───────────────────────────────────────────────────────
   function validate() {
     const errs: Record<string, string> = {};
     if (!fields.name.trim()) errs.name = "Your name is required.";
@@ -101,7 +98,7 @@ export default function ContactForm({
     return errs;
   }
 
-  // ── Submit ───────────────────────────────────────────────────────────
+  // ── Submit ──────────────────────────────────────────────────────────
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     const errs = validate();
@@ -112,41 +109,29 @@ export default function ContactForm({
     setErrors({});
     setFormState("submitting");
 
-    // === BLOCKLIST CHECK ===
-    const _BLOCKED_PHONES = ['2168596131'];
-    const _BLOCKED_EMAILS = ['susansmi@parallelaid.com'];
-    const _BLOCKED_DOMAINS = ['parallelaid.com'];
-    const _cp = (fields.phone || '').replace(/[^0-9]/g, '');
-    const _ce = (fields.email || '').trim().toLowerCase();
-    if (_BLOCKED_PHONES.includes(_cp) || _BLOCKED_EMAILS.includes(_ce) || _BLOCKED_DOMAINS.some(d => _ce.endsWith('@' + d))) {
-      setFormState('success');
-      return;
-    }
-    // === END BLOCKLIST ===
-
     try {
       const payload = {
-        // Core fields
         name: fields.name.trim(),
         phone: fields.phone.trim(),
         email: fields.email.trim() || null,
         property_type: fields.propertyType,
         pest_type: fields.pestType,
         description: fields.description.trim() || null,
-        // CRM metadata
         sms_consent: fields.smsConsent,
         source: source,
         submitted_at: new Date().toISOString(),
         page_url: typeof window !== "undefined" ? window.location.href : "",
+        honeypot: (document.querySelector('input[name="honeypot"]') as HTMLInputElement)?.value || '',
+        form_started_at: formStartedAt,
       };
 
-      const res = await fetch(WEBHOOK_URL, {
+      const res = await fetch('/api/leads', {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...payload, honeypot: (document.querySelector('input[name="honeypot"]') as HTMLInputElement)?.value || '', form_started_at: formStartedAt }),
+        body: JSON.stringify(payload),
       });
 
-      if (!res.ok) throw new Error(`Webhook returned ${res.status}`);
+      if (!res.ok) throw new Error(`API returned ${res.status}`);
       setFormState("success");
     } catch (err) {
       console.error("Form submission error:", err);
@@ -159,7 +144,7 @@ export default function ContactForm({
     if (errors[field]) setErrors((prev) => ({ ...prev, [field]: "" }));
   }
 
-  // ── Success State ────────────────────────────────────────────────────
+  // ── Success State ──────────────────────────────────────────────
   if (formState === "success") {
     return (
       <div className="bg-green-50 border border-green-200 rounded-2xl p-8 text-center">
@@ -181,7 +166,7 @@ export default function ContactForm({
     );
   }
 
-  // ── Form ─────────────────────────────────────────────────────────────
+  // ── Form ────────────────────────────────────────────────────────────
   const inputClass = (field: string) =>
     `w-full px-4 py-3 rounded-xl border text-gray-900 text-base transition focus:outline-none focus:ring-2 focus:ring-green-500 ${
       errors[field]
@@ -352,15 +337,15 @@ export default function ContactForm({
         )}
 
         {/* Submit */}
-      {/* Honeypot - hidden from real users */}
-      <input
-        type="text"
-        name="honeypot"
-        style={{ position: 'absolute', left: '-9999px', opacity: 0, height: 0, width: 0, zIndex: -1 }}
-        tabIndex={-1}
-        autoComplete="off"
-        aria-hidden="true"
-      />
+        {/* Honeypot - hidden from real users */}
+        <input
+          type="text"
+          name="honeypot"
+          style={{ position: 'absolute', left: '-9999px', opacity: 0, height: 0, width: 0, zIndex: -1 }}
+          tabIndex={-1}
+          autoComplete="off"
+          aria-hidden="true"
+        />
         <button
           type="submit"
           disabled={formState === "submitting"}
