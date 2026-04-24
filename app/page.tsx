@@ -8,11 +8,11 @@ export async function generateMetadata(): Promise<Metadata> {
     title: { absolute: "NYC Exterminator | Licensed Pest Control — Same-Day" },
     description:
       "NYC exterminator — licensed NYS DEC pest control serving 318+ NYC, NJ, Long Island & Westchester neighborhoods. Free inspection. No money upfront. Same-day available.",
-    alternates: { canonical: "https://www.thebestpestcontrolnyc.com" },
+    alternates: { canonical: "https://www.thebestpestcontrolnyc.com/" },
     openGraph: {
       type: "website",
       locale: "en_US",
-      url: "https://www.thebestpestcontrolnyc.com",
+      url: "https://www.thebestpestcontrolnyc.com/",
       siteName: "The Best Pest Control NYC",
       title: "NYC Exterminator | Licensed Pest Control — Same-Day",
       description:
@@ -47,7 +47,7 @@ const schema = {
       "@id": "https://www.thebestpestcontrolnyc.com/#business",
       name: "The Best Pest Control NYC",
       alternateName: "NYC Exterminator",
-      url: "https://www.thebestpestcontrolnyc.com",
+      url: "https://www.thebestpestcontrolnyc.com/",
       telephone: PHONE,
       description:
         "NYC exterminator — NYS DEC licensed pest control serving 318+ neighborhoods across New York City, NJ, Long Island and Westchester. 32 pest types eliminated.",
