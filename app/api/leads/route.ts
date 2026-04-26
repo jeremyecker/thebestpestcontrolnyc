@@ -1,8 +1,15 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-const SUPABASE_URL = 'https://omcdxpqhnrhgnkxafgtn.supabase.co';
-const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
-const CRM_WEBHOOK_URL = process.env.NEXT_PUBLIC_WEBHOOK_URL;
+const WEBHOOK_URL = 'https://omcdxpqhnrhgnkxafgtn.supabase.co/functions/v1/webhook-bestpestnyc';
+
+// Dedup store (in-memory — resets on cold start, sufficient for basic protection)
+const recentSubmissions = new Map<string, number>();
+setInterval(() => {
+  const tenMinAgo = Date.now() - 10 * 60 * 1000;
+  for (const [key, timestamp] of recentSubmissions.entries()) {
+    if (timestamp < tenMinAgo) recentSubmissions.delete(key);
+  }
+}, 15 * 60 * 1000);
 
 export async function POST(req: NextRequest) {
   try {
@@ -59,60 +66,15 @@ export async function POST(req: NextRequest) {
     }
 
     // Dedup check (same phone within 10 minutes)
-    const tenMinAgo = new Date(now - 10 * 60 * 1000).toISOString();
+    const lastSub = recentSubmissions.get(cleanPhone);
+    if (lastSub && now - lastSub < 10 * 60 * 1000) {
+      return NextResponse.json({ success: true });
+    }
+    recentSubmissions.set(cleanPhone, now);
+
+    // Fire CRM webhook
     try {
-      const dedupRes = await fetch(
-        `${SUPABASE_URL}/rest/v1/marketing_leads?customer_phone=eq.${cleanPhone}&created_at=gte.${tenMinAgo}&select=id&limit=1`,
-        {
-          headers: {
-            apikey: SUPABASE_SERVICE_ROLE_KEY,
-            Authorization: `Bearer ${SUPABASE_SERVICE_ROLE_KEY}`,
-          },
-        }
-      );
-      const existing = await dedupRes.json();
-      if (Array.isArray(existing) && existing.length > 0) {
-        return NextResponse.json({ success: true });
-      }
-    } catch (_) {
-      // dedup failure is non-blocking
-    }
-
-    // Build description from pest_type + message
-    const descriptionText = [pest_type, description].filter(Boolean).join(' — ');
-
-    // Insert to marketing_leads in main Supabase project
-    const leadData = {
-      customer_name: name,
-      customer_phone: cleanPhone,
-      website: 'thebestpestcontrolnyc.com',
-      lead_source: source || 'website',
-      api_source: 'thebestpestcontrolnyc',
-      description: descriptionText || null,
-      customer_address: null,
-      status: 'new',
-    };
-
-    const insertRes = await fetch(`${SUPABASE_URL}/rest/v1/marketing_leads`, {
-      method: 'POST',
-      headers: {
-        apikey: SUPABASE_SERVICE_ROLE_KEY,
-        Authorization: `Bearer ${SUPABASE_SERVICE_ROLE_KEY}`,
-        'Content-Type': 'application/json',
-        Prefer: 'return=minimal',
-      },
-      body: JSON.stringify(leadData),
-    });
-
-    if (!insertRes.ok) {
-      const err = await insertRes.text();
-      console.error('Supabase insert error:', err);
-      // Non-blocking — still fire webhook below
-    }
-
-    // Fire CRM webhook (best effort, non-blocking)
-    if (CRM_WEBHOOK_URL) {
-      fetch(CRM_WEBHOOK_URL, {
+      await fetch(WEBHOOK_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -127,7 +89,9 @@ export async function POST(req: NextRequest) {
           submitted_at,
           page_url,
         }),
-      }).catch(() => {});
+      });
+    } catch (e) {
+      console.error('Webhook error:', e);
     }
 
     return NextResponse.json({ success: true });
