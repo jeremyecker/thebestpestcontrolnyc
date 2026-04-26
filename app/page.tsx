@@ -8,7 +8,7 @@ export async function generateMetadata(): Promise<Metadata> {
     title: { absolute: "NYC Exterminator | Licensed Pest Control — Same-Day" },
     description:
       "NYC exterminator — licensed NYS DEC pest control serving 318+ NYC, NJ, Long Island & Westchester neighborhoods. Free inspection. No money upfront. Same-day available.",
-    alternates: { canonical: "https://www.thebestpestcontrolnyc.com" },
+    alternates: { canonical: "https://thebestpestcontrolnyc.com" },
     openGraph: {
       type: "website",
       locale: "en_US",

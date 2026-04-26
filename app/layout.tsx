@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://thebestpestcontrolnyc.com/',
+    canonical: 'https://thebestpestcontrolnyc.com',
   },
 };
 
