@@ -6,7 +6,7 @@ const WEBHOOK_URL = 'https://omcdxpqhnrhgnkxafgtn.supabase.co/functions/v1/webho
 const recentSubmissions = new Map<string, number>();
 setInterval(() => {
   const tenMinAgo = Date.now() - 10 * 60 * 1000;
-  for (const [key, timestamp] of recentSubmissions.entries()) {
+  for (const [key, timestamp] of Array.from(recentSubmissions.entries())) {
     if (timestamp < tenMinAgo) recentSubmissions.delete(key);
   }
 }, 15 * 60 * 1000);
