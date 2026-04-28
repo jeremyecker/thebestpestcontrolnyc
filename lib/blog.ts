@@ -18,6 +18,7 @@ import p17 from "@/data/blog/pet-safe-pest-control-nyc-apartments.json";
 import p18 from "@/data/blog/signs-of-termites-nyc.json";
 import p19 from "@/data/blog/what-attracts-cockroaches-nyc-apartments.json";
 import p20 from "@/data/blog/why-bug-bombs-dont-work-nyc-apartments.json";
+import p21 from "@/data/blog/how-to-check-for-bed-bugs-nyc-apartment.json";
 
 export interface BlogPost {
   slug: string;
@@ -35,6 +36,7 @@ export interface BlogPost {
 const RAW_POSTS: any[] = [
   p01, p02, p03, p04, p05, p06, p07, p08, p09, p10,
   p11, p12, p13, p14, p15, p16, p17, p18, p19, p20,
+  p21,
 ];
 
 export const ALL_POSTS: BlogPost[] = RAW_POSTS.map((p) => ({
