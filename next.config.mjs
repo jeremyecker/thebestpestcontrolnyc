@@ -13,6 +13,9 @@ const nextConfig = {
       { source: '/services/:slug', destination: '/pests/:slug', permanent: true },
       // Route rename: /contact -> /get-a-quote
       { source: '/contact', destination: '/get-a-quote', permanent: true },
+      // 404 fixes: non-existent area slugs → areas index
+      { source: '/areas/downtown-brooklyn', destination: '/areas', permanent: true },
+      { source: '/areas/times-square', destination: '/areas', permanent: true },
     ];
   },
 };
