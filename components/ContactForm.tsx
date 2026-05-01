@@ -217,6 +217,7 @@ export default function ContactForm({
             onChange={(e) => update("phone", e.target.value)}
             className={inputClass("phone")}
             autoComplete="tel"
+            required
           />
           {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
         </div>
@@ -306,6 +307,7 @@ export default function ContactForm({
           <input
             id="smsConsent"
             type="checkbox"
+            required
             checked={fields.smsConsent}
             onChange={(e) => {
               setFields((prev) => ({ ...prev, smsConsent: e.target.checked }));
