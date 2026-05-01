@@ -7,6 +7,20 @@ export const metadata: Metadata = {
   description:
     "Expert pest control advice for NYC apartments, restaurants, and buildings. Cockroaches, bed bugs, rats, mice, and more from licensed NYC exterminators.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com/blog" },
+  openGraph: {
+    title: "NYC Pest Control Blog | Expert Exterminator Tips",
+    description: "Expert pest control advice for NYC apartments, restaurants, and buildings. Cockroaches, bed bugs, rats, mice, and more from licensed NYC exterminators.",
+    url: "https://www.thebestpestcontrolnyc.com/blog",
+    siteName: "The Best Pest Control NYC",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.thebestpestcontrolnyc.com/opengraph-image", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "NYC Pest Control Blog | Expert Exterminator Tips",
+    description: "Expert pest control advice for NYC apartments, restaurants, and buildings. Cockroaches, bed bugs, rats, mice, and more from licensed NYC exterminators.",
+  },
 };
 
 const PHONE = process.env.NEXT_PUBLIC_PHONE_NUMBER || "8559305016";

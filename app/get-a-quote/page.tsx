@@ -16,6 +16,20 @@ export const metadata: Metadata = {
   description:
     "Get a free quote from a licensed NYC exterminator. Free inspection. No money upfront. Same-day service across NYC, NJ, Long Island & Westchester. Call or request online.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com/get-a-quote" },
+  openGraph: {
+    title: "Get a Free Quote | NYC Exterminator",
+    description: "Get a free quote from a licensed NYC exterminator. Free inspection. No money upfront. Same-day service across NYC, NJ, Long Island & Westchester. Call or request online.",
+    url: "https://www.thebestpestcontrolnyc.com/get-a-quote",
+    siteName: "The Best Pest Control NYC",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.thebestpestcontrolnyc.com/opengraph-image", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Get a Free Quote | NYC Exterminator",
+    description: "Get a free quote from a licensed NYC exterminator. Free inspection. No money upfront. Same-day service across NYC, NJ, Long Island & Westchester. Call or request online.",
+  },
 };
 
 const schema = {

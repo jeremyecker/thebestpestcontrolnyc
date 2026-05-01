@@ -6,6 +6,20 @@ export const metadata: Metadata = {
   title: { absolute: "NYC Exterminator Services — 32 Pests We Eliminate" },
   description: "Complete list of 32 NYC exterminator services — cockroaches, bed bugs, rats, termites, wildlife, and more. Licensed NYS DEC exterminators. Free inspection. No money upfront.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com/pests" },
+  openGraph: {
+    title: "NYC Exterminator Services — 32 Pests We Eliminate",
+    description: "Complete list of 32 NYC exterminator services — cockroaches, bed bugs, rats, termites, wildlife, and more. Licensed NYS DEC exterminators. Free inspection. No money upfront.",
+    url: "https://www.thebestpestcontrolnyc.com/pests",
+    siteName: "The Best Pest Control NYC",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.thebestpestcontrolnyc.com/opengraph-image", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "NYC Exterminator Services — 32 Pests We Eliminate",
+    description: "Complete list of 32 NYC exterminator services — cockroaches, bed bugs, rats, termites, wildlife, and more. Licensed NYS DEC exterminators. Free inspection. No money upfront.",
+  },
 };
 
 const PHONE = process.env.NEXT_PUBLIC_PHONE_NUMBER || "8559305016";

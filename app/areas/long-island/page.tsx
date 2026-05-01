@@ -9,6 +9,20 @@ export const metadata: Metadata = {
   title: { absolute: "Pest Control in Long Island | The Best Pest Control NYC" },
   description: "Licensed pest control in Long Island. 54 neighborhoods served — Garden City, Hempstead, Huntington, Port Washington, and more. Free inspection. No money upfront. Same-day available.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com/areas/long-island" },
+  openGraph: {
+    title: "Pest Control in Long Island | The Best Pest Control NYC",
+    description: "Licensed pest control in Long Island. 54 neighborhoods served — Garden City, Hempstead, Huntington, Port Washington, and more. Free inspection. No money upfront. Same-day available.",
+    url: "https://www.thebestpestcontrolnyc.com/areas/long-island",
+    siteName: "The Best Pest Control NYC",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.thebestpestcontrolnyc.com/opengraph-image", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pest Control in Long Island | The Best Pest Control NYC",
+    description: "Licensed pest control in Long Island. 54 neighborhoods served — Garden City, Hempstead, Huntington, Port Washington, and more. Free inspection. No money upfront. Same-day available.",
+  },
 };
 
 const schema = {

@@ -9,6 +9,20 @@ export const metadata: Metadata = {
   title: { absolute: "Pest Control in The Bronx | The Best Pest Control NYC" },
   description: "Licensed pest control in The Bronx. 36 neighborhoods served — Riverdale, Fordham, Mott Haven, Pelham Bay, and more. Free inspection. No money upfront. Same-day available.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com/areas/the-bronx" },
+  openGraph: {
+    title: "Pest Control in The Bronx | The Best Pest Control NYC",
+    description: "Licensed pest control in The Bronx. 36 neighborhoods served — Riverdale, Fordham, Mott Haven, Pelham Bay, and more. Free inspection. No money upfront. Same-day available.",
+    url: "https://www.thebestpestcontrolnyc.com/areas/the-bronx",
+    siteName: "The Best Pest Control NYC",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.thebestpestcontrolnyc.com/opengraph-image", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pest Control in The Bronx | The Best Pest Control NYC",
+    description: "Licensed pest control in The Bronx. 36 neighborhoods served — Riverdale, Fordham, Mott Haven, Pelham Bay, and more. Free inspection. No money upfront. Same-day available.",
+  },
 };
 
 const schema = {
