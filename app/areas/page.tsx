@@ -6,6 +6,20 @@ export const metadata: Metadata = {
   title: { absolute: "NYC Exterminator Service Areas — 318+ Neighborhoods" },
   description: "Licensed NYC exterminator serving 318+ neighborhoods across Manhattan, Brooklyn, Queens, the Bronx, Staten Island, NJ, Long Island, and Westchester. Find your neighborhood.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com/areas" },
+  openGraph: {
+    title: "NYC Exterminator Service Areas — 318+ Neighborhoods",
+    description: "Licensed NYC exterminator serving 318+ neighborhoods across Manhattan, Brooklyn, Queens, the Bronx, Staten Island, NJ, Long Island, and Westchester. Find your neighborhood.",
+    url: "https://www.thebestpestcontrolnyc.com/areas",
+    siteName: "The Best Pest Control NYC",
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "https://www.thebestpestcontrolnyc.com/opengraph-image", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "NYC Exterminator Service Areas — 318+ Neighborhoods",
+    description: "Licensed NYC exterminator serving 318+ neighborhoods across Manhattan, Brooklyn, Queens, the Bronx, Staten Island, NJ, Long Island, and Westchester. Find your neighborhood.",
+  },
 };
 
 const PHONE = process.env.NEXT_PUBLIC_PHONE_NUMBER || "8559305016";

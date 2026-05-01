@@ -15,10 +15,26 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 
   const content = getAreaContent(area.slug);
 
+  const ogTitle = content?.metaTitle || `Pest Control in ${area.name} | The Best Pest Control NYC`;
+  const ogDescription = content?.metaDescription || `Licensed pest control in ${area.name}, ${area.borough}. Cockroaches, bed bugs, rats, termites, wildlife & 32 pest types. Free inspection. No money upfront.`;
   return {
-    title: { absolute: content?.metaTitle || `Pest Control in ${area.name} | The Best Pest Control NYC` },
-    description: content?.metaDescription || `Licensed pest control in ${area.name}, ${area.borough}. Cockroaches, bed bugs, rats, termites, wildlife & 32 pest types. Free inspection. No money upfront.`,
+    title: { absolute: ogTitle },
+    description: ogDescription,
     alternates: { canonical: `https://www.thebestpestcontrolnyc.com/areas/${area.slug}` },
+    openGraph: {
+      title: ogTitle,
+      description: ogDescription,
+      url: `https://www.thebestpestcontrolnyc.com/areas/${area.slug}`,
+      siteName: "The Best Pest Control NYC",
+      locale: "en_US",
+      type: "website",
+      images: [{ url: "https://www.thebestpestcontrolnyc.com/opengraph-image", width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: ogTitle,
+      description: ogDescription,
+    },
   };
 }
 

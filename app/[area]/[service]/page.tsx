@@ -69,6 +69,12 @@ export async function generateMetadata({
       siteName: "The Best Pest Control NYC",
       locale: "en_US",
       type: "website",
+      images: [{ url: "https://www.thebestpestcontrolnyc.com/opengraph-image", width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: content.metaTitle,
+      description: content.metaDescription,
     },
   };
 }
