@@ -123,6 +123,9 @@ export default function ContactForm({
         page_url: typeof window !== "undefined" ? window.location.href : "",
         honeypot: (document.querySelector('input[name="honeypot"]') as HTMLInputElement)?.value || '',
         form_started_at: formStartedAt,
+        consentTimestamp: new Date().toISOString(),
+        consentPageUrl: window.location.href,
+        consentTextVersion: 'thebestpestcontrolnyc.com-consent-v1',
       };
 
       const res = await fetch('/api/leads', {
@@ -316,10 +319,8 @@ export default function ContactForm({
             className="mt-1 h-4 w-4 rounded border-gray-300 text-green-600 focus:ring-green-500 cursor-pointer"
           />
           <label htmlFor="smsConsent" className="text-xs text-gray-500 cursor-pointer leading-relaxed">
-            I agree to be contacted by The Best Pest Control NYC via phone or text message regarding my request. Message &amp; data rates may apply. You can reply STOP at any time to opt out.{" "}
-            <a href="/privacy" className="text-green-700 hover:underline">Privacy Policy</a>{" "}
-            &amp;{" "}
-            <a href="/terms" className="text-green-700 hover:underline">Terms of Service</a>.
+            By checking this box, I consent to receive marketing text messages and calls (including via automated technology) from The Best Pest Control NYC at the number provided. Consent is not a condition of purchase. Message frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out. See our{" "}
+            <a href="/privacy" className="text-green-700 hover:underline">Privacy Policy</a>.
           </label>
         </div>
         {errors.smsConsent && (
