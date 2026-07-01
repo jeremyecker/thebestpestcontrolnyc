@@ -88,6 +88,9 @@ export async function POST(req: NextRequest) {
           source,
           submitted_at,
           page_url,
+          consentTimestamp: body.consentTimestamp || body.consent_timestamp || null,
+          consentPageUrl: body.consentPageUrl || body.consent_page_url || null,
+          consentTextVersion: body.consentTextVersion || body.consent_text_version || null,
         }),
       });
     } catch (e) {
