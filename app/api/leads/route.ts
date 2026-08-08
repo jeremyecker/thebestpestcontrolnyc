@@ -47,11 +47,6 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Invalid phone number' }, { status: 400 });
     }
 
-    // SMS consent required
-    if (!sms_consent) {
-      return NextResponse.json({ error: 'SMS consent required' }, { status: 400 });
-    }
-
     // Blocklist check
     const BLOCKED_PHONES = ['2168596131'];
     const BLOCKED_EMAILS = ['susansmi@parallelaid.com'];
@@ -84,7 +79,7 @@ export async function POST(req: NextRequest) {
           property_type,
           pest_type,
           description,
-          sms_consent,
+          sms_consent: sms_consent === true,
           source,
           submitted_at,
           page_url,

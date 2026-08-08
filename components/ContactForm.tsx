@@ -94,7 +94,6 @@ export default function ContactForm({
     }
     if (!fields.propertyType) errs.propertyType = "Please select residential or commercial.";
     if (!fields.pestType) errs.pestType = "Please select a pest type.";
-    if (!fields.smsConsent) errs.smsConsent = "Please check the consent box to continue.";
     return errs;
   }
 
@@ -125,7 +124,7 @@ export default function ContactForm({
         form_started_at: formStartedAt,
         consentTimestamp: new Date().toISOString(),
         consentPageUrl: window.location.href,
-        consentTextVersion: 'thebestpestcontrolnyc.com-consent-v1',
+        consentTextVersion: 'thebestpestcontrolnyc.com-consent-v2',
       };
 
       const res = await fetch('/api/leads', {
@@ -310,7 +309,6 @@ export default function ContactForm({
           <input
             id="smsConsent"
             type="checkbox"
-            required
             checked={fields.smsConsent}
             onChange={(e) => {
               setFields((prev) => ({ ...prev, smsConsent: e.target.checked }));
