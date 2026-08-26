@@ -39,6 +39,7 @@ type PricingRow = {
   price: string;
   emergency: boolean;
   seasonal?: boolean;
+  serviceAgreement?: string;
 };
 
 const PRICING_CATEGORIES: { category: string; rows: PricingRow[] }[] = [
@@ -66,7 +67,7 @@ const PRICING_CATEGORIES: { category: string; rows: PricingRow[] }[] = [
   {
     category: "Wood-Destroying Insects",
     rows: [
-      { name: "Termite Treatment", price: "$800 – $2,500", emergency: true },
+      { name: "Termite Treatment", price: "$800 – $2,500", emergency: true, serviceAgreement: "1-year service agreement" },
       { name: "Carpenter Ant Control", price: "$300 – $450", emergency: true },
     ],
   },
@@ -152,8 +153,8 @@ const PRICING_FAQS = [
     a: "Pest control costs vary based on property size, infestation severity, number of treatments required, and treatment type. After our free phone quote, we give you an exact written quote before any work begins.",
   },
   {
-    q: "What happens if pests come back after treatment?",
-    a: "Just call us and we'll come back to reassess. Seasonal services (mosquito, tick) are results-dependent — we set clear expectations on the call.",
+    q: "What if I still see pests after service?",
+    a: "Call us. We diagnose what's happening on the phone and decide the next step case by case. Termite installs include a 1-year service agreement.",
   },
   {
     q: "Do you offer discounts for maintenance plans?",
@@ -219,14 +220,15 @@ export default function PricingPage() {
                 <h2 className="font-bold text-lg">{category}</h2>
               </div>
               <div className="bg-white border border-gray-200 rounded-b-xl overflow-hidden shadow-sm">
-                <div className="grid grid-cols-3 bg-gray-50 px-6 py-3 text-xs font-bold text-gray-500 uppercase tracking-wider border-b border-gray-200">
+                <div className="grid grid-cols-4 bg-gray-50 px-6 py-3 text-xs font-bold text-gray-500 uppercase tracking-wider border-b border-gray-200">
                   <div className="col-span-2">Service</div>
                   <div>Starting Price</div>
+                  <div>Service Agreement</div>
                 </div>
                 {rows.map((row, i) => (
                   <div
                     key={row.name}
-                    className={`grid grid-cols-3 px-6 py-4 items-center border-b border-gray-100 last:border-0 transition-colors hover:bg-green-50 ${i % 2 === 1 ? "bg-gray-50/50" : ""}`}
+                    className={`grid grid-cols-4 px-6 py-4 items-center border-b border-gray-100 last:border-0 transition-colors hover:bg-green-50 ${i % 2 === 1 ? "bg-gray-50/50" : ""}`}
                   >
                     <div className="col-span-2 flex items-center gap-2">
                       <span className="font-medium text-gray-900 text-sm">{row.name}</span>
@@ -238,6 +240,7 @@ export default function PricingPage() {
                       )}
                     </div>
                     <div className="font-bold text-green-700 text-sm">{row.price}</div>
+                    <div className="text-gray-700 text-sm">{row.serviceAgreement ?? ""}</div>
                   </div>
                 ))}
               </div>
