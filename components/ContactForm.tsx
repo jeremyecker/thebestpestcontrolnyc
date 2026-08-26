@@ -181,10 +181,10 @@ export default function ContactForm({
       {!compact && (
         <div className="mb-6">
           <h2 className="text-2xl font-bold text-gray-900 mb-1">
-            Get a Free Pest Inspection
+            Get a Free Phone Quote
           </h2>
           <p className="text-gray-500 text-sm">
-            We respond within minutes during business hours. No money upfront.
+            We respond within minutes during business hours.
           </p>
         </div>
       )}
@@ -358,12 +358,12 @@ export default function ContactForm({
               Sending Your Request...
             </>
           ) : (
-            "Get My Free Inspection →"
+            "Get My Free Phone Quote →"
           )}
         </button>
 
         <p className="text-center text-xs text-gray-400">
-          No money upfront. We respond within minutes during business hours.
+          We respond within minutes during business hours.
           <br />
           Prefer to call?{" "}
           <a

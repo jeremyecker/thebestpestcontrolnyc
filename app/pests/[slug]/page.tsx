@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const title = rawTitle.replace(/\s*\|\s*(The\s+)?Best Pest Control NYC\s*$/i, "").slice(0, 60);
   const description =
     content?.metaDescription ||
-    `Professional ${service.name.toLowerCase()} in NYC from a licensed NYC exterminator. ${service.priceRange}. NYS DEC licensed. Free inspection. No money upfront. ${service.seasonal ? "Seasonal treatment." : `${service.guaranteeDays}-day guarantee.`}`;
+    `Professional ${service.name.toLowerCase()} in NYC from a licensed NYC exterminator. ${service.priceRange}. Licensed and insured across NY, NJ, and PA. Free phone quote.`;
   return {
     // Use absolute to prevent layout template from appending brand name again
     title: { absolute: title },
@@ -59,7 +59,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
   const h1 = content?.h1 || `${service.name} NYC`;
   const heroParagraph =
     content?.heroParagraph ||
-    `Professional ${service.name.toLowerCase()} serving all five boroughs, northern NJ, Long Island, and Westchester County. NYS DEC licensed. Free inspection. No money upfront.`;
+    `Professional ${service.name.toLowerCase()} serving all five boroughs, northern NJ, Long Island, and Westchester County. Licensed and insured across NY, NJ, and PA. Free phone quote.`;
   const bodyParagraphs = content?.bodyParagraphs || content?.introParagraphs || [];
   const signs = content?.signs || [];
   const treatmentApproach = content?.treatmentApproach || content?.treatmentSection || "";
@@ -137,10 +137,8 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
             <div className="flex flex-wrap gap-2 items-center">
               <span className="bg-green-600 text-white text-sm font-semibold px-3 py-1 rounded-full">{service.priceRange}</span>
               {service.emergencyAvailable && <span className="bg-red-600 text-white text-sm font-semibold px-3 py-1 rounded-full">⚡ Emergency Available</span>}
-              {service.seasonal ? (
+              {service.seasonal && (
                 <span className="bg-blue-600 text-white text-sm font-semibold px-3 py-1 rounded-full">Seasonal Treatment</span>
-              ) : (
-                <span className="bg-green-600 text-white text-sm font-semibold px-3 py-1 rounded-full">{service.guaranteeDays}-Day Guarantee</span>
               )}
             </div>
           </div>
@@ -160,8 +158,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
 
       <section className="bg-green-50 border-b border-green-100 py-4 px-4">
         <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-semibold text-green-800">
-          <span>✓ NYS DEC Licensed</span><span>✓ Free Inspection</span><span>✓ No Money Upfront</span>
-          {!service.seasonal && <span>✓ {service.guaranteeDays}-Day Guarantee</span>}
+          <span>✓ Licensed & Insured</span><span>✓ Free Phone Quote</span>
           <span>✓ 318+ Neighborhoods</span>
         </div>
       </section>
@@ -176,13 +173,13 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
               <div>
                 <p className="text-gray-500 text-sm mb-1">Starting price range</p>
                 <p className="text-5xl font-bold text-green-700">{service.priceRange}</p>
-                <p className="text-gray-500 text-sm mt-2">Final price depends on property size and severity of infestation. Free inspection + written quote before any work begins.</p>
+                <p className="text-gray-500 text-sm mt-2">Final price depends on property size and severity of infestation. Free phone quote + written quote before any work begins.</p>
               </div>
               <Link href="/pricing" className="text-green-700 font-semibold hover:underline">View full pricing →</Link>
             </div>
             {service.seasonal && (
               <div className="mt-4 p-4 bg-blue-50 border border-blue-100 rounded-lg text-sm text-blue-800">
-                <strong>Seasonal Treatment Note:</strong> Mosquito and Tick Control are seasonal treatments. Results depend on outdoor conditions and property. No guarantee applies — we'll set clear expectations during your free inspection.
+                <strong>Seasonal Treatment Note:</strong> Mosquito and Tick Control are seasonal treatments. Results depend on outdoor conditions and property. Seasonal treatments are results-dependent — we set clear expectations on the call.
               </div>
             )}
           </div>
@@ -218,7 +215,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
         {/* Mid-page CTA */}
         <section className="bg-green-800 text-white rounded-2xl p-8 mb-12 text-center">
           <h2 className="text-2xl font-bold mb-3">Need {service.name} in NYC?</h2>
-          <p className="text-green-100 mb-6">Licensed exterminators. Free inspection. No money upfront. Same-day available.</p>
+          <p className="text-green-100 mb-6">Licensed exterminators. Free phone quote. Same-day available.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-6 py-3 rounded-lg hover:bg-green-50">📞 Call {PHONE_DISPLAY}</a>
             <a href={`tel:${PHONE}`} className="bg-green-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-green-500 border border-green-400">📞 Call Us</a>
@@ -305,7 +302,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
         {/* Bottom CTA */}
         <section className="bg-green-800 text-white rounded-2xl p-10 text-center">
           <h2 className="text-3xl font-bold mb-3" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Ready to Eliminate {service.shortName} for Good?</h2>
-          <p className="text-green-100 text-lg mb-8 max-w-2xl mx-auto">NYS DEC licensed. Free inspection. No money upfront. {service.seasonal ? "Seasonal treatment." : `${service.guaranteeDays}-day guarantee.`} Same-day available.</p>
+          <p className="text-green-100 text-lg mb-8 max-w-2xl mx-auto">Licensed and insured across NY, NJ, and PA. Free phone quote. Same-day available.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-50 transition">📞 Call {PHONE_DISPLAY}</a>
             <a href={`tel:${PHONE}`} className="bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-500 transition border border-green-400">📞 Call Us Now</a>

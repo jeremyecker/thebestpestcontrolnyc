@@ -7,7 +7,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: { absolute: "NYC Exterminator | Licensed Pest Control — Same-Day" },
     description:
-      "NYC exterminator — licensed NYS DEC pest control serving 318+ NYC, NJ, Long Island & Westchester neighborhoods. Free inspection. No money upfront. Same-day available.",
+      "NYC exterminator — licensed and insured across NY, NJ, and PA pest control serving 318+ NYC, NJ, Long Island & Westchester neighborhoods. Free phone quote. Same-day available.",
     alternates: { canonical: "https://www.thebestpestcontrolnyc.com/" },
     openGraph: {
       type: "website",
@@ -16,7 +16,7 @@ export async function generateMetadata(): Promise<Metadata> {
       siteName: "The Best Pest Control NYC",
       title: "NYC Exterminator | Licensed Pest Control — Same-Day",
       description:
-        "NYC exterminator — licensed NYS DEC pest control. 318+ neighborhoods. Free inspection. No money upfront.",
+        "NYC exterminator — licensed and insured across NY, NJ, and PA pest control. 318+ neighborhoods. Free phone quote.",
       images: [
         {
           url: "/opengraph-image.png",
@@ -30,7 +30,7 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title: "NYC Exterminator | Licensed Pest Control",
       description:
-        "NYC exterminator — NYS DEC licensed. 318+ neighborhoods. Free inspection.",
+        "NYC exterminator — licensed and insured. 318+ neighborhoods. Free phone quote.",
       images: ["/opengraph-image.png"],
     },
   };
@@ -50,7 +50,7 @@ const schema = {
       url: "https://www.thebestpestcontrolnyc.com",
       telephone: PHONE,
       description:
-        "NYC exterminator — NYS DEC licensed pest control serving 318+ neighborhoods across New York City, NJ, Long Island and Westchester. 32 pest types eliminated.",
+        "NYC exterminator — licensed and insured pest control serving 318+ neighborhoods across New York City, NJ, Long Island and Westchester. 32 pest types eliminated.",
       address: {
         "@type": "PostalAddress",
         addressLocality: "New York",
@@ -79,9 +79,9 @@ const schema = {
     {
       "@type": "FAQPage",
       mainEntity: [
-        { "@type": "Question", name: "How much does pest control cost in NYC?", acceptedAnswer: { "@type": "Answer", text: "General pest control starts at $300–$450. Bed bug treatment $1,200–$4,500. Rodent control $300–$450. Termite treatment $800–$2,500. Free inspection and written quote before any work begins." } },
+        { "@type": "Question", name: "How much does pest control cost in NYC?", acceptedAnswer: { "@type": "Answer", text: "General pest control starts at $300–$450. Bed bug treatment $1,200–$4,500. Rodent control $300–$450. Termite treatment $800–$2,500. Free phone quote and written quote before any work begins." } },
         { "@type": "Question", name: "Do you offer same-day exterminator service?", acceptedAnswer: { "@type": "Answer", text: "Yes. Same-day and emergency service throughout NYC, NJ, Long Island, and Westchester for urgent situations. Call us and we'll dispatch as fast as possible." } },
-        { "@type": "Question", name: "Are your exterminators licensed and insured?", acceptedAnswer: { "@type": "Answer", text: "Every technician holds a NYS DEC Commercial Pesticide Applicator license and we carry full liability insurance on every job." } },
+        { "@type": "Question", name: "Are your exterminators licensed and insured?", acceptedAnswer: { "@type": "Answer", text: "Every technician holds state pesticide applicator licenses across NY (NYS DEC), NJ (NJDEP), and PA (PADEP) and we carry full liability insurance on every job." } },
       ],
     },
   ],
@@ -90,7 +90,7 @@ const schema = {
 const HOMEFAQS = [
   {
     q: "How much does pest control cost in NYC?",
-    a: "Costs vary by pest type, infestation severity, and property size. General pest control starts at $300–$450. Bed bug treatment runs $1,200–$4,500. Rodent control is $300–$450. Termite treatment ranges from $800–$2,500. We always provide a free inspection and written upfront quote — no surprises, no hidden fees.",
+    a: "Costs vary by pest type, infestation severity, and property size. General pest control starts at $300–$450. Bed bug treatment runs $1,200–$4,500. Rodent control is $300–$450. Termite treatment ranges from $800–$2,500. We always provide a free phone quote and written upfront estimate — no surprises, no hidden fees.",
   },
   {
     q: "Do you offer same-day exterminator service?",
@@ -106,7 +106,7 @@ const HOMEFAQS = [
   },
   {
     q: "Are your exterminators licensed and insured?",
-    a: "Every technician holds a NYS DEC Commercial Pesticide Applicator license and we carry full liability insurance on every job. Wildlife operators hold additional NYS DEC Nuisance Wildlife Control certification. We're happy to provide proof of insurance and licensing upon request.",
+    a: "Every technician holds state pesticide applicator licenses across NY (NYS DEC), NJ (NJDEP), and PA (PADEP) and we carry full liability insurance on every job. Wildlife operators hold additional NY nuisance wildlife control certification (NYS DEC). We're happy to provide proof of insurance and licensing upon request.",
   },
   {
     q: "What areas does The Best Pest Control NYC serve?",
@@ -117,16 +117,16 @@ const HOMEFAQS = [
     a: "Yes. Monthly, bi-monthly, and quarterly maintenance plans for residential and commercial properties. Plans include scheduled inspections, preventive treatments, and unlimited callbacks between visits. Quarterly is our most popular plan.",
   },
   {
-    q: "Do you guarantee your work?",
-    a: "Yes. If pests return during the guarantee period, we come back and retreat at no charge. General pest control carries a 30-day guarantee. Bed bug treatment includes a 90-day guarantee. Rodent proofing is backed by a full-year structural guarantee. Seasonal treatments like mosquito and tick control do not carry a guarantee.",
+    q: "How does your service work if pests come back?",
+    a: "If pests return, just call us and we'll come back out to reassess and retreat. General pest control, bed bug treatment, and rodent proofing all include return visits as part of the service plan we set with you on the call. Seasonal treatments like mosquito and tick control are results-dependent — we set clear expectations on the call.",
   },
   {
     q: "What should I do to prepare for a pest control visit?",
     a: "Preparation varies by treatment. For general pest control, clear under sinks, clean kitchen surfaces, and remove pet food and water dishes. For bed bug treatment, launder bedding on high heat and declutter around bed frames. For rodent control, secure all food sources. We'll send specific prep instructions when you book.",
   },
   {
-    q: "How do I pay? Is there money upfront?",
-    a: "No money upfront — you pay when the job is done and you're satisfied. We accept all major credit cards, debit cards, and checks.",
+    q: "How do I pay?",
+    a: "You pay when the job is done and you're satisfied. We accept all major credit cards, debit cards, and checks.",
   },
 ];
 
@@ -153,13 +153,13 @@ export default function HomePage() {
       <section className="bg-green-800 text-white pt-16 pb-20 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <div className="inline-block bg-green-600 text-white text-xs font-bold px-4 py-1.5 rounded-full mb-6 tracking-wider">
-            NYS DEC LICENSED • FULLY INSURED • FREE INSPECTION
+            LICENSED & INSURED • FREE PHONE QUOTE
           </div>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
-            NYC Exterminator<br className="hidden md:block" /> — Pest Control, Guaranteed.
+            NYC Exterminator<br className="hidden md:block" /> — Pest Control, Solved.
           </h1>
           <p className="text-xl md:text-2xl text-green-100 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Licensed exterminators serving 318+ neighborhoods across NYC, NJ, Long Island & Westchester. Cockroaches, bed bugs, rats, mice, termites, wildlife, and 32 pest types — eliminated for good. Starting at $125. No money upfront.
+            Licensed exterminators serving 318+ neighborhoods across NYC, NJ, Long Island & Westchester. Cockroaches, bed bugs, rats, mice, termites, wildlife, and 32 pest types — eliminated for good. Starting at $125.
           </p>
 
           {/* CTA Buttons */}
@@ -174,10 +174,8 @@ export default function HomePage() {
 
           {/* Trust Badges */}
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm font-semibold text-green-200">
-            <span>✓ No money upfront — pay when done</span>
             <span>✓ 3,654 five-star reviews and growing</span>
-            <span>✓ 100% satisfaction guarantee</span>
-            <span>✓ NYS DEC Licensed & fully insured</span>
+            <span>✓ Licensed & Insured</span>
           </div>
         </div>
       </section>
@@ -205,7 +203,7 @@ export default function HomePage() {
         <div className="flex ticker-track whitespace-nowrap">
           {[1, 2].map((n) => (
             <span key={n} className="text-white font-semibold text-sm mx-8">
-              NYS DEC Licensed Exterminators &bull; Fully Insured Pest Control &bull; Free Pest Inspections &bull; Same-Day Service Available &bull; Guaranteed Results &bull; No Hidden Fees &bull; No Money Upfront &bull; 4.9★ Rated &bull;&nbsp;
+              Licensed and Insured Exterminators Across NY, NJ &amp; PA &bull; Fully Insured Pest Control &bull; Free Phone Quotes &bull; Same-Day Service Available &bull; No Hidden Fees &bull; 4.9★ Rated &bull;&nbsp;
             </span>
           ))}
         </div>
@@ -231,24 +229,23 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                The Best Pest Control NYC is a full-service exterminator company built specifically for the challenges of New York City living. Whether you're in a Harlem walkup, a Williamsburg loft, a Midtown hotel, a Queens restaurant, or a Westchester colonial — our team of NYS DEC-licensed exterminators has seen your pest problem before, and we know exactly how to fix it.
+                The Best Pest Control NYC is a full-service exterminator company built specifically for the challenges of New York City living. Whether you're in a Harlem walkup, a Williamsburg loft, a Midtown hotel, a Queens restaurant, or a Westchester colonial — our team of licensed and insured exterminators across NY, NJ, and PA has seen your pest problem before, and we know exactly how to fix it.
               </p>
               <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                We cover 32 pest types across 318+ neighborhoods in all five boroughs, northern New Jersey, Long Island, and Westchester County. From cockroach gel bait treatments and whole-room bed bug heat treatment to rodent exclusion, termite barrier systems, and wildlife removal — every service starts with a free inspection and ends with a written guarantee.
+                We cover 32 pest types across 318+ neighborhoods in all five boroughs, northern New Jersey, Long Island, and Westchester County. From cockroach gel bait treatments and whole-room bed bug heat treatment to rodent exclusion, termite barrier systems, and wildlife removal — every service starts with a free phone quote and ends with a written service agreement.
               </p>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 What separates us from every other pest control company in NYC is simple: we treat root causes, not just symptoms. Any exterminator can spray. We find where pests are entering, why they're thriving, and what needs to change permanently. That's why our customers don't call us twice for the same problem.
               </p>
-              <a href="/get-a-quote" className="inline-block bg-green-700 text-white font-bold px-6 py-3 rounded-xl hover:bg-green-600 transition">Get Your Free Inspection →</a>
+              <a href="/get-a-quote" className="inline-block bg-green-700 text-white font-bold px-6 py-3 rounded-xl hover:bg-green-600 transition">Get Your Free Phone Quote →</a>
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
-                { icon: "🏙️", title: "Licensed & Insured — Every Single Technician", desc: "Every member of our pest control team holds an active NYS DEC Commercial Pesticide Applicator license. Full general liability insurance on every job — residential and commercial." },
+                { icon: "🏙️", title: "Licensed & Insured — Every Single Technician", desc: "Every member of our pest control team holds state pesticide applicator licenses across NY (NYS DEC), NJ (NJDEP), and PA (PADEP). Full general liability insurance on every job — residential and commercial." },
                 { icon: "⚡", title: "Same-Day Service — When You Need It Now", desc: "Pest emergencies don't work on a 9-to-5 schedule. We dispatch same-day for urgent situations across all our service areas. Call anytime. We pick up nights, weekends, and holidays." },
-                { icon: "🔍", title: "Free Pest Inspections — Before Any Work Begins", desc: "We don't guess. Every job starts with a thorough inspection by a licensed exterminator. You'll see exactly what we find before we recommend a single treatment. No upsells. No pressure. No charge." },
-                { icon: "✅", title: "Guaranteed Results — We Come Back at No Cost", desc: "If pests return within our guarantee period, our team returns and retreats at zero additional charge. General pest control: 30-day. Bed bugs: 90-day. Rodent proofing: full-year structural guarantee." },
+                { icon: "🔍", title: "Free Phone Quotes — Before Any Work Begins", desc: "We don't guess. Every job starts with a thorough phone conversation with a licensed exterminator. We'll walk you through what we think is going on and give you a price before we recommend a single treatment. No upsells. No pressure. No charge." },
                 { icon: "🗺️", title: "318+ Neighborhoods — The Most Coverage in NYC", desc: "All five boroughs, 48 New Jersey communities, 55 Long Island neighborhoods, and 30 Westchester locations — 318+ neighborhoods in total. One call reaches our whole network." },
-                { icon: "💰", title: "Transparent Pricing — No Hidden Fees, Ever", desc: "You'll see a detailed written estimate before any work begins — what we'll do, which products we'll use, and the exact total cost. No surprise charges. No money upfront. You pay when done." },
+                { icon: "💰", title: "Transparent Pricing — No Hidden Fees, Ever", desc: "You'll see a detailed written estimate before any work begins — what we'll do, which products we'll use, and the exact total cost. No surprise charges. You pay when done." },
               ].map((item) => (
                 <div key={item.title} className="bg-green-50 rounded-xl p-4">
                   <div className="text-2xl mb-2">{item.icon}</div>
@@ -300,7 +297,7 @@ export default function HomePage() {
               { num: "1", title: "Contact Us", desc: "Call us or book online. We respond in minutes. A quick two-question conversation gets you on the schedule." },
               { num: "2", title: "We Show Up & Investigate", desc: "A licensed exterminator arrives on time. We inspect kitchens, bathrooms, basements, walls, attics, and every entry point. We find the source." },
               { num: "3", title: "You See the Price First", desc: "After inspection, we show you exactly what we found, what we recommend, and the total cost. You approve before we touch anything." },
-              { num: "4", title: "Pests Gone. Guaranteed.", desc: "We execute the treatment using EPA-approved products. If anything comes back during the guarantee period, we return at no charge." },
+              { num: "4", title: "Pests Gone. For Good.", desc: "We execute the treatment using EPA-approved products, following up as needed to make sure the problem is fully resolved." },
             ].map((step) => (
               <div key={step.num} className="text-center">
                 <div className="w-12 h-12 bg-green-700 text-white font-black text-xl rounded-full flex items-center justify-center mx-auto mb-4" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>{step.num}</div>
@@ -311,7 +308,7 @@ export default function HomePage() {
           </div>
           <div className="text-center mt-10">
             <a href={`tel:${PHONE}`} className="inline-block bg-green-700 text-white font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-600 transition">
-              📞 Start With a Free Inspection
+              📞 Start With a Free Phone Quote
             </a>
           </div>
         </div>
@@ -324,7 +321,7 @@ export default function HomePage() {
           <div>
             <span className="font-bold text-amber-800 text-sm uppercase tracking-wider">Pro Tip</span>
             <p className="text-amber-900 mt-1 leading-relaxed">
-              Moving into a new NYC apartment? Schedule a pest inspection before your furniture arrives. An empty unit takes 30 minutes to inspect and treat. A furnished one takes three times as long and costs twice as much. Our pre-move-in inspections are completely free — and they've saved thousands of New Yorkers from discovering an infestation behind their couch on move-in day.
+              Moving into a new NYC apartment? Call us before your furniture arrives for a free phone quote. An empty unit is faster and cheaper to treat than a furnished one. Getting ahead of it before move-in day has saved thousands of New Yorkers from discovering an infestation behind their couch.
             </p>
           </div>
         </div>
@@ -423,11 +420,9 @@ export default function HomePage() {
           <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
             Your Pest Problem Ends Here.
           </h2>
-          <p className="text-green-100 text-xl mb-4">Licensed exterminators. Free inspection. No money upfront. Same-day available.</p>
+          <p className="text-green-100 text-xl mb-4">Licensed exterminators. Free phone quote. Same-day available.</p>
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 mb-8 text-sm font-semibold text-green-200">
-            <span>✓ No money upfront</span>
             <span>✓ 3,654 five-star reviews</span>
-            <span>✓ 100% satisfaction guarantee</span>
             <span>✓ Licensed & insured</span>
           </div>
           <div className="flex flex-wrap justify-center gap-4">

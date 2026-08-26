@@ -130,7 +130,7 @@ export default function BlogIndexPage() {
             Dealing With a Pest Problem Right Now?
           </h2>
           <p className="text-green-100 text-lg mb-8 max-w-2xl mx-auto">
-            NYS DEC licensed exterminators. Free inspection. No money upfront. Same-day available.
+            Licensed and insured exterminators across NY, NJ, and PA. Free phone quote. Same-day available.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a

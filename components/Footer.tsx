@@ -73,13 +73,12 @@ export default function Footer() {
             </div>
           </div>
           <p className="text-sm text-gray-400 mb-4 leading-relaxed">
-            NYS DEC licensed exterminators serving 318+ neighborhoods across NYC, NJ, Long Island, and Westchester. 32 pest types eliminated. Guaranteed.
+            Licensed and insured exterminators across NY, NJ, and PA serving 318+ neighborhoods across NYC, NJ, Long Island, and Westchester. 32 pest types eliminated.
           </p>
           <div className="space-y-1 text-sm">
-            <p className="text-green-400 font-semibold">✓ NYS DEC Licensed</p>
+            <p className="text-green-400 font-semibold">✓ Licensed & Insured</p>
             <p className="text-green-400 font-semibold">✓ Fully Insured</p>
             <p className="text-green-400 font-semibold">✓ 4.9★ Rated</p>
-            <p className="text-green-400 font-semibold">✓ No Money Upfront</p>
           </div>
         </div>
 
@@ -155,7 +154,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-gray-800 px-4 py-6">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-gray-500">
-          <p>&copy; {year} The Best Pest Control NYC. All rights reserved. NYS DEC Licensed &amp; Insured.</p>
+          <p>&copy; {year} The Best Pest Control NYC. All rights reserved. Licensed &amp; Insured.</p>
           <div className="flex gap-4">
             <Link href="/privacy" className="hover:text-gray-300 transition">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-gray-300 transition">Terms of Service</Link>

@@ -7,11 +7,11 @@ const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(855) 930-5016";
 
 export const metadata: Metadata = {
   title: { absolute: "Pest Control in Long Island | The Best Pest Control NYC" },
-  description: "Licensed pest control in Long Island. 54 neighborhoods served — Garden City, Hempstead, Huntington, Port Washington, and more. Free inspection. No money upfront. Same-day available.",
+  description: "Licensed pest control in Long Island. 54 neighborhoods served — Garden City, Hempstead, Huntington, Port Washington, and more. Free phone quote. Same-day available.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com/areas/long-island" },
   openGraph: {
     title: "Pest Control in Long Island | The Best Pest Control NYC",
-    description: "Licensed pest control in Long Island. 54 neighborhoods served — Garden City, Hempstead, Huntington, Port Washington, and more. Free inspection. No money upfront. Same-day available.",
+    description: "Licensed pest control in Long Island. 54 neighborhoods served — Garden City, Hempstead, Huntington, Port Washington, and more. Free phone quote. Same-day available.",
     url: "https://www.thebestpestcontrolnyc.com/areas/long-island",
     siteName: "The Best Pest Control NYC",
     locale: "en_US",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pest Control in Long Island | The Best Pest Control NYC",
-    description: "Licensed pest control in Long Island. 54 neighborhoods served — Garden City, Hempstead, Huntington, Port Washington, and more. Free inspection. No money upfront. Same-day available.",
+    description: "Licensed pest control in Long Island. 54 neighborhoods served — Garden City, Hempstead, Huntington, Port Washington, and more. Free phone quote. Same-day available.",
   },
 };
 
@@ -58,7 +58,7 @@ export default function LongIslandPage() {
             Pest Control in Long Island
           </h1>
           <p className="text-xl text-green-100 mb-8 max-w-3xl">
-            Licensed NYS DEC exterminators serving all {areas.length} Long Island neighborhoods. Cockroaches, bed bugs, rats, termites, wildlife, and 32 pest types. Free inspection. No money upfront.
+            Licensed and insured exterminators across NY, NJ, and PA serving all {areas.length} Long Island neighborhoods. Cockroaches, bed bugs, rats, termites, wildlife, and 32 pest types. Free phone quote.
           </p>
           <div className="flex flex-wrap gap-4">
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-50 transition">📞 Call {PHONE_DISPLAY}</a>
@@ -70,10 +70,8 @@ export default function LongIslandPage() {
 
       <section className="bg-green-50 border-b border-green-100 py-4 px-4">
         <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-semibold text-green-800">
-          <span>✓ NYS DEC Licensed</span>
-          <span>✓ Free Inspection</span>
-          <span>✓ No Money Upfront</span>
-          <span>✓ Guaranteed Results</span>
+          <span>✓ Licensed & Insured</span>
+          <span>✓ Free Phone Quote</span>
           <span>✓ Same-Day Available</span>
         </div>
       </section>
@@ -108,7 +106,7 @@ export default function LongIslandPage() {
 
         <div className="mt-12 bg-green-800 text-white rounded-2xl p-8 text-center">
           <h2 className="text-2xl font-bold mb-3">Need Pest Control in Long Island?</h2>
-          <p className="text-green-100 mb-6">Licensed exterminators. Free inspection. No money upfront. Same-day available across all Long Island neighborhoods.</p>
+          <p className="text-green-100 mb-6">Licensed exterminators. Free phone quote. Same-day available across all Long Island neighborhoods.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-6 py-3 rounded-lg hover:bg-green-50">📞 Call {PHONE_DISPLAY}</a>
             <a href={`tel:${PHONE}`} className="bg-green-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-green-500 border border-green-400">📞 Call Us Now</a>
@@ -120,11 +118,9 @@ export default function LongIslandPage() {
             Why Long Island Customers Choose Us
           </h2>
           <ul className="space-y-3 text-gray-700">
-            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Licensed NYS DEC exterminators with Long Island experience</li>
+            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Licensed and insured exterminators across NY, NJ, and PA with Long Island experience</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Same-day service available across all {areas.length} neighborhoods</li>
-            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Free pest inspection — no obligation, no charge</li>
-            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> No money upfront — pay when the job is done and you’re satisfied</li>
-            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> 30–365 day guarantee depending on service type</li>
+            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Free phone quote — no obligation, no charge</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> 32 pest types treated: cockroaches, bed bugs, rodents, termites, wildlife &amp; more</li>
           </ul>
         </div>
@@ -132,7 +128,7 @@ export default function LongIslandPage() {
 
       <section className="bg-green-800 text-white py-16 px-4 text-center">
         <h2 className="text-4xl font-bold mb-3" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Ready to Get Started?</h2>
-        <p className="text-green-100 text-xl mb-8 max-w-xl mx-auto">Free inspection. No money upfront. Guaranteed results. Same-day available in Long Island.</p>
+        <p className="text-green-100 text-xl mb-8 max-w-xl mx-auto">Free phone quote. Same-day available in Long Island.</p>
         <div className="flex flex-wrap justify-center gap-4">
           <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-50 transition">📞 Call {PHONE_DISPLAY}</a>
           <a href={`tel:${PHONE}`} className="bg-green-600 text-white font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-500 transition border border-green-400">📞 Call Us Now</a>
