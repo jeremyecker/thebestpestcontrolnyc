@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const content = getAreaContent(area.slug);
 
   const ogTitle = content?.metaTitle || `Pest Control in ${area.name} | The Best Pest Control NYC`;
-  const ogDescription = content?.metaDescription || `Licensed pest control in ${area.name}, ${area.borough}. Cockroaches, bed bugs, rats, termites, wildlife & 32 pest types. Free inspection. No money upfront.`;
+  const ogDescription = content?.metaDescription || `Licensed pest control in ${area.name}, ${area.borough}. Cockroaches, bed bugs, rats, termites, wildlife & 32 pest types. Free phone quote.`;
   return {
     title: { absolute: ogTitle },
     description: ogDescription,
@@ -98,7 +98,7 @@ export default function AreaPage({ params }: { params: { slug: string } }) {
           </h1>
           <p className="text-xl text-green-100 mb-8 max-w-3xl">
             {content?.introParagraph ||
-              `Licensed exterminators serving ${area.name} and surrounding neighborhoods. 32 pest types eliminated. Free inspection. No money upfront. Same-day available.`}
+              `Licensed exterminators serving ${area.name} and surrounding neighborhoods. 32 pest types eliminated. Free phone quote. Same-day available.`}
           </p>
           <div className="flex flex-wrap gap-4">
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-50 transition">📞 Call {PHONE_DISPLAY}</a>
@@ -110,7 +110,7 @@ export default function AreaPage({ params }: { params: { slug: string } }) {
       {/* Trust Bar */}
       <section className="bg-green-50 border-b border-green-100 py-4 px-4">
         <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-semibold text-green-800">
-          <span>✓ NYS DEC Licensed</span><span>✓ Free Inspection</span><span>✓ No Money Upfront</span><span>✓ Guaranteed Results</span>
+          <span>✓ Licensed & Insured</span><span>✓ Free Phone Quote</span>
         </div>
       </section>
 
@@ -166,11 +166,10 @@ export default function AreaPage({ params }: { params: { slug: string } }) {
             Why {area.name} Residents Choose Us
           </h2>
           <ul className="space-y-3 text-gray-700 text-lg">
-            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Licensed NYS DEC exterminators familiar with {area.name} building types</li>
+            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Licensed and insured exterminators across NY, NJ, and PA familiar with {area.name} building types</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Same-day service available throughout {area.name} and surrounding neighborhoods</li>
-            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Free pest inspection — no obligation, no charge</li>
-            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> No money upfront — pay when the job is done</li>
-            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> 30–365 day guarantee depending on service</li>
+            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Free phone quote — no obligation, no charge</li>
+            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Pay when the job is done</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Complete documentation for co-op boards, property managers, and landlords</li>
           </ul>
         </section>
@@ -178,7 +177,7 @@ export default function AreaPage({ params }: { params: { slug: string } }) {
         {/* Mid-page CTA */}
         <section className="bg-green-800 text-white rounded-2xl p-8 mb-12 text-center">
           <h2 className="text-2xl font-bold mb-3">Need Pest Control in {area.name}?</h2>
-          <p className="text-green-100 mb-6">Licensed exterminators. Free inspection. No money upfront. Same-day available.</p>
+          <p className="text-green-100 mb-6">Licensed exterminators. Free phone quote. Same-day available.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-6 py-3 rounded-lg hover:bg-green-50">📞 Call {PHONE_DISPLAY}</a>
             <a href="/get-a-quote" className="bg-yellow-400 text-gray-900 font-bold px-6 py-3 rounded-lg hover:bg-yellow-300">📅 Book Online</a>
@@ -222,7 +221,7 @@ export default function AreaPage({ params }: { params: { slug: string } }) {
         {/* Bottom CTA */}
         <section className="bg-green-800 text-white rounded-2xl p-10 text-center">
           <h2 className="text-3xl font-bold mb-3" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Ready to Get Started in {area.name}?</h2>
-          <p className="text-green-100 text-lg mb-8 max-w-2xl mx-auto">NYS DEC licensed. Free inspection. No money upfront. Guaranteed results. Same-day available.</p>
+          <p className="text-green-100 text-lg mb-8 max-w-2xl mx-auto">Licensed and insured across NY, NJ, and PA. Free phone quote. Same-day available.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-50 transition">📞 Call {PHONE_DISPLAY}</a>
             <a href="/get-a-quote" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-300 transition">📅 Book Online</a>

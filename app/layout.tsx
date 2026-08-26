@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: "%s | The Best Pest Control NYC",
   },
   description:
-    "NYC exterminator serving 318+ neighborhoods across NYC, NJ, Long Island & Westchester. NYS DEC licensed. 32 pest types eliminated. Free inspection. No money upfront. Guaranteed.",
+    "NYC exterminator serving 318+ neighborhoods across NYC, NJ, Long Island & Westchester. Licensed and insured across NY, NJ, and PA. 32 pest types eliminated. Free phone quote.",
   keywords: [
     "pest control NYC",
     "exterminator NYC",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     siteName: "The Best Pest Control NYC",
     title: "The Best Pest Control NYC | Licensed Exterminators",
     description:
-      "NYS DEC licensed exterminators serving 318+ NYC neighborhoods. 32 pest types eliminated. Free inspection. No money upfront.",
+      "Licensed and insured exterminators across NY, NJ, and PA serving 318+ NYC neighborhoods. 32 pest types eliminated. Free phone quote.",
     images: [
       {
         url: "/opengraph-image.png",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "The Best Pest Control NYC",
-    description: "NYS DEC licensed exterminators. 318+ neighborhoods. Free inspection.",
+    description: "Licensed and insured exterminators across NY, NJ, and PA. 318+ neighborhoods. Free phone quote.",
     images: ["/opengraph-image.png"],
   },
   robots: {

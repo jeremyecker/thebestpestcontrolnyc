@@ -4,11 +4,11 @@ import type { ReactNode } from "react";
 export const metadata: Metadata = {
   title: { absolute: "NYC Pest Control FAQ | The Best Pest Control NYC" },
   description:
-    "Answers to common pest control questions in NYC — pricing, treatments, bed bugs, rodents, cockroaches, and more. Free inspection. No money upfront. Licensed NYS DEC exterminators.",
+    "Answers to common pest control questions in NYC — pricing, treatments, bed bugs, rodents, cockroaches, and more. Free phone quote. Licensed and insured exterminators across NY, NJ, and PA.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com/faq" },
   openGraph: {
     title: "NYC Pest Control FAQ | The Best Pest Control NYC",
-    description: "Answers to common pest control questions in NYC — pricing, treatments, bed bugs, rodents, cockroaches, and more. Free inspection. No money upfront. Licensed NYS DEC exterminators.",
+    description: "Answers to common pest control questions in NYC — pricing, treatments, bed bugs, rodents, cockroaches, and more. Free phone quote. Licensed and insured exterminators across NY, NJ, and PA.",
     url: "https://www.thebestpestcontrolnyc.com/faq",
     siteName: "The Best Pest Control NYC",
     locale: "en_US",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "NYC Pest Control FAQ | The Best Pest Control NYC",
-    description: "Answers to common pest control questions in NYC — pricing, treatments, bed bugs, rodents, cockroaches, and more. Free inspection. No money upfront. Licensed NYS DEC exterminators.",
+    description: "Answers to common pest control questions in NYC — pricing, treatments, bed bugs, rodents, cockroaches, and more. Free phone quote. Licensed and insured exterminators across NY, NJ, and PA.",
   },
 };
 

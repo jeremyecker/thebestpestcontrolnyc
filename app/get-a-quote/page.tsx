@@ -14,11 +14,11 @@ const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(855) 930-5016";
 export const metadata: Metadata = {
   title: { absolute: "Get a Free Quote | NYC Exterminator" },
   description:
-    "Get a free quote from a licensed NYC exterminator. Free inspection. No money upfront. Same-day service across NYC, NJ, Long Island & Westchester. Call or request online.",
+    "Get a free quote from a licensed NYC exterminator. Free phone quote. Same-day service across NYC, NJ, Long Island & Westchester. Call or request online.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com/get-a-quote" },
   openGraph: {
     title: "Get a Free Quote | NYC Exterminator",
-    description: "Get a free quote from a licensed NYC exterminator. Free inspection. No money upfront. Same-day service across NYC, NJ, Long Island & Westchester. Call or request online.",
+    description: "Get a free quote from a licensed NYC exterminator. Free phone quote. Same-day service across NYC, NJ, Long Island & Westchester. Call or request online.",
     url: "https://www.thebestpestcontrolnyc.com/get-a-quote",
     siteName: "The Best Pest Control NYC",
     locale: "en_US",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Get a Free Quote | NYC Exterminator",
-    description: "Get a free quote from a licensed NYC exterminator. Free inspection. No money upfront. Same-day service across NYC, NJ, Long Island & Westchester. Call or request online.",
+    description: "Get a free quote from a licensed NYC exterminator. Free phone quote. Same-day service across NYC, NJ, Long Island & Westchester. Call or request online.",
   },
 };
 
@@ -67,7 +67,7 @@ export default function ContactPage() {
           </h1>
           <p className="text-xl text-green-100 max-w-2xl mx-auto">
             Call us or fill out the form below. Licensed exterminators ready to
-            inspect, quote, and treat — often the same day. No money upfront.
+            quote and treat — often the same day.
           </p>
         </div>
       </section>
@@ -129,11 +129,9 @@ export default function ContactPage() {
               <h3 className="font-bold text-lg mb-4">Why Choose Us</h3>
               <ul className="space-y-2 text-sm">
                 {[
-                  "✓ NYS DEC Licensed Exterminators",
+                  "✓ Licensed & Insured Exterminators",
                   "✓ Fully Insured — Every Job",
-                  "✓ Free Pest Inspection",
-                  "✓ No Money Upfront",
-                  "✓ 30–365 Day Guarantee",
+                  "✓ Free Phone Quote",
                   "✓ Same-Day Available",
                   "✓ 3,654+ Five-Star Reviews",
                   "✓ 318+ Neighborhoods Served",

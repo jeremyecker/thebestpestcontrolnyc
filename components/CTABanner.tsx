@@ -34,7 +34,7 @@ interface CTABannerProps {
 export default function CTABanner({
   variant = "full",
   headline = "Your Pest Problem Ends Here.",
-  subhead = "Licensed exterminators. Free inspection. No money upfront. Same-day available.",
+  subhead = "Licensed exterminators. Free phone quote. Same-day available.",
   preselectedPest = "",
   source = "cta-banner",
   dark = true,
@@ -80,7 +80,7 @@ export default function CTABanner({
           {/* Left — copy */}
           <div className={`p-8 md:p-12 flex flex-col justify-center ${dark ? "text-white" : "text-gray-900"}`}>
             <div className="inline-block bg-green-600 text-white text-xs font-bold px-3 py-1 rounded-full mb-4 w-fit">
-              FREE INSPECTION
+              FREE PHONE QUOTE
             </div>
             <h2 className="text-3xl font-bold mb-4 leading-tight">
               {headline}
@@ -90,11 +90,9 @@ export default function CTABanner({
             </p>
             <ul className="space-y-2">
               {[
-                "No money upfront — pay when done",
                 "Response within minutes",
                 "Same-day service available",
                 "Licensed & insured exterminators",
-                "30–365 day guarantee",
               ].map((item) => (
                 <li key={item} className={`flex items-center gap-2 text-sm ${dark ? "text-green-100" : "text-gray-600"}`}>
                   <span className="text-green-400 font-bold">✓</span>
@@ -141,9 +139,7 @@ export default function CTABanner({
 
         {/* Trust badges */}
         <div className={`flex flex-wrap justify-center gap-x-6 gap-y-2 mb-8 text-sm font-semibold ${dark ? "text-green-200" : "text-green-700"}`}>
-          <span>✓ No money upfront</span>
           <span>✓ 5,000+ five-star reviews</span>
-          <span>✓ 100% satisfaction guarantee</span>
           <span>✓ Licensed & insured</span>
         </div>
 

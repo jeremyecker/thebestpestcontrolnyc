@@ -4,11 +4,11 @@ import { SERVICES, SERVICE_CATEGORIES } from "@/data/services";
 
 export const metadata: Metadata = {
   title: { absolute: "NYC Exterminator Services — 32 Pests We Eliminate" },
-  description: "Complete list of 32 NYC exterminator services — cockroaches, bed bugs, rats, termites, wildlife, and more. Licensed NYS DEC exterminators. Free inspection. No money upfront.",
+  description: "Complete list of 32 NYC exterminator services — cockroaches, bed bugs, rats, termites, wildlife, and more. Licensed and insured exterminators across NY, NJ, and PA. Free phone quote.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com/pests" },
   openGraph: {
     title: "NYC Exterminator Services — 32 Pests We Eliminate",
-    description: "Complete list of 32 NYC exterminator services — cockroaches, bed bugs, rats, termites, wildlife, and more. Licensed NYS DEC exterminators. Free inspection. No money upfront.",
+    description: "Complete list of 32 NYC exterminator services — cockroaches, bed bugs, rats, termites, wildlife, and more. Licensed and insured exterminators across NY, NJ, and PA. Free phone quote.",
     url: "https://www.thebestpestcontrolnyc.com/pests",
     siteName: "The Best Pest Control NYC",
     locale: "en_US",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "NYC Exterminator Services — 32 Pests We Eliminate",
-    description: "Complete list of 32 NYC exterminator services — cockroaches, bed bugs, rats, termites, wildlife, and more. Licensed NYS DEC exterminators. Free inspection. No money upfront.",
+    description: "Complete list of 32 NYC exterminator services — cockroaches, bed bugs, rats, termites, wildlife, and more. Licensed and insured exterminators across NY, NJ, and PA. Free phone quote.",
   },
 };
 
@@ -52,7 +52,7 @@ export default function ServicesPage() {
 
       <section className="bg-green-50 border-b border-green-100 py-4 px-4">
         <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-semibold text-green-800">
-          <span>✓ NYS DEC Licensed</span><span>✓ Free Inspection</span><span>✓ No Money Upfront</span><span>✓ Guaranteed Results</span>
+          <span>✓ Licensed & Insured</span><span>✓ Free Phone Quote</span>
         </div>
       </section>
 
@@ -67,10 +67,8 @@ export default function ServicesPage() {
                   <div className="text-3xl mb-3">{service.icon}</div>
                   <h3 className="font-bold text-gray-900 text-base group-hover:text-green-800 mb-1">{service.name}</h3>
                   <p className="text-green-700 font-semibold text-sm mb-1">{service.priceRange}</p>
-                  {service.seasonal ? (
+                  {service.seasonal && (
                     <span className="inline-block bg-blue-100 text-blue-700 text-xs font-semibold px-2 py-0.5 rounded-full">Seasonal Treatment</span>
-                  ) : (
-                    <span className="inline-block bg-green-100 text-green-700 text-xs font-semibold px-2 py-0.5 rounded-full">{service.guaranteeDays}-Day Guarantee</span>
                   )}
                   {service.emergencyAvailable && (
                     <span className="inline-block ml-2 bg-red-100 text-red-700 text-xs font-semibold px-2 py-0.5 rounded-full">⚡ Emergency</span>

@@ -68,7 +68,7 @@ export default async function Image() {
           fontWeight: 800,
           letterSpacing: '0.3px',
         }}>
-          Free Inspection · No Money Upfront
+          Free Phone Quote · Same-Day Service
         </div>
       </div>
     ),

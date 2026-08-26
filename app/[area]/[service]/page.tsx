@@ -188,9 +188,6 @@ export default function ComboPage({
                 ⚡ Emergency Available
               </span>
             )}
-            <span className="bg-green-600 text-white text-sm font-semibold px-3 py-1 rounded-full">
-              {service.guaranteeDays}-Day Guarantee
-            </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
@@ -228,11 +225,9 @@ export default function ComboPage({
       {/* Trust Bar */}
       <section className="bg-green-50 border-b border-green-100 py-4 px-4">
         <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-6 text-sm font-semibold text-green-800">
-          <span>✓ NYS DEC Licensed</span>
+          <span>✓ Licensed & Insured</span>
           <span>✓ Fully Insured</span>
-          <span>✓ Free Inspection</span>
-          <span>✓ No Money Upfront</span>
-          <span>✓ {service.guaranteeDays}-Day Guarantee</span>
+          <span>✓ Free Phone Quote</span>
           <span>✓ 4.9★ Rated</span>
         </div>
       </section>
@@ -265,7 +260,7 @@ export default function ComboPage({
             Need {service.name} in {area.name}?
           </h2>
           <p className="text-green-100 mb-6">
-            Licensed exterminators. Free inspection. No money upfront. Same-day available.
+            Licensed exterminators. Free phone quote. Same-day available.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-6 py-3 rounded-lg hover:bg-green-50">
@@ -289,7 +284,7 @@ export default function ComboPage({
                 <p className="text-4xl font-bold text-green-700">{service.priceRange}</p>
                 <p className="text-gray-500 text-sm mt-2">
                   Final price depends on property size and severity of infestation.
-                  We provide a free inspection and written quote before any work begins.
+                  We provide a free phone quote and written estimate before any work begins.
                 </p>
               </div>
               <a href="/pricing" className="text-green-700 font-semibold hover:underline">
@@ -380,8 +375,7 @@ export default function ComboPage({
             Ready to Get Rid of {service.shortName} in {area.name}?
           </h2>
           <p className="text-green-100 text-lg mb-8 max-w-2xl mx-auto">
-            Licensed NYS DEC exterminators. Free inspection. No money upfront.
-            {service.guaranteeDays}-day guarantee. Same-day available.
+            Licensed and insured exterminators across NY, NJ, and PA. Free phone quote. Same-day available.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-50 transition">
