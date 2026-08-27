@@ -7,8 +7,6 @@ export interface Service {
   priceMin: number;
   priceMax: number;
   emergencyAvailable: boolean;
-  guaranteeDays: number;
-  guaranteeLabel: string;
   seasonal: boolean;
   icon: string;
   description: string;
