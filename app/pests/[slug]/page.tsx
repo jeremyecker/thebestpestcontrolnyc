@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const title = rawTitle.replace(/\s*\|\s*(The\s+)?Best Pest Control NYC\s*$/i, "").slice(0, 60);
   const description =
     content?.metaDescription ||
-    `Professional ${service.name.toLowerCase()} in NYC from a licensed NYC exterminator. ${service.priceRange}. Licensed and insured across NY, NJ, and PA. Free phone quote.`;
+    `Professional ${service.name.toLowerCase()} in NYC from a licensed NYC exterminator. Licensed and insured across NY, NJ, and PA. Free phone quote.`;
   return {
     // Use absolute to prevent layout template from appending brand name again
     title: { absolute: title },
@@ -80,14 +80,6 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
           url: "https://www.thebestpestcontrolnyc.com",
         },
         areaServed: { "@type": "City", name: "New York" },
-        offers: {
-          "@type": "Offer",
-          priceSpecification: {
-            "@type": "PriceSpecification",
-            price: service.priceRange,
-            priceCurrency: "USD",
-          },
-        },
       },
       {
         "@type": "BreadcrumbList",
@@ -135,7 +127,6 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
           <div className="flex gap-3 mb-4 flex-wrap">
             <span className="text-4xl">{service.icon}</span>
             <div className="flex flex-wrap gap-2 items-center">
-              <span className="bg-green-600 text-white text-sm font-semibold px-3 py-1 rounded-full">{service.priceRange}</span>
               {service.emergencyAvailable && <span className="bg-red-600 text-white text-sm font-semibold px-3 py-1 rounded-full">⚡ Emergency Available</span>}
               {service.seasonal && (
                 <span className="bg-blue-600 text-white text-sm font-semibold px-3 py-1 rounded-full">Seasonal Treatment</span>
@@ -165,25 +156,13 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
 
       <div className="max-w-5xl mx-auto px-4 py-12">
 
-        {/* Pricing */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>{service.name} Cost in NYC</h2>
-          <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
-            <div className="flex items-center justify-between flex-wrap gap-4">
-              <div>
-                <p className="text-gray-500 text-sm mb-1">Starting price range</p>
-                <p className="text-5xl font-bold text-green-700">{service.priceRange}</p>
-                <p className="text-gray-500 text-sm mt-2">Final price depends on property size and severity of infestation. Free phone quote + written quote before any work begins.</p>
-              </div>
-              <Link href="/pricing" className="text-green-700 font-semibold hover:underline">View full pricing →</Link>
+        {service.seasonal && (
+          <section className="mb-12">
+            <div className="p-4 bg-blue-50 border border-blue-100 rounded-lg text-sm text-blue-800">
+              <strong>Seasonal Treatment Note:</strong> Mosquito and Tick Control are seasonal treatments. Results depend on outdoor conditions and property. Seasonal treatments are results-dependent — we set clear expectations on the call.
             </div>
-            {service.seasonal && (
-              <div className="mt-4 p-4 bg-blue-50 border border-blue-100 rounded-lg text-sm text-blue-800">
-                <strong>Seasonal Treatment Note:</strong> Mosquito and Tick Control are seasonal treatments. Results depend on outdoor conditions and property. Seasonal treatments are results-dependent — we set clear expectations on the call.
-              </div>
-            )}
-          </div>
-        </section>
+          </section>
+        )}
 
         {/* Body copy */}
         {bodyParagraphs.length > 0 && (
@@ -292,7 +271,6 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                 <Link key={s.slug} href={`/pests/${s.slug}`} className="block bg-gray-50 hover:bg-green-50 border border-gray-200 hover:border-green-300 rounded-lg p-4 text-sm text-gray-700 hover:text-green-800 transition">
                   <div className="text-2xl mb-1">{s.icon}</div>
                   <div className="font-medium">{s.name}</div>
-                  <div className="text-green-600 text-xs mt-1">{s.priceRange}</div>
                 </Link>
               ))}
             </div>

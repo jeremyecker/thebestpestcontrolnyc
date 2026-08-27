@@ -225,7 +225,6 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                 >
                   <div className="text-2xl mb-1">{s.icon}</div>
                   <div className="font-medium">{s.name}</div>
-                  <div className="text-green-600 text-xs mt-1">{s.priceRange}</div>
                 </Link>
               ))}
             </div>
