@@ -77,7 +77,7 @@ export const SERVICE_INSIGHTS: Record<string, ServiceInsight[]> = {
   "flea-treatment": [
     {
       h2: "Why Flea Treatments Fail Without Treating Your Pet at the Same Time",
-      body: "Fleas spend only about 5% of their life cycle on the host — the other 95% are eggs, larvae, and pupae living in carpets, bedding, and furniture. Treating the home without simultaneously treating your pet with a vet-approved flea product guarantees re-infestation within days. Our treatment protocol covers all life stages in the environment, but coordinating with your veterinarian on the same day is the single most important factor in lasting results."
+      body: "Fleas spend only about 5% of their life cycle on the host — the other 95% are eggs, larvae, and pupae living in carpets, bedding, and furniture. Treating the home without simultaneously treating your pet with a vet-approved flea product typically leads to re-infestation within days. Our treatment protocol covers all life stages in the environment, but coordinating with your veterinarian on the same day is the single most important factor in lasting results."
     },
     {
       h2: "How Long Do Fleas Live Without a Host in NYC Apartments?",
@@ -155,7 +155,7 @@ export const SERVICE_INSIGHTS: Record<string, ServiceInsight[]> = {
     },
     {
       h2: "Why Rodent Proofing Is More Cost-Effective Than Repeated Extermination",
-      body: "Repeated extermination treatments in a building without exclusion work are an indefinite cost — as long as entry points remain open, new rodents from NYC's infrastructure will move in to fill the vacancy. A one-time professional exclusion with a 1-year structural guarantee eliminates the recurring treatment cycle and the associated property damage from gnawing, nesting, and contamination. Most property owners find the payback period is less than 12 months compared to ongoing service contracts."
+      body: "Repeated extermination treatments in a building without exclusion work are an indefinite cost — as long as entry points remain open, new rodents from NYC's infrastructure will move in to fill the vacancy. A one-time professional exclusion reduces entry opportunities and can eliminate the recurring treatment cycle and the associated property damage from gnawing, nesting, and contamination. Most property owners find the payback period is less than 12 months compared to ongoing service contracts."
     }
   ],
   "termite-treatment": [
