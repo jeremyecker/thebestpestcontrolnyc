@@ -182,7 +182,7 @@ export const SERVICES: Service[] = [
     emergencyAvailable: true,
     seasonal: false,
     icon: "🪵",
-    description: "Termite treatment using liquid barrier treatments and bait station systems. Protects your property from structural damage. Termite installations include a 1-year service agreement.",
+    description: "Termite treatment using liquid barrier treatments and bait station systems. Protects your property from structural damage. Every service includes a service agreement — terms depend on the service and are confirmed on the call. Termite installations include a 1-year service agreement.",
     pestType: "termites",
   },
   {
