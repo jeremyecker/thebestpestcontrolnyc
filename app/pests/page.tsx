@@ -66,7 +66,6 @@ export default function ServicesPage() {
                 <Link key={service.slug} href={`/pests/${service.slug}`} className="bg-white border border-gray-200 rounded-xl p-5 hover:border-green-400 hover:shadow-md transition group">
                   <div className="text-3xl mb-3">{service.icon}</div>
                   <h3 className="font-bold text-gray-900 text-base group-hover:text-green-800 mb-1">{service.name}</h3>
-                  <p className="text-green-700 font-semibold text-sm mb-1">{service.priceRange}</p>
                   {service.seasonal && (
                     <span className="inline-block bg-blue-100 text-blue-700 text-xs font-semibold px-2 py-0.5 rounded-full">Seasonal Treatment</span>
                   )}

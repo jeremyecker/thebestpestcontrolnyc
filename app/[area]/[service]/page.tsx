@@ -133,7 +133,6 @@ export default function ComboPage({
             latitude: area.lat,
             longitude: area.lng,
           },
-          priceRange: service.priceRange,
         },
         areaServed: {
           "@type": "Place",
@@ -179,16 +178,13 @@ export default function ComboPage({
       {/* Hero Section */}
       <section className="bg-green-800 text-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <div className="flex gap-3 mb-4 flex-wrap">
-            <span className="bg-green-600 text-white text-sm font-semibold px-3 py-1 rounded-full">
-              {service.priceRange}
-            </span>
-            {service.emergencyAvailable && (
+          {service.emergencyAvailable && (
+            <div className="flex gap-3 mb-4 flex-wrap">
               <span className="bg-red-600 text-white text-sm font-semibold px-3 py-1 rounded-full">
                 ⚡ Emergency Available
               </span>
-            )}
-          </div>
+            </div>
+          )}
 
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
             {service.name} in {area.name}, {area.borough}
@@ -269,28 +265,6 @@ export default function ComboPage({
             <a href={`tel:${PHONE}`} className="bg-green-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-green-500 border border-green-400">
               📞 Call Us Now
             </a>
-          </div>
-        </section>
-
-        {/* Pricing */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">
-            {service.name} Cost in {area.name}
-          </h2>
-          <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
-            <div className="flex items-center justify-between flex-wrap gap-4">
-              <div>
-                <p className="text-gray-500 text-sm mb-1">Starting price range</p>
-                <p className="text-4xl font-bold text-green-700">{service.priceRange}</p>
-                <p className="text-gray-500 text-sm mt-2">
-                  Final price depends on property size and severity of infestation.
-                  We provide a free phone quote and written estimate before any work begins.
-                </p>
-              </div>
-              <a href="/pricing" className="text-green-700 font-semibold hover:underline">
-                View full pricing →
-              </a>
-            </div>
           </div>
         </section>
 

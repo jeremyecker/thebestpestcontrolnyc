@@ -68,7 +68,6 @@ const schema = {
         { "@type": "AdministrativeArea", name: "Long Island" },
         { "@type": "AdministrativeArea", name: "Northern New Jersey" },
       ],
-      priceRange: "$$",
       logo: { "@type": "ImageObject", url: "https://www.thebestpestcontrolnyc.com/logo.png" },
       openingHoursSpecification: [
         { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday"], opens: "07:00", closes: "20:00" },
@@ -276,7 +275,6 @@ export default function HomePage() {
               >
                 <div className="text-2xl mb-2">{service.icon}</div>
                 <div className="font-semibold text-gray-900 text-sm group-hover:text-green-800">{service.name}</div>
-                <div className="text-green-700 text-xs font-medium mt-1">{service.priceRange}</div>
               </Link>
             ))}
           </div>

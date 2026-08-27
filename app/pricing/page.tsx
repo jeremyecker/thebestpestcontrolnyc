@@ -31,7 +31,6 @@ const schema = {
   name: "The Best Pest Control NYC",
   telephone: PHONE,
   url: "https://www.thebestpestcontrolnyc.com",
-  priceRange: "$$",
 };
 
 type PricingRow = {

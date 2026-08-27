@@ -154,7 +154,6 @@ export default function AreaPage({ params }: { params: { slug: string } }) {
               <Link key={service.slug} href={`/${area.slug}/${service.slug}`} className="block bg-white border border-gray-200 hover:border-green-400 hover:shadow-md rounded-xl p-4 transition group">
                 <div className="text-2xl mb-2">{service.icon}</div>
                 <div className="font-semibold text-sm text-gray-900 group-hover:text-green-800">{service.name}</div>
-                <div className="text-green-700 text-xs mt-1">{service.priceRange}</div>
               </Link>
             ))}
           </div>
