@@ -78,7 +78,7 @@ export default function Footer() {
           <div className="space-y-1 text-sm">
             <p className="text-green-400 font-semibold">✓ Licensed & Insured</p>
             <p className="text-green-400 font-semibold">✓ Fully Insured</p>
-            <p className="text-green-400 font-semibold">✓ 4.9★ Rated</p>
+            <p className="text-green-400 font-semibold">✓ EPA-Registered Products</p>
           </div>
         </div>
 

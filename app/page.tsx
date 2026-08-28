@@ -173,7 +173,7 @@ export default function HomePage() {
 
           {/* Trust Badges */}
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm font-semibold text-green-200">
-            <span>✓ 3,654 five-star reviews and growing</span>
+            <span>✓ EPA-Registered Products</span>
             <span>✓ Licensed & Insured</span>
           </div>
         </div>
@@ -185,7 +185,7 @@ export default function HomePage() {
           {[
             { stat: "24/7", label: "We Never Sleep", sub: "Nights, weekends, holidays" },
             { stat: "60 sec", label: "Book in 60 Seconds", sub: "Fastest scheduling in NYC" },
-            { stat: "4.9★", label: "NYC Trusts Us", sub: "3,654 reviews and growing" },
+            { stat: "Same-Day", label: "Service Available", sub: "Across NYC, NJ, Long Island & Westchester" },
             { stat: "47,587+", label: "Pests Gone for Good", sub: "Homes & businesses cleared" },
           ].map((item) => (
             <div key={item.stat} className="text-white">
@@ -202,7 +202,7 @@ export default function HomePage() {
         <div className="flex ticker-track whitespace-nowrap">
           {[1, 2].map((n) => (
             <span key={n} className="text-white font-semibold text-sm mx-8">
-              Licensed and Insured Exterminators Across NY, NJ &amp; PA &bull; Fully Insured Pest Control &bull; Free Phone Quotes &bull; Same-Day Service Available &bull; No Hidden Fees &bull; 4.9★ Rated &bull;&nbsp;
+              Licensed and Insured Exterminators Across NY, NJ &amp; PA &bull; Fully Insured Pest Control &bull; Free Phone Quotes &bull; Same-Day Service Available &bull; No Hidden Fees &bull;&nbsp;
             </span>
           ))}
         </div>
@@ -420,7 +420,7 @@ export default function HomePage() {
           </h2>
           <p className="text-green-100 text-xl mb-4">Licensed exterminators. Free phone quote. Same-day available.</p>
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 mb-8 text-sm font-semibold text-green-200">
-            <span>✓ 3,654 five-star reviews</span>
+            <span>✓ EPA-Registered Products</span>
             <span>✓ Licensed & insured</span>
           </div>
           <div className="flex flex-wrap justify-center gap-4">

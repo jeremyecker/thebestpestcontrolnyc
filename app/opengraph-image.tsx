@@ -30,8 +30,7 @@ export default async function Image() {
           padding: '10px 28px',
           marginBottom: '32px',
         }}>
-          <span style={{ color: '#facc15', fontSize: '28px', marginRight: '10px' }}>★★★★★</span>
-          <span style={{ color: '#d1fae5', fontSize: '22px', fontWeight: 600 }}>4.9 · 5,000+ Reviews</span>
+          <span style={{ color: '#d1fae5', fontSize: '24px', fontWeight: 600 }}>Licensed &amp; Insured</span>
         </div>
 
         {/* Main heading */}
