@@ -133,7 +133,7 @@ export default function ContactPage() {
                   "✓ Fully Insured — Every Job",
                   "✓ Free Phone Quote",
                   "✓ Same-Day Available",
-                  "✓ 3,654+ Five-Star Reviews",
+                  "✓ EPA-Registered Products",
                   "✓ 318+ Neighborhoods Served",
                 ].map((item) => (
                   <li key={item} className="text-green-100">{item}</li>

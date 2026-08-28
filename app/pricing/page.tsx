@@ -337,7 +337,7 @@ export default function PricingPage() {
         <h2 className="text-4xl font-bold mb-3" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Get Your Free Phone Quote</h2>
         <p className="text-green-100 text-xl mb-6 max-w-2xl mx-auto">Written quote before work begins. Same-day available.</p>
         <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 mb-8 text-sm font-semibold text-green-200">
-          <span>✓ 3,654 five-star reviews</span>
+          <span>✓ EPA-Registered Products</span>
           <span>✓ Licensed & insured</span>
           <span>✓ Same-day available</span>
         </div>

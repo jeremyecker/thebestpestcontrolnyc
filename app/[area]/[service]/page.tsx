@@ -224,7 +224,7 @@ export default function ComboPage({
           <span>✓ Licensed & Insured</span>
           <span>✓ Fully Insured</span>
           <span>✓ Free Phone Quote</span>
-          <span>✓ 4.9★ Rated</span>
+          <span>✓ EPA-Registered Products</span>
         </div>
       </section>
 

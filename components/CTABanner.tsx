@@ -139,7 +139,6 @@ export default function CTABanner({
 
         {/* Trust badges */}
         <div className={`flex flex-wrap justify-center gap-x-6 gap-y-2 mb-8 text-sm font-semibold ${dark ? "text-green-200" : "text-green-700"}`}>
-          <span>✓ 5,000+ five-star reviews</span>
           <span>✓ Licensed & insured</span>
         </div>
 
