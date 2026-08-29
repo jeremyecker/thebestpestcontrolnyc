@@ -4,11 +4,11 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: { absolute: "Pest Control Pricing NYC | NYC Exterminator Rates" },
   description:
-    "Transparent NYC exterminator pricing. No hidden fees. Written quote before work begins. See all 32 pest control services with price ranges.",
+    "Transparent NYC exterminator pricing determined by your specific situation. No hidden fees. Phone quote before work begins. Free consultation for all 32 pest control services.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com/pricing" },
   openGraph: {
     title: "Pest Control Pricing NYC | NYC Exterminator Rates",
-    description: "Transparent NYC exterminator pricing. No hidden fees. Written quote before work begins. See all 32 pest control services with price ranges.",
+    description: "Transparent NYC exterminator pricing determined by your specific situation. No hidden fees. Phone quote before work begins. Free consultation for all 32 pest control services.",
     url: "https://www.thebestpestcontrolnyc.com/pricing",
     siteName: "The Best Pest Control NYC",
     locale: "en_US",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pest Control Pricing NYC | NYC Exterminator Rates",
-    description: "Transparent NYC exterminator pricing. No hidden fees. Written quote before work begins. See all 32 pest control services with price ranges.",
+    description: "Transparent NYC exterminator pricing determined by your specific situation. No hidden fees. Phone quote before work begins. Free consultation for all 32 pest control services.",
   },
 };
 
@@ -45,68 +45,68 @@ const PRICING_CATEGORIES: { category: string; rows: PricingRow[] }[] = [
   {
     category: "Common Pests",
     rows: [
-      { name: "Cockroach Extermination", price: "$300 – $450", emergency: true },
-      { name: "Bed Bug Treatment", price: "$1,200 – $4,500", emergency: true },
-      { name: "Ant Control", price: "$300 – $450", emergency: true },
-      { name: "Spider Control", price: "$300 – $450", emergency: true },
-      { name: "Mosquito Control", price: "$125 – $150/visit", emergency: true, seasonal: true },
-      { name: "Flea Treatment", price: "$300 – $450", emergency: true },
-      { name: "Tick Control", price: "$125 – $150/visit", emergency: true, seasonal: true },
-      { name: "Fly Control", price: "$300 – $450", emergency: true },
+      { name: "Cockroach Extermination", price: "Call for quote", emergency: true },
+      { name: "Bed Bug Treatment", price: "Call for quote", emergency: true },
+      { name: "Ant Control", price: "Call for quote", emergency: true },
+      { name: "Spider Control", price: "Call for quote", emergency: true },
+      { name: "Mosquito Control", price: "Call for quote", emergency: true, seasonal: true },
+      { name: "Flea Treatment", price: "Call for quote", emergency: true },
+      { name: "Tick Control", price: "Call for quote", emergency: true, seasonal: true },
+      { name: "Fly Control", price: "Call for quote", emergency: true },
     ],
   },
   {
     category: "Rodents",
     rows: [
-      { name: "Rat Extermination", price: "$300 – $450", emergency: true },
-      { name: "Mouse Extermination", price: "$300 – $450", emergency: true },
-      { name: "Rodent Proofing (Full Exclusion)", price: "$500 – $3,000", emergency: false },
+      { name: "Rat Extermination", price: "Call for quote", emergency: true },
+      { name: "Mouse Extermination", price: "Call for quote", emergency: true },
+      { name: "Rodent Proofing (Full Exclusion)", price: "Call for quote", emergency: false },
     ],
   },
   {
     category: "Wood-Destroying Insects",
     rows: [
-      { name: "Termite Treatment", price: "$800 – $2,500", emergency: true, serviceAgreement: "1-year service agreement" },
-      { name: "Carpenter Ant Control", price: "$300 – $450", emergency: true },
+      { name: "Termite Treatment", price: "Call for quote", emergency: true, serviceAgreement: "1-year service agreement" },
+      { name: "Carpenter Ant Control", price: "Call for quote", emergency: true },
     ],
   },
   {
     category: "Stinging Insects",
     rows: [
-      { name: "Wasp Removal", price: "$300 – $450", emergency: true },
-      { name: "Bee Removal", price: "$300 – $450", emergency: true },
-      { name: "Hornet Removal", price: "$300 – $450", emergency: true },
-      { name: "Yellow Jacket Removal", price: "$300 – $450", emergency: true },
+      { name: "Wasp Removal", price: "Call for quote", emergency: true },
+      { name: "Bee Removal", price: "Call for quote", emergency: true },
+      { name: "Hornet Removal", price: "Call for quote", emergency: true },
+      { name: "Yellow Jacket Removal", price: "Call for quote", emergency: true },
     ],
   },
   {
     category: "Wildlife Control",
     rows: [
-      { name: "Raccoon Removal", price: "$900 – $4,000", emergency: true },
-      { name: "Squirrel Removal", price: "$900 – $2,500", emergency: true },
-      { name: "Pigeon Control & Deterrents", price: "$550 – $5,000", emergency: false },
-      { name: "Bat Removal & Exclusion", price: "$900 – $2,500", emergency: true },
+      { name: "Raccoon Removal", price: "Call for quote", emergency: true },
+      { name: "Squirrel Removal", price: "Call for quote", emergency: true },
+      { name: "Pigeon Control & Deterrents", price: "Call for quote", emergency: false },
+      { name: "Bat Removal & Exclusion", price: "Call for quote", emergency: true },
     ],
   },
   {
     category: "Specialty Pests",
     rows: [
-      { name: "Clothes Moth Control", price: "$550 – $5,000", emergency: false },
-      { name: "Silverfish Control", price: "$300 – $450", emergency: false },
-      { name: "Centipede Control", price: "$300 – $450", emergency: false },
-      { name: "Cricket Control", price: "$300 – $450", emergency: false },
-      { name: "Stink Bug Control", price: "$300 – $450", emergency: false },
-      { name: "Drain Fly Treatment", price: "$300 – $450", emergency: false },
-      { name: "Pantry Pest Control", price: "$300 – $450", emergency: false },
+      { name: "Clothes Moth Control", price: "Call for quote", emergency: false },
+      { name: "Silverfish Control", price: "Call for quote", emergency: false },
+      { name: "Centipede Control", price: "Call for quote", emergency: false },
+      { name: "Cricket Control", price: "Call for quote", emergency: false },
+      { name: "Stink Bug Control", price: "Call for quote", emergency: false },
+      { name: "Drain Fly Treatment", price: "Call for quote", emergency: false },
+      { name: "Pantry Pest Control", price: "Call for quote", emergency: false },
     ],
   },
   {
     category: "Commercial & General",
     rows: [
-      { name: "Commercial Pest Control", price: "$175 – $1,500/mo", emergency: true },
-      { name: "Restaurant Pest Control", price: "$175 – $600/mo", emergency: true },
-      { name: "General Pest Control", price: "$300 – $450", emergency: true },
-      { name: "Emergency Pest Control", price: "$350 – $1,000", emergency: true },
+      { name: "Commercial Pest Control", price: "Call for quote", emergency: true },
+      { name: "Restaurant Pest Control", price: "Call for quote", emergency: true },
+      { name: "General Pest Control", price: "Call for quote", emergency: true },
+      { name: "Emergency Pest Control", price: "Call for quote", emergency: true },
     ],
   },
 ];
@@ -141,7 +141,7 @@ const MAINTENANCE_PLANS = [
 const PRICING_FAQS = [
   {
     q: "Do you charge for the initial quote?",
-    a: "No. Your initial phone consultation is completely free. A licensed exterminator will talk through what you're seeing, help identify the likely pest and source, and give you a written quote — no charge, no obligation.",
+    a: "No. Your initial phone consultation is completely free. A licensed exterminator will talk through what you're seeing, help identify the likely pest and source, and give you a phone quote — no charge, no obligation.",
   },
   {
     q: "When do I pay?",
@@ -149,7 +149,7 @@ const PRICING_FAQS = [
   },
   {
     q: "Why is there a price range instead of a fixed price?",
-    a: "Pest control costs vary based on property size, infestation severity, number of treatments required, and treatment type. After our free phone quote, we give you an exact written quote before any work begins.",
+    a: "Pest control costs vary based on property size, infestation severity, number of treatments required, and treatment type. After our free phone consultation, we give you an exact phone quote before any work begins.",
   },
   {
     q: "What if I still see pests after service?",
@@ -178,7 +178,7 @@ export default function PricingPage() {
           <div className="flex flex-wrap justify-center gap-6 text-sm font-semibold">
             {[
               { icon: "✓", text: "Free phone quote before any work" },
-              { icon: "✓", text: "Written estimate upfront" },
+              { icon: "✓", text: "Price confirmed before work begins" },
             ].map((item) => (
               <div key={item.text} className="flex items-center gap-2 bg-green-700/50 px-4 py-2 rounded-full">
                 <span className="text-yellow-400 font-bold">{item.icon}</span>
@@ -202,10 +202,10 @@ export default function PricingPage() {
       <section className="py-12 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Pest control pricing in NYC varies significantly based on pest type, property size, infestation severity, and treatment method. The ranges below represent our starting prices and upper limits across all property types we service — from studio apartments to commercial buildings.
+            Pest control pricing in NYC depends on the service type, property size, infestation severity, and whether you need a one-time treatment or ongoing plan. Every situation is different — that's why we provide a free phone quote to discuss your specific situation.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
-            Every job starts with a free phone quote. After the call, you receive a written quote with the exact cost, treatment plan, products to be used, and service-agreement terms — before we touch anything. You only pay when the job is done.
+            After the call, you'll know the exact cost, treatment plan, and products to be used. Every service includes a service agreement — terms depend on the service and are confirmed on the call. You only pay when the job is done.
           </p>
         </div>
       </section>
@@ -221,7 +221,7 @@ export default function PricingPage() {
               <div className="bg-white border border-gray-200 rounded-b-xl overflow-hidden shadow-sm">
                 <div className="grid grid-cols-4 bg-gray-50 px-6 py-3 text-xs font-bold text-gray-500 uppercase tracking-wider border-b border-gray-200">
                   <div className="col-span-2">Service</div>
-                  <div>Starting Price</div>
+                  <div>Pricing</div>
                   <div>Service Agreement</div>
                 </div>
                 {rows.map((row, i) => (
@@ -261,7 +261,7 @@ export default function PricingPage() {
           <h2 className="text-3xl font-bold text-gray-900 text-center mb-8" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>How Payment Works</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {[
-              { icon: "📄", title: "Written Quote First", desc: "We provide a detailed written estimate with exact total cost before any work begins. No surprises." },
+              { icon: "📄", title: "Phone Quote First", desc: "We provide a detailed phone quote with exact total cost before any work begins. No surprises." },
             ].map((item) => (
               <div key={item.title} className="bg-white rounded-xl p-6 shadow-sm border border-green-100 text-center">
                 <div className="text-3xl mb-3">{item.icon}</div>
@@ -335,7 +335,7 @@ export default function PricingPage() {
       {/* Bottom CTA */}
       <section className="bg-green-800 text-white py-16 px-4 text-center">
         <h2 className="text-4xl font-bold mb-3" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Get Your Free Phone Quote</h2>
-        <p className="text-green-100 text-xl mb-6 max-w-2xl mx-auto">Written quote before work begins. Same-day available.</p>
+        <p className="text-green-100 text-xl mb-6 max-w-2xl mx-auto">Phone quote before work begins. Same-day available.</p>
         <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 mb-8 text-sm font-semibold text-green-200">
           <span>✓ EPA-Registered Products</span>
           <span>✓ Licensed & insured</span>
