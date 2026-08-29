@@ -15,11 +15,11 @@ const FAQ_CATEGORIES: { id: string; label: string; icon: string; count: number; 
     icon: "❓",
     count: 10,
     items: [
-      { q: "How much does pest control cost in NYC?", a: "Costs vary by pest type, infestation severity, and property size. General pest control starts at $300–$450. Bed bug treatment runs $1,200–$4,500. Rodent control is $300–$450. Termite treatment ranges from $800–$2,500. We always provide a free phone quote and written upfront estimate — no surprises, no hidden fees." },
+      { q: "How much does pest control cost in NYC?", a: "Costs vary by pest type, infestation severity, property size, and treatment method. Call us for a free phone quote tailored to your specific situation — no surprises, no hidden fees." },
       { q: "Do you offer same-day pest control service?", a: "Yes. We offer same-day and emergency service throughout NYC, NJ, Long Island, and Westchester for urgent situations. Active wasp nests, rat infestations in restaurants, bed bug discoveries before guests arrive — call and we'll dispatch as fast as possible." },
-      { q: "Are your treatments safe for kids and pets?", a: "All our treatments use EPA-approved products with targeted application methods designed to minimize exposure. Gel baits are placed inside cracks, crevices, and wall voids — out of everyday contact. We always provide specific safety instructions for your household before and after treatment." },
+      { q: "Are your treatments safe for kids and pets?", a: "All our treatments use EPA-registered products with targeted application methods designed to minimize exposure. Gel baits are placed inside cracks, crevices, and wall voids — out of everyday contact. We always provide specific safety instructions for your household before and after treatment." },
       { q: "Are your exterminators licensed and insured?", a: "Every technician holds state pesticide applicator licenses across NY (NYS DEC), NJ (NJDEP), and PA (PADEP) and we carry full general liability insurance on every job. Wildlife specialists hold additional NY nuisance wildlife control certification (NYS DEC). We provide documentation upon request." },
-      { q: "Do you charge for the initial quote?", a: "No. Your initial phone consultation is completely free. A licensed exterminator will talk through what you're seeing, help identify the likely pest and source, and give you a written quote — no charge, no obligation." },
+      { q: "Do you charge for the initial quote?", a: "No. Your initial phone consultation is completely free. A licensed exterminator — or a technician working under the direct supervision of a licensed applicator — will talk through what you're seeing, help identify the likely pest and source, and give you a phone quote — no charge, no obligation." },
       { q: "What happens if pests come back after treatment?", a: "Just call us and we'll come back out to reassess and retreat. Seasonal treatments like mosquito and tick control are results-dependent — we set clear expectations on the call." },
       { q: "What areas do you serve?", a: "We serve 318+ neighborhoods across Manhattan, Brooklyn, Queens, the Bronx, Staten Island, northern New Jersey, Long Island, and Westchester County. If you're anywhere in the NYC metro area, we have a technician near you." },
       { q: "What should I do to prepare for a pest control visit?", a: "Preparation varies by treatment. For general pest control, clear under sinks, clean kitchen surfaces, and remove pet food and water dishes. For bed bug treatment, launder bedding on high heat and declutter around bed frames. For rodent control, secure all food sources. We'll send specific prep instructions when you book." },
@@ -38,7 +38,7 @@ const FAQ_CATEGORIES: { id: string; label: string; icon: string; count: number; 
       { q: "Why do I keep seeing cockroaches after treatment?", a: "Seeing cockroaches in the first 1–2 weeks after treatment is expected — they're coming out to find food (including the bait) and dying. If you're still seeing significant activity after 3 weeks, contact us and we'll come back and retreat at no additional charge." },
       { q: "My neighbor has cockroaches — will I get them?", a: "In NYC apartment buildings, cockroaches travel through shared wall voids, plumbing lines, and electrical conduits. If a neighbor has a serious infestation and it's untreated, migration is possible. We offer whole-building treatment programs for property managers and landlords to address this at the source." },
       { q: "Why don't store-bought sprays work?", a: "Store-bought sprays are repellents — they push cockroaches away from treated surfaces into wall voids and neighboring units, making the problem worse in multi-unit buildings. Professional gel baits and non-repellent treatments are carried back to the colony, eliminating the entire population from the inside out." },
-      { q: "How much does cockroach extermination cost?", a: "Cockroach extermination in NYC typically runs $300–$450 for a standard apartment treatment. Larger properties, severe infestations, or multi-unit building treatments cost more. We always provide a free phone quote and exact written quote before work begins." },
+      { q: "How much does cockroach extermination cost?", a: "Cockroach extermination costs vary by property size, infestation severity, and treatment method. Call us for a free phone quote tailored to your specific situation." },
     ],
   },
   {
@@ -47,12 +47,12 @@ const FAQ_CATEGORIES: { id: string; label: string; icon: string; count: number; 
     icon: "🐜",
     count: 6,
     items: [
-      { q: "How do I know if I have bed bugs?", a: "Signs include small rust-colored blood stains on sheets, dark fecal spots on your mattress or headboard, shed exoskeletons near the bed, and clusters of small itchy bites on your skin — often in a line or cluster. Bed bugs themselves are small (apple seed size), flat, and reddish-brown. If you see any of these signs, call us for a free phone quote and to talk through what you're seeing." },
+      { q: "How do I know if I have bed bugs?", a: "Signs include small rust-colored blood stains on sheets, dark fecal spots on your mattress or headboard, shed exoskeletons near the bed, and clusters of small itchy bites on your skin — often in a line or cluster. Bed bugs themselves are small (apple seed size), flat, and reddish-brown. If you see any of these signs, call us for a free phone consultation to talk through what you're seeing." },
       { q: "Do I have to throw away my mattress?", a: "Usually not. Bed bugs live in mattress seams but also in headboards, bed frames, baseboards, and wall voids — throwing away your mattress without treating the room doesn't solve the problem. Our heat treatment eliminates bed bugs in mattresses and throughout the entire room. Mattress encasements can protect treated mattresses going forward." },
       { q: "How long does heat treatment take?", a: "Whole-room heat treatment typically takes 6–8 hours. We bring in industrial heating equipment and raise the room temperature above 120°F for several hours — a lethal temperature for all bed bug life stages including eggs. You can return home the same evening." },
       { q: "Can bed bugs come back after heat treatment?", a: "Re-infestation from external sources (travel, used furniture, guests) is always possible, but heat treatment eliminates all bed bugs and eggs present in the treated space. If re-infestation is discovered soon after treatment, call us and we'll retreat at no charge." },
       { q: "Is heat or chemical treatment better?", a: "Heat treatment is generally more effective for established infestations — it penetrates furniture, wall voids, and mattresses without leaving residue and eliminates all life stages in a single treatment. Chemical treatment can be effective for light infestations or as a follow-up. We'll recommend the right approach based on your inspection." },
-      { q: "What does bed bug treatment cost?", a: "Bed bug treatment in NYC typically runs $1,200–$4,500 depending on room count, infestation severity, and treatment method. We provide a free phone quote and written quote before any work begins." },
+      { q: "What does bed bug treatment cost?", a: "Bed bug treatment costs vary by room count, infestation severity, and treatment method. Call us for a free phone quote based on your specific situation." },
     ],
   },
   {
@@ -65,7 +65,7 @@ const FAQ_CATEGORIES: { id: string; label: string; icon: string; count: number; 
       { q: "Can I get rid of rats or mice myself?", a: "Retail snap traps can reduce mouse populations in light infestations, but they don't address the source — entry points that allow new rodents to replace eliminated ones. Established rat infestations almost always require professional treatment with tamper-resistant bait stations, strategic snap traps, and exclusion work." },
       { q: "What is rodent proofing?", a: "Rodent proofing (exclusion) is the physical sealing of every entry point mice and rats use to access your building. Our team inspects the exterior, identifies all entry points, and seals them with materials rodents can't chew through — steel wool, copper mesh, caulk, and door sweeps. This prevents re-infestation after elimination." },
       { q: "How long does rat extermination take?", a: "Active rat populations are typically controlled within 2–4 weeks using professional bait stations and snap traps. A follow-up visit confirms elimination. Exclusion work (sealing entry points) can be done concurrently or after elimination — we recommend doing both together for the most lasting result." },
-      { q: "How much does rodent control cost?", a: "Rat or mouse extermination in NYC typically runs $300–$450 for standard treatment. Rodent proofing costs $500–$3,000 depending on property size and number of entry points. We always provide a free phone quote and written quote before work begins." },
+      { q: "How much does rodent control cost?", a: "Rodent control costs vary by property size, infestation severity, treatment method, and whether exclusion work is needed. Call us for a free phone quote based on your specific situation." },
     ],
   },
   {
@@ -77,7 +77,7 @@ const FAQ_CATEGORIES: { id: string; label: string; icon: string; count: number; 
       { q: "Do I need a special license for wildlife removal?", a: "Yes. Wildlife removal in New York State requires a NYS DEC Nuisance Wildlife Control Operator license — separate from the commercial pesticide applicator license. All of our wildlife specialists hold current DEC licenses and follow state guidelines for humane capture, exclusion, and relocation." },
       { q: "Can I remove raccoons or squirrels myself?", a: "In New York, removing certain wildlife without a DEC license is illegal. Even if you trap an animal, you may not be permitted to relocate it without proper licensing. Beyond legality, wildlife removal without experience risks injury, disease exposure (raccoons can carry rabies), and incomplete removal that leaves young animals behind." },
       { q: "What do I do if there's a bat in my house?", a: "Do not handle the bat with bare hands — bats can carry rabies. If you've had direct contact or potential exposure (sleeping in the same room), contact health authorities immediately about potential rabies exposure. To remove the bat, open a window and wait — they often find their way out. Call us for professional exclusion to prevent future entry." },
-      { q: "How much does wildlife removal cost?", a: "Wildlife removal costs vary significantly by animal and scope: Raccoon removal typically runs $900–$4,000. Squirrel removal $900–$2,500. Bat exclusion $900–$2,500. Pigeon control $550–$5,000 depending on building size and deterrent type. Free phone quote and written quote before work begins." },
+      { q: "How much does wildlife removal cost?", a: "Wildlife removal costs vary significantly by animal type, scope of work, building size, and exclusion requirements. Call us for a free phone quote based on your specific situation." },
     ],
   },
   {
@@ -86,11 +86,11 @@ const FAQ_CATEGORIES: { id: string; label: string; icon: string; count: number; 
     icon: "🏢",
     count: 5,
     items: [
-      { q: "Do you provide DOH-compliant pest control for restaurants?", a: "Yes. Our restaurant pest control program is designed for NYC DOH compliance. We provide all documentation required for DOH inspections, including treatment logs, product information sheets, Material Safety Data Sheets, and inspection reports. We schedule treatments during off-hours to minimize business disruption." },
+      { q: "Do you provide DOH-compliant pest control for restaurants?", a: "Yes. Our restaurant pest control program is designed for NYC DOH compliance. We handle DOH compliance requirements as part of the service program. We schedule treatments during off-hours to minimize business disruption." },
       { q: "How often should a restaurant get pest control?", a: "The NYC DOH recommends monthly pest control for all food service establishments. High-volume restaurants and those with previous violations should consider bi-monthly service. Monthly service also provides DOH compliance documentation showing ongoing preventive treatment." },
-      { q: "What documentation do you provide commercial clients?", a: "We provide complete service documentation including: service reports for each visit, product information and EPA registration numbers, Material Safety Data Sheets, treatment logs with dates and areas treated, and compliance letters for DOH purposes. All documentation is available electronically." },
+      { q: "What documentation do you provide commercial clients?", a: "We handle DOH compliance requirements as part of the service program. All documentation is available electronically." },
       { q: "Can you service during off-hours?", a: "Yes. We offer flexible scheduling including early morning (before service hours), late evening, and overnight treatments for commercial clients. Restaurant pest control is typically performed between midnight and 5 AM to avoid interference with food prep and service." },
-      { q: "How much does commercial pest control cost?", a: "Commercial pest control in NYC typically runs $175–$1,500/month depending on facility size, pest pressure, and service frequency. Restaurant programs start at $175/month. Large multi-unit commercial properties are priced individually after a free phone quote. We provide a written service agreement with exact pricing before work begins." },
+      { q: "How much does commercial pest control cost?", a: "Commercial pest control costs vary by facility size, pest pressure, service frequency, and property type. Call us for a free phone quote based on your specific commercial needs." },
     ],
   },
 ];
@@ -108,7 +108,7 @@ export default function FAQPage() {
         <div className="max-w-5xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-4" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Got Questions? We've Got Answers.</h1>
           <p className="text-green-100 text-xl mb-8 max-w-2xl mx-auto">
-            Everything you need to know about NYC pest control, our services, pricing, and guarantees.
+            Everything you need to know about NYC pest control, our services, and pricing.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-6 py-3 rounded-xl hover:bg-green-50 transition">📞 Call {PHONE_DISPLAY}</a>

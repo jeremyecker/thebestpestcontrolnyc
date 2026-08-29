@@ -78,7 +78,7 @@ const schema = {
     {
       "@type": "FAQPage",
       mainEntity: [
-        { "@type": "Question", name: "How much does pest control cost in NYC?", acceptedAnswer: { "@type": "Answer", text: "General pest control starts at $300–$450. Bed bug treatment $1,200–$4,500. Rodent control $300–$450. Termite treatment $800–$2,500. Free phone quote and written quote before any work begins." } },
+        { "@type": "Question", name: "How much does pest control cost in NYC?", acceptedAnswer: { "@type": "Answer", text: "Costs depend on pest type, property size, and infestation severity. Call for a free phone quote to discuss your situation." } },
         { "@type": "Question", name: "Do you offer same-day exterminator service?", acceptedAnswer: { "@type": "Answer", text: "Yes. Same-day and emergency service throughout NYC, NJ, Long Island, and Westchester for urgent situations. Call us and we'll dispatch as fast as possible." } },
         { "@type": "Question", name: "Are your exterminators licensed and insured?", acceptedAnswer: { "@type": "Answer", text: "Every technician holds state pesticide applicator licenses across NY (NYS DEC), NJ (NJDEP), and PA (PADEP) and we carry full liability insurance on every job." } },
       ],
@@ -89,7 +89,7 @@ const schema = {
 const HOMEFAQS = [
   {
     q: "How much does pest control cost in NYC?",
-    a: "Costs vary by pest type, infestation severity, and property size. General pest control starts at $300–$450. Bed bug treatment runs $1,200–$4,500. Rodent control is $300–$450. Termite treatment ranges from $800–$2,500. We always provide a free phone quote and written upfront estimate — no surprises, no hidden fees.",
+    a: "Costs vary by pest type, infestation severity, and property size. We always provide a free phone quote — no surprises, no hidden fees. Call us and we will walk through what to expect for your specific situation.",
   },
   {
     q: "Do you offer same-day exterminator service?",
@@ -97,7 +97,7 @@ const HOMEFAQS = [
   },
   {
     q: "Are your pest control treatments safe for kids and pets?",
-    a: "All our treatments use EPA-approved products with targeted application methods designed to minimize exposure. Gel baits are placed inside cracks, crevices, and wall voids — out of everyday contact. We always provide specific safety instructions for your household before and after treatment.",
+    a: "All our treatments use EPA-registered products with targeted application methods designed to minimize exposure. Gel baits are placed inside cracks, crevices, and wall voids — out of everyday contact. We always provide specific safety instructions for your household before and after treatment.",
   },
   {
     q: "Do you service apartments, houses, and commercial properties?",
@@ -158,7 +158,7 @@ export default function HomePage() {
             NYC Exterminator<br className="hidden md:block" /> — Pest Control, Solved.
           </h1>
           <p className="text-xl md:text-2xl text-green-100 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Licensed exterminators serving 318+ neighborhoods across NYC, NJ, Long Island & Westchester. Cockroaches, bed bugs, rats, mice, termites, wildlife, and 32 pest types — eliminated for good. Starting at $125.
+            Licensed exterminators serving 318+ neighborhoods across NYC, NJ, Long Island & Westchester. Cockroaches, bed bugs, rats, mice, termites, wildlife, and 32 pest types — handled by professionals who get results.
           </p>
 
           {/* CTA Buttons */}
@@ -231,7 +231,7 @@ export default function HomePage() {
                 The Best Pest Control NYC is a full-service exterminator company built specifically for the challenges of New York City living. Whether you're in a Harlem walkup, a Williamsburg loft, a Midtown hotel, a Queens restaurant, or a Westchester colonial — our team of licensed and insured exterminators across NY, NJ, and PA has seen your pest problem before, and we know exactly how to fix it.
               </p>
               <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                We cover 32 pest types across 318+ neighborhoods in all five boroughs, northern New Jersey, Long Island, and Westchester County. From cockroach gel bait treatments and whole-room bed bug heat treatment to rodent exclusion, termite barrier systems, and wildlife removal — every service starts with a free phone quote and ends with a written service agreement.
+                We cover 32 pest types across 318+ neighborhoods in all five boroughs, northern New Jersey, Long Island, and Westchester County. From cockroach gel bait treatments and whole-room bed bug heat treatment to rodent exclusion, termite barrier systems, and wildlife removal — every service starts with a free phone quote and ends with a service agreement.
               </p>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 What separates us from every other pest control company in NYC is simple: we treat root causes, not just symptoms. Any exterminator can spray. We find where pests are entering, why they're thriving, and what needs to change permanently. That's why our customers don't call us twice for the same problem.
@@ -244,7 +244,7 @@ export default function HomePage() {
                 { icon: "⚡", title: "Same-Day Service — When You Need It Now", desc: "Pest emergencies don't work on a 9-to-5 schedule. We dispatch same-day for urgent situations across all our service areas. Call anytime. We pick up nights, weekends, and holidays." },
                 { icon: "🔍", title: "Free Phone Quotes — Before Any Work Begins", desc: "We don't guess. Every job starts with a thorough phone conversation with a licensed exterminator. We'll walk you through what we think is going on and give you a price before we recommend a single treatment. No upsells. No pressure. No charge." },
                 { icon: "🗺️", title: "318+ Neighborhoods — The Most Coverage in NYC", desc: "All five boroughs, 48 New Jersey communities, 55 Long Island neighborhoods, and 30 Westchester locations — 318+ neighborhoods in total. One call reaches our whole network." },
-                { icon: "💰", title: "Transparent Pricing — No Hidden Fees, Ever", desc: "You'll see a detailed written estimate before any work begins — what we'll do, which products we'll use, and the exact total cost. No surprise charges. You pay when done." },
+                { icon: "💰", title: "Transparent Pricing — No Hidden Fees, Ever", desc: "You'll see the price before any work begins — what we'll do, which products we'll use, and the exact total cost. No surprise charges. You pay when done." },
               ].map((item) => (
                 <div key={item.title} className="bg-green-50 rounded-xl p-4">
                   <div className="text-2xl mb-2">{item.icon}</div>
@@ -295,7 +295,7 @@ export default function HomePage() {
               { num: "1", title: "Contact Us", desc: "Call us or book online. We respond in minutes. A quick two-question conversation gets you on the schedule." },
               { num: "2", title: "We Show Up & Investigate", desc: "A licensed exterminator arrives on time. We inspect kitchens, bathrooms, basements, walls, attics, and every entry point. We find the source." },
               { num: "3", title: "You See the Price First", desc: "After inspection, we show you exactly what we found, what we recommend, and the total cost. You approve before we touch anything." },
-              { num: "4", title: "Pests Gone. For Good.", desc: "We execute the treatment using EPA-approved products, following up as needed to make sure the problem is fully resolved." },
+              { num: "4", title: "Pests Eliminated.", desc: "We execute the treatment using EPA-registered products, following up as needed to make sure the problem is fully resolved." },
             ].map((step) => (
               <div key={step.num} className="text-center">
                 <div className="w-12 h-12 bg-green-700 text-white font-black text-xl rounded-full flex items-center justify-center mx-auto mb-4" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>{step.num}</div>
@@ -355,7 +355,7 @@ export default function HomePage() {
           <div>
             <span className="font-bold text-yellow-400 text-sm uppercase tracking-wider">NYC Insider Tip</span>
             <p className="text-green-100 mt-1 leading-relaxed">
-              NYC landlords are legally required to provide pest control. Under the NYC Housing Maintenance Code, your landlord must keep your apartment pest-free. If they're dragging their feet, you have rights — and we document everything. We work directly with building management to get the job done and provide written records for your files.
+              NYC landlords are legally required to provide pest control. Under the NYC Housing Maintenance Code, your landlord must keep your apartment pest-free. If they're dragging their feet, you have rights — and we document everything. We work directly with building management to get the job done and keep records for your account.
             </p>
           </div>
         </div>
