@@ -141,7 +141,7 @@ const MAINTENANCE_PLANS = [
 const PRICING_FAQS = [
   {
     q: "Do you charge for the initial quote?",
-    a: "No. Your initial phone consultation is completely free. A licensed exterminator will talk through what you're seeing, help identify the likely pest and source, and give you a phone quote — no charge, no obligation.",
+    a: "No. Your initial phone consultation is completely free. A licensed exterminator — or a technician working under the direct supervision of a licensed applicator — will talk through what you're seeing, help identify the likely pest and source, and give you a phone quote — no charge, no obligation.",
   },
   {
     q: "When do I pay?",

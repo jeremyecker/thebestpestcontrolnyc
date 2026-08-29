@@ -242,7 +242,7 @@ export default function HomePage() {
               {[
                 { icon: "🏙️", title: "Licensed & Insured — Every Single Technician", desc: "Every member of our pest control team holds state pesticide applicator licenses across NY (NYS DEC), NJ (NJDEP), and PA (PADEP). Full general liability insurance on every job — residential and commercial." },
                 { icon: "⚡", title: "Same-Day Service — When You Need It Now", desc: "Pest emergencies don't work on a 9-to-5 schedule. We dispatch same-day for urgent situations across all our service areas. Call anytime. We pick up nights, weekends, and holidays." },
-                { icon: "🔍", title: "Free Phone Quotes — Before Any Work Begins", desc: "We don't guess. Every job starts with a thorough phone conversation with a licensed exterminator. We'll walk you through what we think is going on and give you a price before we recommend a single treatment. No upsells. No pressure. No charge." },
+                { icon: "🔍", title: "Free Phone Quotes — Before Any Work Begins", desc: "We don't guess. Every job starts with a thorough phone conversation with a licensed exterminator — or a technician working under the direct supervision of a licensed applicator. We'll walk you through what we think is going on and give you a price before we recommend a single treatment. No upsells. No pressure. No charge." },
                 { icon: "🗺️", title: "318+ Neighborhoods — The Most Coverage in NYC", desc: "All five boroughs, 48 New Jersey communities, 55 Long Island neighborhoods, and 30 Westchester locations — 318+ neighborhoods in total. One call reaches our whole network." },
                 { icon: "💰", title: "Transparent Pricing — No Hidden Fees, Ever", desc: "You'll see the price before any work begins — what we'll do, which products we'll use, and the exact total cost. No surprise charges. You pay when done." },
               ].map((item) => (
@@ -293,7 +293,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { num: "1", title: "Contact Us", desc: "Call us or book online. We respond in minutes. A quick two-question conversation gets you on the schedule." },
-              { num: "2", title: "We Show Up & Investigate", desc: "A licensed exterminator arrives on time. We inspect kitchens, bathrooms, basements, walls, attics, and every entry point. We find the source." },
+              { num: "2", title: "We Show Up & Investigate", desc: "A licensed exterminator — or a technician working under the direct supervision of a licensed applicator — arrives on time. We inspect kitchens, bathrooms, basements, walls, attics, and every entry point. We find the source." },
               { num: "3", title: "You See the Price First", desc: "After inspection, we show you exactly what we found, what we recommend, and the total cost. You approve before we touch anything." },
               { num: "4", title: "Pests Eliminated.", desc: "We execute the treatment using EPA-registered products, following up as needed to make sure the problem is fully resolved." },
             ].map((step) => (
