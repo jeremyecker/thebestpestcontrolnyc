@@ -25,7 +25,7 @@ export const SERVICE_INSIGHTS: Record<string, ServiceInsight[]> = {
     },
     {
       h2: "Heat Treatment vs. Chemical Treatment — Which Is Right for You?",
-      body: "Heat treatment raises the room temperature to 120°F+ for several hours, killing bed bugs at every life stage including eggs — no residuals, no chemicals, one-day treatment. Chemical treatment uses a combination of contact sprays, dusts, and residual insecticides applied to harborage areas over two to three visits. Heat works better in heavily infested or clutter-heavy rooms; chemical treatment is more practical for sensitive occupants or single-room cases. We'll recommend the right method after a free inspection."
+      body: "Heat treatment raises the room temperature to 120°F+ for several hours, killing bed bugs at every life stage including eggs — no residuals, no chemicals, one-day treatment. Chemical treatment uses a combination of contact sprays, dusts, and residual insecticides applied to harborage areas over two to three visits. Heat works better in heavily infested or clutter-heavy rooms; chemical treatment is more practical for sensitive occupants or single-room cases. We'll recommend the right method after a free phone consultation."
     },
     {
       h2: "Can You See Bed Bugs With the Naked Eye?",
@@ -445,7 +445,7 @@ export const SERVICE_INSIGHTS: Record<string, ServiceInsight[]> = {
     },
     {
       h2: "What to Expect From Same-Day Emergency Pest Control in NYC",
-      body: "Same-day service means a licensed technician reaches your property within the same service day (typically within 2–6 hours of scheduling depending on location). The technician conducts an inspection, identifies the pest and severity, provides a written quote, and — with your approval — begins treatment immediately. Emergency service does not bypass the inspection process: a rushed treatment without proper identification is less effective and costs more in the long run."
+      body: "Same-day service means a licensed technician reaches your property within the same service day (typically within 2–6 hours of scheduling depending on location). The technician conducts an inspection, identifies the pest and severity, provides a phone quote, and — with your approval — begins treatment immediately. Emergency service does not bypass the inspection process: a rushed treatment without proper identification is less effective and costs more in the long run."
     },
     {
       h2: "What to Do While Waiting for Emergency Pest Control to Arrive",
