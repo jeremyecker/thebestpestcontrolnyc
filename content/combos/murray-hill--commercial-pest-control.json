@@ -15,11 +15,11 @@
     },
     {
       "question": "How quickly can you respond to a pest emergency at my Murray Hill business?",
-      "answer": "We offer same-day and emergency service for commercial clients in Murray Hill. Our team understands that pest issues can threaten your business operations and reputation, so we prioritize urgent requests and can typically have a licensed technician — licensed by NYS DEC or working under the direct supervision of a licensed applicator — on-site within hours of your call."
+      "answer": "We offer same-day and emergency service for commercial clients in Murray Hill. Our team understands that pest issues can threaten your business operations and reputation, so we prioritize urgent requests and can typically have a technician — licensed by NYS DEC or working under the direct supervision of a licensed applicator — on-site within hours of your call."
     },
     {
-      "question": "Are your treatments safe for employees and customers?",
-      "answer": "Absolutely. We use EPA-registered products and integrated pest management techniques that prioritize safety while effectively eliminating pests. Our technicians can work during off-hours to minimize disruption, and all treatments are designed to be safe for employees, customers, and the environment while meeting NYC commercial health standards."
+      "question": "What kind of products do you use?",
+      "answer": "We use EPA-registered products and integrated pest management techniques that prioritize safety while effectively eliminating pests. Our technicians can work during off-hours to minimize disruption, and all treatments are applied according to label directions while meeting NYC commercial health standards. Employees and customers can return once treated areas are dry."
     }
   ]
 }

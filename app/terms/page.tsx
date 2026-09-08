@@ -41,7 +41,7 @@ export default function TermsPage() {
             The Best Pest Control NYC provides residential and commercial pest control, extermination, rodent control, wildlife removal, and related services in the New York City metro area. All services are subject to a separate written service agreement provided at the time of booking.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Service availability, pricing, and treatment methods are subject to change without notice. Prices quoted on our Site are estimates only. Final pricing is provided after an on-site inspection.
+            Service availability, pricing, and treatment methods are subject to change without notice. Prices quoted on our Site are estimates only. Final pricing is confirmed by phone before any work is scheduled.
           </p>
 
           <h2 className="text-2xl text-gray-900 font-bold mt-8 mb-4">3. Phone &amp; SMS Communications Consent</h2>

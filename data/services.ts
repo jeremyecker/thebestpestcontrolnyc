@@ -345,7 +345,7 @@ export const SERVICES: Service[] = [
     emergencyAvailable: true,
     seasonal: false,
     icon: "🍽️",
-    description: "Restaurant pest control programs designed for NYC DOH compliance and food safety. IPM-based monthly service. Documentation provided. Every service includes a service agreement — terms depend on the service and are confirmed on the call.",
+    description: "Restaurant pest control programs designed for NYC DOH compliance and food safety. IPM-based monthly service. Internal service records maintained. Every service includes a service agreement — terms depend on the service and are confirmed on the call.",
     pestType: "restaurant pests",
   },
   {

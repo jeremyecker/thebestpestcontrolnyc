@@ -127,7 +127,7 @@ export const SERVICE_INSIGHTS: Record<string, ServiceInsight[]> = {
     },
     {
       h2: "How Rats Get Into NYC Apartments — The Entry Points Nobody Fixes",
-      body: "Rats enter NYC buildings through gaps around water pipes and sewer lines (¾ inch is enough), beneath poorly fitting basement doors, through damaged foundation weep holes, and via open drains. Norway rats are expert burrowers and commonly enter through utility trenches dug along building foundations. Our inspection identifies every active entry point and provides written recommendations for sealing — treatment without exclusion is a temporary fix at best."
+      body: "Rats enter NYC buildings through gaps around water pipes and sewer lines (¾ inch is enough), beneath poorly fitting basement doors, through damaged foundation weep holes, and via open drains. Norway rats are expert burrowers and commonly enter through utility trenches dug along building foundations. Our inspection identifies every active entry point and we walk you through recommendations for sealing — treatment without exclusion is a temporary fix at best."
     }
   ],
   "mouse-extermination": [
@@ -165,7 +165,7 @@ export const SERVICE_INSIGHTS: Record<string, ServiceInsight[]> = {
     },
     {
       h2: "Liquid Barrier vs. Bait Station Treatment — Which Is Better for NYC Properties?",
-      body: "Liquid barrier treatment (Termidor or similar) involves applying a non-repellent termiticide around the entire foundation perimeter — termites pass through it, are affected, and transmit it to nestmates, collapsing the colony. Bait station systems (Sentricon) place stations in the soil around the structure; termites feed on the bait and eliminate the colony over several months. Liquid barrier is faster (colony elimination within 90 days); bait stations require less disruption and are better suited to properties where trenching is impractical. We recommend based on your property type, construction, and infestation severity."
+      body: "Liquid barrier treatment (a fipronil-based non-repellent termiticide or similar) involves applying a termiticide around the entire foundation perimeter — termites pass through it, are affected, and transmit it to nestmates, collapsing the colony. Cellulose-based bait station systems place stations in the soil around the structure; termites feed on the bait and eliminate the colony over several months. Liquid barrier is faster (colony elimination within 90 days); bait stations require less disruption and are better suited to properties where trenching is impractical. We recommend based on your property type, construction, and infestation severity."
     },
     {
       h2: "Subterranean Termites vs. Drywood Termites in New York",
@@ -417,7 +417,7 @@ export const SERVICE_INSIGHTS: Record<string, ServiceInsight[]> = {
     },
     {
       h2: "Why NYC Restaurants Need Monthly Pest Service — Not Quarterly",
-      body: "Restaurant kitchens in NYC generate continuous pest pressure: daily food waste, grease accumulation, shared walls with neighboring businesses, and constant deliveries introducing new pest pathways. Quarterly treatments address infestations after they're already established — by the time pests are visible to staff, the population is significant enough to appear in a DOH inspection. Monthly service maintains suppression below visible thresholds and provides the documentation record DOH inspectors expect to see."
+      body: "Restaurant kitchens in NYC generate continuous pest pressure: daily food waste, grease accumulation, shared walls with neighboring businesses, and constant deliveries introducing new pest pathways. Quarterly treatments address infestations after they're already established — by the time pests are visible to staff, the population is significant enough to appear in a DOH inspection. Monthly service maintains suppression below visible thresholds and the internal service records DOH inspectors expect to see."
     },
     {
       h2: "Where Pests Hide in NYC Restaurant Kitchens — The Places You're Not Cleaning",
@@ -445,7 +445,7 @@ export const SERVICE_INSIGHTS: Record<string, ServiceInsight[]> = {
     },
     {
       h2: "What to Expect From Same-Day Emergency Pest Control in NYC",
-      body: "Same-day service means a licensed technician reaches your property within the same service day (typically within 2–6 hours of scheduling depending on location). The technician conducts an inspection, identifies the pest and severity, provides a phone quote, and — with your approval — begins treatment immediately. Emergency service does not bypass the inspection process: a rushed treatment without proper identification is less effective and costs more in the long run."
+      body: "Same-day service means a technician reaches your property within the same service day (typically within 2–6 hours of scheduling depending on location). Your price is confirmed on the call; the technician identifies the pest and severity on arrival and — with your approval — begins treatment immediately. Emergency service does not bypass the inspection process: a rushed treatment without proper identification is less effective and costs more in the long run."
     },
     {
       h2: "What to Do While Waiting for Emergency Pest Control to Arrive",

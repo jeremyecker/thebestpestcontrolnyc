@@ -118,7 +118,7 @@ const MAINTENANCE_PLANS = [
     featured: true,
     badge: "Most Popular",
     price: "Ask for quote",
-    includes: ["Preventive inspection each visit", "Targeted treatment as needed", "Unlimited callbacks between visits", "Seasonal pest monitoring"],
+    includes: ["Preventive inspection each visit", "Targeted treatment as needed", "Return visits per your service agreement", "Seasonal pest monitoring"],
   },
   {
     name: "Bi-Monthly Plan",
@@ -126,7 +126,7 @@ const MAINTENANCE_PLANS = [
     featured: false,
     badge: null,
     price: "Ask for quote",
-    includes: ["More frequent monitoring", "Faster response to seasonal shifts", "Targeted treatment as needed", "Unlimited callbacks between visits"],
+    includes: ["More frequent monitoring", "Faster response to seasonal shifts", "Targeted treatment as needed", "Return visits per your service agreement"],
   },
   {
     name: "Monthly Plan",
@@ -134,7 +134,7 @@ const MAINTENANCE_PLANS = [
     featured: false,
     badge: null,
     price: "Ask for quote",
-    includes: ["Maximum protection year-round", "Commercial-grade monitoring", "NYC DOH compliance documentation", "Priority same-day dispatch"],
+    includes: ["Maximum protection year-round", "Commercial-grade monitoring", "Internal service records supporting NYC DOH compliance", "Priority same-day dispatch"],
   },
 ];
 
@@ -157,7 +157,7 @@ const PRICING_FAQS = [
   },
   {
     q: "Do you offer discounts for maintenance plans?",
-    a: "Yes. Maintenance plan clients receive priority scheduling, discounted per-visit rates compared to one-time treatments, and unlimited callbacks between scheduled visits at no extra charge.",
+    a: "Yes. Maintenance plan clients receive priority scheduling, discounted per-visit rates compared to one-time treatments, and return visits between scheduled visits as set in your service agreement.",
   },
 ];
 
@@ -279,7 +279,7 @@ export default function PricingPage() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-10">
             <h2 className="text-4xl font-bold text-gray-900 mb-3" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Maintenance Plans</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">Preventive pest control plans for homes and businesses. Scheduled visits + unlimited callbacks + priority dispatch.</p>
+            <p className="text-gray-600 max-w-2xl mx-auto">Preventive pest control plans for homes and businesses. Scheduled visits + return visits per your service agreement + priority dispatch.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {MAINTENANCE_PLANS.map((plan) => (

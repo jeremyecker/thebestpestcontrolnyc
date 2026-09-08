@@ -80,7 +80,7 @@ const schema = {
       mainEntity: [
         { "@type": "Question", name: "How much does pest control cost in NYC?", acceptedAnswer: { "@type": "Answer", text: "Costs depend on pest type, property size, and infestation severity. Call for a free phone quote to discuss your situation." } },
         { "@type": "Question", name: "Do you offer same-day exterminator service?", acceptedAnswer: { "@type": "Answer", text: "Yes. Same-day and emergency service throughout NYC, NJ, Long Island, and Westchester for urgent situations. Call us and we'll dispatch as fast as possible." } },
-        { "@type": "Question", name: "Are your exterminators licensed and insured?", acceptedAnswer: { "@type": "Answer", text: "Every technician holds state pesticide applicator licenses across NY (NYS DEC), NJ (NJDEP), and PA (PADEP) and we carry full liability insurance on every job." } },
+        { "@type": "Question", name: "Are your exterminators licensed and insured?", acceptedAnswer: { "@type": "Answer", text: "Our technicians are licensed or working under the direct supervision of a licensed applicator in NY (NYS DEC), NJ (NJDEP), and PA (PA Department of Agriculture), and we carry full liability insurance on every job." } },
       ],
     },
   ],
@@ -96,7 +96,7 @@ const HOMEFAQS = [
     a: "Yes. We offer same-day and emergency service throughout NYC, NJ, Long Island, and Westchester for urgent situations. Wasp nests, rat infestations in commercial spaces, bed bug discoveries — call and we'll dispatch as fast as possible.",
   },
   {
-    q: "Are your pest control treatments safe for kids and pets?",
+    q: "How do you approach treatments where children and pets live?",
     a: "All our treatments use EPA-registered products with targeted application methods designed to minimize exposure. Gel baits are placed inside cracks, crevices, and wall voids — out of everyday contact. We always provide specific safety instructions for your household before and after treatment.",
   },
   {
@@ -105,7 +105,7 @@ const HOMEFAQS = [
   },
   {
     q: "Are your exterminators licensed and insured?",
-    a: "Every technician holds state pesticide applicator licenses across NY (NYS DEC), NJ (NJDEP), and PA (PADEP) and we carry full liability insurance on every job. Wildlife operators hold additional NY nuisance wildlife control certification (NYS DEC). We're happy to provide proof of insurance and licensing upon request.",
+    a: "Our technicians are licensed or working under the direct supervision of a licensed applicator in NY (NYS DEC), NJ (NJDEP), and PA (PA Department of Agriculture), and we carry full liability insurance on every job. Wildlife operators hold additional NY nuisance wildlife control certification (NYS DEC). We can confirm our insurance and licensing details on request.",
   },
   {
     q: "What areas does The Best Pest Control NYC serve?",
@@ -113,7 +113,7 @@ const HOMEFAQS = [
   },
   {
     q: "Do you offer pest control maintenance plans?",
-    a: "Yes. Monthly, bi-monthly, and quarterly maintenance plans for residential and commercial properties. Plans include scheduled inspections, preventive treatments, and unlimited callbacks between visits. Quarterly is our most popular plan.",
+    a: "Yes. Monthly, bi-monthly, and quarterly maintenance plans for residential and commercial properties. Plans include scheduled inspections, preventive treatments, and return visits between scheduled visits as set in your service agreement. Quarterly is our most popular plan.",
   },
   {
     q: "How does your service work if pests come back?",
@@ -176,6 +176,7 @@ export default function HomePage() {
             <span>✓ EPA-Registered Products</span>
             <span>✓ Licensed & Insured</span>
           </div>
+          <p className="mt-5 text-sm text-green-200">Locally owned and operated — a Rest Easy Pest Control brand.</p>
         </div>
       </section>
 
@@ -184,9 +185,9 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
           {[
             { stat: "24/7", label: "We Never Sleep", sub: "Nights, weekends, holidays" },
-            { stat: "60 sec", label: "Book in 60 Seconds", sub: "Fastest scheduling in NYC" },
+            { stat: "60 sec", label: "Book in 60 Seconds", sub: "Online or by phone" },
             { stat: "Same-Day", label: "Service Available", sub: "Across NYC, NJ, Long Island & Westchester" },
-            { stat: "47,587+", label: "Pests Gone for Good", sub: "Homes & businesses cleared" },
+            { stat: "318", label: "Neighborhoods Served", sub: "NYC, NJ, Long Island & Westchester" },
           ].map((item) => (
             <div key={item.stat} className="text-white">
               <div className="text-3xl font-black text-yellow-400" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>{item.stat}</div>
@@ -224,7 +225,7 @@ export default function HomePage() {
       {/* ABOUT */}
       <section className="py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl font-bold text-gray-900 mb-6" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>NYC's Premier Exterminator & Pest Control Company</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-6" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Licensed Exterminators Across NYC, NJ, Long Island & Westchester</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-gray-700 text-lg leading-relaxed mb-4">
@@ -240,10 +241,10 @@ export default function HomePage() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
-                { icon: "🏙️", title: "Licensed & Insured — Every Single Technician", desc: "Every member of our pest control team holds state pesticide applicator licenses across NY (NYS DEC), NJ (NJDEP), and PA (PADEP). Full general liability insurance on every job — residential and commercial." },
+                { icon: "🏙️", title: "Licensed & Insured — Across NY, NJ, and PA", desc: "Our technicians are licensed or working under the direct supervision of a licensed applicator in NY (NYS DEC), NJ (NJDEP), and PA (PA Department of Agriculture). Full general liability insurance on every job — residential and commercial." },
                 { icon: "⚡", title: "Same-Day Service — When You Need It Now", desc: "Pest emergencies don't work on a 9-to-5 schedule. We dispatch same-day for urgent situations across all our service areas. Call anytime. We pick up nights, weekends, and holidays." },
                 { icon: "🔍", title: "Free Phone Quotes — Before Any Work Begins", desc: "We don't guess. Every job starts with a thorough phone conversation with a licensed exterminator — or a technician working under the direct supervision of a licensed applicator. We'll walk you through what we think is going on and give you a price before we recommend a single treatment. No upsells. No pressure. No charge." },
-                { icon: "🗺️", title: "318+ Neighborhoods — The Most Coverage in NYC", desc: "All five boroughs, 48 New Jersey communities, 55 Long Island neighborhoods, and 30 Westchester locations — 318+ neighborhoods in total. One call reaches our whole network." },
+                { icon: "🗺️", title: "318 Neighborhoods — NYC, NJ, Long Island & Westchester", desc: "All five boroughs, 48 New Jersey communities, 54 Long Island neighborhoods, and 31 Westchester locations — 318 neighborhoods in total. One call reaches our whole network." },
                 { icon: "💰", title: "Transparent Pricing — No Hidden Fees, Ever", desc: "You'll see the price before any work begins — what we'll do, which products we'll use, and the exact total cost. No surprise charges. You pay when done." },
               ].map((item) => (
                 <div key={item.title} className="bg-green-50 rounded-xl p-4">
@@ -293,8 +294,8 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { num: "1", title: "Contact Us", desc: "Call us or book online. We respond in minutes. A quick two-question conversation gets you on the schedule." },
-              { num: "2", title: "We Show Up & Investigate", desc: "A licensed exterminator — or a technician working under the direct supervision of a licensed applicator — arrives on time. We inspect kitchens, bathrooms, basements, walls, attics, and every entry point. We find the source." },
-              { num: "3", title: "You See the Price First", desc: "After inspection, we show you exactly what we found, what we recommend, and the total cost. You approve before we touch anything." },
+              { num: "2", title: "You See the Price First", desc: "You get a clear price on the call — before anything is scheduled. You approve before we touch anything." },
+              { num: "3", title: "We Show Up & Investigate", desc: "A licensed exterminator — or a technician working under the direct supervision of a licensed applicator — arrives on time. We inspect kitchens, bathrooms, basements, walls, attics, and every entry point. We find the source." },
               { num: "4", title: "Pests Eliminated.", desc: "We execute the treatment using EPA-registered products, following up as needed to make sure the problem is fully resolved." },
             ].map((step) => (
               <div key={step.num} className="text-center">
@@ -319,7 +320,7 @@ export default function HomePage() {
           <div>
             <span className="font-bold text-amber-800 text-sm uppercase tracking-wider">Pro Tip</span>
             <p className="text-amber-900 mt-1 leading-relaxed">
-              Moving into a new NYC apartment? Call us before your furniture arrives for a free phone quote. An empty unit is faster and cheaper to treat than a furnished one. Getting ahead of it before move-in day has saved thousands of New Yorkers from discovering an infestation behind their couch.
+              Moving into a new NYC apartment? Call us before your furniture arrives for a free phone quote. An empty unit is faster and cheaper to treat than a furnished one. Getting ahead of it before move-in day spares New Yorkers from discovering an infestation behind their couch.
             </p>
           </div>
         </div>
@@ -355,7 +356,7 @@ export default function HomePage() {
           <div>
             <span className="font-bold text-yellow-400 text-sm uppercase tracking-wider">NYC Insider Tip</span>
             <p className="text-green-100 mt-1 leading-relaxed">
-              NYC landlords are legally required to provide pest control. Under the NYC Housing Maintenance Code, your landlord must keep your apartment pest-free. If they're dragging their feet, you have rights — and we document everything. We work directly with building management to get the job done and keep records for your account.
+              NYC landlords are legally required to provide pest control. Under the NYC Housing Maintenance Code, your landlord must keep your apartment pest-free. If they're dragging their feet, you have rights — and we keep internal service records for your account. We work directly with building management to get the job done.
             </p>
           </div>
         </div>
