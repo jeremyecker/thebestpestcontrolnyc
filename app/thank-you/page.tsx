@@ -28,7 +28,7 @@ export default function ThankYouPage() {
         </h1>
 
         <p className="text-xl text-gray-600 mb-4">
-          A licensed exterminator will reach out within minutes during business
+          A member of our team will reach out within minutes during business
           hours to confirm your free phone quote.
         </p>
 
@@ -57,8 +57,8 @@ export default function ThankYouPage() {
             {[
               "We'll call you within minutes to confirm details about your pest situation.",
               "We'll schedule a free phone quote at a time that works for you — same-day available.",
-              "You'll get a clear price and written quote over the phone before we schedule anything.",
-              "You approve the plan. A licensed exterminator arrives and treats. Pests gone.",
+              "You'll get a clear price over the phone before we schedule anything.",
+              "You approve the plan. A technician — licensed or working under the direct supervision of a licensed applicator — arrives and treats.",
             ].map((step, i) => (
               <li key={i} className="flex gap-3">
                 <span className="bg-green-700 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 font-bold text-xs">

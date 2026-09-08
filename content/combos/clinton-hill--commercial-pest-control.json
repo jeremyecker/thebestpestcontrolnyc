@@ -15,11 +15,11 @@
     },
     {
       "question": "How often do you service commercial properties in Clinton Hill?",
-      "answer": "We typically service Clinton Hill commercial properties monthly, though restaurants and food service businesses often require bi-weekly or weekly visits to maintain NYC Health Department compliance. We customize service frequency based on your industry, property conditions, and pest history. All plans include emergency callback visits at no additional charge."
+      "answer": "We typically service Clinton Hill commercial properties monthly, though restaurants and food service businesses often require bi-weekly or weekly visits to maintain NYC Health Department compliance. We customize service frequency based on your industry, property conditions, and pest history. All plans include emergency callback visits as set in your service agreement."
     },
     {
-      "question": "Are your treatments safe for businesses open to the public?",
-      "answer": "Absolutely. We use EPA-registered products and Integrated Pest Management (IPM) techniques that are safe for employees and customers. Our technicians work around your business hours when possible and can perform treatments during off-hours for restaurants and retail stores. All products are applied according to strict safety protocols, and we provide proper notification as required by NYC regulations."
+      "question": "How do you approach treatments for businesses open to the public?",
+      "answer": "We use EPA-registered products applied according to label directions, and staff and customers can return once treated areas are dry. Our technicians work around your business hours when possible and can perform treatments during off-hours for restaurants and retail stores. All products are applied according to strict safety protocols, and we provide proper notification as required by NYC regulations."
     }
   ]
 }

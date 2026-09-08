@@ -169,7 +169,7 @@ export default function AreaPage({ params }: { params: { slug: string } }) {
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Same-day service available throughout {area.name} and surrounding neighborhoods</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Free phone quote — no obligation, no charge</li>
             <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Pay when the job is done</li>
-            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Complete documentation for co-op boards, property managers, and landlords</li>
+            <li className="flex items-start gap-3"><span className="text-green-700 font-bold text-xl">✓</span> Direct communication with co-op boards, property managers, and landlords</li>
           </ul>
         </section>
 

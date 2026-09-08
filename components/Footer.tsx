@@ -75,6 +75,9 @@ export default function Footer() {
           <p className="text-sm text-gray-400 mb-4 leading-relaxed">
             Licensed and insured exterminators across NY, NJ, and PA serving 318+ neighborhoods across NYC, NJ, Long Island, and Westchester. 32 pest types eliminated.
           </p>
+          <p className="text-sm text-gray-400 mb-4 leading-relaxed">
+            Locally owned and operated — a Rest Easy Pest Control brand.
+          </p>
           <div className="space-y-1 text-sm">
             <p className="text-green-400 font-semibold">✓ Licensed & Insured</p>
             <p className="text-green-400 font-semibold">✓ Fully Insured</p>

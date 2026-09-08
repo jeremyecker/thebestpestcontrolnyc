@@ -155,7 +155,7 @@ export default function ContactForm({
           We Got Your Request!
         </h3>
         <p className="text-green-700 mb-6">
-          A licensed exterminator will reach out within minutes during business hours.
+          A member of our team will reach out within minutes during business hours.
           For urgent situations, call us directly.
         </p>
         <a
