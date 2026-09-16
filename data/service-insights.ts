@@ -252,8 +252,8 @@ export const SERVICE_INSIGHTS: Record<string, ServiceInsight[]> = {
       body: "Raccoon roundworm (Baylisascaris procyonis) is shed in raccoon feces and its eggs can survive in the environment for years. Human infection, while rare, can cause severe neurological damage. Any attic, crawlspace, or structure with raccoon activity should be treated as a biohazard — professional cleanup with HEPA vacuuming, fogging, and proper disposal is required. This cleanup step is not optional and should be factored into the total cost of raccoon remediation."
     },
     {
-      h2: "Why Trap-and-Release Doesn't Solve a Raccoon Problem in NYC",
-      body: "Trapping and relocating raccoons without sealing the entry point is an indefinite treadmill — new raccoons from adjacent territories will move into the same attic access within days to weeks. The correct protocol is a one-way exclusion device that allows raccoons to exit but not re-enter, followed by permanent structural sealing once the family group has vacated. In spring and early summer, exclusion must account for the presence of kits who cannot yet leave on their own."
+      h2: "Why Trapping Alone Doesn't Solve a Raccoon Problem in NYC",
+      body: "Trapping raccoons without sealing the entry point is an indefinite treadmill — new raccoons from adjacent territories will move into the same attic access within days to weeks. The correct protocol is a one-way exclusion device that allows raccoons to exit but not re-enter, followed by permanent structural sealing once the family group has vacated. In spring and early summer, exclusion must account for the presence of kits who cannot yet leave on their own."
     }
   ],
   "squirrel-removal": [
