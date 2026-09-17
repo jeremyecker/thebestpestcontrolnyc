@@ -202,16 +202,16 @@ export const SERVICE_INSIGHTS: Record<string, ServiceInsight[]> = {
   ],
   "bee-removal": [
     {
-      h2: "Honeybees vs. Carpenter Bees vs. Bumblebees — Which Do You Have?",
-      body: "Honeybees are the only species that builds wax comb — if you're seeing hundreds of bees entering a void in your wall, floor joist, or chimney, it's almost certainly a honeybee colony. Carpenter bees excavate round, perfectly circular holes in unpainted wood (deck fascia, pergola beams, window trim) and rarely sting. Bumblebees nest in small colonies underground or in wall insulation cavities and are docile unless directly disturbed. Species identification determines whether you need removal and relocation, extermination, or just sealing a single entry hole."
+      h2: "Wasps and Hornets vs. Carpenter Bees vs. Ground Bees — Which Do You Have?",
+      body: "Honeybees are social insects that enter a building void through a single opening — if you're seeing hundreds of bees at one spot on a wall, soffit, or chimney, call us for identification; if it's a honeybee colony, we refer the matter to a licensed beekeeper. Carpenter bees excavate round, perfectly circular holes in unpainted wood (deck fascia, pergola beams, window trim) and rarely sting; we treat the galleries and seal the wood. Bumblebees and ground bees nest in small colonies underground or in wall insulation cavities and are docile unless directly disturbed; we treat these nests. Wasps, hornets, and yellow jackets build paper nests in eaves, soffits, wall voids, attics, and the ground — aggressive defenders that sting repeatedly — and are the most common stinging insect we treat. Species identification determines whether you need nest treatment and removal or a beekeeper referral."
     },
     {
-      h2: "Why Bee Removal Requires a Licensed Professional in NYC",
-      body: "Honeybee hives inside wall voids cannot simply be exterminated — a dead colony leaves pounds of wax, honey, and larvae that will rot, attract secondary pests (beetles, moths, rodents), and potentially cause walls to stain or collapse as the wax melts. Professional live removal extracts the comb and colony intact, preventing these secondary issues. Our licensed wildlife specialists work with local beekeepers when possible for responsible relocations."
+      h2: "Why Wasp and Hornet Nest Removal Inside Wall Voids Requires Licensed Professionals",
+      body: "A wasp or yellow jacket nest inside a wall void, attic, or soffit cannot be safely treated with a hardware-store spray — the entry hole is often small, the nest is large and hidden, and spraying from outside drives the insects deeper into the structure or causes them to chew through drywall into living spaces. Professional treatment locates the exact entry point, applies EPA-registered product directly into the void, removes accessible nest material after the colony is eliminated, and seals the opening to prevent future nesting. Leaving dead nest material inside attracts carpet beetles, dermestid beetles, and other scavengers that feed on the larval remains."
     },
     {
-      h2: "What Happens to the Honey When Bees Are Removed From Walls?",
-      body: "A mature honeybee colony produces 20–80 pounds of honey per year, and established hives inside walls often contain significant wax comb structures. During professional removal, the accessible comb is physically extracted, the void is cleaned and treated, and the entry points are sealed. Honey left inside walls ferments, attracts ants, beetles, and rodents, and can seep through drywall. Complete extraction, not just extermination, is the correct standard for structural honeybee colonies."
+      h2: "Do You Treat Honeybees?",
+      body: "No, we do not treat honeybees. If an inspection confirms a colony is honeybees rather than wasps or hornets, we refer the situation to a licensed beekeeper instead of treating it ourselves. Honeybee colonies are identifiable by steady traffic of hundreds of bees entering a single opening (wall vent, soffit gap, chimney cap), a waxy or faintly sweet smell near the entry, and the absence of visible paper nests. Wasps, hornets, yellow jackets, carpenter bees, and ground bees are treated — the honeybee is the only species we refer."
     }
   ],
   "hornet-removal": [
@@ -231,7 +231,7 @@ export const SERVICE_INSIGHTS: Record<string, ServiceInsight[]> = {
   "yellow-jacket-removal": [
     {
       h2: "Yellow Jackets vs. Bees — Why the Difference Matters for Treatment",
-      body: "Yellow jackets are wasps, not bees — they have a smooth, shiny body, a very narrow waist, and no pollen-carrying structures. Unlike honeybees, yellow jackets can sting repeatedly and do not die after stinging. Yellow jacket colonies in NYC typically nest in ground burrows, wall voids, decks, and hollow spaces in concrete block foundations. Treatment approaches differ completely from bee removal — there is no comb to extract, and colony elimination rather than relocation is the standard."
+      body: "Yellow jackets are wasps, not bees — they have a smooth, shiny body, a very narrow waist, and no pollen-carrying structures. Unlike honeybees, yellow jackets can sting repeatedly and do not die after stinging. Yellow jacket colonies in NYC typically nest in ground burrows, wall voids, decks, and hollow spaces in concrete block foundations. Treatment approaches differ completely from honeybees — yellow jacket colonies are treated and eliminated rather than referred to a beekeeper."
     },
     {
       h2: "Why Yellow Jackets Get More Aggressive in Late Summer",
