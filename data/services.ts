@@ -177,7 +177,7 @@ export const SERVICES: Service[] = [
     emergencyAvailable: true,
     seasonal: false,
     icon: "🐝",
-    description: "Bee removal and relocation by licensed exterminators. Safe removal of hives from structures. Every service includes a service agreement — terms depend on the service and are confirmed on the call.",
+    description: "Professional wasp, hornet, and yellow jacket removal. Honeybee colonies referred to licensed beekeepers. Every service includes a service agreement — terms depend on the service and are confirmed on the call.",
     pestType: "bees",
   },
   {
