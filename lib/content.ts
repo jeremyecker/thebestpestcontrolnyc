@@ -106,7 +106,7 @@ export function getComboContent(
     metaDescription: raw.metaDescription || "",
     heroParagraph: raw.heroParagraph || raw.intro || "",
     whyThisAreaSection: raw.whyThisAreaSection || raw.localContext || "",
-    ourProcessSection: raw.ourProcessSection || raw.whyUs || "",
+    ourProcessSection: raw.ourProcessSection || "",
     faqs: normalizeFaqs(raw.faqs || []),
     generatedAt: raw.generatedAt || "",
   };
