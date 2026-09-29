@@ -78,9 +78,9 @@ const schema = {
     {
       "@type": "FAQPage",
       mainEntity: [
-        { "@type": "Question", name: "How much does pest control cost in NYC?", acceptedAnswer: { "@type": "Answer", text: "Costs depend on pest type, property size, and infestation severity. Call for a free phone quote to discuss your situation." } },
-        { "@type": "Question", name: "Do you offer same-day exterminator service?", acceptedAnswer: { "@type": "Answer", text: "Yes. Same-day and emergency service throughout NYC, NJ, Long Island, and Westchester for urgent situations. Call us and we'll dispatch as fast as possible." } },
-        { "@type": "Question", name: "Are your exterminators licensed and insured?", acceptedAnswer: { "@type": "Answer", text: "Our technicians are licensed or working under the direct supervision of a licensed applicator in NY (NYS DEC), NJ (NJDEP), and PA (PA Department of Agriculture), and we carry full liability insurance on every job." } },
+        { "@type": "Question", name: "How much does pest control cost in NYC?", acceptedAnswer: { "@type": "Answer", text: "Costs vary by pest type, infestation severity, and property size. We always provide a free phone quote — no surprises, no hidden fees. Call us and we will walk through what to expect for your specific situation." } },
+        { "@type": "Question", name: "Do you offer same-day exterminator service?", acceptedAnswer: { "@type": "Answer", text: "Yes. We offer same-day and emergency service throughout NYC, NJ, Long Island, and Westchester for urgent situations. Wasp nests, rat infestations in commercial spaces, bed bug discoveries — call and we'll dispatch as fast as possible." } },
+        { "@type": "Question", name: "Are your exterminators licensed and insured?", acceptedAnswer: { "@type": "Answer", text: "Our technicians are licensed or working under the direct supervision of a licensed applicator in NY (NYS DEC), NJ (NJDEP), and PA (PA Department of Agriculture), and we carry full liability insurance on every job. Wildlife operators hold additional NY nuisance wildlife control certification (NYS DEC). We can confirm our insurance and licensing details on request." } },
       ],
     },
   ],
