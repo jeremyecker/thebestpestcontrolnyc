@@ -25,7 +25,7 @@ export const SERVICE_INSIGHTS: Record<string, ServiceInsight[]> = {
     },
     {
       h2: "Heat Treatment vs. Chemical Treatment — Which Is Right for You?",
-      body: "Heat treatment raises the room temperature to 120°F+ for several hours, killing bed bugs at every life stage including eggs — no residuals, no chemicals, one-day treatment. Chemical treatment uses a combination of contact sprays, dusts, and residual insecticides applied to harborage areas over two to three visits. Heat works better in heavily infested or clutter-heavy rooms; chemical treatment is more practical for sensitive occupants or single-room cases. We'll recommend the right method after a free phone consultation."
+      body: "Heat treatment raises the room temperature to 120°F+ for several hours, killing bed bugs at every life stage including eggs — one-day treatment. Chemical treatment uses a combination of contact sprays, dusts, and residual insecticides applied to harborage areas over two to three visits. Heat works better in heavily infested or clutter-heavy rooms; chemical treatment is more practical for sensitive occupants or single-room cases. We'll recommend the right method after a free phone consultation."
     },
     {
       h2: "Can You See Bed Bugs With the Naked Eye?",
