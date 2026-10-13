@@ -168,7 +168,7 @@ export default function ContactPage() {
                 ))}
               </div>
               <a
-                href="/areas"
+                href="/areas/"
                 className="inline-block mt-3 text-green-700 text-sm font-semibold hover:underline"
               >
                 View all 318 neighborhoods →

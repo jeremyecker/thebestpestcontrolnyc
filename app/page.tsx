@@ -166,7 +166,7 @@ export default function HomePage() {
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-50 transition shadow-lg">
               📞 Call {PHONE_DISPLAY}
             </a>
-            <a href="/get-a-quote" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-xl text-lg hover:bg-yellow-300 transition shadow-lg">
+            <a href="/get-a-quote/" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-xl text-lg hover:bg-yellow-300 transition shadow-lg">
               📅 Book Online
             </a>
           </div>
@@ -237,7 +237,7 @@ export default function HomePage() {
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 What separates us from every other pest control company in NYC is simple: we treat root causes, not just symptoms. Any exterminator can spray. We find where pests are entering, why they're thriving, and what needs to change permanently. That's why our customers don't call us twice for the same problem.
               </p>
-              <a href="/get-a-quote" className="inline-block bg-green-700 text-white font-bold px-6 py-3 rounded-xl hover:bg-green-600 transition">Get Your Free Phone Quote →</a>
+              <a href="/get-a-quote/" className="inline-block bg-green-700 text-white font-bold px-6 py-3 rounded-xl hover:bg-green-600 transition">Get Your Free Phone Quote →</a>
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
@@ -426,7 +426,7 @@ export default function HomePage() {
           </div>
           <div className="flex flex-wrap justify-center gap-4">
             <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-50 transition">📞 Call {PHONE_DISPLAY}</a>
-            <a href="/get-a-quote" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-xl text-lg hover:bg-yellow-300 transition">📅 Book Online</a>
+            <a href="/get-a-quote/" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-xl text-lg hover:bg-yellow-300 transition">📅 Book Online</a>
           </div>
         </div>
       </section>

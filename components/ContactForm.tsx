@@ -318,7 +318,7 @@ export default function ContactForm({
           />
           <label htmlFor="smsConsent" className="text-xs text-gray-500 cursor-pointer leading-relaxed">
             By checking this box, I consent to receive marketing text messages and calls (including via automated technology) from The Best Pest Control NYC at the number provided. Consent is not a condition of purchase. Message frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out. See our{" "}
-            <a href="/privacy" className="text-green-700 hover:underline">Privacy Policy</a>.
+            <a href="/privacy/" className="text-green-700 hover:underline">Privacy Policy</a>.
           </label>
         </div>
         {errors.smsConsent && (
