@@ -140,7 +140,7 @@ export default function BlogIndexPage() {
               Call {PHONE_DISPLAY}
             </a>
             <a
-              href="/get-a-quote"
+              href="/get-a-quote/"
               className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-300 transition"
             >
               Book Online

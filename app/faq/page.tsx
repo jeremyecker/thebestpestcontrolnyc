@@ -192,7 +192,7 @@ export default function FAQPage() {
         <p className="text-green-100 text-xl mb-8 max-w-xl mx-auto">Free phone quote. Licensed and insured across NY, NJ, and PA.</p>
         <div className="flex flex-wrap justify-center gap-4">
           <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-50 transition">📞 Call {PHONE_DISPLAY}</a>
-          <a href="/get-a-quote" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-xl text-lg hover:bg-yellow-300 transition">📅 Book Online</a>
+          <a href="/get-a-quote/" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-xl text-lg hover:bg-yellow-300 transition">📅 Book Online</a>
         </div>
       </section>
     </>

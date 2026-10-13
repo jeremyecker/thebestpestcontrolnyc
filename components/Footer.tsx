@@ -22,9 +22,9 @@ const AREA_LINKS = [
   { label: "Queens", href: "/areas/queens" },
   { label: "The Bronx", href: "/areas/the-bronx" },
   { label: "Staten Island", href: "/areas/staten-island" },
-  { label: "New Jersey", href: "/areas/hoboken" },
-  { label: "Long Island", href: "/areas/garden-city" },
-  { label: "Westchester", href: "/areas/white-plains" },
+  { label: "New Jersey", href: "/areas/new-jersey" },
+  { label: "Long Island", href: "/areas/long-island" },
+  { label: "Westchester", href: "/areas/westchester" },
   { label: "All 318+ Areas →", href: "/areas" },
 ];
 

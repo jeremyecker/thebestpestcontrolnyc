@@ -170,7 +170,7 @@ export default function ComboPage({
       <nav className="bg-gray-100 px-4 py-2 text-sm text-gray-600">
         <a href="/" className="hover:text-green-700">Home</a>
         {" › "}
-        <a href={`/areas/${area.slug}`} className="hover:text-green-700">{area.name}</a>
+        <a href={`/areas/${area.slug}/`} className="hover:text-green-700">{area.name}</a>
         {" › "}
         <span className="text-gray-900 font-medium">{service.name}</span>
       </nav>
@@ -209,7 +209,7 @@ export default function ComboPage({
               📞 Call Us Now
             </a>
             <a
-              href="/get-a-quote"
+              href="/get-a-quote/"
               className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-300 transition"
             >
               📅 Book Online
@@ -313,7 +313,7 @@ export default function ComboPage({
             {nearbyLinks.map((nearbyArea) => nearbyArea && (
               <a
                 key={nearbyArea.slug}
-                href={`/${nearbyArea.slug}/${service.slug}`}
+                href={`/${nearbyArea.slug}/${service.slug}/`}
                 className="block bg-gray-50 hover:bg-green-50 border border-gray-200 hover:border-green-300 rounded-lg p-4 text-sm font-medium text-gray-700 hover:text-green-800 transition"
               >
                 {service.shortName} in {nearbyArea.name} →
@@ -331,14 +331,14 @@ export default function ComboPage({
             {otherServices.map((s) => (
               <a
                 key={s.slug}
-                href={`/${area.slug}/${s.slug}`}
+                href={`/${area.slug}/${s.slug}/`}
                 className="block bg-gray-50 hover:bg-green-50 border border-gray-200 hover:border-green-300 rounded-lg p-3 text-sm font-medium text-gray-700 hover:text-green-800 transition"
               >
                 {s.shortName} →
               </a>
             ))}
           </div>
-          <a href={`/areas/${area.slug}`} className="inline-block mt-4 text-green-700 font-semibold hover:underline">
+          <a href={`/areas/${area.slug}/`} className="inline-block mt-4 text-green-700 font-semibold hover:underline">
             View all services in {area.name} →
           </a>
         </section>
@@ -358,7 +358,7 @@ export default function ComboPage({
             <a href={`tel:${PHONE}`} className="bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg hover:bg-green-500 transition border border-green-400">
               📞 Call Us Now
             </a>
-            <a href="/get-a-quote" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-300 transition">
+            <a href="/get-a-quote/" className="bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-lg text-lg hover:bg-yellow-300 transition">
               📅 Book Online
             </a>
           </div>
