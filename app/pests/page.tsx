@@ -26,7 +26,7 @@ const PHONE = process.env.NEXT_PUBLIC_PHONE_NUMBER || "8559305016";
 const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY || "(855) 930-5016";
 
 const CATEGORY_DESCS: Record<string, string> = {
-  "Common Pests": "The pests NYC residents deal with most. All require professional treatment to eliminate completely in multi-unit buildings.",
+  "Common Pests": "The pests NYC residents deal with most. All require professional treatment to eliminate in multi-unit buildings.",
   "Rodents": "NYC's rat and mouse population is legendary. Professional control combines trapping, baiting, and exclusion to seal every entry point.",
   "Wood-Destroying Insects": "Termites and carpenter ants cause billions in damage annually — often invisibly. Early treatment saves tens of thousands in repairs.",
   "Stinging Insects": "Wasp, hornet, and yellow jacket nests are safety hazards that must be handled by professionals.",
