@@ -193,7 +193,7 @@ export const SERVICE_INSIGHTS: Record<string, ServiceInsight[]> = {
     },
     {
       h2: "Why DIY Wasp Spray Makes Nest Problems Worse",
-      body: "Aerosol wasp sprays applied without protective gear during daylight hours typically don't reach the colony interior and enrage the foragers — most DIY attempts result in a sting incident and an active nest. Wasps that detect a threat release alarm pheromones that recruit the entire colony to the defense response. Professional treatment is applied after dark when all workers are in the nest, with direct application into the nest opening for complete elimination."
+      body: "Aerosol wasp sprays applied without protective gear during daylight hours typically don't reach the colony interior and enrage the foragers — most DIY attempts result in a sting incident and an active nest. Wasps that detect a threat release alarm pheromones that recruit the entire colony to the defense response. Professional treatment is applied after dark when all workers are in the nest, with direct application into the nest opening for effective control."
     },
     {
       h2: "Where Wasps Build Nests in NYC Properties — and What Attracts Them",
