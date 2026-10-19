@@ -87,7 +87,7 @@ function normalizeFaqs(faqs: unknown[]): { q: string; a: string }[] {
  *   title        → metaTitle
  *   intro        → heroParagraph
  *   localContext → whyThisAreaSection
- *   whyUs        → ourProcessSection
+ * // whyUs is legacy content with unreviewed claims. Do not render or map it.
  *   faqs[].question/answer → faqs[].q/a
  */
 export function getComboContent(
