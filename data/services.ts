@@ -166,7 +166,7 @@ export const SERVICES: Service[] = [
     emergencyAvailable: true,
     seasonal: false,
     icon: "🐝",
-    description: "Wasp nest removal and extermination. Safe removal of nests from eaves, attics, and walls. Every service includes a service agreement — terms depend on the service and are confirmed on the call.",
+    description: "Wasp nest removal and extermination. Removal of nests from eaves, attics, and walls. Every service includes a service agreement — terms depend on the service and are confirmed on the call.",
     pestType: "wasps",
   },
   {
