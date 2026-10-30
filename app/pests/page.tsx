@@ -81,7 +81,7 @@ export default function ServicesPage() {
 
       <section className="bg-green-800 text-white py-16 px-4 text-center">
         <h2 className="text-3xl font-bold mb-3" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Not Sure Which Service You Need?</h2>
-        <p className="text-green-100 mb-8 max-w-xl mx-auto">Call us and we'll identify the pest and recommend the right treatment — free, no obligation.</p>
+        <p className="text-green-100 mb-8 max-w-xl mx-auto">Call us and we'll identify the pest and recommend the right treatment.</p>
         <div className="flex flex-wrap justify-center gap-4">
           <a href={`tel:${PHONE}`} className="bg-white text-green-800 font-bold px-8 py-4 rounded-xl text-lg hover:bg-green-50 transition">📞 Call {PHONE_DISPLAY}</a>
         </div>

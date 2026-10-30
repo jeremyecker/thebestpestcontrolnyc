@@ -4,11 +4,11 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: { absolute: "Pest Control Pricing NYC | NYC Exterminator Rates" },
   description:
-    "Transparent NYC exterminator pricing determined by your specific situation. No hidden fees. Phone quote before work begins. Free consultation for all 32 pest control services.",
+    "Transparent NYC exterminator pricing determined by your specific situation. No hidden fees. Phone quote before work begins. Free phone consultation for all 32 pest control services.",
   alternates: { canonical: "https://www.thebestpestcontrolnyc.com/pricing" },
   openGraph: {
     title: "Pest Control Pricing NYC | NYC Exterminator Rates",
-    description: "Transparent NYC exterminator pricing determined by your specific situation. No hidden fees. Phone quote before work begins. Free consultation for all 32 pest control services.",
+    description: "Transparent NYC exterminator pricing determined by your specific situation. No hidden fees. Phone quote before work begins. Free phone consultation for all 32 pest control services.",
     url: "https://www.thebestpestcontrolnyc.com/pricing",
     siteName: "The Best Pest Control NYC",
     locale: "en_US",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pest Control Pricing NYC | NYC Exterminator Rates",
-    description: "Transparent NYC exterminator pricing determined by your specific situation. No hidden fees. Phone quote before work begins. Free consultation for all 32 pest control services.",
+    description: "Transparent NYC exterminator pricing determined by your specific situation. No hidden fees. Phone quote before work begins. Free phone consultation for all 32 pest control services.",
   },
 };
 
