@@ -216,7 +216,7 @@ export default function HomePage() {
           <div>
             <span className="font-bold text-amber-800 text-sm uppercase tracking-wider">Pro Tip</span>
             <p className="text-amber-900 mt-1 leading-relaxed">
-              Spotted one cockroach? There are probably 200 more hiding inside your walls. German cockroaches are nocturnal — if you see them during the day, the infestation is already serious. Don't waste money on store-bought sprays. They scatter roaches into new rooms and make the problem harder to treat. Call us and we'll tell you exactly what you're dealing with — free, no obligation.
+              Spotted one cockroach? There are probably 200 more hiding inside your walls. German cockroaches are nocturnal — if you see them during the day, the infestation is already serious. Don't waste money on store-bought sprays. They scatter roaches into new rooms and make the problem harder to treat. Call us and we'll tell you exactly what you're dealing with.
             </p>
           </div>
         </div>
